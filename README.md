@@ -19,9 +19,9 @@ Source: [Project Gutenberg](https://www.gutenberg.org/)
 
 ### Crime novels
 
-- The Sign of the Four by Arthur Conan Doyle
-- The Murder on the Links by Agatha Christie
-- The Man in the Brown Suit by Agatha Christie
+- [The Sign of the Four by Arthur Conan Doyle](https://www.gutenberg.org/ebooks/2097)
+- [The Murder on the Links by Agatha Christie](https://www.gutenberg.org/ebooks/58866)
+- [The Man in the Brown Suit by Agatha Christie](https://www.gutenberg.org/ebooks/61168)
 
 ### Part 1 - Prompts
 
