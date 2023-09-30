@@ -11,10 +11,18 @@ import re
   Returns:
     text (string): Text read from the file.
 """
+
+
 def read_data(file_path):
-    with open(file_path, "r", encoding='ascii', errors='ignore') as f:
+    print(f"Reading data: {file_path}")
+    with open(file_path, "r", encoding="ascii", errors="ignore") as f:
         lines = f.readlines()
-    
-    text = ''.join(map(str,lines))
+
+    text = "".join(map(str, lines))
     return text
 
+
+def process_data(text: str):
+    print(f"Processing data...")
+    # TODO: Implement this function
+    # Should return some sort of data structure/class that contains the processed form of the data
