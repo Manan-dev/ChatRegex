@@ -10,6 +10,26 @@ Source: [Project Gutenberg](https://www.gutenberg.org/)
 
 - Python 3.10.X
 
+## Usage
+
+```
+usage: main.py [-h] -i INPUT [-d]
+
+ChatRegex
+
+options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        path to input text file
+  -d, --debug           enable debug mode
+```
+
+Example:
+
+```bash
+python3 main.py -i ./dataset/the_man_the_brown_suit.txt
+```
+
 ## Deliverables
 
 - Source Code
