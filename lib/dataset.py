@@ -4,6 +4,8 @@ Functions for loading and processing text dataset.
 import os
 import re
 
+from lib import utils
+
 """
   Reads the text file and returns a list of lines.
   Parameters:
@@ -43,3 +45,11 @@ def process_data(text: str):
     print(f"Processing data...")
     # TODO: Implement this function
     # Should return some sort of data structure/class that contains the processed form of the data
+
+def process_text(text: str) -> str:
+    text = utils.remove_non_printable_characters(text)
+    text = utils.remove_stopwords(text)
+    text = utils.add_sentence_delimiter(text)
+    text = utils.remove_punctuation(text)
+    text = utils.remove_extra_spaces(text)
+    return text
