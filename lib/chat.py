@@ -144,16 +144,12 @@ def start_chat_loop(ai_name: str = "AI", user_name: str = "You"):
     print("-" * 80)
 
     while True:
-        msg_usr_orig: str = input("> ")
-        # clear the previous line
-        sys.stdout.write("\033[F")
+        msg_usr_orig: str = input(f"{user_name}: ")
 
         msg_usr_proc: str = preprocess_msg(msg_usr_orig)
         # print(f"msg_usr_proc: {msg_user_proc}")
         if not msg_usr_proc:
             continue
-
-        print(f"{user_name}: {msg_usr_orig}")
 
         ai_resp: AIResp
         # Looping through the regex map
