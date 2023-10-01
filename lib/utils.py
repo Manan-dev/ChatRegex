@@ -35,6 +35,21 @@ def remove_stopwords(text: str) -> str:
     return text
 
 
+def add_sentence_delimiter(text: str) -> str:
+    """
+    Adds a sentence delimiter to split up the sentences
+
+    Args:
+        text (str): The input text to be modified.
+
+    Returns:
+        str: The modified text with a sentence delimiters
+    """
+    text = re.sub(r'[.!?]+', " <END_SENTENCE> ", text)
+    
+    return text
+
+
 def remove_punctuation(text: str) -> str:
     """
     Removes punctuation from the input text.
