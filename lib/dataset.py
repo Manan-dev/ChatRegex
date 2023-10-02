@@ -47,7 +47,6 @@ def process_data(text: str):
     # Should return some sort of data structure/class that contains the processed form of the data
 
 def process_text(text: str) -> str:
-    text = utils.remove_non_printable_characters(text)
     text = utils.remove_stopwords(text)
     text = utils.add_sentence_delimiter(text)
     text = utils.remove_punctuation(text)
