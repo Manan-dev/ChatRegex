@@ -113,7 +113,7 @@ resp_map = {
 def preprocess_msg(msg: str) -> str:
     msg = utils.remove_stopwords(msg)
     msg = utils.remove_punctuation(msg)
-    msg = utils.remove_extra_spaces(msg)
+    msg = utils.remove_extra_whitespace(msg)
     return msg.strip()
 
 
