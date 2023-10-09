@@ -37,6 +37,19 @@ def remove_stopwords(text: str) -> str:
     return text
 
 
+def join_paragraph_lines(text: str) -> str:
+    """
+    Joins lines that are part of the same paragraph.
+    This is to fix random newlines in the middle of sentences caused by how the text was originally extracted.
+    Parameters:
+      text (string): Text to process.
+    Returns:
+      processed_text (string): Processed text.
+    """
+    pattern = r"([^\s])\n([^\s])"
+    return re.sub(pattern, r"\1 \2", text)
+
+
 def add_sentence_delimiter(text: str) -> str:
     """
     Adds a sentence delimiter to split up the sentences

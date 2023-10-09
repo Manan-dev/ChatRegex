@@ -34,10 +34,11 @@ def remove_unwanted_text(text):
     # *** START OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
     # *** END OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
 
-    pattern = r"^\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
+    pattern = r"^\s*\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
 
     split_text = re.split(pattern, text, flags=re.MULTILINE)
 
+    print(f"Split text: {len(split_text)}")
     if len(split_text) != 3:
         print(
             "WARN: Incorrect number of matches for start/end markers. Returning original text."
@@ -48,27 +49,13 @@ def remove_unwanted_text(text):
     return "".join(split_text[1:-1]).strip()
 
 
-def join_paragraph_lines(text):
-    """
-    Joins lines that are part of the same paragraph.
-    This is to fix random newlines in the middle of sentences caused by how the text was originally extracted.
-    Parameters:
-      text (string): Text to process.
-    Returns:
-      processed_text (string): Processed text.
-    """
-    pattern = r"([^\n])\n([^\n])"
-    return re.sub(pattern, r"\1 \2", text)
-
-
 def preprocess_data(text: str):
     print("Processing data...")
 
+    # text = remove_unwanted_text(text)
+
+    text = utils.join_paragraph_lines(text)
+
     text = utils.remove_extra_whitespace(text)
 
-    text = remove_unwanted_text(text)
-
-    # text = utils.remove_stopwords(text)
-    # text = utils.add_sentence_delimiter(text)
-    # text = utils.remove_punctuation(text)
     return text
