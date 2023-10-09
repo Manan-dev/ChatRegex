@@ -3,6 +3,7 @@ Miscellaneous utility functions that don't fit anywhere else.
 """
 
 
+import os
 import random
 import re
 import string
@@ -71,7 +72,11 @@ def remove_punctuation(text: str) -> str:
     return text
 
 
-def remove_extra_whitespace(text: str) -> str:
+def remove_extra_whitespace(
+    text: str,
+    max_consecutive_spaces: int = 1,
+    max_consecutive_newlines: int = 3,
+) -> str:
     """
     Removes extra spaces from the input text.
 
@@ -84,10 +89,21 @@ def remove_extra_whitespace(text: str) -> str:
     len_before = len(text)
 
     # [^\S\r\n] -> any whitespace EXCEPT newlines and carriage returns
-    # 2 or more whitespace characters -> 1 space
-    text = re.sub(r"[^\S\r\n]{2,}", " ", text)
-    # 2 or more newlines -> 2 newlines
-    text = re.sub(r"[\r\n]{2,}", r"\n\n", text)
+
+    # max_consecutive_spaces
+    text = re.sub(
+        r"[^\S\r\n]{" + str(max_consecutive_spaces) + r",}",
+        " " * max_consecutive_spaces,
+        text,
+    )
+
+    # max_consecutive_newlines
+    text = re.sub(
+        r"[\r\n]{" + str(max_consecutive_newlines) + r",}",
+        "\n" * max_consecutive_newlines,
+        text,
+    )
+
     # Also strip leading and trailing whitespace on each line
     text = re.sub(r"^[^\S\r\n]+", "", text, flags=re.MULTILINE)
     text = re.sub(r"[^\S\r\n]+$", "", text, flags=re.MULTILINE)
