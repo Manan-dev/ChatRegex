@@ -31,26 +31,32 @@ def remove_unwanted_text(text):
     Returns:
       filtered_text (string): Filtered text.
     """
-    pattern = r"(START OF THE PROJECT[^\n]*\n)(.*)(END OF THE PROJECT)"
-    match = re.search(pattern, text, re.DOTALL)
+    # Examples:
+    # *** START OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
+    # *** END OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
 
-    if match:
-        filtered_text = match.group(2).strip()
-    else:
-        filtered_text = text
+    pattern = r"^\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
 
-    return filtered_text
+    split_text = re.split(pattern, text, flags=re.MULTILINE)
+
+    if len(split_text) != 3:
+        print(
+            "WARN: Incorrect number of matches for start/end markers. Returning original text."
+        )
+        return text
+
+    # Only keep the in-between text
+    return "".join(split_text[1:-1]).strip()
 
 
-def process_data(text: str):
-    # TODO: Implement more data processing steps in this function
-    # Need to split into chapters, then into sentences, etc.
-
+def preprocess_data(text: str):
     print("Processing data...")
 
-    text = utils.remove_stopwords(text)
-    text = utils.add_sentence_delimiter(text)
-    text = utils.remove_punctuation(text)
     text = utils.remove_extra_whitespace(text)
 
+    text = remove_unwanted_text(text)
+
+    # text = utils.remove_stopwords(text)
+    # text = utils.add_sentence_delimiter(text)
+    # text = utils.remove_punctuation(text)
     return text

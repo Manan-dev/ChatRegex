@@ -27,9 +27,10 @@ def main():
     data = dataset.read_data(input_path)
 
     # TODO: Data processing
-    data_proc = dataset.process_data(data)
+    data_proc = dataset.preprocess_data(data)
+    
     # TODO: Remove this later
-    with open("data_proc.txt", "w") as f:
+    with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
         f.write(data_proc)
 
     # Chat loop
