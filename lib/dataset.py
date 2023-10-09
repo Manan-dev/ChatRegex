@@ -19,8 +19,7 @@ def read_data(file_path):
     with open(file_path, "r", encoding="ascii", errors="ignore") as f:
         lines = f.readlines()
 
-    text = "".join(map(str, lines))
-    return text
+    return "".join(map(str, lines))
 
 
 def remove_unwanted_text(text):
