@@ -12,7 +12,7 @@ import string
 import sys
 
 from lib import store, utils
-from lib.store import Rgx
+from lib.store import RegexPatterns
 
 
 class AIResp:
@@ -83,12 +83,12 @@ resp_fallback = AIResp(
 
 resp_map = {
     # Special Commands
-    Rgx.QUIT: AIResp(
+    RegexPatterns.CMD_QUIT: AIResp(
         ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
         "Goodbye!",
         fn=lambda _: sys.exit(0),
     ),
-    Rgx.HELP: AIResp(
+    RegexPatterns.CMD_HELP: AIResp(
         AIResp(
             ["Here are some", None],
             "special commands",
@@ -98,7 +98,7 @@ resp_map = {
         "\n  help, h       - Print this help message",
         "\n  exit, quit, q - Exit the program",
     ),
-    Rgx.EXAMPLE: AIResp(
+    RegexPatterns.CMD_EXAMPLE: AIResp(
         ["Here are some", None],
         "example",
         ["questions", "prompts", "queries"],
@@ -131,7 +131,7 @@ def postprocess_msg(msg: str, use_synonyms: bool = False) -> str:
     return msg.strip()
 
 
-def start_chat_loop(ai_name: str = "AI", user_name: str = "You"):
+def start_chat_loop(feature_map, ai_name: str = "AI", user_name: str = "You"):
     name_max_len: int = max(len(ai_name), len(user_name))
     # make the width of the names the same by padding with spaces
     ai_name = ai_name.ljust(name_max_len)

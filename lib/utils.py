@@ -11,6 +11,19 @@ import string
 from lib import store
 
 
+def re_union(*args):
+    """
+    Creates a regex union of the input arguments.
+
+    Args:
+        *args (str): The input strings to be joined.
+
+    Returns:
+        str: A regex union of the input strings.
+    """
+    return "|".join(args)
+
+
 def remove_stopwords(text: str) -> str:
     """
     Removes stopwords from the input text.
