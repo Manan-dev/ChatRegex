@@ -103,6 +103,7 @@ def extract_features(text: str):
 
     # Save stuff to dict
     # TODO: This is only a template and incomplete.
+    # TODO: We need to add the stuff more of the stuff we discussed at the last meeting, but this is a start.
     feature_map = {
         "num_chapters": len(split_text),
         "chapter_list": None,
