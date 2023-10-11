@@ -83,12 +83,12 @@ resp_fallback = AIResp(
 
 resp_map = {
     # Special Commands
-    RegexPatterns.CMD_QUIT: AIResp(
+    RegexPatterns.Chat.CMD_QUIT: AIResp(
         ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
         "Goodbye!",
         fn=lambda _: sys.exit(0),
     ),
-    RegexPatterns.CMD_HELP: AIResp(
+    RegexPatterns.Chat.CMD_HELP: AIResp(
         AIResp(
             ["Here are some", None],
             "special commands",
@@ -98,7 +98,7 @@ resp_map = {
         "\n  help, h       - Print this help message",
         "\n  exit, quit, q - Exit the program",
     ),
-    RegexPatterns.CMD_EXAMPLE: AIResp(
+    RegexPatterns.Chat.CMD_EXAMPLE: AIResp(
         ["Here are some", None],
         "example",
         ["questions", "prompts", "queries"],
@@ -144,7 +144,10 @@ def start_chat_loop(feature_map, ai_name: str = "AI", user_name: str = "You"):
     print("-" * 80)
 
     while True:
-        msg_usr_orig: str = input(f"{user_name}: ")
+        try:
+            msg_usr_orig: str = input(f"{user_name}: ")
+        except KeyboardInterrupt:
+            msg_usr_orig = "exit"
 
         msg_usr_proc: str = preprocess_msg(msg_usr_orig)
         # print(f"msg_usr_proc: {msg_user_proc}")
