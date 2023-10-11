@@ -17,7 +17,8 @@ def read_data(file_path):
       text (string): Text read from the file.
     """
     print(f"Reading data: {file_path}")
-    with open(file_path, "r", encoding="ascii", errors="ignore") as f:
+    # with open(file_path, "r", encoding="ascii", errors="ignore") as f:
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
 
     return "".join(map(str, lines))
@@ -85,7 +86,7 @@ def extract_features(text: str):
         r"^({rgx})$".format(
             rgx=utils.re_union(
                 "PROLOGUE",
-                store.RegexPatterns.CHAPTER,
+                store.RegexPatterns.Processing.CHAPTER,
                 "EPILOGUE",
             )
         ),

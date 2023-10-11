@@ -150,7 +150,7 @@ def create_text_variation(text: str) -> str:
     Returns:
         str: The modified text with replaced synonyms.
     """
-    for synonym, synonym_list in store.alternatives_map.items():
+    for synonym, synonym_list in store.response_phrase_alts_map.items():
 
         def get_replacement(match):
             """
