@@ -3,11 +3,25 @@ Miscellaneous utility functions that don't fit anywhere else.
 """
 
 
+import os
 import random
 import re
 import string
 
 from lib import store
+
+
+def re_union(*args):
+    """
+    Creates a regex union of the input arguments.
+
+    Args:
+        *args (str): The input strings to be joined.
+
+    Returns:
+        str: A regex union of the input strings.
+    """
+    return "|".join(args)
 
 
 def remove_stopwords(text: str) -> str:
@@ -34,6 +48,19 @@ def remove_stopwords(text: str) -> str:
     if len_before != len(text) and len(text) == 0:
         print("Warning: Text is empty after removing stopwords.")
     return text
+
+
+def join_paragraph_lines(text: str) -> str:
+    """
+    Joins lines that are part of the same paragraph.
+    This is to fix random newlines in the middle of sentences caused by how the text was originally extracted.
+    Parameters:
+      text (string): Text to process.
+    Returns:
+      processed_text (string): Processed text.
+    """
+    pattern = r"([^\s])\n([^\s])"
+    return re.sub(pattern, r"\1 \2", text)
 
 
 def add_sentence_delimiter(text: str) -> str:
@@ -71,7 +98,11 @@ def remove_punctuation(text: str) -> str:
     return text
 
 
-def remove_extra_whitespace(text: str) -> str:
+def remove_extra_whitespace(
+    text: str,
+    max_consecutive_spaces: int = 1,
+    max_consecutive_newlines: int = 3,
+) -> str:
     """
     Removes extra spaces from the input text.
 
@@ -84,10 +115,21 @@ def remove_extra_whitespace(text: str) -> str:
     len_before = len(text)
 
     # [^\S\r\n] -> any whitespace EXCEPT newlines and carriage returns
-    # 2 or more whitespace characters -> 1 space
-    text = re.sub(r"[^\S\r\n]{2,}", " ", text)
-    # 2 or more newlines -> 2 newlines
-    text = re.sub(r"[\r\n]{2,}", r"\n\n", text)
+
+    # max_consecutive_spaces
+    text = re.sub(
+        r"[^\S\r\n]{" + str(max_consecutive_spaces) + r",}",
+        " " * max_consecutive_spaces,
+        text,
+    )
+
+    # max_consecutive_newlines
+    text = re.sub(
+        r"[\r\n]{" + str(max_consecutive_newlines) + r",}",
+        "\n" * max_consecutive_newlines,
+        text,
+    )
+
     # Also strip leading and trailing whitespace on each line
     text = re.sub(r"^[^\S\r\n]+", "", text, flags=re.MULTILINE)
     text = re.sub(r"[^\S\r\n]+$", "", text, flags=re.MULTILINE)

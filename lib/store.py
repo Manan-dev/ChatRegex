@@ -5,10 +5,13 @@ For storing regex expressions, lists of synonyms, and other stuff.
 from enum import Enum
 
 
-class Rgx(str, Enum):
-    HELP = r"^(help|h)$"
-    QUIT = r"^(exit|quit|q)$"
-    EXAMPLE = r"^(example|ex)$"
+class RegexPatterns(str, Enum):
+    CMD_HELP = r"^(help|h)$"
+    CMD_QUIT = r"^(exit|quit|q)$"
+    CMD_EXAMPLE = r"^(example(s)?|ex)$"
+    # Source: https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
+    ROMAN_NUMERALS = r"(?=[MDCLXVI])M*(?:C[MD]|D?C*)(?:X[CL]|L?X*)(?:I[XV]|V?I*)"
+    CHAPTER = r"((chapter|part) (?:\d{1,3}|" + ROMAN_NUMERALS + r")(?: .*)?)$"
 
 
 alternatives_lists = [

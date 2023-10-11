@@ -1,4 +1,5 @@
 import argparse
+import json
 import os
 import sys
 
@@ -27,13 +28,20 @@ def main():
     data = dataset.read_data(input_path)
 
     # TODO: Data processing
-    data_proc = dataset.process_data(data)
+    data_proc = dataset.preprocess_data(data)
+
     # TODO: Remove this later
-    with open("data_proc.txt", "w") as f:
+    with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
         f.write(data_proc)
 
+    feature_map = dataset.extract_features(data_proc)
+
+    # TODO: Remove this later
+    with open(f"{os.path.splitext(input_path)[0]}_features.json", "w") as f:
+        f.write(json.dumps(feature_map, indent=4))
+
     # Chat loop
-    chat.start_chat_loop()
+    chat.start_chat_loop(feature_map)
 
 
 def parse_args():
