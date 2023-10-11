@@ -68,6 +68,8 @@ def preprocess_data(text: str):
 
     text = extract_body(text)
 
+    text = utils.process_toc_elements(text)
+    
     text = utils.join_paragraph_lines(text)
 
     # TODO: Re-add removal of stop words later after verifying feature extraction
@@ -75,11 +77,8 @@ def preprocess_data(text: str):
 
     return text
 
-
 def extract_features(text: str):
     print("Extracting features...")
-
-    # TODO: Doesn't handle The Murder on the Links
 
     # We add chapter delimiter to help split
     text = re.sub(
