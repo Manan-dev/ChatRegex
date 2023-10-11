@@ -17,8 +17,23 @@ class RegexPatterns:
         CMD_EXAMPLE = r"^(example(s)?|ex)$"
 
 
-search_terms = {
-    "investigator": [
+def create_alternatives_map(alternatives):
+    """
+    Given a list of lists containing alternative words/phrases, create a map
+    where each word/phrase is mapped to the entire list of alternatives.
+    This can be done once and used for constant-time lookups.
+    """
+    alternatives_map = {}
+    for alternatives in alternatives:
+        alternatives = list(set(map(str.strip, alternatives)))
+        for s in alternatives:
+            alternatives_map[s] = alternatives
+    return alternatives_map
+
+
+search_term_alts = [
+    [
+        "investigator",
         "detective",
         # Murder on the Links
         "Hercule Poirot",
@@ -27,7 +42,8 @@ search_terms = {
         # Man in the Brown Suit
         "Colonel Race",
     ],
-    "perpetrator": [
+    [
+        "perpetrator",
         "killer",
         "murderer",
         "criminal",
@@ -39,7 +55,8 @@ search_terms = {
         # The Man in the Brown Suit
         "Sir Eustace Pedler",
     ],
-    "suspect": [
+    [
+        "suspect",
         # Murder on the Links
         "Jack Renauld",
         "Eloise Renauld",
@@ -57,12 +74,14 @@ search_terms = {
         "Suzanne Blair",
         "Guy Pagett",
     ],
-    "victim": [
+    [
+        "victim",
         # Murder of the Links
         "M. Paul Renauld",
         "M. Renauld",
     ],
-    "crime": [
+    [
+        "crime",
         "murder",
         "kill",
         "stabbed",
@@ -71,11 +90,11 @@ search_terms = {
         "deception",
         "blackmail",
     ],
-}
+]
 
-search_terms = []
+search_terms_alts_map = create_alternatives_map(search_term_alts)
 
-phrase_alternatives = [
+response_phrase_alts = [
     ["hello!", "hi!", "hey!", "hey there!", "howdy!"],
     ["goodbye", "bye", "adios", "farewell"],
     ["respond to that", "answer that", "reply to that"],
@@ -85,12 +104,7 @@ phrase_alternatives = [
     ["I'm", "I am"],
     ["don't", "do not"],
 ]
-phrase_alternatives_map = {}
-
-for alternatives in phrase_alternatives:
-    alternatives = list(set(map(str.strip, alternatives)))
-    for s in alternatives:
-        phrase_alternatives_map[s] = alternatives
+response_phrase_alts_map = create_alternatives_map(response_phrase_alts)
 
 # print("Alternatives Map:")
 # for k, v in alternatives_map.items():
