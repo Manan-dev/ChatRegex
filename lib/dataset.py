@@ -147,3 +147,47 @@ def extract_features(text: str):
     feature_map["chapter_list"] = chapter_list
 
     return feature_map
+
+
+def mol_processing(text: str):  
+    toc_elems = [
+            "1 A Fellow Traveller",
+            "2 An Appeal for Help",
+            "3 At the Villa Genevive",
+            "4 The Letter Signed Bella",
+            "5 Mrs. Renaulds Story",
+            "6 The Scene of the Crime",
+            "7 The Mysterious Madame Daubreuil",
+            "8 An Unexpected Meeting",
+            "9 M. Giraud Finds Some Clues",
+            "10 Gabriel Stonor",
+            "11 Jack Renauld",
+            "12 Poirot Elucidates Certain Points",
+            "13 The Girl with the Anxious Eyes",
+            "14 The Second Body",
+            "15 A Photograph",
+            "16 The Beroldy Case",
+            "17 We Make Further Investigations",
+            "18 Giraud Acts",
+            "19 I Use My Grey Cells",
+            "20 An Amazing Statement",
+            "21 Hercule Poirot on the Case!",
+            "22 I Find Love",
+            "23 Difficulties Ahead",
+            "24 Save Him!",
+            "25 An Unexpected Dnouement",
+            "26 I Receive a Letter",
+            "27 Jack Renaulds Story",
+            "28 Journeys End"]
+
+    for elem in toc_elems:
+        matches = re. findall(f"^{elem}$", text)
+        
+        if len(matches) > 2:
+            print(f"WARN: Expected 2 matches but got {len(matches)}")
+            continue
+        
+        replacement = f'Chapter {elem}'
+        text = re.sub(elem, replacement, text)
+    
+    return text
