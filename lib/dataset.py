@@ -77,6 +77,7 @@ def preprocess_data(text: str):
 
     return text
 
+
 def extract_features(text: str):
     print("Extracting features...")
 
