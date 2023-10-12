@@ -153,24 +153,22 @@ def process_toc_elements(text: str) -> str:
     
     table_of_contents = re.search(store.RegexPatterns.Processing.TOC, text, re.MULTILINE)
     
-    if table_of_contents:
-        table_of_contents = re.sub(r'^Contents\n', "", table_of_contents.group()).strip().split('\n')
-        
+    if not table_of_contents:
+        print("No table of contents found in the text.")
+        return text
+    
+    table_of_contents = re.sub(r'^Contents\n', "", table_of_contents.group()).strip().split('\n')    
+    has_chapter_format = re.search(store.RegexPatterns.Processing.CHAPTER, table_of_contents[0], flags=re.MULTILINE | re.IGNORECASE)
+    
+    if has_chapter_format == None:
+        print("Updating chapter heading format...")
         chapter_list = []
+        
         for element in table_of_contents:
             chapter_list.append(element.strip())
         
-        has_chapter_format = re.search(r"((chapter) (?:\d{1,3}|" + store.RegexPatterns.Processing.ROMAN_NUMERALS + r")(?: .*)?)$", text, flags=re.MULTILINE | re.IGNORECASE)
-
-        if has_chapter_format == None:
-            print("Updating chapter heading format...")
-            text = update_chapter_headings(text, chapter_list)
-        else:
-            print("Correct chapter heading format. Returning...")
+        text = update_chapter_headings(text, chapter_list)
     
-    else:
-        print("No table of contents found in the text.")
-        
     return text
 
 
