@@ -9,7 +9,7 @@ class RegexPatterns:
     class Processing(str, Enum):
         # Source: https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
         ROMAN_NUMERALS = r"(?=[MDCLXVI])M*(?:C[MD]|D?C*)(?:X[CL]|L?X*)(?:I[XV]|V?I*)"
-        CHAPTER = r"(^(chapter|part) (?:\d{1,3}|" + ROMAN_NUMERALS + r")(?:[.,]? .*)?)$"
+        CHAPTER = r"(^(chapter|part) (?:\d{1,3}|" + ROMAN_NUMERALS + r")(?:[.]? .*)?)$"
         TOC = r"(^Contents\n+(?:.*\n)+?$\n\n)"
     
     class Chat(str, Enum):
