@@ -3,12 +3,93 @@ Miscellaneous utility functions that don't fit anywhere else.
 """
 
 
+import logging
 import os
 import random
 import re
 import string
+import unicodedata
+from pprint import pformat, pprint
 
-from lib import store
+from lib import store, utils
+
+
+def extract_unicode_charset(text: str) -> set[str]:
+    """
+    Extracts the set of unicode characters from the input text.
+
+    Args:
+        text (str): The input text to be processed.
+
+    Returns:
+        set[str]: The set of unicode characters in the input text.
+    """
+    # only unicode characters
+    return set(text) - set(string.printable)
+
+
+def remove_unicode_diacritics(text: str) -> str:
+    """
+    Removes diacritical marks from any characters in the input text.
+    Keeps the underlying base character.
+
+    Args:
+        text (str): The input text to be processed.
+
+    Returns:
+        str: The input text with diacritical marks removed.
+    """
+    # Normalize to NFD form, which decomposes composed characters into base characters and diacritical marks
+    text = unicodedata.normalize("NFD", text)
+
+    # Filter out characters that are not spacing marks (i.e., diacritical marks)
+    for char in extract_unicode_charset(text):
+        if unicodedata.category(char) == "Mn":
+            text = text.replace(char, "")
+
+    return text
+
+
+def normalize_character_set(text: str) -> str:
+    """
+    Translates UTF-8 characters to ASCII characters and equivalent punctuation.
+    1. Removes diacritical marks while keeping the underlying base character.
+    2. Translates special characters to their ASCII equivalents.
+
+    Args:
+        text (str): The input text to be processed.
+
+    Returns:
+        str: The input text with UTF-8 characters translated to ASCII characters.
+    """
+    logging.info("Normalizing character set...")
+
+    logging.debug(f"Unicode charset before: {extract_unicode_charset(text)}")
+
+    text = remove_unicode_diacritics(text)
+
+    # Translation table for special characters
+    translation_table = str.maketrans(
+        {
+            "’": "'",
+            "‘": "'",
+            "”": '"',
+            "“": '"',
+            "…": "...",  # ellipsis
+            "•": "*",  # bullet
+            "–": "-",  # en dash
+            "—": "-",  # em dash
+            "―": "-",  # horizontal bar
+            "æ": "ae",  # ae ligature
+        }
+    )
+
+    # Translate the text using the table
+    text = text.translate(translation_table)
+
+    logging.debug(f"Unicode charset after: {extract_unicode_charset(text)}")
+
+    return text
 
 
 def re_union(*args):
@@ -21,7 +102,7 @@ def re_union(*args):
     Returns:
         str: A regex union of the input strings.
     """
-    return "|".join(args)
+    return "|".join(list(set(args)))
 
 
 def remove_stopwords(text: str) -> str:
@@ -36,17 +117,18 @@ def remove_stopwords(text: str) -> str:
     """
     len_before = len(text)
 
-    for stop_word in store.stop_words:
-        text = re.sub(
-            r"\b" + stop_word + r"\b",
-            "",
-            text,
-            flags=re.IGNORECASE,
-        )
+    text = re.sub(
+        r"\b({rgx})\b".format(
+            rgx=re_union(*store.stop_words),
+        ),
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
 
     # For debugging purposes. Can be removed later.
     if len_before != len(text) and len(text) == 0:
-        print("Warning: Text is empty after removing stopwords.")
+        logging.warning("Text is empty after removing stopwords.")
     return text
 
 
@@ -63,6 +145,23 @@ def join_paragraph_lines(text: str) -> str:
     return re.sub(pattern, r"\1 \2", text)
 
 
+def split_sentences(text: str) -> list[str]:
+    """
+    Splits the input text into a list of sentences.
+
+    Args:
+        text (str): The input text to be split.
+
+    Returns:
+        list[str]: A list of sentences.
+    """
+    # complex pattern to split sentences
+    return re.split(
+        store.RegexPatterns.Processing.SENTENCE_SPLITTING,
+        text,
+    )
+
+
 def add_sentence_delimiter(text: str) -> str:
     """
     Adds a sentence delimiter to split up the sentences
@@ -73,7 +172,60 @@ def add_sentence_delimiter(text: str) -> str:
     Returns:
         str: The modified text with a sentence delimiters
     """
-    text = re.sub(r"[.!?]+", " <END_SENTENCE> ", text)
+    # text = re.sub(r"[.!?]+", " <END_SENTENCE> ", text)
+    return re.sub(
+        store.RegexPatterns.Processing.SENTENCE_SPLITTING,
+        f"{store.SpecialTokens.END_OF_SENTENCE}\n",
+        text,
+    )
+
+
+def add_search_term_tags(text: str, search_term_map: dict[str, list[str]]) -> str:
+    """
+    Adds search term tags to the input text.
+
+    Args:
+        text (str): The input text to be modified.
+
+    Returns:
+        str: The modified text with search term tags.
+    """
+    logging.debug("Adding search term tags...")
+
+    for key, search_terms in search_term_map.items():
+        # remove duplicates and add the key to the list of values to search for
+        values = list(set([key] + search_terms))
+
+        pattern = r"\b({union})[a-z]*\b".format(
+            union=re_union(*values),
+        )
+
+        # TODO: Remove this or only do under debug mode
+        # for debugging purposes we can print out the matches
+        matches = re.findall(
+            pattern,
+            text,
+            flags=re.IGNORECASE,
+        )
+        logging.debug(
+            pformat(
+                {
+                    "key": key,
+                    "search_terms": search_terms,
+                    "pattern": pattern,
+                    "num_matches": len(matches),
+                },
+                sort_dicts=False,
+            )
+        )
+
+        # add tag after any matches
+        text = re.sub(
+            pattern,
+            r"\1 <{tag}>".format(tag=key.upper()),
+            text,
+            flags=re.IGNORECASE,
+        )
 
     return text
 
@@ -94,7 +246,7 @@ def remove_punctuation(text: str) -> str:
 
     # For debugging purposes. Can be removed later.
     if len_before != len(text) and len(text) == 0:
-        print("Warning: Text is empty after removing punctuation.")
+        logging.warning("Text is empty after removing punctuation.")
     return text
 
 
@@ -136,63 +288,8 @@ def remove_extra_whitespace(
 
     # For debugging purposes. Can be removed later.
     if len_before != len(text) and len(text) == 0:
-        print("Warning: Text is empty after removing extra spaces.")
+        logging.warning("Text is empty after removing extra whitespace.")
     return text.strip()
-
-
-def process_toc_elements(text: str) -> str:
-    """
-    Process the TOC elements in the text to determine if the chapter headings need updating.
-    Args:
-        text (str): Text to be parsed and checked.
-
-    Returns:
-        text (str): Text with proper chapter headings.
-    """
-    print("Detecting if text contains a table of contents....")
-    
-    table_of_contents = re.search(store.RegexPatterns.Processing.TOC, text, re.MULTILINE)
-    
-    if not table_of_contents:
-        print("No table of contents found in the text.")
-        return text
-    
-    table_of_contents = re.sub(r'^Contents\n', "", table_of_contents.group()).strip().split('\n')    
-    has_chapter_format = re.search(store.RegexPatterns.Processing.CHAPTER, table_of_contents[0], flags=re.MULTILINE | re.IGNORECASE)
-    
-    if has_chapter_format == None:
-        print("Updating chapter heading format...")
-        chapter_list = []
-        
-        for element in table_of_contents:
-            chapter_list.append(element.strip())
-        
-        text = update_chapter_headings(text, chapter_list)
-    
-    return text
-
-
-def update_chapter_headings(text: str, chapter_list) -> str:
-    """
-    Will update the chapter headings of the text to "Chapter .....".
-    Args:
-        text (str): Text to be updated.
-        chapter_list (_type_): List of chapter headings in the text.
-
-    Returns:
-        text (str): Return the text with modified chapter headings.
-    """
-    for elem in chapter_list:
-        matches = re.findall(f"^{elem}$", text)
-
-        if len(matches) > 2:
-            print(f"WARN: Expected 2 matches but got {len(matches)}")
-            continue
-        
-        replacement = f'Chapter {elem}'
-        text = re.sub(elem, replacement, text)
-    
-    return text
 
 
 def create_text_variation(text: str) -> str:
@@ -220,11 +317,6 @@ def create_text_variation(text: str) -> str:
             original = match.group(0)
 
             rnd_synonym = random.choice(synonym_list)
-
-            # print("-" * 40)
-            # print("original:", original)
-            # print("synonym_list:", synonym_list)
-            # print("rnd_synonym:", rnd_synonym)
 
             # Preserve the original casing
             if original.islower():

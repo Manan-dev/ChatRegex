@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import os
 import sys
 
@@ -15,15 +16,37 @@ header_text = """
 """
 
 
+class CustomStreamHandler(logging.StreamHandler):
+    def __init__(self, stream=None, level=logging.DEBUG):
+        super().__init__(stream=stream)
+        self.level = level
+
+    def emit(self, record):
+        if record.levelno >= self.level:
+            super().emit(record)
+
+
+def setup_logging(args):
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(levelname)s: %(message)s",
+        handlers=[
+            logging.FileHandler("chatregex.log", mode="w"),
+            CustomStreamHandler(
+                sys.stdout, level=logging.DEBUG if args.verbose else logging.INFO
+            ),
+        ],
+    )
+
+
 def main():
+    args = parse_args()
+    setup_logging(args)
+
     print("=" * 80)
     print(header_text)
 
-    args = parse_args()
-
     input_path = args.input
-    is_debug = args.debug
-
     # TODO: Error checking if file exists or not a valid text file?
     data = dataset.read_data(input_path)
 
@@ -54,10 +77,10 @@ def parse_args():
         help="path to input text file",
     )
     parser.add_argument(
-        "-d",
-        "--debug",
+        "-v",
+        "--verbose",
         action="store_true",
-        help="enable debug mode",
+        help="increase output verbosity",
     )
     return parser.parse_args()
 
