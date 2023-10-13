@@ -5,8 +5,8 @@ import logging
 import re
 from pprint import pformat, pprint
 
-from lib import utils
-from lib.store import RegexPatterns, SpecialTokens, search_term_map
+from lib import store, utils
+from lib.store import RegexPatterns, SpecialTokens
 
 
 def read_data(file_path):
@@ -210,14 +210,14 @@ def preprocess_data(text: str):
     text = add_chapter_delimiter(text)
 
     # We add sentence delimiter to help split the text into sentences later
-    # text = utils.join_paragraph_lines(text)
+    text = utils.join_paragraph_lines(text)
 
     # Non-destructive normalization/translation from unicode to ascii equivalents
     text = utils.normalize_character_set(text)
 
     text = utils.add_sentence_delimiter(text)
 
-    text = utils.add_search_term_tags(text, search_term_map)
+    text = utils.add_search_term_tags(text, store.search_terms_map)
 
     # TODO: Re-add removal of stop words later after verifying feature extraction
     # TODO: Re-add removal of punctuation later after verifying feature extraction
@@ -248,30 +248,19 @@ def extract_features(text: str):
     for chapter_text in split_text:
         chapter_lines = chapter_text.strip().splitlines()
         chapter_title = chapter_lines[0]
-        chapter_paragraphs = chapter_lines[1:]
+        chapter_text = " ".join(chapter_lines[1:])
 
         # strip out each paragraph and filter out empty ones
-        chapter_paragraphs = list(filter(None, map(str.strip, chapter_paragraphs)))
+        # chapter_paragraphs = list(filter(None, map(str.strip, chapter_paragraphs)))
+
+        sentences = chapter_text.split(SpecialTokens.END_OF_SENTENCE)
 
         feature_map[chapter_title] = {
             "chapter_title": chapter_title,
-            "num_paragraphs": len(chapter_paragraphs),
-            "paragraph_list": None,
+            "num_sentences": len(sentences),
+            "sentence_list": sentences,
         }
 
-        # ----------------------------------------
-        # Drill down: Split paragraphs into sentences
-        paragraph_list = []
-        for paragraph in chapter_paragraphs:
-            sentences = re.split(r"(?<=[.!?])\s+", paragraph)
-
-            paragraph_list.append(
-                {
-                    "num_sentences": len(sentences),
-                    "sencence_list": sentences,
-                }
-            )
-        feature_map[chapter_title]["paragraph_list"] = paragraph_list
         # ----------------------------------------
 
         chapter_list.append(feature_map[chapter_title])

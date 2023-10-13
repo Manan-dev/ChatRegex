@@ -4,7 +4,6 @@ Miscellaneous utility functions that don't fit anywhere else.
 
 
 import logging
-import os
 import random
 import re
 import string
@@ -75,8 +74,8 @@ def normalize_character_set(text: str) -> str:
             "‘": "'",
             "”": '"',
             "“": '"',
-            "…": "...",  # ellipsis
-            "•": "*",  # bullet
+            "…": "...",
+            "•": "*",
             "–": "-",  # en dash
             "—": "-",  # em dash
             "―": "-",  # horizontal bar
@@ -87,7 +86,9 @@ def normalize_character_set(text: str) -> str:
     # Translate the text using the table
     text = text.translate(translation_table)
 
-    logging.debug(f"Unicode charset after: {extract_unicode_charset(text)}")
+    charset_after = extract_unicode_charset(text)
+    if len(charset_after) > 0:
+        logging.warning(f"Unicode characters left not translated: {charset_after}.")
 
     return text
 
@@ -145,23 +146,6 @@ def join_paragraph_lines(text: str) -> str:
     return re.sub(pattern, r"\1 \2", text)
 
 
-def split_sentences(text: str) -> list[str]:
-    """
-    Splits the input text into a list of sentences.
-
-    Args:
-        text (str): The input text to be split.
-
-    Returns:
-        list[str]: A list of sentences.
-    """
-    # complex pattern to split sentences
-    return re.split(
-        store.RegexPatterns.Processing.SENTENCE_SPLITTING,
-        text,
-    )
-
-
 def add_sentence_delimiter(text: str) -> str:
     """
     Adds a sentence delimiter to split up the sentences
@@ -180,7 +164,7 @@ def add_sentence_delimiter(text: str) -> str:
     )
 
 
-def add_search_term_tags(text: str, search_term_map: dict[str, list[str]]) -> str:
+def add_search_term_tags(text: str, search_terms_map: dict[str, list[str]]) -> str:
     """
     Adds search term tags to the input text.
 
@@ -192,16 +176,14 @@ def add_search_term_tags(text: str, search_term_map: dict[str, list[str]]) -> st
     """
     logging.debug("Adding search term tags...")
 
-    for key, search_terms in search_term_map.items():
-        # remove duplicates and add the key to the list of values to search for
-        values = list(set([key] + search_terms))
-
-        pattern = r"\b({union})[a-z]*\b".format(
-            union=re_union(*values),
-        )
-
+    for key, terms in search_terms_map.items():
         # TODO: Remove this or only do under debug mode
         # for debugging purposes we can print out the matches
+
+        pattern = r"\b({union})\b".format(
+            union=utils.re_union(*list([key] + terms)),
+        )
+
         matches = re.findall(
             pattern,
             text,
@@ -211,7 +193,6 @@ def add_search_term_tags(text: str, search_term_map: dict[str, list[str]]) -> st
             pformat(
                 {
                     "key": key,
-                    "search_terms": search_terms,
                     "pattern": pattern,
                     "num_matches": len(matches),
                 },
@@ -292,6 +273,24 @@ def remove_extra_whitespace(
     return text.strip()
 
 
+def create_permutation_map(lists_of_terms: list[list[str]]):
+    """
+    Given a list of lists containing alternative words/phrases, create a map
+    where each word/phrase is mapped to the entire list of alternatives.
+    This can be done once and used for constant-time lookups.
+    """
+    permutation_map = {}
+    for alts in lists_of_terms:
+        alts = list(set(map(str.strip, alts)))
+        for s in alts:
+            permutation_map[s.lower()] = alts
+
+    print("Permutation map:")
+    pprint(permutation_map)
+
+    return permutation_map
+
+
 def create_text_variation(text: str) -> str:
     """
     Replaces words in the input text with synonyms from a predefined list of alternatives.
@@ -302,7 +301,7 @@ def create_text_variation(text: str) -> str:
     Returns:
         str: The modified text with replaced synonyms.
     """
-    for synonym, synonym_list in store.response_phrase_alts_map.items():
+    for synonym, synonym_list in store.response_phrase_permutation_map.items():
 
         def get_replacement(match):
             """

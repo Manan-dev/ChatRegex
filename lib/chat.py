@@ -6,6 +6,7 @@ Functions related to the chatbot, including:
 """
 
 
+import logging
 import random
 import re
 import string
@@ -81,14 +82,37 @@ resp_fallback = AIResp(
     ["I don't understand", "I don't know how to respond to that"],
 )
 
+
+def get_first_mention(data, entity):
+    """
+    Gets the first mention of a word in the text.
+    """
+    entity = entity.lower().strip()
+
+    logging.info(f"get_first_mention: entity={entity}")
+
+    response = ""
+    try:
+        terms = store.search_terms_permutation_map[entity]
+        logging.info(f"related search terms: {terms}")
+
+        # TODO: ...
+        response = f"{entity} was first mentioned ..."
+    except KeyError:
+        # TODO: Make this less passive-aggressive
+        response = "I am sorry but I have no idea what you're talking about."
+
+    return response
+
+
 resp_map = {
     # Special Commands
-    RegexPatterns.Chat.CMD_QUIT: AIResp(
+    RegexPatterns.Chat.CMD_QUIT: lambda _: AIResp(
         ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
         "Goodbye!",
         fn=lambda _: sys.exit(0),
     ),
-    RegexPatterns.Chat.CMD_HELP: AIResp(
+    RegexPatterns.Chat.CMD_HELP: lambda _: AIResp(
         AIResp(
             ["Here are some", None],
             "special commands",
@@ -98,7 +122,7 @@ resp_map = {
         "\n  help, h       - Print this help message",
         "\n  exit, quit, q - Exit the program",
     ),
-    RegexPatterns.Chat.CMD_EXAMPLE: AIResp(
+    RegexPatterns.Chat.CMD_EXAMPLE: lambda _: AIResp(
         ["Here are some", None],
         "example",
         ["questions", "prompts", "queries"],
@@ -106,7 +130,8 @@ resp_map = {
         ":\n",
         [f'  - "{ex}"' for ex in random.sample(store.example_prompts, 3)],
     ),
-    # TODO: Add regex and responses here
+    # TODO: add variations to the regex pattern such that it can be asked in different ways
+    "first mention (?P<entity>.*)": get_first_mention,
 }
 
 
@@ -131,7 +156,7 @@ def postprocess_msg(msg: str, use_synonyms: bool = False) -> str:
     return msg.strip()
 
 
-def start_chat_loop(feature_map, ai_name: str = "AI", user_name: str = "You"):
+def start_chat_loop(data, ai_name: str = "AI", user_name: str = "You"):
     name_max_len: int = max(len(ai_name), len(user_name))
     # make the width of the names the same by padding with spaces
     ai_name = ai_name.ljust(name_max_len)
@@ -157,9 +182,11 @@ def start_chat_loop(feature_map, ai_name: str = "AI", user_name: str = "You"):
         ai_resp: AIResp
         # Looping through the regex map
         # The first regex that matches the user message will be used to generate a response
-        for cmd, resp in resp_map.items():
-            if re.match(cmd, msg_usr_proc):
-                ai_resp = resp
+        for cmd, resp_func in resp_map.items():
+            match = re.match(cmd, msg_usr_proc)
+            if match:
+                # we pass named capture groups as keyword arguments to the response function
+                ai_resp = resp_func(data, **match.groupdict())
                 break
         else:
             ai_resp = resp_fallback
@@ -168,5 +195,5 @@ def start_chat_loop(feature_map, ai_name: str = "AI", user_name: str = "You"):
         print("-" * 80)
 
         # This is primarily for the quit command, which defines fn to exit the program
-        if ai_resp.fn is not None:
+        if isinstance(ai_resp, AIResp) and ai_resp.fn is not None:
             ai_resp.fn(ai_resp)

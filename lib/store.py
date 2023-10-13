@@ -4,7 +4,9 @@ For storing regex expressions, lists of synonyms, and other stuff.
 
 from enum import Enum
 
-search_term_map = {
+from lib import utils
+
+search_terms_map = {
     "investigator": [
         "investigator",
         "detective",
@@ -64,6 +66,10 @@ search_term_map = {
     ],
 }
 
+search_terms_permutation_map = utils.create_permutation_map(
+    list(search_terms_map.values())
+)
+
 
 class RegexPatterns:
     class Processing(str, Enum):
@@ -112,20 +118,6 @@ class SpecialTokens(str, Enum):
     END_OF_SENTENCE = "<EOS>"
 
 
-def create_alternatives_map(alternatives):
-    """
-    Given a list of lists containing alternative words/phrases, create a map
-    where each word/phrase is mapped to the entire list of alternatives.
-    This can be done once and used for constant-time lookups.
-    """
-    alternatives_map = {}
-    for alternatives in alternatives:
-        alternatives = list(set(map(str.strip, alternatives)))
-        for s in alternatives:
-            alternatives_map[s] = alternatives
-    return alternatives_map
-
-
 # search_terms_alts_map = create_alternatives_map(search_term_alts)
 
 response_phrase_alts = [
@@ -138,11 +130,9 @@ response_phrase_alts = [
     ["I'm", "I am"],
     ["don't", "do not"],
 ]
-response_phrase_alts_map = create_alternatives_map(response_phrase_alts)
 
-# print("Alternatives Map:")
-# for k, v in alternatives_map.items():
-#     print(f"{k}: {v}")
+response_phrase_permutation_map = utils.create_permutation_map(response_phrase_alts)
+
 
 stop_words = [
     "i",
