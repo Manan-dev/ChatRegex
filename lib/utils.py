@@ -140,6 +140,61 @@ def remove_extra_whitespace(
     return text.strip()
 
 
+def process_toc_elements(text: str) -> str:
+    """
+    Process the TOC elements in the text to determine if the chapter headings need updating.
+    Args:
+        text (str): Text to be parsed and checked.
+
+    Returns:
+        text (str): Text with proper chapter headings.
+    """
+    print("Detecting if text contains a table of contents....")
+    
+    table_of_contents = re.search(store.RegexPatterns.Processing.TOC, text, re.MULTILINE)
+    
+    if not table_of_contents:
+        print("No table of contents found in the text.")
+        return text
+    
+    table_of_contents = re.sub(r'^Contents\n', "", table_of_contents.group()).strip().split('\n')    
+    has_chapter_format = re.search(store.RegexPatterns.Processing.CHAPTER, table_of_contents[0], flags=re.MULTILINE | re.IGNORECASE)
+    
+    if has_chapter_format == None:
+        print("Updating chapter heading format...")
+        chapter_list = []
+        
+        for element in table_of_contents:
+            chapter_list.append(element.strip())
+        
+        text = update_chapter_headings(text, chapter_list)
+    
+    return text
+
+
+def update_chapter_headings(text: str, chapter_list) -> str:
+    """
+    Will update the chapter headings of the text to "Chapter .....".
+    Args:
+        text (str): Text to be updated.
+        chapter_list (_type_): List of chapter headings in the text.
+
+    Returns:
+        text (str): Return the text with modified chapter headings.
+    """
+    for elem in chapter_list:
+        matches = re.findall(f"^{elem}$", text)
+
+        if len(matches) > 2:
+            print(f"WARN: Expected 2 matches but got {len(matches)}")
+            continue
+        
+        replacement = f'Chapter {elem}'
+        text = re.sub(elem, replacement, text)
+    
+    return text
+
+
 def create_text_variation(text: str) -> str:
     """
     Replaces words in the input text with synonyms from a predefined list of alternatives.
