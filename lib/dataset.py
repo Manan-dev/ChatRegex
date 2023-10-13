@@ -1,11 +1,12 @@
 """
 Functions for loading and processing text dataset.    
 """
-import os
+import logging
 import re
-from pprint import pprint
+from pprint import pformat, pprint
 
 from lib import store, utils
+from lib.store import RegexPatterns, SpecialTokens
 
 
 def read_data(file_path):
@@ -16,7 +17,7 @@ def read_data(file_path):
     Returns:
       text (string): Text read from the file.
     """
-    print(f"Reading data: {file_path}")
+    logging.info(f"Reading data from file: {file_path}")
     # with open(file_path, "r", encoding="ascii", errors="ignore") as f:
     with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
         lines = f.readlines()
@@ -35,21 +36,157 @@ def extract_body(text: str):
     # Examples:
     # *** START OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
     # *** END OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
+    logging.info("Extracting body of text...")
 
-    pattern = r"^\s*\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
+    split_text = re.split(
+        RegexPatterns.Processing.DELIM_PROJ_GUTENBERG, text, flags=re.MULTILINE
+    )
 
-    split_text = re.split(pattern, text, flags=re.MULTILINE)
-
-    print(f"Split text: {len(split_text)}")
     if len(split_text) != 3:
-        print(
-            "WARN: Incorrect number of matches for start/end markers. Returning original text."
+        logging.warning(
+            f"Expected 3 splits for body of text. Found {len(split_text)} splits."
         )
         return text
 
     _, body_text, _ = split_text
 
     return body_text.strip()
+
+
+def matches_chapter_title(text: str) -> bool:
+    """
+    Checks if the text matches a chapter title.
+    Args:
+        text (str): Text to be parsed and checked.
+
+    Returns:
+        bool: True if the text matches a chapter title, False otherwise.
+    """
+    match = re.match(
+        RegexPatterns.Processing.CHAPTER_TITLE,
+        text,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+    return match is not None
+
+
+def get_toc(text: str) -> tuple[str | None, list[str]]:
+    """
+    Extracts the table of contents from the text.
+    Args:
+        text (str): Text to be parsed and checked.
+
+    Returns:
+        list[str]: List of chapter headings.
+    """
+    logging.debug("Searching for table of contents...")
+
+    toc = re.search(
+        RegexPatterns.Processing.TABLE_OF_CONTENTS,
+        text,
+        flags=re.MULTILINE,
+    )
+    if not toc:
+        logging.debug(" - No table of contents found.")
+        return None, []
+
+    toc_text = toc.group()
+
+    toc_elems: list[str] = (
+        re.sub(
+            r"^Contents\n+",
+            "",
+            toc_text,
+        )
+        .strip()
+        .split("\n")
+    )
+    logging.debug(f" - Found {len(toc_elems)} table of contents elements.")
+
+    return toc_text, toc_elems
+
+
+def normalize_chapter_headings(text: str, chapter_headings: list[str]) -> str:
+    """
+    Process the TOC elements in the text to determine if the chapter headings need updating.
+    Args:
+        text (str): Text to be parsed and checked.
+
+    Returns:
+        text (str): Text with proper chapter headings.
+    """
+    logging.info("Normalizing chapter headings...")
+    logging.debug(f"Chapter headings: {pformat(chapter_headings)}")
+
+    for elem in chapter_headings:
+        elem = elem.strip()
+        # If this chapter title already matches we don't need to update it to match
+        if matches_chapter_title(elem):
+            logging.debug(
+                f'Chapter heading "{elem}" already matches the expected pattern. Skipping replacement.'
+            )
+            continue
+
+        text_occurances = re.findall(
+            f"^{elem}$",
+            text,
+            flags=re.MULTILINE,
+        )
+        if len(text_occurances) not in (1, 2):
+            logging.warning(
+                f'Expected 1 or 2 matches for chapter heading: "{elem}". Found {len(text_occurances)} matches.'
+            )
+
+        replacement = f"Chapter {elem}"
+        if not matches_chapter_title(replacement):
+            logging.warning(
+                f'Chapter heading replacement "{replacement}" does not match the expected pattern. Skipping replacement.'
+            )
+            continue
+
+        logging.debug(f'Replacing "{elem}" with "{replacement}"...')
+
+        text = re.sub(elem, replacement, text)
+
+    return text
+
+
+def add_chapter_delimiter(text: str) -> str:
+    """
+    Adds a chapter delimiter to split up the chapters.
+    Args:
+        text (str): Text to be parsed and checked.
+
+    Returns:
+        text (str): Text with chapter delimiters.
+    """
+
+    # if we have a table of contents we can use it to help us add chapter delimiters
+    toc_text, toc_elems = get_toc(text)
+    if toc_text and toc_elems:
+        logging.debug("Removing table of contents from text...")
+        # remove the toc from the text
+        text = re.sub(
+            RegexPatterns.Processing.TABLE_OF_CONTENTS,
+            "",
+            text,
+            flags=re.MULTILINE,
+        )
+        text = normalize_chapter_headings(text, toc_elems)
+
+    text = re.sub(
+        r"({rgx})".format(
+            rgx=utils.re_union(
+                "PROLOGUE",
+                RegexPatterns.Processing.CHAPTER_TITLE,
+                "EPILOGUE",
+            )
+        ),
+        r"{token}\1".format(token=SpecialTokens.START_OF_CHAPTER),
+        text,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+    return text
 
 
 def preprocess_data(text: str):
@@ -62,15 +199,25 @@ def preprocess_data(text: str):
     Returns:
         str: The preprocessed text.
     """
-    print("Preprocessing data...")
+    logging.info("Preprocessing data...")
 
+    # Initial normalization to help with the rest of the processing
     text = utils.remove_extra_whitespace(text)
 
     text = extract_body(text)
 
-    text = utils.process_toc_elements(text)
-    
+    # We add chapter delimiter to help split the text into chapters later
+    text = add_chapter_delimiter(text)
+
+    # We add sentence delimiter to help split the text into sentences later
     text = utils.join_paragraph_lines(text)
+
+    # Non-destructive normalization/translation from unicode to ascii equivalents
+    text = utils.normalize_character_set(text)
+
+    text = utils.add_sentence_delimiter(text)
+
+    text = utils.add_search_term_tags(text, store.search_terms_map)
 
     # TODO: Re-add removal of stop words later after verifying feature extraction
     # TODO: Re-add removal of punctuation later after verifying feature extraction
@@ -79,28 +226,13 @@ def preprocess_data(text: str):
 
 
 def extract_features(text: str):
-    print("Extracting features...")
+    logging.info("Extracting features...")
 
-    # We add chapter delimiter to help split
-    text = re.sub(
-        r"^({rgx})$".format(
-            rgx=utils.re_union(
-                "PROLOGUE",
-                store.RegexPatterns.Processing.CHAPTER,
-                "EPILOGUE",
-            )
-        ),
-        r"<CHAPTER_START>\n\1",
-        text,
-        flags=re.MULTILINE | re.IGNORECASE,
-    )
     # Split by chapter delimiter
     split_text = re.split(
-        "<CHAPTER_START>",
+        SpecialTokens.START_OF_CHAPTER,
         text,
     )
-
-    print(f"Split text: {len(split_text)}")
 
     # Save stuff to dict
     # TODO: This is only a template and incomplete.
@@ -116,31 +248,19 @@ def extract_features(text: str):
     for chapter_text in split_text:
         chapter_lines = chapter_text.strip().splitlines()
         chapter_title = chapter_lines[0]
-        chapter_paragraphs = chapter_lines[1:]
-        print(chapter_title)
+        chapter_text = " ".join(chapter_lines[1:])
 
         # strip out each paragraph and filter out empty ones
-        chapter_paragraphs = list(filter(None, map(str.strip, chapter_paragraphs)))
+        # chapter_paragraphs = list(filter(None, map(str.strip, chapter_paragraphs)))
+
+        sentences = chapter_text.split(SpecialTokens.END_OF_SENTENCE)
 
         feature_map[chapter_title] = {
             "chapter_title": chapter_title,
-            "num_paragraphs": len(chapter_paragraphs),
-            "paragraph_list": None,
+            "num_sentences": len(sentences),
+            "sentence_list": sentences,
         }
 
-        # ----------------------------------------
-        # Drill down: Split paragraphs into sentences
-        paragraph_list = []
-        for paragraph in chapter_paragraphs:
-            sentences = re.split(r"(?<=[.!?])\s+", paragraph)
-
-            paragraph_list.append(
-                {
-                    "num_sentences": len(sentences),
-                    "sencence_list": sentences,
-                }
-            )
-        feature_map[chapter_title]["paragraph_list"] = paragraph_list
         # ----------------------------------------
 
         chapter_list.append(feature_map[chapter_title])

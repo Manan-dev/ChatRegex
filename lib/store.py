@@ -4,36 +4,10 @@ For storing regex expressions, lists of synonyms, and other stuff.
 
 from enum import Enum
 
+from lib import utils
 
-class RegexPatterns:
-    class Processing(str, Enum):
-        # Source: https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
-        ROMAN_NUMERALS = r"(?=[MDCLXVI])M*(?:C[MD]|D?C*)(?:X[CL]|L?X*)(?:I[XV]|V?I*)"
-        CHAPTER = r"(^(chapter|part) (?:\d{1,3}|" + ROMAN_NUMERALS + r")(?:[.]? .*)?)$"
-        TOC = r"(^Contents\n+(?:.*\n)+?$\n\n)"
-    
-    class Chat(str, Enum):
-        CMD_HELP = r"^(help|h)$"
-        CMD_QUIT = r"^(exit|quit|q)$"
-        CMD_EXAMPLE = r"^(example(s)?|ex)$"
-
-
-def create_alternatives_map(alternatives):
-    """
-    Given a list of lists containing alternative words/phrases, create a map
-    where each word/phrase is mapped to the entire list of alternatives.
-    This can be done once and used for constant-time lookups.
-    """
-    alternatives_map = {}
-    for alternatives in alternatives:
-        alternatives = list(set(map(str.strip, alternatives)))
-        for s in alternatives:
-            alternatives_map[s] = alternatives
-    return alternatives_map
-
-
-search_term_alts = [
-    [
+search_terms_map = {
+    "investigator": [
         "investigator",
         "detective",
         # Murder on the Links
@@ -43,20 +17,19 @@ search_term_alts = [
         # Man in the Brown Suit
         "Colonel Race",
     ],
-    [
+    "perpetrator": [
         "perpetrator",
         "killer",
         "murderer",
         "criminal",
         # Murder on the Links
-        "Marthe",
         "Marthe Daubreuil",
         # Sign of the Four
         "Jonathan Small",
         # The Man in the Brown Suit
         "Sir Eustace Pedler",
     ],
-    [
+    "suspect": [
         "suspect",
         # Murder on the Links
         "Jack Renauld",
@@ -75,13 +48,13 @@ search_term_alts = [
         "Suzanne Blair",
         "Guy Pagett",
     ],
-    [
+    "victim": [
         "victim",
         # Murder of the Links
         "M. Paul Renauld",
         "M. Renauld",
     ],
-    [
+    "crime": [
         "crime",
         "murder",
         "kill",
@@ -91,9 +64,61 @@ search_term_alts = [
         "deception",
         "blackmail",
     ],
-]
+}
 
-search_terms_alts_map = create_alternatives_map(search_term_alts)
+search_terms_permutation_map = utils.create_permutation_map(
+    list(search_terms_map.values())
+)
+
+
+class RegexPatterns:
+    class Processing(str, Enum):
+        DELIM_PROJ_GUTENBERG = (
+            r"^\s*\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
+        )
+
+        # Source: https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
+        ROMAN_NUMERALS = (
+            r"(?=[MDCLXVI])"
+            r"M*(?:C[MD]|D?C*)"
+            r"(?:X[CL]|L?X*)"
+            r"(?:I[XV]|V?I*)"  # noqa: E501
+        )
+        CHAPTER_TITLE = (
+            r"^((chapter|part) (?:\d{1,3}|"
+            + ROMAN_NUMERALS
+            + r")(?:[.]? .*)?)$"  # noqa: E501
+        )
+
+        TABLE_OF_CONTENTS = r"(^Contents\n+(?:.*\n)+?$\n\n)"
+
+        SENTENCE_SPLITTING = (
+            r"(?<!\w\.\w.)"
+            # Don't match abbreviations like ["U. S.", "U. K."]
+            r"(?<![A-Z]\.)"
+            # Don't match 2-letter abbreviations like ["Mr.", "Ms.", "Dr."]
+            r"(?<!(Mr|Ms|Dr|Sr|Jr|St|Lt|Co|Mt)\.)"
+            # Don't match 3-letter abbreviations like ["Mrs.", "Rev.", "Col."]
+            r"(?<!(Mrs|Rev|Col|Maj|Gen|Sgt)\.)"
+            r"(?<=(\.|\!|\?|:|\"))\s"  # noqa: E501
+        )
+        # Note: previous versions, keeping them commented out for reference
+        # SENTENCE_SPLITTING = r"(?<=[.!?])\s+"
+        # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s"
+        # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|:|\"|\!)\s"
+
+    class Chat(str, Enum):
+        CMD_HELP = r"^(help|h)$"
+        CMD_QUIT = r"^(exit|quit|q)$"
+        CMD_EXAMPLE = r"^(example(s)?|ex)$"
+
+
+class SpecialTokens(str, Enum):
+    START_OF_CHAPTER = "<SOC>"
+    END_OF_SENTENCE = "<EOS>"
+
+
+# search_terms_alts_map = create_alternatives_map(search_term_alts)
 
 response_phrase_alts = [
     ["hello!", "hi!", "hey!", "hey there!", "howdy!"],
@@ -105,11 +130,9 @@ response_phrase_alts = [
     ["I'm", "I am"],
     ["don't", "do not"],
 ]
-response_phrase_alts_map = create_alternatives_map(response_phrase_alts)
 
-# print("Alternatives Map:")
-# for k, v in alternatives_map.items():
-#     print(f"{k}: {v}")
+response_phrase_permutation_map = utils.create_permutation_map(response_phrase_alts)
+
 
 stop_words = [
     "i",
