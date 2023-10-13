@@ -287,9 +287,6 @@ def create_permutation_map(lists_of_terms: list[list[str]]):
         for s in alts:
             permutation_map[s.lower()] = alts
 
-    # print("Permutation map:")
-    # pprint(permutation_map)
-
     return permutation_map
 
 
