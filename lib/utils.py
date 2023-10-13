@@ -79,7 +79,9 @@ def normalize_character_set(text: str) -> str:
             "–": "-",  # en dash
             "—": "-",  # em dash
             "―": "-",  # horizontal bar
-            "æ": "ae",  # ae ligature
+            "æ": "ae",
+            '£': "",
+            'œ': "",  # ae ligature
         }
     )
 
@@ -103,7 +105,7 @@ def re_union(*args):
     Returns:
         str: A regex union of the input strings.
     """
-    return "|".join(list(set(args)))
+    return "(" + ")|(".join(list(set(args))) + ")"
 
 
 def remove_stopwords(text: str) -> str:
@@ -285,8 +287,8 @@ def create_permutation_map(lists_of_terms: list[list[str]]):
         for s in alts:
             permutation_map[s.lower()] = alts
 
-    print("Permutation map:")
-    pprint(permutation_map)
+    # print("Permutation map:")
+    # pprint(permutation_map)
 
     return permutation_map
 

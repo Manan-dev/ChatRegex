@@ -104,6 +104,13 @@ def get_first_mention(data, entity):
 
     return response
 
+def get_words_around(data, num_words, entity):
+    print(f"get_words_around: num_words={num_words}, entity={entity}")
+    return "get_words_around"
+
+def get_cooccur(data, entitya, entityb):
+    print(f"get_cooccur: entity1={entitya}, entity2={entityb}")
+    return "get_cooccur"
 
 resp_map = {
     # Special Commands
@@ -131,7 +138,9 @@ resp_map = {
         [f'  - "{ex}"' for ex in random.sample(store.example_prompts, 3)],
     ),
     # TODO: add variations to the regex pattern such that it can be asked in different ways
-    "first mention (?P<entity>.*)": get_first_mention,
+    RegexPatterns.Chat.CMD_FIRST_OCCURRENCE: get_first_mention,
+    RegexPatterns.Chat.CMD_WORDS_AROUND: get_words_around,
+    RegexPatterns.Chat.CMD_WORDS_COOCCUR: get_cooccur,
 }
 
 
@@ -175,7 +184,7 @@ def start_chat_loop(data, ai_name: str = "AI", user_name: str = "You"):
             msg_usr_orig = "exit"
 
         msg_usr_proc: str = preprocess_msg(msg_usr_orig)
-        # print(f"msg_usr_proc: {msg_user_proc}")
+        print(f"msg_usr_proc: {msg_usr_proc}")
         if not msg_usr_proc:
             continue
 
@@ -183,7 +192,7 @@ def start_chat_loop(data, ai_name: str = "AI", user_name: str = "You"):
         # Looping through the regex map
         # The first regex that matches the user message will be used to generate a response
         for cmd, resp_func in resp_map.items():
-            match = re.match(cmd, msg_usr_proc)
+            match = re.match(cmd, msg_usr_proc, re.IGNORECASE)
             if match:
                 # we pass named capture groups as keyword arguments to the response function
                 ai_resp = resp_func(data, **match.groupdict())
