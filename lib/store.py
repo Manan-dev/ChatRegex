@@ -27,18 +27,15 @@ search_terms_map = {
         # Sign of the Four
         "Jonathan Small",
         # The Man in the Brown Suit
-        "Sir Eustace Pedler",
+        "(Sir )?Eustace Pedler",
     ],
     "suspect": [
         "suspect",
         # Murder on the Links
-        "Jack Renauld",
-        "Eloise Renauld",
-        "M. Bex",
-        "Lucien Bex",
-        "Bella Duveen",
-        "Leonie Oulard",  # Léonie Oulard
-        "Denise Oulard",
+        "Renauld|Jack|Eloise",
+        "(M. )?(Lucien )?Bex",
+        "((Bella|Dulcie) )?Duveen|Bella|Dulcie|Dulcibella",
+        "(Leonie|Denise)( Oulard)?",  # Léonie Oulard
         # Sign of the Four
         "Major Sholto",
         "Captain Morstan",
@@ -100,7 +97,10 @@ class RegexPatterns:
             r"(?<!(Mr|Ms|Dr|Sr|Jr|St|Lt|Co|Mt)\.)"
             # Don't match 3-letter abbreviations like ["Mrs.", "Rev.", "Col."]
             r"(?<!(Mrs|Rev|Col|Maj|Gen|Sgt)\.)"
-            r"(?<=(\.|\!|\?|:|\"))\s"  # noqa: E501
+            r"(?<!(\,\"))"
+            r"(((?<=(\.|\!|\?|:))\s)|"
+            r"((?<=(\.[\"\']|\![\"\']))\s)|"
+            r"((?<=(\"|\'))\n))"  # noqa: E501
         )
         # Note: previous versions, keeping them commented out for reference
         # SENTENCE_SPLITTING = r"(?<=[.!?])\s+"
@@ -111,7 +111,9 @@ class RegexPatterns:
         CMD_HELP = r"^(help|h)$"
         CMD_QUIT = r"^(exit|quit|q)$"
         CMD_EXAMPLE = r"^(example(s)?|ex)$"
-
+        CMD_FIRST_OCCURRENCE = r"first mention (?P<entity>.*)" #TODO: 
+        CMD_WORDS_AROUND = r"(?P<num_words>\d+) words around (?P<entity>.*)"
+        CMD_WORDS_COOCCUR = r"cooccur (?P<entitya>{ent}) (?P<entityb>{ent})".format(ent=utils.re_union(*list(search_terms_map['investigator'] + search_terms_map['perpetrator'])))
 
 class SpecialTokens(str, Enum):
     START_OF_CHAPTER = "<SOC>"
