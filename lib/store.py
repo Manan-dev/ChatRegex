@@ -8,38 +8,38 @@ from lib import utils
 
 search_terms_map = {
     "investigator": [
-        "investigator",
-        "detective",
+        "[iI]nvestigator",
+        "[dD]etective",
         # Murder on the Links
-        "Hercule Poirot",
+        "(Hercule )?Poirot",
         # Sign of the Four
-        "Sherlock Holmes",
+        "(Sherlock Holmes)|Holmes",
         # Man in the Brown Suit
-        "Colonel Race",
+        "((Colonel )?Race)|Colonel",
     ],
     "perpetrator": [
-        "perpetrator",
-        "killer",
-        "murderer",
-        "criminal",
+        "[pP]erpetrator",
+        "[kK]iller",
+        "[mM]urderer",
+        "[cC]riminal",
         # Murder on the Links
-        "Marthe Daubreuil",
+        "((Marthe )?Daubreuil)|Marthe",
         # Sign of the Four
-        "Jonathan Small",
+        "((Jonathan )?Small)|Jonathan",
         # The Man in the Brown Suit
         "(Sir )?Eustace Pedler",
     ],
     "suspect": [
-        "suspect",
+        "[sS]uspect",
         # Murder on the Links
         "Renauld|Jack|Eloise",
         "(M. )?(Lucien )?Bex",
         "((Bella|Dulcie) )?Duveen|Bella|Dulcie|Dulcibella",
         "(Leonie|Denise)( Oulard)?",  # Léonie Oulard
         # Sign of the Four
-        "Major Sholto",
-        "Captain Morstan",
-        "Thaddeus Sholto",
+        "(Major (John )?Sholto)|major",
+        "(Captain )?Morstan|Captain",
+        "(Thaddeus )?Sholto|Thaddeus",
         "Tonga",
         # The Man in the Brown Suit
         "Suzanne Blair",
@@ -52,14 +52,14 @@ search_terms_map = {
         "M. Renauld",
     ],
     "crime": [
-        "crime",
-        "murder",
-        "kill",
-        "stabbed",
-        "theft",
-        "kidnapping",
-        "deception",
-        "blackmail",
+        "[cC]rime",
+        "[mM]urder",
+        "[kK]ill",
+        "[sS]tabbed",
+        "[tT]heft",
+        "[kK]idnapping",
+        "[dD]eception",
+        "[bB]lackmail",
     ],
 }
 
