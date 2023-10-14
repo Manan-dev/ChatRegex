@@ -105,7 +105,9 @@ def re_union(*args):
     Returns:
         str: A regex union of the input strings.
     """
-    return "(" + ")|(".join(list(set(args))) + ")"
+    res = "((" + ")|(".join(list(set(args))) + "))"
+    logging.debug(res)
+    return res
 
 
 def remove_stopwords(text: str) -> str:
@@ -205,7 +207,7 @@ def add_search_term_tags(text: str, search_terms_map: dict[str, list[str]]) -> s
         # add tag after any matches
         text = re.sub(
             pattern,
-            r"\1 <{tag}>".format(tag=key.upper()),
+            r"\1<{tag}>".format(tag=key.upper()),
             text,
             # flags=re.IGNORECASE,
         )

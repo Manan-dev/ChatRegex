@@ -57,7 +57,7 @@ def main():
     with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
         f.write(data_proc)
 
-    bot = chat.ChatBot(data)
+    bot = chat.ChatBot(data_proc)
     bot.start()
 
 

@@ -174,14 +174,23 @@ def add_chapter_delimiter(text: str) -> str:
         )
         text = normalize_chapter_headings(text, toc_elems)
 
+    pattern = r"^{rgx}$".format(
+        rgx=utils.re_union(
+            "PROLOGUE",
+            RegexPatterns.Processing.CHAPTER_TITLE,
+            "EPILOGUE",
+        )
+    )
+
+    chapter_titles = re.findall(
+        pattern,
+        text,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+    logging.debug(f"Found chapter titles: {pformat(chapter_titles)}")
+
     text = re.sub(
-        r"({rgx})".format(
-            rgx=utils.re_union(
-                "PROLOGUE",
-                RegexPatterns.Processing.CHAPTER_TITLE,
-                "EPILOGUE",
-            )
-        ),
+        pattern,
         r"{token}\1".format(token=SpecialTokens.START_OF_CHAPTER),
         text,
         flags=re.MULTILINE | re.IGNORECASE,

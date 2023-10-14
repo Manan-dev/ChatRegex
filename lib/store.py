@@ -2,6 +2,7 @@
 For storing regex expressions, lists of synonyms, and other stuff.
 """
 
+import logging
 from enum import Enum
 
 from lib import utils
@@ -13,7 +14,7 @@ search_terms_map = {
         # Murder on the Links
         "Hercule Poirot",
         # Sign of the Four
-        "Sherlock Holmes",
+        "Sherlock Holmes|Sherlock",
         # Man in the Brown Suit
         "Colonel Race",
     ],
@@ -63,10 +64,6 @@ search_terms_map = {
     ],
 }
 
-search_terms_permutation_map = utils.create_permutation_map(
-    list(search_terms_map.values())
-)
-
 
 class RegexPatterns:
     class Processing(str, Enum):
@@ -82,9 +79,9 @@ class RegexPatterns:
             r"(?:I[XV]|V?I*)"  # noqa: E501
         )
         CHAPTER_TITLE = (
-            r"^((chapter|part) (?:\d{1,3}|"
+            r"(?:chapter|part) (?:\d{1,3}|"
             + ROMAN_NUMERALS
-            + r")(?:[.]? .*)?)$"  # noqa: E501
+            + r")(?:\.? .*?)?"  # noqa: E501
         )
 
         TABLE_OF_CONTENTS = r"(^Contents\n+(?:.*\n)+?$\n\n)"
@@ -107,10 +104,16 @@ class RegexPatterns:
         # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s"
         # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|:|\"|\!)\s"
 
+        def __str__(self) -> str:
+            return self.value
+
 
 class SpecialTokens(str, Enum):
     START_OF_CHAPTER = "<SOC>"
     END_OF_SENTENCE = "<EOS>"
+
+    def __str__(self) -> str:
+        return self.value
 
 
 # search_terms_alts_map = create_alternatives_map(search_term_alts)
@@ -124,6 +127,8 @@ response_phrase_alts = [
     ["can I", "could I", "may I"],
     ["I'm", "I am"],
     ["don't", "do not"],
+    # ["investigator", "detective"],
+    # ["perpetrator", "killer", "murderer", "criminal"],
 ]
 
 response_phrase_permutation_map = utils.create_permutation_map(response_phrase_alts)

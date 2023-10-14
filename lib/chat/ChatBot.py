@@ -13,8 +13,8 @@ class RegexPatterns(str, Enum):
     HELP = r"^(help|h)$"
     QUIT = r"^(exit|quit|q)$"
     EXAMPLE = r"^(example(s)?|ex)$"
-    FIRST_MENTION = r"first mention (?P<entity>.*)"  # TODO:
-    WORDS_AROUND = r"(?P<num_words>\d+) words around (?P<entity>.*)"
+    FIRST_MENTION = r"first (?P<entity>.*)"  # TODO:
+    WORDS_AROUND = r"(?P<num_words>\d+) around (?P<entity>.*)"
     WORDS_COOCCUR = r"cooccur (?P<entity1>.*) and (?P<entity2>.*)"
 
 
@@ -80,30 +80,66 @@ class ChatBot:
     def __get_first_mention(self, entity):
         """
         Gets the first mention of a word in the text.
+        Example:
+        When does the investigator (or a pair) occur for the first time -  chapter #, the sentence(s) # in a chapter,
         """
         entity = entity.lower().strip()
 
+        if not re.search(entity, self.data, flags=re.IGNORECASE):
+            return f"Sorry, but `{entity}` is not mentioned in the text."
+
         logging.info(f"get_first_mention: entity={entity}")
 
-        response = ""
-        try:
-            terms = store.search_terms_permutation_map[entity]
-            logging.info(f"related search terms: {terms}")
+        entity_tag = None
+        for _tag, _terms in store.search_terms_map.items():
+            match = re.match(utils.re_union(*_terms), entity, re.IGNORECASE)
+            if match:
+                entity_tag = _tag
+                break
+        else:
+            return "Entity tag not found"
 
-            # TODO: ...
-            response = f"{entity} was first mentioned ..."
-        except KeyError:
-            # TODO: Make this less passive-aggressive
-            response = "I am sorry but I have no idea what you're talking about."
+        entity_pattern = utils.re_union(*store.search_terms_map[entity_tag])
+        logging.debug(f"{entity_tag}: {entity_pattern}")
 
-        return response
+        final_pattern = f"<SOC>(?P<chaptertitle>{store.RegexPatterns.Processing.CHAPTER_TITLE})\n+(?:.*\n)*?^(?P<sentence>.*?(?P<mention>{entity_pattern}).*?<EOS>)$"
+        logging.debug(final_pattern)
+
+        match = re.search(
+            final_pattern,
+            self.data,
+            re.IGNORECASE | re.MULTILINE,
+        )
+
+        logging.debug(match)
+        if not match:
+            return "Failed to find entity in text"
+
+        logging.debug(match.groupdict())
+
+        groupdict = match.groupdict()
+
+        chaptertitle = groupdict["chaptertitle"]
+        mention = groupdict["mention"]
+
+        sentence = groupdict["sentence"]
+        sentence = re.sub("<[A-Z]{3,}>", "", sentence)
+
+        sentence_num = match[0].count(store.SpecialTokens.END_OF_SENTENCE)
+
+        return f"The first mention of {mention} is in {chaptertitle}, sentence {sentence_num}.\nFull sentence: {sentence}"
 
     def __get_words_around(self, num_words, entity):
-        logging.debug(f"get_words_around: num_words={num_words}, entity={entity}")
+        entity = entity.lower().strip()
+        logging.debug(
+            f"get_words_around: num_words={num_words} ({type(num_words)}), entity={entity}"
+        )
 
         return "get_words_around"
 
     def __get_cooccurance(self, entity1, entity2):
+        entity1 = entity1.lower().strip()
+        entity2 = entity2.lower().strip()
         logging.debug(f"get_cooccur: entity1={entity1}, entity2={entity2}")
 
         return "get_cooccur"
