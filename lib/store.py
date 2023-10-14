@@ -42,8 +42,8 @@ search_terms_map = {
         "(Thaddeus )?Sholto|Thaddeus",
         "Tonga",
         # The Man in the Brown Suit
-        "Suzanne Blair",
-        "Guy Pagett",
+        "(Suzanne )?Blair",
+        "(Guy )?Pagett",
     ],
     "victim": [
         "victim",
