@@ -80,8 +80,8 @@ def normalize_character_set(text: str) -> str:
             "—": "-",  # em dash
             "―": "-",  # horizontal bar
             "æ": "ae",
-            '£': "",
-            'œ': "",  # ae ligature
+            "£": "",
+            "œ": "",  # ae ligature
         }
     )
 
@@ -161,7 +161,7 @@ def add_sentence_delimiter(text: str) -> str:
     # text = re.sub(r"[.!?]+", " <END_SENTENCE> ", text)
     return re.sub(
         store.RegexPatterns.Processing.SENTENCE_SPLITTING,
-        f"{store.SpecialTokens.END_OF_SENTENCE}\n",
+        store.SpecialTokens.END_OF_SENTENCE + "\n",
         text,
     )
 
@@ -189,7 +189,7 @@ def add_search_term_tags(text: str, search_terms_map: dict[str, list[str]]) -> s
         matches = re.findall(
             pattern,
             text,
-            flags=re.IGNORECASE,
+            # flags=re.IGNORECASE,
         )
         logging.debug(
             pformat(
@@ -207,7 +207,7 @@ def add_search_term_tags(text: str, search_terms_map: dict[str, list[str]]) -> s
             pattern,
             r"\1 <{tag}>".format(tag=key.upper()),
             text,
-            flags=re.IGNORECASE,
+            # flags=re.IGNORECASE,
         )
 
     return text

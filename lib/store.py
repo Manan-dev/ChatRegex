@@ -107,13 +107,6 @@ class RegexPatterns:
         # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s"
         # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|:|\"|\!)\s"
 
-    class Chat(str, Enum):
-        CMD_HELP = r"^(help|h)$"
-        CMD_QUIT = r"^(exit|quit|q)$"
-        CMD_EXAMPLE = r"^(example(s)?|ex)$"
-        CMD_FIRST_OCCURRENCE = r"first mention (?P<entity>.*)" #TODO: 
-        CMD_WORDS_AROUND = r"(?P<num_words>\d+) words around (?P<entity>.*)"
-        CMD_WORDS_COOCCUR = r"cooccur (?P<entitya>{ent}) (?P<entityb>{ent})".format(ent=utils.re_union(*list(search_terms_map['investigator'] + search_terms_map['perpetrator'])))
 
 class SpecialTokens(str, Enum):
     START_OF_CHAPTER = "<SOC>"

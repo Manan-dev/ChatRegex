@@ -57,14 +57,8 @@ def main():
     with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
         f.write(data_proc)
 
-    feature_map = dataset.extract_features(data_proc)
-
-    # TODO: Remove this later
-    with open(f"{os.path.splitext(input_path)[0]}_features.json", "w") as f:
-        f.write(json.dumps(feature_map, indent=4))
-
-    # Chat loop
-    chat.start_chat_loop(feature_map)
+    bot = chat.ChatBot(data)
+    bot.start()
 
 
 def parse_args():
