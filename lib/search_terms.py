@@ -3,7 +3,7 @@ import re
 
 from lib import utils
 
-tag_to_subpatterns = {
+book_query_terms = {
     "investigator": [
         "[iI]nvestigator",
         "[dD]etective",
@@ -15,9 +15,9 @@ tag_to_subpatterns = {
         "((Colonel )?Race)|Colonel",
     ],
     "perpetrator": [
-        "[pP]erpetrator",
-        "[kK]iller",
-        "[mM]urderer",
+        "[pP]erpetrator(s)?",
+        "[kK]iller(s)?",
+        "[mM]urderer(s)?",
         # Murder on the Links
         "(((Marthe|Madame) )?Daubreuil)|Marthe",
         # Sign of the Four
@@ -26,7 +26,7 @@ tag_to_subpatterns = {
         "(Sir )?Eustace Pedler",
     ],
     "suspect": [
-        "[sS]uspect",
+        "[sS]uspect(s)?",
         # Murder on the Links
         "Renauld|Jack|Eloise",
         "(M. )?(Lucien )?Bex",
@@ -42,6 +42,15 @@ tag_to_subpatterns = {
         "(Guy )?Pagett",
     ],
     "crime": [
+        "They have robbed him of the treasure",
+        "(?<=stone dead, )stabbed in the back",
+        "(?<=discovered yesterday, )strangled",
+    ],
+}
+
+chat_query_terms = {
+    "perpetrator": ["bad guy", "villain", "criminal"],
+    "crime": [
         "[cC]rime",
         "[mM]urder",
         "[kK]ill",
@@ -53,34 +62,18 @@ tag_to_subpatterns = {
     ],
 }
 
-
-tag_to_pattern = {
-    k: r"\b({rgx})\b".format(
-        rgx=utils.re_union(*list([k] + v)),
-    )
-    for k, v in tag_to_subpatterns.items()
-}
+all_query_terms = {k: [*v] for k, v in book_query_terms.items()}
 
 
-def add_search_term_tags(text: str) -> str:
-    """
-    Adds search term tags to the input text.
+for k, v in chat_query_terms.items():
+    all_query_terms[k].extend(v)
 
-    Args:
-        text (str): The input text to be modified.
 
-    Returns:
-        str: The modified text with search term tags.
-    """
-    logging.debug("Adding search term tags...")
-
-    for key, pattern in tag_to_pattern.items():
-        # add tag after any matches
-        text = re.sub(
-            pattern,
-            r"\1<{tag}>".format(tag=key.upper()),
-            text,
-            # flags=re.IGNORECASE,
+def build_pattern_map(sub_patterns_map: dict[str, list]):
+    pattern_map = {}
+    for k, v in sub_patterns_map.items():
+        pattern_map[k] = r"\b({rgx})\b".format(
+            rgx=utils.re_union(*v),
         )
 
-    return text
+    return pattern_map

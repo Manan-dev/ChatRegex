@@ -2,9 +2,9 @@
     "investigator": {
         "matched_terms": [
             "Poirot",
+            "investigator",
             "Hercule Poirot",
-            "detective",
-            "investigator"
+            "detective"
         ],
         "mentions": [
             {
@@ -3796,1155 +3796,15 @@
             }
         ]
     },
-    "crime": {
-        "matched_terms": [
-            "kill",
-            "blackmail",
-            "murder",
-            "crime",
-            "stabbed",
-            "theft",
-            "Blackmail",
-            "deception"
-        ],
-        "mentions": [
-            {
-                "matched_term": "crime",
-                "sentence": "I just adore crime.",
-                "sentence_idx": 123,
-                "chapter_idx": 1,
-                "chapter_title": "Chapter 1 A Fellow Traveller"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "And when there's a murder on I just devour the papers.\"",
-                "sentence_idx": 125,
-                "chapter_idx": 1,
-                "chapter_title": "Chapter 1 A Fellow Traveller"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "To them the experts bring the facts, their business is the method of the crime, its logical deduction, the proper sequence and order of the facts; above all, the true psychology of the case.",
-                "sentence_idx": 213,
-                "chapter_idx": 2,
-                "chapter_title": "Chapter 2 An Appeal for Help"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"So he foresaw his own murder?",
-                "sentence_idx": 41,
-                "chapter_idx": 3,
-                "chapter_title": "Chapter 3 At the Villa Genevieve"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "He has just finished examining the scene of the crime and is about to begin his interrogations.",
-                "sentence_idx": 47,
-                "chapter_idx": 3,
-                "chapter_title": "Chapter 3 At the Villa Genevieve"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"When was the crime committed?\" asked Poirot.",
-                "sentence_idx": 52,
-                "chapter_idx": 3,
-                "chapter_title": "Chapter 3 At the Villa Genevieve"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Going to call her mistress as usual, a younger maid, Leonie, was horrified to discover her gagged and bound, and almost at the same moment news was brought that M. Renauld's body had been discovered, stone dead, stabbed in the back.\"",
-                "sentence_idx": 90,
-                "chapter_idx": 3,
-                "chapter_title": "Chapter 3 At the Villa Genevieve"
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "But if you _did___ stop loving me, I don't know what I should do-kill myself perhaps!",
-                "sentence_idx": 22,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "I'd as soon kill you as let her have you!",
-                "sentence_idx": 26,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "The fact that M. Renauld was stabbed in the back seemed to point distinctly to its being a woman's crime.\"",
-                "sentence_idx": 41,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "It will be strange if, after that, we do not hold a clue to his mysterious murder.\"",
-                "sentence_idx": 60,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Now, M. Poirot, you would without doubt like to visit the scene of the crime.",
-                "sentence_idx": 98,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "We moved it from the scene of the crime just before you arrived, as the photographers had done with it.\"",
-                "sentence_idx": 179,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "\"One can see by his face that he was stabbed in the back,\" remarked Poirot.",
-                "sentence_idx": 187,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Have you any idea with what weapon the crime was committed?\"",
-                "sentence_idx": 192,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "A nice easy little tool for murder!\"",
-                "sentence_idx": 200,
-                "chapter_idx": 4,
-                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Is there any incident in your husband's past life in South America which might throw light on his murder?\"",
-                "sentence_idx": 101,
-                "chapter_idx": 5,
-                "chapter_title": "Chapter 5 Mrs. Renauld's Story"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "It seemed unlikely that Madame Daubreuil had any connection with the crime, and he was anxious not to upset Mrs. Renauld more than necessary.",
-                "sentence_idx": 164,
-                "chapter_idx": 5,
-                "chapter_title": "Chapter 5 Mrs. Renauld's Story"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Now, M. Poirot, shall we visit the place where the crime was committed?\"",
-                "sentence_idx": 6,
-                "chapter_idx": 6,
-                "chapter_title": "Chapter 6 The Scene of the Crime"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "I tell you, the men who planned out this crime were taking no chances.",
-                "sentence_idx": 113,
-                "chapter_idx": 6,
-                "chapter_title": "Chapter 6 The Scene of the Crime"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "The man was stabbed with his own dagger, and would have been buried with his own spade.",
-                "sentence_idx": 114,
-                "chapter_idx": 6,
-                "chapter_title": "Chapter 6 The Scene of the Crime"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "As to the piece of lead-piping having nothing to do with the crime, you say that because Giraud told you so.",
-                "sentence_idx": 17,
-                "chapter_idx": 7,
-                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"Madame, we are investigating a murder.\"",
-                "sentence_idx": 192,
-                "chapter_idx": 7,
-                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I had nothing to do with the murder.\"",
-                "sentence_idx": 194,
-                "chapter_idx": 7,
-                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"I may be mistaken, but I rather fancy that it was a murder case!\"",
-                "sentence_idx": 324,
-                "chapter_idx": 7,
-                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Monsieur the commissary had some idea that it might have been used on the night of the murder.\"",
-                "sentence_idx": 45,
-                "chapter_idx": 8,
-                "chapter_title": "Chapter 8 An Unexpected Meeting"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "I had a mind to study the scene of the crime myself.",
-                "sentence_idx": 61,
-                "chapter_idx": 8,
-                "chapter_title": "Chapter 8 An Unexpected Meeting"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"And perhaps you've heard about this crime-at the Villa Genevieve-?\"",
-                "sentence_idx": 107,
-                "chapter_idx": 8,
-                "chapter_title": "Chapter 8 An Unexpected Meeting"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I've never had a chance of being right in on a murder like this before.",
-                "sentence_idx": 137,
-                "chapter_idx": 8,
-                "chapter_title": "Chapter 8 An Unexpected Meeting"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "\"You see,\" I said, \"he was stabbed in the back.\"",
-                "sentence_idx": 225,
-                "chapter_idx": 8,
-                "chapter_title": "Chapter 8 An Unexpected Meeting"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Either he had nothing to do with the crime or he was a consummate actor.",
-                "sentence_idx": 21,
-                "chapter_idx": 9,
-                "chapter_title": "Chapter 9 M. Giraud Finds Some Clues"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"A crime almost precisely similar has been committed before.\"",
-                "sentence_idx": 170,
-                "chapter_idx": 9,
-                "chapter_title": "Chapter 9 M. Giraud Finds Some Clues"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"I am speaking to you now of the psychology of crime.",
-                "sentence_idx": 181,
-                "chapter_idx": 9,
-                "chapter_title": "Chapter 9 M. Giraud Finds Some Clues"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "If a man commits a crime, any other crime he commits will resemble it closely.",
-                "sentence_idx": 185,
-                "chapter_idx": 9,
-                "chapter_title": "Chapter 9 M. Giraud Finds Some Clues"
-            },
-            {
-                "matched_term": "Blackmail",
-                "sentence": "\"Blackmail,\" repeated Stonor.",
-                "sentence_idx": 112,
-                "chapter_idx": 10,
-                "chapter_title": "Chapter 10 Gabriel Stonor"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "On the other hand, if your suggestion of blackmail is true, Madame Daubreuil ought to be able to give us valuable information.\"",
-                "sentence_idx": 154,
-                "chapter_idx": 10,
-                "chapter_title": "Chapter 10 Gabriel Stonor"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "At first I suspected her, if not of inspiring, at least of conniving at the crime.\"",
-                "sentence_idx": 26,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "That ruled out the possibility of her having committed the crime single-handed.",
-                "sentence_idx": 34,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "_The crime took place at least two hours earlier.___\"",
-                "sentence_idx": 58,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "_Mon ami___, for some reason, it was imperative that the crime should seem to have taken place later than it actually did.",
-                "sentence_idx": 61,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "You have read of a smashed watch or clock recording the exact hour of a crime?",
-                "sentence_idx": 62,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"So that, the crime apparently taking place some two hours later, any one leaving by that train would have an unimpeachable alibi!\"",
-                "sentence_idx": 76,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"You heard me say to Giraud, did you not, that all the details of this crime were familiar to me?",
-                "sentence_idx": 93,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "_Eh bien___, that presupposes one of two things, either the brain that planned the first crime also planned this one, or else an account read of a _cause celebre___ unconsciously remained in our assassin's memory and prompted the details.",
-                "sentence_idx": 94,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "At first, as I told you, I was inclined to suspect her of being concerned in the crime.",
-                "sentence_idx": 129,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "deception",
-                "sentence": "There was no deception-the swoon was genuine.",
-                "sentence_idx": 141,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "But he did not return, and the next morning he is found, stabbed in the back.\"",
-                "sentence_idx": 160,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "But if you find order to start with, if a crime seems simple and above-board, _eh bien, mefiez vous!___ It is, how do you say it?-_cooked!___ The great criminal is simple-but very few criminals _are___ great.",
-                "sentence_idx": 210,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Ah, _mon ami___, I would that some day I could meet a really great criminal-one who commits his crime, and then-does nothing!",
-                "sentence_idx": 212,
-                "chapter_idx": 12,
-                "chapter_title": "Chapter 12 Poirot Elucidates Certain Points"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"That there has been another murder there last night!\"",
-                "sentence_idx": 257,
-                "chapter_idx": 13,
-                "chapter_title": "Chapter 13 The Girl with the Anxious Eyes"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Another murder-and Poirot away!",
-                "sentence_idx": 260,
-                "chapter_idx": 13,
-                "chapter_title": "Chapter 13 The Girl with the Anxious Eyes"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "He is stabbed-stabbed to the heart _with the same dagger!___\"",
-                "sentence_idx": 282,
-                "chapter_idx": 13,
-                "chapter_title": "Chapter 13 The Girl with the Anxious Eyes"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "He was stabbed to the heart, and death must have been pretty well instantaneous.\"",
-                "sentence_idx": 21,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Then I should be inclined to fix the crime as being done not long after that.\"",
-                "sentence_idx": 29,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Look at him, _mon petit___-does a man stabbed to the heart fall like that-neatly with his feet together, and his arms to his side?",
-                "sentence_idx": 37,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Again does a man lie down on his back and permit himself to be stabbed without raising a hand to defend himself?",
-                "sentence_idx": 39,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"Madame,\" said Giraud brutally, \"I am investigating not one murder, but two murders!",
-                "sentence_idx": 127,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "I know nothing of the crime-of either crime.",
-                "sentence_idx": 138,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Another crime!",
-                "sentence_idx": 178,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "He has been stabbed to the heart, as you see.",
-                "sentence_idx": 187,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I fancy that the murder followed hard upon the theft-but that is for you to say.",
-                "sentence_idx": 189,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "theft",
-                "sentence": "\"I fix it by the theft of the dagger,\" explained Giraud.",
-                "sentence_idx": 201,
-                "chapter_idx": 14,
-                "chapter_title": "Chapter 14 The Second Body"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Here was a man stabbed with a dagger which we knew to have been stolen only twenty-four hours previously, and yet Dr. Durand asserted positively that he had been dead at least forty-eight hours!",
-                "sentence_idx": 2,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Jack Renauld had been in Merlinville on the night of the crime!",
-                "sentence_idx": 31,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Remembering his frank boyish countenance, I could hardly bring myself to believe that he had any connection with the crime.",
-                "sentence_idx": 34,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "_There has been another murder!___\"",
-                "sentence_idx": 58,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Another murder?",
-                "sentence_idx": 67,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I must be right, therefore this new murder is impossible unless-unless-oh, wait, I implore you.",
-                "sentence_idx": 84,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "His body was found in the locked shed near the scene of the crime and had been dead at least forty-eight hours.",
-                "sentence_idx": 88,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "And it is most probable that he was stabbed in a similar manner to M. Renauld, though not necessarily in the back.\"",
-                "sentence_idx": 89,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "The man was stabbed _after he was dead___.\"",
-                "sentence_idx": 172,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "The incontrovertible fact that the man had been stabbed distracted my attention from any other indications.\"",
-                "sentence_idx": 199,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "The murder trial that had evoked such world-wide interest.",
-                "sentence_idx": 235,
-                "chapter_idx": 15,
-                "chapter_title": "Chapter 15 A Photograph"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Angered by his refusal, one of the men incontinently stabbed him through the heart.",
-                "sentence_idx": 37,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Madame Beroldy was arrested and charged with the murder of her husband.",
-                "sentence_idx": 44,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "The motive for the murder was found in Mr. Hiram P. Trapp.",
-                "sentence_idx": 54,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "It denounced the masked \"Russians\" as a myth, and asserted that the crime had been committed by Madame Beroldy and her lover, Georges Conneau.",
-                "sentence_idx": 63,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "It was from Georges Conneau and, without revealing his whereabouts, it contained a full confession of the crime.",
-                "sentence_idx": 67,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The crime had been planned between them.",
-                "sentence_idx": 69,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Believing that her husband ill-treated her, and maddened by his own passion for her, a passion which he believed her to return, he had planned the crime and struck the fatal blow that should free the woman he loved from a hateful bondage.",
-                "sentence_idx": 70,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Maddened by passion, he had committed the crime, vowing that if she did not keep silence he would enact a terrible vengeance from her.",
-                "sentence_idx": 77,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Terrified by his threats, she had consented-also fearing it likely that if she told the truth she might be accused of conniving at the crime.",
-                "sentence_idx": 78,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "She swore solemnly that she had had nothing to do with the planning of the crime, that she had awoke on that memorable night to find Georges Conneau standing over her, the blood-stained knife in his hand.",
-                "sentence_idx": 80,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "She admitted that, Georges Conneau having been her lover, she might perhaps be held morally responsible for the crime-but, before God, nothing more!",
-                "sentence_idx": 86,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "She had been guilty of much, but she was innocent of the terrible crime imputed to her.",
-                "sentence_idx": 90,
-                "chapter_idx": 16,
-                "chapter_title": "Chapter 16 The Beroldy Case"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "That in actual fact she was guilty of connivance in her husband's murder?\"",
-                "sentence_idx": 21,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Of that crime, perhaps.",
-                "sentence_idx": 29,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Why should Madame Daubreuil (I shall call her that for clearness sake) murder M. Renauld?",
-                "sentence_idx": 41,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "You cannot have a murder without a motive.",
-                "sentence_idx": 44,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The first crime was different, there we had a rich lover waiting to step into her husband's shoes.\"",
-                "sentence_idx": 45,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"Money is not the only motive for murder,\" I objected.",
-                "sentence_idx": 46,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "And there is the third rare motive, murder for an idea which implies some form of mental derangement on the part of the murderer.",
-                "sentence_idx": 49,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "It was not to link her life with that of her young lover that she connived at her husband's murder.",
-                "sentence_idx": 61,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "If she committed a crime, she would always do so for gain.",
-                "sentence_idx": 63,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "There are here not one crime, but two.",
-                "sentence_idx": 104,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "One may have a crime without a murderer, but for two crimes it is essential to have two bodies.\"",
-                "sentence_idx": 110,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "That changed the course of my ideas, and I asked Poirot if he knew that Jack Renauld had been in Merlinville on the night of the crime.",
-                "sentence_idx": 118,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Ask there at the cloak-room whether two foreigners deposited a valise there on the night of the murder.",
-                "sentence_idx": 138,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Why did you not mention to M. Hautet this morning that you were in Merlinville on the night of the crime?\"",
-                "sentence_idx": 148,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I suppose you do not mean to accuse me of participating in my father's murder?\" He asked the question haughtily, his head thrown back.",
-                "sentence_idx": 158,
-                "chapter_idx": 17,
-                "chapter_title": "Chapter 17 We Make Further Investigations"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "You asked me if any one were suspected of the crime.\"",
-                "sentence_idx": 31,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"You know, of course, that he was here on the night of the murder?\" he asked.",
-                "sentence_idx": 54,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Did you notice his hesitation when I asked him if he saw Marthe Daubreuil on the night of the crime?",
-                "sentence_idx": 105,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"Surely, Poirot,\" I cried, aghast, \"you cannot believe that a boy like that would murder his own father.\"",
-                "sentence_idx": 112,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Giraud would say that he was an accomplice-an apache who helped young Renauld to commit the crime, and who was conveniently put out of the way afterwards.\"",
-                "sentence_idx": 122,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "He is under arrest for the murder of his father, M. Paul Renauld.\"",
-                "sentence_idx": 165,
-                "chapter_idx": 18,
-                "chapter_title": "Chapter 18 Giraud Acts"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "There is no man who actually benefits by the crime, but there was a man who thought he would benefit.",
-                "sentence_idx": 30,
-                "chapter_idx": 19,
-                "chapter_title": "Chapter 19 I Use My Grey Cells"
-            },
-            {
-                "matched_term": "stabbed",
-                "sentence": "Without doubt, he saw Captain Hastings and his companion leave the shed, slipped in himself and took the dagger, stabbed his accomplice in the shed-\"",
-                "sentence_idx": 49,
-                "chapter_idx": 19,
-                "chapter_title": "Chapter 19 I Use My Grey Cells"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "In any case he knew this apparent second murder would greatly complicate the case.",
-                "sentence_idx": 55,
-                "chapter_idx": 19,
-                "chapter_title": "Chapter 19 I Use My Grey Cells"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "He could not blackmail her, for she had the whip hand.",
-                "sentence_idx": 53,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Georges Conneau, remember, is still wanted for murder.",
-                "sentence_idx": 54,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "But in investigating crime we must take our stand upon the commonplace.",
-                "sentence_idx": 62,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "If she was innocent of connivance in the crime, it was concocted by her, and by her only as she stated.",
-                "sentence_idx": 68,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Georges Conneau, therefore, planned the crime with Madame Renauld as his accomplice.",
-                "sentence_idx": 74,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "\"As to the first points, the question seems to be whether we adopt the theory of blackmail, or of an infatuation for this woman.\"",
-                "sentence_idx": 99,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "Blackmail",
-                "sentence": "\"Blackmail, decidedly.",
-                "sentence_idx": 100,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "But later we have the incident of the wrist watch-which again shows us that time plays a very important part in the crime.",
-                "sentence_idx": 180,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "It is half-past ten when Bella Duveen leaves, and by the evidence of the wrist watch we know that the crime was committed, or at any rate that it was staged, before twelve o'clock.",
-                "sentence_idx": 182,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "We have reviewed all the events anterior to the murder, there remains only one unplaced.",
-                "sentence_idx": 183,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Now, _mon ami___, let me ask you a question; who do we believe to have planned this crime?\"",
-                "sentence_idx": 218,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "And, still attributing the crime to Georges Conneau, the first is equally so.",
-                "sentence_idx": 223,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "\"How 'impossible?' Did we not agree just now that Madame Daubreuil was in a position to blackmail Georges Conneau?\"",
-                "sentence_idx": 245,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "\"And did she not very effectively blackmail M. Renauld?\"",
-                "sentence_idx": 247,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Why, we have admitted Georges Conneau planned the crime.",
-                "sentence_idx": 253,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "That brings us to the ridiculous statement that he planned his own murder!\"",
-                "sentence_idx": 254,
-                "chapter_idx": 20,
-                "chapter_title": "Chapter 20 An Amazing Statement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"For the crime that M. Renauld proposed a murderer was not necessary, as I told you, but a body was.",
-                "sentence_idx": 8,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Since the crime will be supposed to have taken place two hours later, no suspicion can possibly attach to him.",
-                "sentence_idx": 53,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The first crime, the crime that M. Renauld, in his arrogance, asked us to investigate (ah, but he made a famous mistake there!",
-                "sentence_idx": 67,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "The possibility of her son being accused of the murder never occurred to her.",
-                "sentence_idx": 104,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "blackmail",
-                "sentence": "Final and most bitter blow, she has admitted publicly that Madame Daubreuil was her husband's mistress-for a hint of blackmail might be fatal to her secret.",
-                "sentence_idx": 118,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The crime need not have been premeditated.",
-                "sentence_idx": 139,
-                "chapter_idx": 21,
-                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Did he suspect her of having seen Jack Renauld commit the crime?",
-                "sentence_idx": 18,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "What had brought her back to the scene of the murder?",
-                "sentence_idx": 21,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The crime had been committed on Tuesday night.",
-                "sentence_idx": 29,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "I don't believe for a minute that you meant to kill him.",
-                "sentence_idx": 175,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "But you did kill him, Cinderella.\"",
-                "sentence_idx": 176,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "If you have any idea that she was concerned in the crime, or was the mysterious lady who called upon Mr. Renauld that night, you are wrong.",
-                "sentence_idx": 261,
-                "chapter_idx": 22,
-                "chapter_title": "Chapter 22 I Find Love"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "As yet she was in total ignorance of the fact that her former lover was in prison charged with a hideous crime which he had not committed.",
-                "sentence_idx": 113,
-                "chapter_idx": 23,
-                "chapter_title": "Chapter 23 Difficulties Ahead"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The circumstances of the crime were quite different in her case.",
-                "sentence_idx": 122,
-                "chapter_idx": 23,
-                "chapter_title": "Chapter 23 Difficulties Ahead"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "The fact that by a tragic mistake it was old Mr. Renauld, and not his son, who paid the penalty would not alter the motive of the crime.",
-                "sentence_idx": 124,
-                "chapter_idx": 23,
-                "chapter_title": "Chapter 23 Difficulties Ahead"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "I liked the young man, and should be sorry to believe him guilty of such a hideous crime.",
-                "sentence_idx": 25,
-                "chapter_idx": 24,
-                "chapter_title": "Chapter 24 \"Save Him!\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Then you do not believe that Jack Renauld committed the crime?\" I asked eagerly.",
-                "sentence_idx": 116,
-                "chapter_idx": 24,
-                "chapter_title": "Chapter 24 \"Save Him!\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Is it true what they say, that he does not deny the crime?",
-                "sentence_idx": 193,
-                "chapter_idx": 24,
-                "chapter_title": "Chapter 24 \"Save Him!\""
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Renauld,\" began the magistrate, \"do you deny that you were in Merlinville on the night of the crime?\"",
-                "sentence_idx": 9,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "Because it was the following morning, June 8th, that we heard of the murder.\"",
-                "sentence_idx": 29,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"Madame Renauld told us that this dagger was on her dressing table on the night of the crime.",
-                "sentence_idx": 58,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "\"M. Hautet, I swear that I did not kill my father.\"",
-                "sentence_idx": 77,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "You killed your father, Renauld-cruel and cowardly murder-for the sake of money which you believed would come to you at his death.",
-                "sentence_idx": 83,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "Your crime was a horrible one-to be held in abhorrence by gods and men!\"",
-                "sentence_idx": 87,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "I wish to give myself up for the murder of Mr. Renauld.\"",
-                "sentence_idx": 109,
-                "chapter_idx": 25,
-                "chapter_title": "Chapter 25 An Unexpected Denouement"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "You see, M. Poirot, in a way I _do___ feel guilty of my father's murder.",
-                "sentence_idx": 24,
-                "chapter_idx": 27,
-                "chapter_title": "Chapter 27 Jack Renauld's Story"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "And were met by the news of M. Renauld's murder?\"",
-                "sentence_idx": 90,
-                "chapter_idx": 27,
-                "chapter_title": "Chapter 27 Jack Renauld's Story"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "This is not a crime well ordered and regular, such as a detective delights in.",
-                "sentence_idx": 107,
-                "chapter_idx": 27,
-                "chapter_title": "Chapter 27 Jack Renauld's Story"
-            },
-            {
-                "matched_term": "kill",
-                "sentence": "\"Madame will kill herself.",
-                "sentence_idx": 136,
-                "chapter_idx": 27,
-                "chapter_title": "Chapter 27 Jack Renauld's Story"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"But, monsieur,\" cried Francoise, \"Madame changed her room almost immediately after the crime!",
-                "sentence_idx": 9,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "They both arrived on the scene at the same instant, and each took the other to be the perpetrator of the crime.",
-                "sentence_idx": 45,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "But, when she hears that the crime has been brought home to him, she cannot bear it, and comes forward to accuse herself and save him from certain death.\"",
-                "sentence_idx": 47,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "\"All along I was strongly under the impression that we were dealing with a cold-blooded and premeditated crime committed by some one who had been contented (very cleverly) with using M. Renauld's own plans for throwing the police off the track.",
-                "sentence_idx": 50,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "When she actually came forward and confessed to the murder, it seemed that all was over.",
-                "sentence_idx": 93,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "crime",
-                "sentence": "If it was _not___ Bella Duveen, the only other person who could have committed the crime was Marthe Daubreuil.",
-                "sentence_idx": 96,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            },
-            {
-                "matched_term": "murder",
-                "sentence": "\"And her object was to murder Mrs. Renauld?\"",
-                "sentence_idx": 124,
-                "chapter_idx": 28,
-                "chapter_title": "Chapter 28 Journey's End"
-            }
-        ]
-    },
     "perpetrator": {
         "matched_terms": [
-            "Daubreuil",
+            "murderers",
+            "Marthe Daubreuil",
+            "perpetrator",
+            "murderer",
             "Madame Daubreuil",
             "Marthe",
-            "murderer",
-            "perpetrator",
-            "Marthe Daubreuil"
+            "Daubreuil"
         ],
         "mentions": [
             {
@@ -5088,11 +3948,39 @@
                 "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
             },
             {
+                "matched_term": "murderers",
+                "sentence": "It seems almost certain that the murderers entered that way, yet it has not been forced at all.",
+                "sentence_idx": 131,
+                "chapter_idx": 5,
+                "chapter_title": "Chapter 5 Mrs. Renauld's Story"
+            },
+            {
                 "matched_term": "Madame Daubreuil",
                 "sentence": "It seemed unlikely that Madame Daubreuil had any connection with the crime, and he was anxious not to upset Mrs. Renauld more than necessary.",
                 "sentence_idx": 164,
                 "chapter_idx": 5,
                 "chapter_title": "Chapter 5 Mrs. Renauld's Story"
+            },
+            {
+                "matched_term": "murderers",
+                "sentence": "I know all about the case, and the people at the house will do very well until tomorrow, but, if we're going to find a clue to the murderers, here is the spot we shall find it.",
+                "sentence_idx": 91,
+                "chapter_idx": 6,
+                "chapter_title": "Chapter 6 The Scene of the Crime"
+            },
+            {
+                "matched_term": "murderers",
+                "sentence": "I meant _little___ things-traces that may lead us infallibly to the murderers.\"",
+                "sentence_idx": 14,
+                "chapter_idx": 7,
+                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
+            },
+            {
+                "matched_term": "murderers",
+                "sentence": "For instance, if the object of the murderers was revenge, why did they not stab Renauld in his sleep and have done with it?\"",
+                "sentence_idx": 24,
+                "chapter_idx": 7,
+                "chapter_title": "Chapter 7 The Mysterious Madame Daubreuil"
             },
             {
                 "matched_term": "Madame Daubreuil",
@@ -5315,6 +4203,13 @@
                 "matched_term": "Marthe",
                 "sentence": "I wrote to Marthe, telling her what had happened, and her reply soothed me still further.",
                 "sentence_idx": 149,
+                "chapter_idx": 11,
+                "chapter_title": "Chapter 11 Jack Renauld"
+            },
+            {
+                "matched_term": "murderers",
+                "sentence": "Indeed, I wonder that he has not already laid his hands upon the murderers!",
+                "sentence_idx": 308,
                 "chapter_idx": 11,
                 "chapter_title": "Chapter 11 Jack Renauld"
             },
@@ -5721,6 +4616,13 @@
                 "matched_term": "Madame Daubreuil",
                 "sentence": "It is essential that the body should be found-Madame Daubreuil must have no suspicions.",
                 "sentence_idx": 50,
+                "chapter_idx": 21,
+                "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
+            },
+            {
+                "matched_term": "murderers",
+                "sentence": "She cannot say a word to set us on the track of the real murderers.",
+                "sentence_idx": 116,
                 "chapter_idx": 21,
                 "chapter_title": "Chapter 21 Hercule Poirot on the Case!"
             },
@@ -6141,22 +5043,23 @@
     },
     "suspect": {
         "matched_terms": [
-            "Leonie Oulard",
-            "Jack",
             "Renauld",
-            "Denise",
-            "Leonie",
-            "Bex",
+            "Dulcie",
             "Bella",
-            "M. Bex",
-            "Eloise",
-            "Bella Duveen",
+            "Leonie",
+            "suspect",
+            "Jack",
             "Captain",
+            "Dulcie Duveen",
+            "M. Bex",
+            "Denise",
+            "suspects",
+            "Bella Duveen",
+            "Leonie Oulard",
+            "Bex",
             "Duveen",
             "Dulcibella",
-            "suspect",
-            "Dulcie Duveen",
-            "Dulcie"
+            "Eloise"
         ],
         "mentions": [
             {
@@ -6506,6 +5409,13 @@
                 "matched_term": "Renauld",
                 "sentence": "\"Obviously M. Renauld was entangled with this Englishwoman-Bella.",
                 "sentence_idx": 35,
+                "chapter_idx": 4,
+                "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
+            },
+            {
+                "matched_term": "suspects",
+                "sentence": "He cools off to the other, and she instantly suspects something.",
+                "sentence_idx": 37,
                 "chapter_idx": 4,
                 "chapter_title": "Chapter 4 The Letter Signed \"Bella\""
             },
@@ -10302,6 +9212,21 @@
                 "sentence_idx": 242,
                 "chapter_idx": 28,
                 "chapter_title": "Chapter 28 Journey's End"
+            }
+        ]
+    },
+    "crime": {
+        "matched_terms": [
+            "stabbed in the back",
+            "crime"
+        ],
+        "mentions": [
+            {
+                "matched_term": "stabbed in the back",
+                "sentence": "Going to call her mistress as usual, a younger maid, Leonie, was horrified to discover her gagged and bound, and almost at the same moment news was brought that M. Renauld's body had been discovered, stone dead, stabbed in the back.\"",
+                "sentence_idx": 90,
+                "chapter_idx": 3,
+                "chapter_title": "Chapter 3 At the Villa Genevieve"
             }
         ]
     }

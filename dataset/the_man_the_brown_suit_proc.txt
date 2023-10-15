@@ -105,7 +105,7 @@ Just like a doctor, or a butcher, or a plumber--"<EOS>
 "Or any other business man," finished Nadina.<EOS>
 "It should not surprise us.<EOS>
 That is what the 'Colonel<INVESTIGATOR>' has always been-an excellent man of business.<EOS>
-He has organized crime<CRIME> as another man might organize a boot factory.<EOS>
+He has organized crime as another man might organize a boot factory.<EOS>
 Without committing himself, he has planned and directed a series of stupendous _coups,_ embracing every branch of what we might call his 'profession.'<EOS>
 Jewel robberies, forgery, espionage (the latter very profitable in war-time), sabotage, discreet assassination, there is hardly anything he has not touched.<EOS>
 Wisest of all, he knows when to stop.<EOS>
@@ -797,7 +797,7 @@ I read eagerly.<EOS>
 
 "A sensational discovery was made yesterday at the Mill House, Marlow.<EOS>
 The Mill House, which is the property of Sir Eustace Pedler<PERPETRATOR>, M.P., is to be let unfurnished, and an order to view this property was found in the pocket of the man who was at first thought to have committed suicide by throwing himself on the live rail at Hyde Park Corner Tube Station.<EOS>
-In an upper room of the Mill House the body of a beautiful young woman was discovered yesterday, strangled.<EOS>
+In an upper room of the Mill House the body of a beautiful young woman was discovered yesterday, strangled<CRIME>.<EOS>
 She is thought to be a foreigner, but so far has not been identified.<EOS>
 The police are reported to have a clue.<EOS>
 Sir Eustace Pedler<PERPETRATOR>, the owner of the Mill House, is wintering on the Riviera."<EOS>
@@ -838,7 +838,7 @@ The police surgeon gave it as his opinion that the woman had been dead about twe
 The _Daily Budget_ had jumped to the conclusion that the man in the Tube had murdered the woman and afterwards committed suicide.<EOS>
 However, as the Tube victim was dead at two o'clock, and the woman was alive and well at three o'clock, the only logical conclusion to come to was that the two occurrences had nothing to do with each other, and that the order to view the house at Marlow found in the dead man's pocket was merely one of those coincidences which so often occur in this life.<EOS>
 
-A verdict of "Wilful Murder<CRIME> against some person or persons unknown" was returned, and the police (and the _Daily Budget_) were left to look for "the man in the brown suit."<EOS>
+A verdict of "Wilful Murder against some person or persons unknown" was returned, and the police (and the _Daily Budget_) were left to look for "the man in the brown suit."<EOS>
 Since Mrs. James was positive that there was no one in the house when the lady entered it, and that nobody except the young man in question entered it until the following afternoon, it seemed only logical to conclude that he was the murderer<PERPETRATOR> of the unfortunate Mrs. de Castina.<EOS>
 She had been strangled with a piece of stout black cord, and had evidently been caught unawares with no time to cry out.<EOS>
 The black silk handbag which she carried contained a well-filled notecase and some loose change, a fine lace handkerchief, unmarked, and the return half of a first-class ticket to London.<EOS>
@@ -1199,7 +1199,7 @@ I sat back gloomily on my heels (I always sit on the floor to do anything really
 Was there any other line I could follow?<EOS>
 I reflected earnestly and then sprang to my feet delightedly.<EOS>
 Of course!<EOS>
-I must visit the "scene of the crime<CRIME>."<EOS>
+I must visit the "scene of the crime."<EOS>
 Always done by the best sleuths!<EOS>
 And no matter how long afterwards it may be, they always find something that the police have overlooked.<EOS>
 My course was clear.<EOS>
@@ -1227,7 +1227,7 @@ In the end I feared I had drawn a blank.<EOS>
 (Really, faltering is getting to be my strong point.)
 
 "That's it!<EOS>
-Where the murder<CRIME> took place.<EOS>
+Where the murder took place.<EOS>
 But perhaps you wouldn't like--"<EOS>
 
 "Oh, I don't think I should mind," I said with an appearance of rallying.<EOS>
@@ -1292,7 +1292,7 @@ I put another question.<EOS>
 
 "Not a bit.<EOS>
 She was smiling to herself, quiet like, as though she was amused at something.<EOS>
-That's why you could have knocked me down with a feather when, the next afternoon, those people came running out calling for the police and saying there'd been murder<CRIME> done.<EOS>
+That's why you could have knocked me down with a feather when, the next afternoon, those people came running out calling for the police and saying there'd been murder done.<EOS>
 I shall never get over it, and as for setting foot in that house after dark I wouldn't do it, not if it was ever so.<EOS>
 Why, I wouldn't even stay here at the lodge, if Sir Eustace hadn't been down on his bended knees to me."<EOS>
 
@@ -1329,7 +1329,7 @@ Mrs. James stared at me with awe.<EOS>
 
 "Well, now you come to mention it, miss, it _was._ However did you know?"<EOS>
 
-"It's a curious thing, but murderers often have shiny chins," I explained wildly.<EOS>
+"It's a curious thing, but murderers<PERPETRATOR> often have shiny chins," I explained wildly.<EOS>
 
 Mrs. James accepted the statement in all good faith.<EOS>
 
@@ -1410,7 +1410,7 @@ Here was a find!<EOS>
 I realized, of course, that these films might very well be an old roll belonging to Sir Eustace Pedler<PERPETRATOR> which had rolled in here and had not been found when the cupboard was emptied.<EOS>
 But I did not think so.<EOS>
 The red paper was far too fresh-looking.<EOS>
-It was just as dusty as it would have been had it laid there for two or three days-that is to say, since the murder<CRIME>.<EOS>
+It was just as dusty as it would have been had it laid there for two or three days-that is to say, since the murder.<EOS>
 Had it been there for any length of time, it would have been thickly coated.<EOS>
 
 Who had dropped it?<EOS>
@@ -1928,7 +1928,7 @@ I laughed.<EOS>
 
 "Nothing like fresh air," said Colonel Race<INVESTIGATOR>, smiling.<EOS>
 
-"Being shut up in those stuffy cabins would kill<CRIME> any one," declared Mrs. Blair<SUSPECT>, dropping into a seat by my side and dismissing her companion with a little nod.<EOS>
+"Being shut up in those stuffy cabins would kill any one," declared Mrs. Blair<SUSPECT>, dropping into a seat by my side and dismissing her companion with a little nod.<EOS>
 "You've got an outside one, I hope?"<EOS>
 
 I shook my head.<EOS>
@@ -2354,7 +2354,7 @@ Then I saw something that made me catch my breath, a small scarlet spot on the f
 Using all my strength, I succeeded in dragging the man out into the middle of the cabin.<EOS>
 The dead whiteness of his face showed that he had fainted.<EOS>
 I found the cause of his fainting easily enough.<EOS>
-He had been stabbed<CRIME> under the left shoulder-blade-a nasty deep wound.<EOS>
+He had been stabbed under the left shoulder-blade-a nasty deep wound.<EOS>
 I got his coat off and set to work to attend to it.<EOS>
 
 At the sting of the cold water he stirred, then sat up.<EOS>
@@ -2433,7 +2433,7 @@ he said explosively.<EOS>
 You can't get out of it.<EOS>
 I saved your life and I'm waiting for you to say 'Thank you.'"<EOS>
 
-If looks could have killed, I think he would have liked to kill<CRIME> me then.<EOS>
+If looks could have killed, I think he would have liked to kill me then.<EOS>
 He pushed roughly past me.<EOS>
 At the door he turned back, and spoke over his shoulder.<EOS>
 
@@ -2523,8 +2523,8 @@ The events of last night, though exciting, had not really done anything to eluci
 Who was the young man who had burst into my cabin so abruptly?<EOS>
 I had not seen him on board previously, either on deck or in the saloon.<EOS>
 Was he one of the ship's company or was he a passenger?<EOS>
-Who had stabbed<CRIME> him?<EOS>
-Why had they stabbed<CRIME> him?<EOS>
+Who had stabbed him?<EOS>
+Why had they stabbed him?<EOS>
 And why, in the name of goodness, should Cabin No.<EOS>
 17 figure so prominently?<EOS>
 It was all a mystery, but there was no doubt that some very peculiar occurrences were taking place on the _Kilmorden Castle._
@@ -2606,7 +2606,7 @@ No, Mr. Chichester-too weak for words!<EOS>
 
 He soon left me with a muttered excuse.<EOS>
 I wished, oh, how I wished, that I had been the one to pick up that paper and not Sir Eustace Pedler<PERPETRATOR>!<EOS>
-One thing was clear, Mr. Chichester could not be exempted from my list of suspects.<EOS>
+One thing was clear, Mr. Chichester could not be exempted from my list of suspects<SUSPECT>.<EOS>
 I was inclined to put him top of the three.<EOS>
 
 After lunch, when I came up to the lounge for coffee, I noticed Sir Eustace and Pagett<SUSPECT> sitting with Mrs. Blair<SUSPECT> and Colonel Race<INVESTIGATOR>.<EOS>
@@ -2642,7 +2642,7 @@ Then with a murmured excuse, he rose and left the table.<EOS>
 "Whenever Florence or Italy is mentioned, he changes the subject, or bolts precipitately."<EOS>
 
 "Perhaps he murdered some one there," said Mrs. Blair<SUSPECT> hopefully.<EOS>
-"He looks-I hope I'm not hurting your feelings, Sir Eustace-but he does look as though he might murder<CRIME> some one."<EOS>
+"He looks-I hope I'm not hurting your feelings, Sir Eustace-but he does look as though he might murder some one."<EOS>
 
 "Yes, pure Cinquecento!<EOS>
 It amuses me sometimes-especially when one knows as well as I do how essentially law-abiding and respectable the poor fellow really is."<EOS>
@@ -3335,12 +3335,12 @@ Is that agreed?"<EOS>
 
 "Good girl.<EOS>
 Now let's get down to business.<EOS>
-You say that in Sir Eustace's secretary-not that long-faced Pagett<SUSPECT>, the other one-you recognized the man who was stabbed<CRIME> and came into your cabin for shelter?"<EOS>
+You say that in Sir Eustace's secretary-not that long-faced Pagett<SUSPECT>, the other one-you recognized the man who was stabbed and came into your cabin for shelter?"<EOS>
 
 I nodded.<EOS>
 
 "That gives us two links connecting Sir Eustace with the tangle.<EOS>
-The woman was murdered in _his_ house, and it's _his_ secretary who gets stabbed<CRIME> at the mystic hour of one o'clock.<EOS>
+The woman was murdered in _his_ house, and it's _his_ secretary who gets stabbed at the mystic hour of one o'clock.<EOS>
 I don't suspect<SUSPECT> Sir Eustace himself, but it can't be all coincidence.<EOS>
 There's a connection somewhere even if he himself is unaware of it."<EOS>
 
@@ -3643,13 +3643,13 @@ Not Eardsley but-what was his name?-Lucas!"<EOS>
 It's the diamonds all these people are after.<EOS>
 It must have been to obtain possession of the diamonds that 'The Man in the Brown Suit' killed Nadina."<EOS>
 
-"He didn't kill<CRIME> her," I said sharply.<EOS>
+"He didn't kill her," I said sharply.<EOS>
 
 "Of course he killed her.<EOS>
 Who else could have done so?"<EOS>
 
 "I don't know.<EOS>
-But I'm sure he didn't kill<CRIME> her."<EOS>
+But I'm sure he didn't kill her."<EOS>
 
 "He went into that house three minutes after her and came out as white as a sheet."<EOS>
 
@@ -3987,7 +3987,7 @@ But with an incoherent muttered excuse, my victim rose and fled.<EOS>
 
 That night I invaded Suzanne's cabin, alight with excitement.<EOS>
 
-"You see, Suzanne," I urged, as I finished my tale, "he was in England, in Marlow, at the time of the murder<CRIME>.<EOS>
+"You see, Suzanne," I urged, as I finished my tale, "he was in England, in Marlow, at the time of the murder.<EOS>
 Are you so sure now that 'The Man in the Brown Suit' is guilty."<EOS>
 
 "I'm sure of one thing," said Suzanne, twinkling unexpectedly.<EOS>
@@ -4213,9 +4213,9 @@ Throw it overboard?" he asked carelessly.<EOS>
 But we will leave him to recover at his leisure.<EOS>
 He is not seriously hurt."<EOS>
 
-"You shrink from a second murder<CRIME>, I see," I said sweetly.<EOS>
+"You shrink from a second murder, I see," I said sweetly.<EOS>
 
-"A second murder<CRIME>?"<EOS>
+"A second murder?"<EOS>
 
 He looked genuinely puzzled.<EOS>
 
@@ -4225,7 +4225,7 @@ An ugly brooding expression settled down on his face.<EOS>
 He seemed to have forgotten my presence.<EOS>
 
 "I might have killed her," he said.<EOS>
-"Sometimes I believe that I meant to kill<CRIME> her.<EOS>
+"Sometimes I believe that I meant to kill her.<EOS>
 .<EOS>
 .<EOS>
 ."<EOS>
@@ -5187,7 +5187,7 @@ Suzanne made one of her sympathetic noises again and Sir Eustace proceeded in a 
 "And, if that's not enough, the fellow who murdered her has the impudence, the colossal impudence, to attach himself to me as my secretary.<EOS>
 My secretary, if you please!<EOS>
 I'm tired of secretaries, I won't have any more secretaries.<EOS>
-Either they're concealed murderers or else they're drunken brawlers.<EOS>
+Either they're concealed murderers<PERPETRATOR> or else they're drunken brawlers.<EOS>
 Have you seen Pagett<SUSPECT>'s black eye?<EOS>
 But of course you have.<EOS>
 How can I go about with a secretary like that?<EOS>
@@ -5429,7 +5429,7 @@ He had turned the tables on me adroitly.<EOS>
 His manner towards me had changed, moreover.<EOS>
 It was full of an uneasy geniality which sat ill upon him, and which nauseated me.<EOS>
 The man was an oily hypocrite.<EOS>
-First he tried to murder<CRIME> me, and now he paid me compliments!<EOS>
+First he tried to murder me, and now he paid me compliments!<EOS>
 Did he imagine for one minute that I hadn't recognized him that night on the boat?<EOS>
 No, it was a pose, a pose which he forced me to acquiesce in, his tongue in his cheek all the while.<EOS>
 
@@ -5549,9 +5549,9 @@ I hailed the next tram and, as I expected, my shadower also got on.<EOS>
 I gave myself up to some very serious thinking.<EOS>
 
 It was perfectly apparent that I had stumbled on a bigger thing than I knew.<EOS>
-The murder<CRIME> in the house at Marlow was not an isolated incident committed by a solitary individual.<EOS>
+The murder in the house at Marlow was not an isolated incident committed by a solitary individual.<EOS>
 I was up against a gang, and, thanks to Colonel Race<INVESTIGATOR>'s revelations to Suzanne, and what I had overheard at the house at Muizenberg, I was beginning to understand some of its manifold activities.<EOS>
-Systematized crime<CRIME>, organized by the man known to his followers as the "Colonel<INVESTIGATOR>"!<EOS>
+Systematized crime, organized by the man known to his followers as the "Colonel<INVESTIGATOR>"!<EOS>
 I remembered some of the talk I had heard on board ship, of the strike on the Rand and the causes underlying it-and the belief that some secret organization was at work fomenting the agitation.<EOS>
 That was the "Colonel<INVESTIGATOR>'s" work, his emissaries were acting according to plan.<EOS>
 He took no part in these things himself, I had always heard, as he limited himself to directing and organizing.<EOS>
@@ -6003,7 +6003,7 @@ I was silent for a minute or two, and then went on musingly:<EOS>
 I don't really suspect<SUSPECT> him-but, after all, he _is_ Pagett<SUSPECT>'s employer, and he _did_ own the Mill House."<EOS>
 
 "I've always heard that he made his money in some way he isn't anxious to talk about," said Suzanne thoughtfully.<EOS>
-"But that doesn't necessarily mean crime<CRIME>-it might be tin-tacks or hair restorer!"<EOS>
+"But that doesn't necessarily mean crime-it might be tin-tacks or hair restorer!"<EOS>
 
 I agreed ruefully.<EOS>
 
@@ -6056,7 +6056,7 @@ The solution of all my difficulties lay ready to my hand, though I didn't think 
 The _Daily Budget!_ My silence or my speech could no longer affect Harry Rayburn.<EOS>
 He was marked down as "The Man in the Brown Suit" through no fault of mine.<EOS>
 I could help him best by seeming to be against him.<EOS>
-The "Colonel<INVESTIGATOR>" and his gang must have no suspicion that there existed any friendly feeling between me and the man they had elected to be the scapegoat of the murder<CRIME> at Marlow.<EOS>
+The "Colonel<INVESTIGATOR>" and his gang must have no suspicion that there existed any friendly feeling between me and the man they had elected to be the scapegoat of the murder at Marlow.<EOS>
 As far as I knew, the woman killed was still unidentified.<EOS>
 I would cable to Lord Nasby, suggesting that she was no other than the famous Russian dancer "Nadina" who had been delighting Paris for so long.<EOS>
 It seemed incredible to me that she had not been identified already-but when I learnt more of the case long afterwards I saw how natural it really was.<EOS>
@@ -6065,14 +6065,14 @@ Nadina had never been to England during her successful career in Paris.<EOS>
 She was unknown to London audiences.<EOS>
 The pictures in the papers of the Marlow victim were so blurred and unrecognizable that it is small wonder no one identified them.<EOS>
 And, on the other hand, Nadina had kept her intention of visiting England a profound secret from every one.<EOS>
-The day after the murder<CRIME> a letter had been received by her manager purporting to be from the dancer, in which she said that she was returning to Russia on urgent private affairs and that he must deal with her broken contract as best he could.<EOS>
+The day after the murder a letter had been received by her manager purporting to be from the dancer, in which she said that she was returning to Russia on urgent private affairs and that he must deal with her broken contract as best he could.<EOS>
 
 All this, of course, I only learned afterwards.<EOS>
 With Suzanne's full approval, I sent a long cable from De Aar.<EOS>
 It arrived at a psychological moment (this again, of course, I learnt afterwards).<EOS>
 The _Daily Budget_ was hard up for a sensation.<EOS>
 My guess was verified and proved to be correct and the _Daily Budget_ had the scoop of its lifetime.<EOS>
-"Victim of the Mill House Murder<CRIME> identified by our special reporter."<EOS>
+"Victim of the Mill House Murder identified by our special reporter."<EOS>
 And so on.<EOS>
 "Our reporter makes voyage with the murderer<PERPETRATOR>.<EOS>
 'The Man in the Brown Suit.'<EOS>
@@ -6970,7 +6970,7 @@ His face grew grim and set.<EOS>
 "I've got my work ready to hand.<EOS>
 Don't ask what it is.<EOS>
 You can guess, I dare say.<EOS>
-But I'll tell you this-I'll clear my name, or die in the attempt, and I'll choke the life out of the damned scoundrel who did his best to murder<CRIME> you the other night."<EOS>
+But I'll tell you this-I'll clear my name, or die in the attempt, and I'll choke the life out of the damned scoundrel who did his best to murder you the other night."<EOS>
 
 "We must be fair," I said.<EOS>
 "He didn't actually push me over."<EOS>
@@ -7195,7 +7195,7 @@ Then I started to jump to conclusions.<EOS>
 Not knowing that Sir Eustace was at Cannes, I thought that this house-hunting business was a mere pretext for meeting him in the Mill House.<EOS>
 I knew that he had been in South Africa at the time of the robbery, and never having seen him I immediately leaped to the conclusion that he himself was the mysterious 'Colonel<INVESTIGATOR>' of whom I had heard so much.<EOS>
 
-"I followed my two suspects along Knightsbridge.<EOS>
+"I followed my two suspects<SUSPECT> along Knightsbridge.<EOS>
 Nadina went into the Hyde Park Hotel.<EOS>
 I quickened my pace and went in also.<EOS>
 She walked straight into the restaurant, and I decided that I would not risk her recognizing me at the moment, but would continue to follow Carton.<EOS>
@@ -7224,19 +7224,19 @@ There was a tense silence.<EOS>
 
 "You will believe me, Anne, won't you?<EOS>
 I swear before God that what I am going to say is true.<EOS>
-I went into the house after her with something very like murder<CRIME> in my heart-and she was dead!<EOS>
+I went into the house after her with something very like murder in my heart-and she was dead!<EOS>
 I found her in that first-floor room-God!<EOS>
 It was horrible.<EOS>
 Dead-and I was not more than three minutes behind her.<EOS>
 And there was no sign of any one else in the house!<EOS>
 Of course I realized at once the terrible position I was in.<EOS>
-By one master-stroke the blackmailed had rid himself of the blackmailer, and at the same time had provided a victim to whom the crime<CRIME> would be ascribed.<EOS>
+By one master-stroke the blackmailed had rid himself of the blackmailer, and at the same time had provided a victim to whom the crime would be ascribed.<EOS>
 The hand of the 'Colonel<INVESTIGATOR>' was very plain.<EOS>
 For the second time I was to be his victim.<EOS>
 Fool that I had been to walk into the trap so easily.<EOS>
 
 "I hardly know what I did next.<EOS>
-I managed to go out of the place looking fairly normal, but I knew that it could not be long before the crime<CRIME> was discovered and a description of my appearance telegraphed all over the country.<EOS>
+I managed to go out of the place looking fairly normal, but I knew that it could not be long before the crime was discovered and a description of my appearance telegraphed all over the country.<EOS>
 
 "I lay low for some days, not daring to make a move.<EOS>
 In the end chance came to my aid.<EOS>
@@ -7246,7 +7246,7 @@ The fragment of conversation I had overheard gave me my clue.<EOS>
 I was now no longer so sure that Sir Eustace Pedler<PERPETRATOR> was the 'Colonel<INVESTIGATOR>.'<EOS>
 His house might have been appointed as a rendezvous by accident, or for some obscure motive that I had not fathomed."<EOS>
 
-"Do you know," I interrupted, "that Guy Pagett<SUSPECT> was in Marlow at the date of the murder<CRIME>?"<EOS>
+"Do you know," I interrupted, "that Guy Pagett<SUSPECT> was in Marlow at the date of the murder?"<EOS>
 
 "That settles it then.<EOS>
 I thought he was at Cannes with Sir Eustace."<EOS>
@@ -7283,7 +7283,7 @@ Of course, after hearing his story, I realized the point of Carton's little arra
 No surprise tactics executed against her or her husband could result in the seizure of the diamonds.<EOS>
 The secret was locked in her own brain, and the "Colonel<INVESTIGATOR>" was not likely to guess that they had been entrusted to the keeping of an ocean steward!<EOS>
 
-Harry's vindication from the old charge of theft<CRIME> seemed assured.<EOS>
+Harry's vindication from the old charge of theft seemed assured.<EOS>
 It was the other, graver charge that paralyzed all our activities.<EOS>
 For, as things stood, he could not come out in the open to prove his case.<EOS>
 
@@ -7367,7 +7367,7 @@ The man might have merely asked him the time."<EOS>
 
 "Not exactly.<EOS>
 There's a method in all this, connecting Pagett<SUSPECT> with the affair.<EOS>
-Why was the Mill House chosen for the murder<CRIME>?<EOS>
+Why was the Mill House chosen for the murder?<EOS>
 Was it because Pagett<SUSPECT> had been in Kimberley when the diamonds were stolen?<EOS>
 Would _he_ have been made the scapegoat if I had not appeared so providentially upon the scene?"<EOS>
 
@@ -7561,7 +7561,7 @@ It was then that I informed Harry that nothing would induce me to go to Beira.<E
 I never meant to, anyway, but now all reason for such proceedings had vanished.<EOS>
 The point of the plan had been that my enemies believed me dead.<EOS>
 Now that they knew I wasn't dead, my going to Beira would do no good whatever.<EOS>
-They could easily follow me there and murder<CRIME> me quietly.<EOS>
+They could easily follow me there and murder me quietly.<EOS>
 I should have no one to protect me.<EOS>
 It was finally arranged that I should join Suzanne, wherever she was, and devote all my energies to taking care of myself.<EOS>
 On no account was I to seek adventures or endeavour to checkmate the "Colonel<INVESTIGATOR>."<EOS>
@@ -8196,7 +8196,7 @@ I hoped that sooner or later I should be able to understand what Pagett<SUSPECT>
 He went on fluently:<EOS>
 
 "It is difficult for a man of Sir Eustace's standing to put himself in my position.<EOS>
-I know that I was in the wrong, but it seemed a harmless deception<CRIME>.<EOS>
+I know that I was in the wrong, but it seemed a harmless deception.<EOS>
 I would have thought it better taste on his part to have tackled me outright-instead of indulging in covert jokes at my expense."<EOS>
 
 A whistle blew, and the people began to surge back into the train.<EOS>
@@ -8430,7 +8430,7 @@ Whose husband?"<EOS>
 
 "God bless my soul, Pagett<SUSPECT>, the lady you met in Florence.<EOS>
 There must have been a lady.<EOS>
-Don't tell me that you merely robbed a church or stabbed<CRIME> an Italian in the back because you didn't like his face."<EOS>
+Don't tell me that you merely robbed a church or stabbed an Italian in the back because you didn't like his face."<EOS>
 
 "I am quite at a loss to understand you, Sir Eustace.<EOS>
 I suppose you are joking."<EOS>
@@ -8683,7 +8683,7 @@ He didn't understand of course.<EOS>
 His whole mind was set on whether _I'd_ recognized _him._ It never occurred to him to wonder what I was doing down there.<EOS>
 A piece of sheer bad luck that was.<EOS>
 I arranged it all so carefully too, sending him off to Florence, telling the hotel I was going over to Nice for one night or possibly two.<EOS>
-Then, by the time the murder<CRIME> was discovered, I was back again in Cannes, with nobody dreaming that I'd ever left the Riviera."<EOS>
+Then, by the time the murder was discovered, I was back again in Cannes, with nobody dreaming that I'd ever left the Riviera."<EOS>
 
 He still spoke quite naturally and unaffectedly.<EOS>
 I had to pinch myself to understand that this was all real-that the man in front of me was really that deep-dyed criminal, the "Colonel<INVESTIGATOR>."<EOS>
@@ -8769,7 +8769,7 @@ I'm such an easy person to underestimate."<EOS>
 
 I think he was right about that.<EOS>
 Although I knew well enough the kind of man he was and must be, I could not bring myself to realize it.<EOS>
-He had tried to kill<CRIME> me on more than one occasion, he had actually killed another woman, and he was responsible for endless other deeds of which I knew nothing, and yet I was quite unable to bring myself into the frame of mind for appreciating his deeds as they deserved.<EOS>
+He had tried to kill me on more than one occasion, he had actually killed another woman, and he was responsible for endless other deeds of which I knew nothing, and yet I was quite unable to bring myself into the frame of mind for appreciating his deeds as they deserved.<EOS>
 I could not think of him as other than our amusing, genial travelling companion.<EOS>
 I could not even feel frightened of him-and yet I knew he was capable of having me murdered in cold blood if it struck him as necessary.<EOS>
 The only parallel I can think of is the case of Stevenson's Long John Silver.<EOS>
@@ -9179,7 +9179,7 @@ Sir Eustace turned suddenly.<EOS>
 Very creditable.<EOS>
 But I've still a word to say.<EOS>
 If I've lost the trick, so have you.<EOS>
-You'll never be able to bring the murder<CRIME> of Nadina home to me.<EOS>
+You'll never be able to bring the murder of Nadina home to me.<EOS>
 I was in Marlow on that day, that's all you've got against me.<EOS>
 No one can prove that I even knew the woman.<EOS>
 But you knew her, you had a motive for killing her-and your record's against you.<EOS>
@@ -9241,7 +9241,7 @@ I don't know what it's all about."<EOS>
 "Don't you?<EOS>
 It means that I've found the 'Colonel<INVESTIGATOR>.'<EOS>
 It means that on January 8th last you were not at Cannes, but at Marlow.<EOS>
-It means that when your tool, Madame Nadina, turned against you, you planned to do away with her-and at last we shall be able to bring the crime<CRIME> home to you."<EOS>
+It means that when your tool, Madame Nadina, turned against you, you planned to do away with her-and at last we shall be able to bring the crime home to you."<EOS>
 
 "Indeed?<EOS>
 And from whom did you get all this interesting information?<EOS>
@@ -9710,7 +9710,7 @@ Eustace Pedler<PERPETRATOR>.<EOS>
 
 Harry was furious.<EOS>
 It is the one point on which he and I do not see eye to eye.<EOS>
-To him, Sir Eustace was the man who tried to murder<CRIME> me and whom he regards as responsible for the death of his friend.<EOS>
+To him, Sir Eustace was the man who tried to murder me and whom he regards as responsible for the death of his friend.<EOS>
 Sir Eustace's attempts on my life have always puzzled me.<EOS>
 They are not in the picture, so to speak.<EOS>
 For I am sure that he always had a genuinely kindly feeling towards me.<EOS>
@@ -9722,7 +9722,7 @@ I talked it over with her, and she put it down to a "fear complex."<EOS>
 Suzanne goes in rather for psycho-analysis.<EOS>
 She pointed out to me that Sir Eustace's whole life was actuated by a desire to be safe and comfortable.<EOS>
 He had an acute sense of self-preservation.<EOS>
-And the murder<CRIME> of Nadina removed certain inhibitions.<EOS>
+And the murder of Nadina removed certain inhibitions.<EOS>
 His actions did not represent the state of his feeling towards me, but were the result of his acute fears for his own safety.<EOS>
 I think Suzanne is right.<EOS>
 As for Nadina, she was the kind of woman who deserved to die.<EOS>

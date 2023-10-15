@@ -258,6 +258,29 @@ def add_sentence_delimiter(text: str) -> str:
     )
 
 
+def add_search_term_tags(text: str) -> str:
+    """
+    Adds search term tags to the input text.
+
+    Args:
+        text (str): The input text to be modified.
+
+    Returns:
+        str: The modified text with search term tags.
+    """
+    logging.debug("Adding search term tags...")
+
+    for key, pattern in search_terms.build_pattern_map(search_terms.book_query_terms).items():
+        # add tag after any matches
+        text = re.sub(
+            pattern,
+            r"\1<{tag}>".format(tag=key.upper()),
+            text,
+            # flags=re.IGNORECASE,
+        )
+
+    return text
+
 def preprocess_data(text: str):
     """
     Preprocesses the text.
@@ -286,6 +309,6 @@ def preprocess_data(text: str):
 
     text = add_sentence_delimiter(text)
 
-    text = search_terms.add_search_term_tags(text)
+    text = add_search_term_tags(text)
 
     return text

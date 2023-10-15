@@ -58,38 +58,19 @@ def setup_logging(args):
 def run_tests(bot):
     def run_qa(qs):
         for q in qs:
-            print("Q:", q)
-            print("A:", bot.answer(q))
-            print("-" * 80)
+          ans = bot.answer(q)
+          print("Q:", q)
+          assert ans, "Test case FAILED!!!!"
+          print("A:", ans)
+          print("-" * 80)
 
-    # TODO: Add more tests
-
-    print()
-    print("=" * 80)
-    questions1 = [
-        "When is the investigator first mentioned",
-        "When is the perpetrator first mentioned",
-        "When is the crime first mentioned",
-    ]
-    run_qa(questions1)
+    # TODO: Add more test cases
 
     print()
     print("=" * 80)
-    questions2 = [
-        "When is the detective first mentioned",
-        "When is the killer first mentioned",
-        "When is the murder first mentioned",
-    ]
-    run_qa(questions2)
+    run_qa(chat.example_prompts.samples)
 
-    print()
-    print("=" * 80)
-    questions2 = [
-        # "Words around investigator",
-        "Words around perpetrator",
-        # "Words around crime",
-    ]
-    run_qa(questions2)
+
 
     # print()
     # print("=" * 80)

@@ -115,7 +115,7 @@ They are all upon technical subjects.<EOS>
 Here, for example, is one 'Upon the Distinction between the Ashes of the Various Tobaccoes.'<EOS>
 In it I enumerate a hundred and forty forms of cigar-, cigarette-, and pipe-tobacco, with coloured plates illustrating the difference in the ash.<EOS>
 It is a point which is continually turning up in criminal trials, and which is sometimes of supreme importance as a clue.<EOS>
-If you can say definitely, for example, that some murder<CRIME> has been done by a man who was smoking an Indian lunkah, it obviously narrows your field of search.<EOS>
+If you can say definitely, for example, that some murder has been done by a man who was smoking an Indian lunkah, it obviously narrows your field of search.<EOS>
 To the trained eye there is as much difference between the black ash of a Trichinopoly and the white fluff of bird's-eye as there is between a cabbage and a potato."<EOS>
 
 "You have an extraordinary genius for minutiae," I remarked.<EOS>
@@ -253,7 +253,7 @@ Was ever such a dreary, dismal, unprofitable world?<EOS>
 See how the yellow fog swirls down the street and drifts across the dun-coloured houses.<EOS>
 What could be more hopelessly prosaic and material?<EOS>
 What is the use of having powers, doctor, when one has no field upon which to exert them?<EOS>
-Crime<CRIME> is commonplace, existence is commonplace, and no qualities save those which are commonplace have any function upon earth."<EOS>
+Crime is commonplace, existence is commonplace, and no qualities save those which are commonplace have any function upon earth."<EOS>
 
 I had opened my mouth to reply to this tirade, when with a crisp knock our landlady entered, bearing a card upon the brass salver.<EOS>
 
@@ -764,7 +764,7 @@ Morstan<SUSPECT> had sprung out of his chair in a paroxysm of anger, when he sud
 When I stooped over him I found, to my horror, that he was dead.<EOS>
 
 "'For a long time I sat half distracted, wondering what I should do.<EOS>
-My first impulse was, of course, to call for assistance; but I could not but recognise that there was every chance that I would be accused of his murder<CRIME>.<EOS>
+My first impulse was, of course, to call for assistance; but I could not but recognise that there was every chance that I would be accused of his murder.<EOS>
 His death at the moment of a quarrel, and the gash in his head, would be black against me.<EOS>
 Again, an official inquiry could not be made without bringing out some facts about the treasure, which I was particularly anxious to keep secret.<EOS>
 He had told me that no soul upon earth knew where he had gone.<EOS>
@@ -774,7 +774,7 @@ There seemed to be no necessity why any soul ever should know.<EOS>
 He stole in and bolted the door behind him.<EOS>
 "Do not fear, Sahib," he said.<EOS>
 "No one need know that you have killed him.<EOS>
-Let us hide him away, and who is the wiser?" "I did not kill<CRIME> him," said I. Lal Chowdar shook his head and smiled.<EOS>
+Let us hide him away, and who is the wiser?" "I did not kill him," said I. Lal Chowdar shook his head and smiled.<EOS>
 "I heard it all, Sahib," said he.<EOS>
 "I heard you quarrel, and I heard the blow.<EOS>
 But my lips are sealed.<EOS>
@@ -833,7 +833,7 @@ The little man waved his hand deprecatingly.<EOS>
 We had plenty of money ourselves.<EOS>
 I desired no more.<EOS>
 Besides, it would have been such bad taste to have treated a young lady in so scurvy a fashion.<EOS>
-'Le mauvais gout mene au crime<CRIME>.'<EOS>
+'Le mauvais gout mene au crime.'<EOS>
 The French have a very neat way of putting these things.<EOS>
 Our difference of opinion on this subject went so far that I thought it best to set up rooms for myself:<EOS>
 so I left Pondicherry Lodge, taking the old khitmutgar and Williams with me.<EOS>
@@ -1088,7 +1088,7 @@ In the light of the lantern I read, with a thrill of horror, "The sign of the fo
 
 "In God's name, what does it all mean?" I asked.<EOS>
 
-"It means murder<CRIME>," said he, stooping over the dead man.<EOS>
+"It means murder," said he, stooping over the dead man.<EOS>
 "Ah, I expected it.<EOS>
 Look here!"<EOS>
 He pointed to what looked like a long, dark thorn stuck in the skin just above the ear.<EOS>
@@ -1114,7 +1114,7 @@ Suddenly, however, he broke out into a sharp, querulous cry.<EOS>
 
 "The treasure is gone!"<EOS>
 he said.<EOS>
-"They have robbed him of the treasure!<EOS>
+"They have robbed him of the treasure<CRIME>!<EOS>
 There is the hole through which we lowered it.<EOS>
 I helped him to do it!<EOS>
 I was the last person who saw him!<EOS>
@@ -1206,7 +1206,7 @@ How came he into the room?"<EOS>
 repeated Holmes<INVESTIGATOR>, pensively.<EOS>
 "There are features of interest about this ally.<EOS>
 He lifts the case from the regions of the commonplace.<EOS>
-I fancy that this ally breaks fresh ground in the annals of crime<CRIME> in this country,-though parallel cases suggest themselves from India, and, if my memory serves me, from Senegambia."<EOS>
+I fancy that this ally breaks fresh ground in the annals of crime in this country,-though parallel cases suggest themselves from India, and, if my memory serves me, from Senegambia."<EOS>
 
 "How came he, then?" I reiterated.<EOS>
 "The door is locked, the window is inaccessible.<EOS>
@@ -1517,7 +1517,7 @@ There was the original problem:<EOS>
 that at least was pretty clear now.<EOS>
 The death of Captain Morstan<SUSPECT>, the sending of the pearls, the advertisement, the letter,-we had had light upon all those events.<EOS>
 They had only led us, however, to a deeper and far more tragic mystery.<EOS>
-The Indian treasure, the curious plan found among Morstan<SUSPECT>'s baggage, the strange scene at Major Sholto<SUSPECT>'s death, the rediscovery of the treasure immediately followed by the murder<CRIME> of the discoverer, the very singular accompaniments to the crime<CRIME>, the footsteps, the remarkable weapons, the words upon the card, corresponding with those upon Captain Morstan<SUSPECT>'s chart,-here was indeed a labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever finding the clue.<EOS>
+The Indian treasure, the curious plan found among Morstan<SUSPECT>'s baggage, the strange scene at Major Sholto<SUSPECT>'s death, the rediscovery of the treasure immediately followed by the murder of the discoverer, the very singular accompaniments to the crime, the footsteps, the remarkable weapons, the words upon the card, corresponding with those upon Captain Morstan<SUSPECT>'s chart,-here was indeed a labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever finding the clue.<EOS>
 
 Pinchin Lane was a row of shabby two-storied brick houses in the lower quarter of Lambeth.<EOS>
 I had to knock for some time at No.<EOS>
@@ -1712,7 +1712,7 @@ This, however, is the readiest and, since fortune has put it into our hands, I s
 It has, however, prevented the case from becoming the pretty little intellectual problem which it at one time promised to be.<EOS>
 There might have been some credit to be gained out of it, but for this too palpable clue."<EOS>
 
-"There is credit, and to spare," said I. "I assure you, Holmes<INVESTIGATOR>, that I marvel at the means by which you obtain your results in this case, even more than I did in the Jefferson Hope Murder<CRIME>.<EOS>
+"There is credit, and to spare," said I. "I assure you, Holmes<INVESTIGATOR>, that I marvel at the means by which you obtain your results in this case, even more than I did in the Jefferson Hope Murder.<EOS>
 The thing seems to me to be deeper and more inexplicable.<EOS>
 How, for example, could you describe with such confidence the wooden-legged man?"<EOS>
 
@@ -1765,8 +1765,8 @@ Small<PERPETRATOR> could not find out, however, where the treasure was hid, for 
 Suddenly Small<PERPETRATOR> learns that the major<SUSPECT> is on his death-bed.<EOS>
 In a frenzy lest the secret of the treasure die with him, he runs the gauntlet of the guards, makes his way to the dying man's window, and is only deterred from entering by the presence of his two sons.<EOS>
 Mad with hate, however, against the dead man, he enters the room that night, searches his private papers in the hope of discovering some memorandum relating to the treasure, and finally leaves a momento of his visit in the short inscription upon the card.<EOS>
-He had doubtless planned beforehand that should he slay the major<SUSPECT> he would leave some such record upon the body as a sign that it was not a common murder<CRIME>, but, from the point of view of the four associates, something in the nature of an act of justice.<EOS>
-Whimsical and bizarre conceits of this kind are common enough in the annals of crime<CRIME>, and usually afford valuable indications as to the criminal.<EOS>
+He had doubtless planned beforehand that should he slay the major<SUSPECT> he would leave some such record upon the body as a sign that it was not a common murder, but, from the point of view of the four associates, something in the nature of an act of justice.<EOS>
+Whimsical and bizarre conceits of this kind are common enough in the annals of crime, and usually afford valuable indications as to the criminal.<EOS>
 Do you follow all this?"<EOS>
 
 "Very clearly."<EOS>
@@ -1779,7 +1779,7 @@ We again trace the presence of some confederate in the household.<EOS>
 Jonathan<PERPETRATOR>, with his wooden leg, is utterly unable to reach the lofty room of Bartholomew Sholto<SUSPECT>.<EOS>
 He takes with him, however, a rather curious associate, who gets over this difficulty, but dips his naked foot into creasote, whence comes Toby, and a six-mile limp for a half-pay officer with a damaged tendo Achillis."<EOS>
 
-"But it was the associate, and not Jonathan<PERPETRATOR>, who committed the crime<CRIME>."<EOS>
+"But it was the associate, and not Jonathan<PERPETRATOR>, who committed the crime."<EOS>
 
 "Quite so.<EOS>
 And rather to Jonathan<PERPETRATOR>'s disgust, to judge by the way he stamped about when he got into the room.<EOS>
@@ -2043,7 +2043,7 @@ That wire was to my dirty little lieutenant, Wiggins, and I expect that he and h
 It was between eight and nine o'clock now, and I was conscious of a strong reaction after the successive excitements of the night.<EOS>
 I was limp and weary, befogged in mind and fatigued in body.<EOS>
 I had not the professional enthusiasm which carried my companion on, nor could I look at the matter as a mere abstract intellectual problem.<EOS>
-As far as the death of Bartholomew Sholto<SUSPECT> went, I had heard little good of him, and could feel no intense antipathy to his murderers.<EOS>
+As far as the death of Bartholomew Sholto<SUSPECT> went, I had heard little good of him, and could feel no intense antipathy to his murderers<PERPETRATOR>.<EOS>
 The treasure, however, was a different matter.<EOS>
 That, or part of it, belonged rightfully to Miss Morstan<SUSPECT>.<EOS>
 While there was a chance of recovering it I was ready to devote my life to the one object.<EOS>
@@ -2075,7 +2075,7 @@ We cannot but think that it supplies an argument to those who would wish to see 
 said Holmes<INVESTIGATOR>, grinning over his coffee-cup.<EOS>
 "What do you think of it?"<EOS>
 
-"I think that we have had a close shave ourselves of being arrested for the crime<CRIME>."<EOS>
+"I think that we have had a close shave ourselves of being arrested for the crime."<EOS>
 
 "So do I. I wouldn't answer for our safety now, if he should happen to have another of his attacks of energy."<EOS>
 
@@ -2358,7 +2358,7 @@ It was a long day.<EOS>
 Every time that a knock came to the door, or a sharp step passed in the street, I imagined that it was either Holmes<INVESTIGATOR> returning or an answer to his advertisement.<EOS>
 I tried to read, but my thoughts would wander off to our strange quest and to the ill-assorted and villainous pair whom we were pursuing.<EOS>
 Could there be, I wondered, some radical flaw in my companion's reasoning.<EOS>
-Might he be suffering from some huge self-deception<CRIME>?<EOS>
+Might he be suffering from some huge self-deception?<EOS>
 Was it not possible that his nimble and speculative mind had built up this wild theory upon faulty premises?<EOS>
 I had never known him to be wrong; and yet the keenest reasoner may occasionally be deceived.<EOS>
 He was likely, I thought, to fall into error through the over-refinement of his logic,-his preference for a subtle and bizarre explanation when a plainer and more commonplace one lay ready to his hand.<EOS>
@@ -2873,7 +2873,7 @@ That was how he came to leave his club, and some of his darts too, as he tells m
 I don't feel no malice against you for it.<EOS>
 But it does seem a queer thing," he added, with a bitter smile, "that I who have a fair claim to nigh upon half a million of money should spend the first half of my life building a breakwater in the Andamans, and am like to spend the other half digging drains at Dartmoor.<EOS>
 It was an evil day for me when first I clapped eyes upon the merchant Achmet and had to do with the Agra treasure, which never brought anything but a curse yet upon the man who owned it.<EOS>
-To him it brought murder<CRIME>, to Major Sholto<SUSPECT> it brought fear and guilt, to me it has meant slavery for life."<EOS>
+To him it brought murder, to Major Sholto<SUSPECT> it brought fear and guilt, to me it has meant slavery for life."<EOS>
 
 At this moment Athelney Jones thrust his broad face and heavy shoulders into the tiny cabin.<EOS>
 "Quite a family party," he remarked.<EOS>
@@ -3152,7 +3152,7 @@ We went out to meet the rebels at Shahgunge early in July, and we beat them back
 
 "Nothing but the worst news came to us from every side,-which is not to be wondered at, for if you look at the map you will see that we were right in the heart of it.<EOS>
 Lucknow is rather better than a hundred miles to the east, and Cawnpore about as far to the south.<EOS>
-From every point on the compass there was nothing but torture and murder<CRIME> and outrage.<EOS>
+From every point on the compass there was nothing but torture and murder and outrage.<EOS>
 
 "The city of Agra is a great place, swarming with fanatics and fierce devil-worshippers of all sorts.<EOS>
 Our handful of men were lost among the narrow, winding streets.<EOS>
@@ -3388,7 +3388,7 @@ After Wilson took Delhi and Sir Colin relieved Lucknow the back of the business 
 Fresh troops came pouring in, and Nana Sahib made himself scarce over the frontier.<EOS>
 A flying column under Colonel<INVESTIGATOR> Greathed came round to Agra and cleared the Pandies away from it.<EOS>
 Peace seemed to be settling upon the country, and we four were beginning to hope that the time was at hand when we might safely go off with our shares of the plunder.<EOS>
-In a moment, however, our hopes were shattered by our being arrested as the murderers of Achmet.<EOS>
+In a moment, however, our hopes were shattered by our being arrested as the murderers<PERPETRATOR> of Achmet.<EOS>
 
 "It came about in this way.<EOS>
 When the rajah put his jewels into the hands of Achmet he did it because he knew that he was a trusty man.<EOS>
@@ -3399,10 +3399,10 @@ He went after him that night and saw him pass through the doorway.<EOS>
 Of course he thought he had taken refuge in the fort, and applied for admission there himself next day, but could find no trace of Achmet.<EOS>
 This seemed to him so strange that he spoke about it to a sergeant of guides, who brought it to the ears of the commandant.<EOS>
 A thorough search was quickly made, and the body was discovered.<EOS>
-Thus at the very moment that we thought that all was safe we were all four seized and brought to trial on a charge of murder<CRIME>,-three of us because we had held the gate that night, and the fourth because he was known to have been in the company of the murdered man.<EOS>
+Thus at the very moment that we thought that all was safe we were all four seized and brought to trial on a charge of murder,-three of us because we had held the gate that night, and the fourth because he was known to have been in the company of the murdered man.<EOS>
 Not a word about the jewels came out at the trial, for the rajah had been deposed and driven out of India:<EOS>
 so no one had any particular interest in them.<EOS>
-The murder<CRIME>, however, was clearly made out, and it was certain that we must all have been concerned in it.<EOS>
+The murder, however, was clearly made out, and it was certain that we must all have been concerned in it.<EOS>
 The three Sikhs got penal servitude for life, and I was condemned to death, though my sentence was afterwards commuted into the same as the others.<EOS>
 
 "It was rather a queer position that we found ourselves in then.<EOS>
@@ -3663,7 +3663,7 @@ By the way, I had hoped that Tonga<SUSPECT> had lost all his darts; yet he manag
 
 "I think not, thank you," my companion answered.<EOS>
 
-"Well, Holmes<INVESTIGATOR>," said Athelney Jones, "You are a man to be humoured, and we all know that you are a connoisseur of crime<CRIME>, but duty is duty, and I have gone rather far in doing what you and your friend asked me.<EOS>
+"Well, Holmes<INVESTIGATOR>," said Athelney Jones, "You are a man to be humoured, and we all know that you are a connoisseur of crime, but duty is duty, and I have gone rather far in doing what you and your friend asked me.<EOS>
 I shall feel more at ease when we have our story-teller here safe under lock and key.<EOS>
 The cab still waits, and there are two inspectors downstairs.<EOS>
 I am much obliged to you both for your assistance.<EOS>

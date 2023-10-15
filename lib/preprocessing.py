@@ -169,7 +169,10 @@ def remove_stopwords(text: str) -> str:
     len_before = len(text)
 
     text = re.sub(
-        r"(( \b({rgx})\b)|(\b({rgx})\b ))".format(
+        # r"(( \b({rgx})\b)|(\b({rgx})\b ))".format(
+        #     rgx=utils.re_union(*stop_words.stop_words),
+        # ),
+        r"((\b({rgx})\b))".format(
             rgx=utils.re_union(*stop_words.stop_words),
         ),
         "",

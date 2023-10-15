@@ -19,7 +19,7 @@ def re_union(*args):
         str: A regex union of the input strings.
     """
     res = "((" + ")|(".join(list(set(args))) + "))"
-    logging.debug(res)
+    # logging.debug(res)
     return res
 
 

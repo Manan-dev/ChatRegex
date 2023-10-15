@@ -1,7 +1,7 @@
 cover
 
 
-The Murder<CRIME> on the Links
+The Murder on the Links
 
 by Agatha Christie
 
@@ -181,9 +181,9 @@ Time and again he has proved to be right where the official police have failed."
 My companion listened with widening eyes.<EOS>
 
 "Isn't that interesting, now?<EOS>
-I just adore crime<CRIME>.<EOS>
+I just adore crime.<EOS>
 I go to all the mysteries on the movies.<EOS>
-And when there's a murder<CRIME> on I just devour the papers."<EOS>
+And when there's a murder on I just devour the papers."<EOS>
 
 "Do you remember the Styles Case?" I asked.<EOS>
 
@@ -573,7 +573,7 @@ A finger-print has led sometimes to the arrest and conviction of a murderer<PERP
 I have never said otherwise.<EOS>
 The trained observer, the expert, without doubt he is useful!<EOS>
 But the others, the Hercules Poirots, they are above the experts!<EOS>
-To them the experts bring the facts, their business is the method of the crime<CRIME>, its logical deduction, the proper sequence and order of the facts; above all, the true psychology of the case.<EOS>
+To them the experts bring the facts, their business is the method of the crime, its logical deduction, the proper sequence and order of the facts; above all, the true psychology of the case.<EOS>
 You have hunted the fox, yes?"<EOS>
 
 "I have hunted a bit, now and again," I said, rather bewildered by this abrupt change of subject.<EOS>
@@ -786,7 +786,7 @@ It seems he knew an attempt was going to be made on his life.<EOS>
 Unfortunately he sent for me too late."<EOS>
 
 "_Sacri tonnerre!___" ejaculated the Frenchman.<EOS>
-"So he foresaw his own murder<CRIME>?<EOS>
+"So he foresaw his own murder?<EOS>
 That upsets our theories considerably!<EOS>
 But come inside."<EOS>
 
@@ -794,13 +794,13 @@ He held the gate open, and we commenced walking towards the house.<EOS>
 M. Bex<SUSPECT> continued to talk:<EOS>
 
 "The examining magistrate, M. Hautet, must hear of this at once.<EOS>
-He has just finished examining the scene of the crime<CRIME> and is about to begin his interrogations.<EOS>
+He has just finished examining the scene of the crime and is about to begin his interrogations.<EOS>
 A charming man.<EOS>
 You will like him.<EOS>
 Most sympathetic.<EOS>
 Original in his methods, but an excellent judge."<EOS>
 
-"When was the crime<CRIME> committed?" asked Poirot<INVESTIGATOR>.<EOS>
+"When was the crime committed?" asked Poirot<INVESTIGATOR>.<EOS>
 
 "The body was discovered this morning about nine o'clock.<EOS>
 Madame Renauld<SUSPECT>'s evidence, and that of the doctors goes to show that the death must have occurred about 2 a.m. But enter, I pray of you."<EOS>
@@ -855,7 +855,7 @@ Feeling a momentary alarm as to burglars, she looked into the dining-room, but s
 "Pardon, monsieur, for interrupting, but was that a common practice of his?"<EOS>
 
 "No, it was not, but old Francoise has the common idea as regards the English-that they are mad, and liable to do the most unaccountable things at any moment!<EOS>
-Going to call her mistress as usual, a younger maid, Leonie<SUSPECT>, was horrified to discover her gagged and bound, and almost at the same moment news was brought that M. Renauld<SUSPECT>'s body had been discovered, stone dead, stabbed<CRIME> in the back."<EOS>
+Going to call her mistress as usual, a younger maid, Leonie<SUSPECT>, was horrified to discover her gagged and bound, and almost at the same moment news was brought that M. Renauld<SUSPECT>'s body had been discovered, stone dead, stabbed in the back<CRIME>."<EOS>
 
 "Where?"<EOS>
 
@@ -1199,11 +1199,11 @@ Your letters lately have been so different, cold and strange, and now this long 
 It makes me afraid.<EOS>
 If you were to stop loving me!<EOS>
 But that's impossible-what a silly kid I am-always imagining things!<EOS>
-But if you _did___ stop loving me, I don't know what I should do-kill<CRIME> myself perhaps!<EOS>
+But if you _did___ stop loving me, I don't know what I should do-kill myself perhaps!<EOS>
 I couldn't live without you.<EOS>
 Sometimes I fancy another woman is coming between us.<EOS>
 Let her look out, that's all-and you too!<EOS>
-I'd as soon kill<CRIME> you as let her have you!<EOS>
+I'd as soon kill you as let her have you!<EOS>
 I mean it.<EOS>
 "But there, I'm writing high-flown nonsense.<EOS>
 You love me, and I love you-yes, love you, love you, love you!<EOS>
@@ -1221,11 +1221,11 @@ The examining magistrate shrugged his shoulders.<EOS>
 
 "Obviously M. Renauld<SUSPECT> was entangled with this Englishwoman-Bella<SUSPECT>.<EOS>
 He comes over here, meets Madame Daubreuil<PERPETRATOR>, and starts an intrigue with her.<EOS>
-He cools off to the other, and she instantly suspects something.<EOS>
+He cools off to the other, and she instantly suspects<SUSPECT> something.<EOS>
 This letter contains a distinct threat.<EOS>
 M. Poirot<INVESTIGATOR>, at first sight the case seemed simplicity itself.<EOS>
 Jealousy!<EOS>
-The fact that M. Renauld<SUSPECT> was stabbed<CRIME> in the back seemed to point distinctly to its being a woman's crime<CRIME>."<EOS>
+The fact that M. Renauld<SUSPECT> was stabbed in the back seemed to point distinctly to its being a woman's crime."<EOS>
 
 Poirot<INVESTIGATOR> nodded.<EOS>
 
@@ -1253,7 +1253,7 @@ Then we must look for the explanation of the letter-"<EOS>
 
 "In Santiago," finished the commissary.<EOS>
 "I shall cable without delay to the police in that city, requesting full details of the murdered man's life out there, his love affairs, his business transactions, his friendships, and any enmities he may have incurred.<EOS>
-It will be strange if, after that, we do not hold a clue to his mysterious murder<CRIME>."<EOS>
+It will be strange if, after that, we do not hold a clue to his mysterious murder."<EOS>
 
 The commissary looked round for approval.<EOS>
 
@@ -1306,7 +1306,7 @@ As to the son, it may have been a wise precaution to leave the money in his moth
 The sons of rich men are proverbially wild."<EOS>
 
 "It may be as you say.<EOS>
-Now, M. Poirot<INVESTIGATOR>, you would without doubt like to visit the scene of the crime<CRIME>.<EOS>
+Now, M. Poirot<INVESTIGATOR>, you would without doubt like to visit the scene of the crime.<EOS>
 I am sorry that the body has been removed, but of course photographs have been taken from every conceivable angle, and will be at your disposal as soon as they are available."<EOS>
 
 "I thank you, monsieur, for all your courtesy."<EOS>
@@ -1429,7 +1429,7 @@ M. Bex<SUSPECT> took us out by the back of the house to where there was a small 
 He produced a key from his pocket and unlocked it.<EOS>
 
 "The body is here.<EOS>
-We moved it from the scene of the crime<CRIME> just before you arrived, as the photographers had done with it."<EOS>
+We moved it from the scene of the crime just before you arrived, as the photographers had done with it."<EOS>
 
 He opened the door and we passed in.<EOS>
 The murdered man lay on the ground, with a sheet over him.<EOS>
@@ -1439,14 +1439,14 @@ He looked about fifty years of age, and his dark hair was plentifully streaked w
 He was clean shaven with a long thin nose, and eyes set rather close together, and his skin was deeply bronzed, as that of a man who had spent most of his life beneath tropical skies.<EOS>
 His lips were drawn back from his teeth and an expression of absolute amazement and terror was stamped on the livid features.<EOS>
 
-"One can see by his face that he was stabbed<CRIME> in the back," remarked Poirot<INVESTIGATOR>.<EOS>
+"One can see by his face that he was stabbed in the back," remarked Poirot<INVESTIGATOR>.<EOS>
 
 Very gently, he turned the dead man over.<EOS>
 There, between the shoulder-blades, staining the light fawn overcoat, was a round dark patch.<EOS>
 In the middle of it there was a slit in the cloth.<EOS>
 Poirot<INVESTIGATOR> examined it narrowly.<EOS>
 
-"Have you any idea with what weapon the crime<CRIME> was committed?"<EOS>
+"Have you any idea with what weapon the crime was committed?"<EOS>
 
 "It was left in the wound."<EOS>
 The commissary reached down a large glass jar.<EOS>
@@ -1456,7 +1456,7 @@ The whole thing was not more than ten inches long.<EOS>
 Poirot<INVESTIGATOR> tested the discoloured point gingerly with his finger tip.<EOS>
 
 "_Ma foi!___ but it is sharp!<EOS>
-A nice easy little tool for murder<CRIME>!"<EOS>
+A nice easy little tool for murder!"<EOS>
 
 "Unfortunately, we could find no trace of fingerprints on it," remarked Bex<SUSPECT> regretfully.<EOS>
 "The murderer<PERPETRATOR> must have worn gloves."<EOS>
@@ -1646,7 +1646,7 @@ She read it with apparently genuine astonishment.<EOS>
 Evidently he was fully cognizant of the danger."<EOS>
 
 "Now, madame, I will beg of you to be frank with me.<EOS>
-Is there any incident in your husband's past life in South America which might throw light on his murder<CRIME>?"<EOS>
+Is there any incident in your husband's past life in South America which might throw light on his murder?"<EOS>
 
 Mrs. Renauld<SUSPECT> reflected deeply, but at last shook her head.<EOS>
 
@@ -1697,7 +1697,7 @@ Mrs. Renauld<SUSPECT> was frowning perplexedly.<EOS>
 With a gesture of impatience, the magistrate left the matter of the watch and proceeded with his interrogatory.<EOS>
 
 "Madame, the front door was found ajar.<EOS>
-It seems almost certain that the murderers entered that way, yet it has not been forced at all.<EOS>
+It seems almost certain that the murderers<PERPETRATOR> entered that way, yet it has not been forced at all.<EOS>
 Can you suggest any explanation?"<EOS>
 
 "Possibly my husband went out for a stroll the last thing, and forgot to latch it when he came in."<EOS>
@@ -1754,7 +1754,7 @@ Now he saw the red mount slightly in her cheeks, but she replied composedly.<EOS
 "Indeed?"<EOS>
 
 But for the moment the magistrate was content to say no more.<EOS>
-It seemed unlikely that Madame Daubreuil<PERPETRATOR> had any connection with the crime<CRIME>, and he was anxious not to upset Mrs. Renauld<SUSPECT> more than necessary.<EOS>
+It seemed unlikely that Madame Daubreuil<PERPETRATOR> had any connection with the crime, and he was anxious not to upset Mrs. Renauld<SUSPECT> more than necessary.<EOS>
 
 He made a sign to the commissary, and the latter replied with a nod.<EOS>
 Then rising, he went across the room, and returned with the glass jar we had seen in the outhouse in his hand.<EOS>
@@ -1867,7 +1867,7 @@ My little idea was all wrong.<EOS>
 _Eh bien!___ I must start again!"<EOS>
 
 
-<SOC>Chapter 6 The Scene of the Crime<CRIME>
+<SOC>Chapter 6 The Scene of the Crime
 
 Between them, the doctor and M. Hautet carried the unconscious woman into the house.<EOS>
 The commissary looked after them, shaking his head.<EOS>
@@ -1875,7 +1875,7 @@ The commissary looked after them, shaking his head.<EOS>
 "_Pauvre femme___," he murmured to himself.<EOS>
 "The shock was too much for her.<EOS>
 Well, well, we can do nothing.<EOS>
-Now, M. Poirot<INVESTIGATOR>, shall we visit the place where the crime<CRIME> was committed?"<EOS>
+Now, M. Poirot<INVESTIGATOR>, shall we visit the place where the crime was committed?"<EOS>
 
 "If you please, M. Bex<SUSPECT>."<EOS>
 
@@ -1999,7 +1999,7 @@ But Giraud interrupted him rudely:<EOS>
 "A fig for the examining magistrate!<EOS>
 The light is the important thing.<EOS>
 For all practical purposes it will be gone in another half-hour or so.<EOS>
-I know all about the case, and the people at the house will do very well until tomorrow, but, if we're going to find a clue to the murderers, here is the spot we shall find it.<EOS>
+I know all about the case, and the people at the house will do very well until tomorrow, but, if we're going to find a clue to the murderers<PERPETRATOR>, here is the spot we shall find it.<EOS>
 Is it your police who have been trampling all over the place?<EOS>
 I thought they knew better nowadays."<EOS>
 
@@ -2029,8 +2029,8 @@ It was Renauld<SUSPECT>'s own spade, and the man who used it wore gloves.<EOS>
 Here they are."<EOS>
 He gesticulated with his foot to where two soiled earth-stained gloves were lying.<EOS>
 "And they're Renauld<SUSPECT>'s too-or at least his gardener's.<EOS>
-I tell you, the men who planned out this crime<CRIME> were taking no chances.<EOS>
-The man was stabbed<CRIME> with his own dagger, and would have been buried with his own spade.<EOS>
+I tell you, the men who planned out this crime were taking no chances.<EOS>
+The man was stabbed with his own dagger, and would have been buried with his own spade.<EOS>
 They counted on leaving no traces!<EOS>
 But I'll beat them.<EOS>
 There's always _something!___ And I mean to find it."<EOS>
@@ -2139,18 +2139,18 @@ A piece of lead-piping."<EOS>
 
 "Nonsense, Poirot<INVESTIGATOR>.<EOS>
 You know very well that's got nothing to do with it.<EOS>
-I meant _little___ things-traces that may lead us infallibly to the murderers."<EOS>
+I meant _little___ things-traces that may lead us infallibly to the murderers<PERPETRATOR>."<EOS>
 
 "_Mon ami___, a clue of two feet long is every bit as valuable as one measuring two millimetres!<EOS>
 But it is the romantic idea that all important clues must be infinitesimal!<EOS>
-As to the piece of lead-piping having nothing to do with the crime<CRIME>, you say that because Giraud told you so.<EOS>
+As to the piece of lead-piping having nothing to do with the crime, you say that because Giraud told you so.<EOS>
 No"-as I was about to interpose a question-"we will say no more.<EOS>
 Leave Giraud to his search, and me to my ideas.<EOS>
 The case seems straightforward enough-and yet-and yet, _mon ami___, I am not satisfied!<EOS>
 And do you know why?<EOS>
 Because of the wrist watch that is two hours fast.<EOS>
 And then there are several curious little points that do not seem to fit in.<EOS>
-For instance, if the object of the murderers was revenge, why did they not stab Renauld<SUSPECT> in his sleep and have done with it?"<EOS>
+For instance, if the object of the murderers<PERPETRATOR> was revenge, why did they not stab Renauld<SUSPECT> in his sleep and have done with it?"<EOS>
 
 "They wanted the 'secret,'" I reminded him.<EOS>
 
@@ -2400,10 +2400,10 @@ The colour rose in the lady's pale cheeks, but she replied quietly:<EOS>
 
 "I deny your right to ask me such a question!"<EOS>
 
-"Madame, we are investigating a murder<CRIME>."<EOS>
+"Madame, we are investigating a murder."<EOS>
 
 "Well, what of it?<EOS>
-I had nothing to do with the murder<CRIME>."<EOS>
+I had nothing to do with the murder."<EOS>
 
 "Madame, we do not say that for a moment.<EOS>
 But you knew the dead man well.<EOS>
@@ -2599,7 +2599,7 @@ I rather fancy-"<EOS>
 
 "Yes?"<EOS>
 
-"I may be mistaken, but I rather fancy that it was a murder<CRIME> case!"<EOS>
+"I may be mistaken, but I rather fancy that it was a murder case!"<EOS>
 
 
 <SOC>Chapter 8 An Unexpected Meeting
@@ -2666,7 +2666,7 @@ she exclaimed, awakening to a tardy remembrance of her duties.<EOS>
 The examining magistrate, where is he?"<EOS>
 
 "They have gone out to look at the automobile in the garage.<EOS>
-Monsieur the commissary had some idea that it might have been used on the night of the murder<CRIME>."<EOS>
+Monsieur the commissary had some idea that it might have been used on the night of the murder."<EOS>
 
 "_Quelle idee___," murmured Poirot<INVESTIGATOR>, as the girl disappeared.<EOS>
 
@@ -2691,7 +2691,7 @@ Au revoir."<EOS>
 I strolled out of the front door.<EOS>
 It was certainly hot.<EOS>
 I turned up the path we had taken the day before.<EOS>
-I had a mind to study the scene of the crime<CRIME> myself.<EOS>
+I had a mind to study the scene of the crime myself.<EOS>
 I did not go directly to the spot, however, but turned aside into the bushes, so as to come out on the links some hundred yards or so further to the right.<EOS>
 If Giraud were still on the spot, I wanted to observe his methods before he knew of my presence.<EOS>
 But the shrubbery here was much denser, and I had quite a struggle to force my way through.<EOS>
@@ -2764,7 +2764,7 @@ You remember my telling you that my great friend was a detective<INVESTIGATOR>?"
 
 "Yes?"<EOS>
 
-"And perhaps you've heard about this crime<CRIME>-at the Villa Genevieve-?"<EOS>
+"And perhaps you've heard about this crime-at the Villa Genevieve-?"<EOS>
 
 She stared at me.<EOS>
 Her breast heaved, and her eyes grew wide and round.<EOS>
@@ -2805,7 +2805,7 @@ I was loath to relinquish my position of importance.<EOS>
 
 "Oh, everything!<EOS>
 The place where it happened, and the weapon, and the body, and any finger-prints or interesting things like that.<EOS>
-I've never had a chance of being right in on a murder<CRIME> like this before.<EOS>
+I've never had a chance of being right in on a murder like this before.<EOS>
 It'll last me all my life?"<EOS>
 
 I turned away, sickened.<EOS>
@@ -2918,7 +2918,7 @@ I felt singularly merciless towards her.<EOS>
 She should go through with it now.<EOS>
 I turned the corpse gently over.<EOS>
 
-"You see," I said, "he was stabbed<CRIME> in the back."<EOS>
+"You see," I said, "he was stabbed in the back."<EOS>
 
 Her voice was almost soundless.<EOS>
 
@@ -3035,7 +3035,7 @@ Who would have expected a party of bandits, of assassins?<EOS>
 Such things did not happen in Madame la Vicomtesse's time.<EOS>
 M. Hautet signifying that he had finished with him, the old man withdrew, grumbling to the last.<EOS>
 Remembering Poirot<INVESTIGATOR>'s unaccountable insistence on the footprints in the flower beds, I scrutinized him narrowly as he gave his evidence.<EOS>
-Either he had nothing to do with the crime<CRIME> or he was a consummate actor.<EOS>
+Either he had nothing to do with the crime or he was a consummate actor.<EOS>
 Suddenly, just as he was going out of the door, an idea struck me.<EOS>
 "_Pardon___ M. Hautet," I cried, "but will you permit me to ask him one question?"<EOS>
 
@@ -3251,7 +3251,7 @@ I can't say off-hand.<EOS>
 I don't think so, though."<EOS>
 
 "You are wrong," said Poirot<INVESTIGATOR> quietly.<EOS>
-"A crime<CRIME> almost precisely similar has been committed before."<EOS>
+"A crime almost precisely similar has been committed before."<EOS>
 
 "When?<EOS>
 And where?"<EOS>
@@ -3267,11 +3267,11 @@ These crimes all resemble each other more or less."<EOS>
 
 "There is such a thing as the individual touch."<EOS>
 Poirot<INVESTIGATOR> suddenly assumed his lecturing manner, and addressed us collectively.<EOS>
-"I am speaking to you now of the psychology of crime<CRIME>.<EOS>
+"I am speaking to you now of the psychology of crime.<EOS>
 M. Giraud knows quite well that each criminal has his particular method, and that the police, when called in to investigate-say a case of burglary-can often make a shrewd guess at the offender, simply by the peculiar method he has employed.<EOS>
 (Japp would tell you the same, Hastings.) Man is an unoriginal animal.<EOS>
 Unoriginal within the law in his daily respectable life, equally unoriginal outside the law.<EOS>
-If a man commits a crime<CRIME>, any other crime<CRIME> he commits will resemble it closely.<EOS>
+If a man commits a crime, any other crime he commits will resemble it closely.<EOS>
 The English murderer<PERPETRATOR> who disposed of his wives in succession by drowning them in their baths was a case in point.<EOS>
 Had he varied his methods, he might have escaped detection to this day.<EOS>
 But he obeyed the common dictates of human nature, arguing that what had once succeeded would succeed again, and he paid the penalty of his lack of originality."<EOS>
@@ -3484,7 +3484,7 @@ _mon Dieu!___ What else could it be?"<EOS>
 Voila une idee!"<EOS>
 cried the magistrate, shaken in spite of himself.<EOS>
 
-"Blackmail<CRIME>," repeated Stonor.<EOS>
+"Blackmail," repeated Stonor.<EOS>
 "The old man was being bled-and at a good rate too.<EOS>
 Four thousand in a couple of months.<EOS>
 Whew!<EOS>
@@ -3541,7 +3541,7 @@ Still, it all goes to prove what I told you, that Renauld<SUSPECT> and his wife 
 "It is possible we shall have to revise our ideas on several points.<EOS>
 We have, of course, cabled to Santiago, and are expecting a reply from there any minute.<EOS>
 In all possibility, everything will then be perfectly clear and straightforward.<EOS>
-On the other hand, if your suggestion of blackmail<CRIME> is true, Madame Daubreuil<PERPETRATOR> ought to be able to give us valuable information."<EOS>
+On the other hand, if your suggestion of blackmail is true, Madame Daubreuil<PERPETRATOR> ought to be able to give us valuable information."<EOS>
 
 Poirot<INVESTIGATOR> interjected a remark:<EOS>
 
@@ -4075,7 +4075,7 @@ I have purposely kept all the proceedings as informal as possible.<EOS>
 I have been called original in my methods, but I maintain that there is much to be said for originality.<EOS>
 The case is now in the clever hands of the renowned M. Giraud.<EOS>
 He will without doubt distinguish himself.<EOS>
-Indeed, I wonder that he has not already laid his hands upon the murderers!<EOS>
+Indeed, I wonder that he has not already laid his hands upon the murderers<PERPETRATOR>!<EOS>
 Madame, again let me assure you of my heart-felt sympathy.<EOS>
 Messieurs, I wish you all good day."<EOS>
 And, accompanied by his clerk and the commissary, he took his departure.<EOS>
@@ -4132,7 +4132,7 @@ But to my surprise he nodded thoughtfully.<EOS>
 
 "You are quite right, Hastings.<EOS>
 From the beginning I have been sure that she was keeping something back.<EOS>
-At first I suspected her, if not of inspiring, at least of conniving at the crime<CRIME>."<EOS>
+At first I suspected her, if not of inspiring, at least of conniving at the crime."<EOS>
 
 "You suspected _her?___" I cried.<EOS>
 
@@ -4142,7 +4142,7 @@ So, from the start, she was singled out for attention.<EOS>
 You may have noticed that I took an early opportunity of examining her wrists.<EOS>
 I wished to see whether there was any possibility that she had gagged and bound herself.<EOS>
 _Eh bien___, I saw at once that there was no fake, the cords had actually been drawn so tight as to cut into the flesh.<EOS>
-That ruled out the possibility of her having committed the crime<CRIME> single-handed.<EOS>
+That ruled out the possibility of her having committed the crime single-handed.<EOS>
 But it was still possible for her to have connived at it, or to have been the instigator with an accomplice.<EOS>
 Moreover, the story, as she told it, was singularly familiar to me-the masked men that she could not recognize, the mention of 'the secret'-I had heard, or read, all these things before.<EOS>
 Another little detail confirmed my belief that she was not speaking the truth.<EOS>
@@ -4174,13 +4174,13 @@ Tell me, my friend, at what time, according to you, did the tragedy take place?"
 
 "Exactly, and on the strength of that, you, the examining magistrate, Bex<SUSPECT>, and every one else, accept the time without further question.<EOS>
 But I, Hercule Poirot<INVESTIGATOR>, say that Madame Renauld<SUSPECT> lied.<EOS>
-_The crime<CRIME> took place at least two hours earlier.___"<EOS>
+_The crime took place at least two hours earlier.___"<EOS>
 
 "But the doctors-"<EOS>
 
 "They declared, after examination of the body, that death had taken place between ten and seven hours previously.<EOS>
-_Mon ami___, for some reason, it was imperative that the crime<CRIME> should seem to have taken place later than it actually did.<EOS>
-You have read of a smashed watch or clock recording the exact hour of a crime<CRIME>?<EOS>
+_Mon ami___, for some reason, it was imperative that the crime should seem to have taken place later than it actually did.<EOS>
+You have read of a smashed watch or clock recording the exact hour of a crime?<EOS>
 So that the time should not rest on Mrs. Renauld<SUSPECT>'s testimony alone, some one moved on the hands of that wrist watch to two o'clock, and then dashed it violently to the ground.<EOS>
 But, as is often the case, they defeated their own object.<EOS>
 The glass was smashed, but the mechanism of the watch was uninjured.<EOS>
@@ -4200,7 +4200,7 @@ There is only one idea that presents itself to me as having a possible connectio
 
 I followed it out slowly.<EOS>
 
-"So that, the crime<CRIME> apparently taking place some two hours later, any one leaving by that train would have an unimpeachable alibi!"<EOS>
+"So that, the crime apparently taking place some two hours later, any one leaving by that train would have an unimpeachable alibi!"<EOS>
 
 "Perfect, Hastings!<EOS>
 You have it!"<EOS>
@@ -4228,8 +4228,8 @@ The masked men and all the rest of _cette histoire-la!___"<EOS>
 His words took me so much aback that I hardly knew how to respond.<EOS>
 He went on serenely:<EOS>
 
-"You heard me say to Giraud, did you not, that all the details of this crime<CRIME> were familiar to me?<EOS>
-_Eh bien___, that presupposes one of two things, either the brain that planned the first crime<CRIME> also planned this one, or else an account read of a _cause celebre___ unconsciously remained in our assassin's memory and prompted the details.<EOS>
+"You heard me say to Giraud, did you not, that all the details of this crime were familiar to me?<EOS>
+_Eh bien___, that presupposes one of two things, either the brain that planned the first crime also planned this one, or else an account read of a _cause celebre___ unconsciously remained in our assassin's memory and prompted the details.<EOS>
 I shall be able to pronounce definitely on that after-" he broke off.<EOS>
 
 I was revolving sundry matters in my mind.<EOS>
@@ -4277,7 +4277,7 @@ But she will not speak.<EOS>
 Threats and entreaties would not move her.<EOS>
 A remarkable woman that, Hastings.<EOS>
 I recognized as soon as I saw her that I had to deal with a woman of unusual character.<EOS>
-At first, as I told you, I was inclined to suspect<SUSPECT> her of being concerned in the crime<CRIME>.<EOS>
+At first, as I told you, I was inclined to suspect<SUSPECT> her of being concerned in the crime.<EOS>
 Afterwards I altered my opinion."<EOS>
 
 "What made you do that?"<EOS>
@@ -4293,7 +4293,7 @@ No, however strong my own impression and belief, I needed other evidence before 
 The great criminal can be a great actor.<EOS>
 I base my certainty in this case, not upon my own impression, but upon the undeniable fact that Mrs. Renauld<SUSPECT> actually fainted.<EOS>
 I turned up her eyelids and felt her pulse.<EOS>
-There was no deception<CRIME>-the swoon was genuine.<EOS>
+There was no deception-the swoon was genuine.<EOS>
 Therefore I was satisfied that her anguish was real and not assumed.<EOS>
 Besides, a small additional point not without interest, it was unnecessary for Mrs. Renauld<SUSPECT> to exhibit unrestrained grief.<EOS>
 She had had one paroxysm on learning of her husband's death, and there would be no need for her to simulate another such a violent one on beholding his body.<EOS>
@@ -4318,7 +4318,7 @@ There is a meaning behind that open door which for a moment I cannot fathom."<EO
 "Listen.<EOS>
 We are agreed that Mrs. Renauld<SUSPECT>'s story is a fabrication.<EOS>
 Is it not possible, then, that Mr. Renauld<SUSPECT> left the house to keep an appointment-possibly with the murderer<PERPETRATOR>-leaving the front door open for his return.<EOS>
-But he did not return, and the next morning he is found, stabbed<CRIME> in the back."<EOS>
+But he did not return, and the next morning he is found, stabbed in the back."<EOS>
 
 "An admirable theory, Hastings, but for two facts which you have characteristically overlooked.<EOS>
 In the first place, who gagged and bound Madame Renauld<SUSPECT>?<EOS>
@@ -4387,9 +4387,9 @@ A hundred conflicting points confuse and worry us.<EOS>
 That is well.<EOS>
 That is excellent.<EOS>
 Out of confusion comes forth order.<EOS>
-But if you find order to start with, if a crime<CRIME> seems simple and above-board, _eh bien, mefiez vous!___ It is, how do you say it?-_cooked!___ The great criminal is simple-but very few criminals _are___ great.<EOS>
+But if you find order to start with, if a crime seems simple and above-board, _eh bien, mefiez vous!___ It is, how do you say it?-_cooked!___ The great criminal is simple-but very few criminals _are___ great.<EOS>
 In trying to cover up their tracks, they invariably betray themselves.<EOS>
-Ah, _mon ami___, I would that some day I could meet a really great criminal-one who commits his crime<CRIME>, and then-does nothing!<EOS>
+Ah, _mon ami___, I would that some day I could meet a really great criminal-one who commits his crime, and then-does nothing!<EOS>
 Even I, Hercule Poirot<INVESTIGATOR>, might fail to catch such a one."<EOS>
 
 But I had not followed his words.<EOS>
@@ -4782,12 +4782,12 @@ He hesitated for a minute, fidgeting with his napkin, and then burst out.<EOS>
 
 "What news?"<EOS>
 
-"That there has been another murder<CRIME> there last night!"<EOS>
+"That there has been another murder there last night!"<EOS>
 
 "_What?___"<EOS>
 
 Leaving my breakfast, I caught up my hat and ran as fast as I could.<EOS>
-Another murder<CRIME>-and Poirot<INVESTIGATOR> away!<EOS>
+Another murder-and Poirot<INVESTIGATOR> away!<EOS>
 What fatality.<EOS>
 But who had been murdered?<EOS>
 
@@ -4815,7 +4815,7 @@ She crossed herself.<EOS>
 A man-a stranger.<EOS>
 They found him up there-in the shed-not a hundred yards from where they found poor Monsieur.<EOS>
 And that is not all.<EOS>
-He is stabbed<CRIME>-stabbed<CRIME> to the heart _with the same dagger!___"<EOS>
+He is stabbed-stabbed to the heart _with the same dagger!___"<EOS>
 
 
 <SOC>Chapter 14 The Second Body
@@ -4848,7 +4848,7 @@ It was the same dagger I had seen reposing in the glass jar the preceding mornin
 "I'm expecting the doctor any minute," explained Giraud.<EOS>
 "Although we hardly need him.<EOS>
 There's no doubt what the man died of.<EOS>
-He was stabbed<CRIME> to the heart, and death must have been pretty well instantaneous."<EOS>
+He was stabbed to the heart, and death must have been pretty well instantaneous."<EOS>
 
 "When was it done?<EOS>
 Last night?"<EOS>
@@ -4861,7 +4861,7 @@ When do you say you last saw that dagger?"<EOS>
 
 "About ten o'clock yesterday morning."<EOS>
 
-"Then I should be inclined to fix the crime<CRIME> as being done not long after that."<EOS>
+"Then I should be inclined to fix the crime as being done not long after that."<EOS>
 
 "But people were passing and repassing this shed continually."<EOS>
 
@@ -4874,9 +4874,9 @@ Who told you he was killed in this shed?"<EOS>
 "I-I assumed it."<EOS>
 
 "Oh, what a fine detective<INVESTIGATOR>!<EOS>
-Look at him, _mon petit___-does a man stabbed<CRIME> to the heart fall like that-neatly with his feet together, and his arms to his side?<EOS>
+Look at him, _mon petit___-does a man stabbed to the heart fall like that-neatly with his feet together, and his arms to his side?<EOS>
 No.<EOS>
-Again does a man lie down on his back and permit himself to be stabbed<CRIME> without raising a hand to defend himself?<EOS>
+Again does a man lie down on his back and permit himself to be stabbed without raising a hand to defend himself?<EOS>
 It is absurd, is it not?<EOS>
 But see here-and here-" He flashed the torch along the ground.<EOS>
 I saw curious irregular marks in the soft dirt.<EOS>
@@ -5006,7 +5006,7 @@ She came indignantly, protesting with vehemence.<EOS>
 This is an outrage!<EOS>
 What have I to do with all this?"<EOS>
 
-"Madame," said Giraud brutally, "I am investigating not one murder<CRIME>, but two murders!<EOS>
+"Madame," said Giraud brutally, "I am investigating not one murder, but two murders!<EOS>
 For all I know you may have committed them both."<EOS>
 
 "How dare you?" she cried.<EOS>
@@ -5021,7 +5021,7 @@ What about this?" Stooping, he again detached the hair, and held it up.<EOS>
 With a cry she started backwards, white to the lips.<EOS>
 
 "It is false-I swear it.<EOS>
-I know nothing of the crime<CRIME>-of either crime<CRIME>.<EOS>
+I know nothing of the crime-of either crime.<EOS>
 Any one who says I do lies!<EOS>
 Ah!<EOS>
 _mon Dieu___, what shall I do?"<EOS>
@@ -5077,7 +5077,7 @@ I think he had forgotten my presence.<EOS>
 But, at that moment, a stir and bustle was heard outside, and our old friend, the examining magistrate, accompanied by his clerk and M. Bex<SUSPECT>, with the doctor behind him, came bustling in.<EOS>
 
 "But this is extraordinary, Mr. Giraud," cried M. Hautet.<EOS>
-"Another crime<CRIME>!<EOS>
+"Another crime!<EOS>
 Ah, we have not got to the bottom of this case.<EOS>
 There is some deep mystery here.<EOS>
 But who is the victim this time?"<EOS>
@@ -5090,9 +5090,9 @@ He has not been identified."<EOS>
 Giraud moved aside a little.<EOS>
 
 "There in the corner.<EOS>
-He has been stabbed<CRIME> to the heart, as you see.<EOS>
+He has been stabbed to the heart, as you see.<EOS>
 And with the dagger that was stolen yesterday morning.<EOS>
-I fancy that the murder<CRIME> followed hard upon the theft<CRIME>-but that is for you to say.<EOS>
+I fancy that the murder followed hard upon the theft-but that is for you to say.<EOS>
 You can handle the dagger freely-there are no finger-prints on it."<EOS>
 
 The doctor knelt down by the dead man, and Giraud turned to the examining magistrate.<EOS>
@@ -5112,7 +5112,7 @@ But at that moment they were interrupted by the doctor who was sitting back on h
 
 "You say he was killed yesterday morning?"<EOS>
 
-"I fix it by the theft<CRIME> of the dagger," explained Giraud.<EOS>
+"I fix it by the theft of the dagger," explained Giraud.<EOS>
 "He may, of course, have been killed later in the day."<EOS>
 
 "Later in the day?<EOS>
@@ -5125,7 +5125,7 @@ We stared at each other in blank amazement.<EOS>
 <SOC>Chapter 15 A Photograph
 
 The doctor's words were so surprising that we were all momentarily taken aback.<EOS>
-Here was a man stabbed<CRIME> with a dagger which we knew to have been stolen only twenty-four hours previously, and yet Dr. Durand asserted positively that he had been dead at least forty-eight hours!<EOS>
+Here was a man stabbed with a dagger which we knew to have been stolen only twenty-four hours previously, and yet Dr. Durand asserted positively that he had been dead at least forty-eight hours!<EOS>
 The whole thing was fantastic to the last extreme.<EOS>
 
 We were still recovering from the surprise of the doctor's announcement, when a telegram was brought to me.<EOS>
@@ -5166,10 +5166,10 @@ By the last train arriving the other way, the 11:40."<EOS>
 
 My brain whirled.<EOS>
 That, then, was the reason of Marthe<PERPETRATOR>'s poignant anxiety.<EOS>
-Jack<SUSPECT> Renauld<SUSPECT> had been in Merlinville on the night of the crime<CRIME>!<EOS>
+Jack<SUSPECT> Renauld<SUSPECT> had been in Merlinville on the night of the crime!<EOS>
 But why had he not said so?<EOS>
 Why, on the contrary, had he led us to believe that he had remained in Cherbourg?<EOS>
-Remembering his frank boyish countenance, I could hardly bring myself to believe that he had any connection with the crime<CRIME>.<EOS>
+Remembering his frank boyish countenance, I could hardly bring myself to believe that he had any connection with the crime.<EOS>
 Yet why this silence on his part about so vital a matter?<EOS>
 One thing was certain, Marthe<PERPETRATOR> had known all along.<EOS>
 Hence her anxiety, and her eager questioning of Poirot<INVESTIGATOR> to know whether any one were suspected.<EOS>
@@ -5199,7 +5199,7 @@ I cut short his remonstrances.<EOS>
 
 "My dear Poirot<INVESTIGATOR>-never mind all that.<EOS>
 We must go to the Villa at once.<EOS>
-_There has been another murder<CRIME>!___"<EOS>
+_There has been another murder!___"<EOS>
 
 I have frequently been disappointed when fancying that I was giving news of importance to my friend.<EOS>
 Either he has known it already or he has dismissed it as irrelevant to the main issue-and in the latter case events have usually proved him justified.<EOS>
@@ -5210,7 +5210,7 @@ All the jauntiness went out of his bearing.<EOS>
 He stared at me open-mouthed.<EOS>
 
 "What is that you say?<EOS>
-Another murder<CRIME>?<EOS>
+Another murder?<EOS>
 Ah, then, I am all wrong.<EOS>
 I have failed.<EOS>
 Giraud may mock himself at me-he will have reason!"<EOS>
@@ -5232,13 +5232,13 @@ I _am___ right!"<EOS>
 He interrupted me.<EOS>
 
 "Wait, my friend.<EOS>
-I must be right, therefore this new murder<CRIME> is impossible unless-unless-oh, wait, I implore you.<EOS>
+I must be right, therefore this new murder is impossible unless-unless-oh, wait, I implore you.<EOS>
 Say no word-"<EOS>
 
 He was silent for a moment or two, then, resuming his normal manner, he said in a quiet assured voice:<EOS>
 "The victim is a man of middle-age.<EOS>
-His body was found in the locked shed near the scene of the crime<CRIME> and had been dead at least forty-eight hours.<EOS>
-And it is most probable that he was stabbed<CRIME> in a similar manner to M. Renauld<SUSPECT>, though not necessarily in the back."<EOS>
+His body was found in the locked shed near the scene of the crime and had been dead at least forty-eight hours.<EOS>
+And it is most probable that he was stabbed in a similar manner to M. Renauld<SUSPECT>, though not necessarily in the back."<EOS>
 
 It was my turn to gape-and gape I did.<EOS>
 In all my knowledge of Poirot<INVESTIGATOR> he had never done anything so amazing as this.<EOS>
@@ -5356,7 +5356,7 @@ What do you think, M. le docteur?"<EOS>
 
 "It is not abnormal at all.<EOS>
 It is most simple.<EOS>
-The man was stabbed<CRIME> _after he was dead___."<EOS>
+The man was stabbed _after he was dead___."<EOS>
 And, stilling the clamour of voices that arose with a wave of his hand, Poirot<INVESTIGATOR> turned to Giraud and added, "M. Giraud agrees with me, do you not, monsieur?"<EOS>
 
 Whatever Giraud's real belief, he accepted the position without moving a muscle.<EOS>
@@ -5396,7 +5396,7 @@ At last he rose to his feet.<EOS>
 
 "M. Poirot<INVESTIGATOR>, I am inclined to believe that you are correct in your assertion.<EOS>
 I was misled to begin with.<EOS>
-The incontrovertible fact that the man had been stabbed<CRIME> distracted my attention from any other indications."<EOS>
+The incontrovertible fact that the man had been stabbed distracted my attention from any other indications."<EOS>
 
 Poirot<INVESTIGATOR> was the hero of the hour.<EOS>
 The examining magistrate was profuse in compliments.<EOS>
@@ -5446,7 +5446,7 @@ That is a picture of the notorious Madame Beroldy!"<EOS>
 
 Madame Beroldy!<EOS>
 In a flash the whole thing came back to me.<EOS>
-The murder<CRIME> trial that had evoked such world-wide interest.<EOS>
+The murder trial that had evoked such world-wide interest.<EOS>
 
 
 _The Beroldy Case.___
@@ -5497,7 +5497,7 @@ Stifling her cries, they had bound and gagged her.<EOS>
 They had then demanded of Monsieur Beroldy the famous "secret."<EOS>
 
 But the intrepid wine merchant refused point-blank to accede to their request.<EOS>
-Angered by his refusal, one of the men incontinently stabbed<CRIME> him through the heart.<EOS>
+Angered by his refusal, one of the men incontinently stabbed him through the heart.<EOS>
 With the dead man's keys, they had opened the safe in the corner, and had carried away with them a mass of papers.<EOS>
 Both men were heavily bearded, and had worn masks, but Madame Beroldy declared positively that they were Russians.<EOS>
 
@@ -5505,7 +5505,7 @@ The affair created an immense sensation.<EOS>
 It was referred to variously as "the Nihilist Atrocity," "Revolutionaries in Paris," and the "Russian Mystery."<EOS>
 Time went on, and the mysterious bearded men were never traced.<EOS>
 And then, just as public interest was beginning to die down, a startling development occurred.<EOS>
-Madame Beroldy was arrested and charged with the murder<CRIME> of her husband.<EOS>
+Madame Beroldy was arrested and charged with the murder of her husband.<EOS>
 
 The trial, when it came on, aroused widespread interest.<EOS>
 The youth and beauty of the accused, and her mysterious history, were sufficient to make of it a _cause celebre___.<EOS>
@@ -5517,7 +5517,7 @@ It was proved beyond doubt that Jeanne Beroldy's parents were a highly respectab
 The Russian Grand Duke, the court intrigues, and the political schemes-all the stories current were traced back to-the lady herself!<EOS>
 From her brain had emanated these ingenious myths, and she was proved to have raised a considerable sum of money from various credulous persons by her fiction of the "Crown jewels"-the jewels in question being found to be mere paste imitations.<EOS>
 Remorselessly the whole story of her life was laid bare.<EOS>
-The motive for the murder<CRIME> was found in Mr. Hiram P. Trapp.<EOS>
+The motive for the murder was found in Mr. Hiram P. Trapp.<EOS>
 Mr. Trapp did his best, but relentlessly and agilely cross-questioned he was forced to admit that he loved the lady, and that, had she been free, he would have asked her to be his wife.<EOS>
 The fact that the relations between them were admittedly platonic strengthened the case against the accused.<EOS>
 Debarred from becoming his mistress by the simple honourable nature of the man, Jeanne Beroldy had conceived the monstrous project of ridding herself of her elderly undistinguished husband, and becoming the wife of the rich American.<EOS>
@@ -5528,15 +5528,15 @@ She continued to declare strenuously that she was of royal birth, and that she h
 Absurd and completely unsubstantiated as these statements were, a great number of people believed implicitly in their truth.<EOS>
 
 But the prosecution was implacable.<EOS>
-It denounced the masked "Russians" as a myth, and asserted that the crime<CRIME> had been committed by Madame Beroldy and her lover, Georges Conneau.<EOS>
+It denounced the masked "Russians" as a myth, and asserted that the crime had been committed by Madame Beroldy and her lover, Georges Conneau.<EOS>
 A warrant was issued for the arrest of the latter, but he had wisely disappeared.<EOS>
 Evidence showed that the bonds which secured Madame Beroldy were so loose that she could easily have freed herself.<EOS>
 
 And then, towards the close of the trial, a letter, posted in Paris, was sent to the Public Prosecutor.<EOS>
-It was from Georges Conneau and, without revealing his whereabouts, it contained a full confession of the crime<CRIME>.<EOS>
+It was from Georges Conneau and, without revealing his whereabouts, it contained a full confession of the crime.<EOS>
 He declared that he had indeed struck the fatal blow at Madame Beroldy's instigation.<EOS>
-The crime<CRIME> had been planned between them.<EOS>
-Believing that her husband ill-treated her, and maddened by his own passion for her, a passion which he believed her to return, he had planned the crime<CRIME> and struck the fatal blow that should free the woman he loved from a hateful bondage.<EOS>
+The crime had been planned between them.<EOS>
+Believing that her husband ill-treated her, and maddened by his own passion for her, a passion which he believed her to return, he had planned the crime and struck the fatal blow that should free the woman he loved from a hateful bondage.<EOS>
 Now, for the first time, he learnt of Mr. Hiram P. Trapp, and realized that the woman he loved had betrayed him!<EOS>
 Not for his sake did she wish to be free-but in order to marry the wealthy American.<EOS>
 She had used him as a cat's-paw, and now, in his jealous rage, he turned and denounced her, declaring that throughout he had acted at her instigation.<EOS>
@@ -5544,21 +5544,21 @@ She had used him as a cat's-paw, and now, in his jealous rage, he turned and den
 And then Madame Beroldy proved herself the remarkable woman she undoubtedly was.<EOS>
 Without hesitation, she dropped her previous defence, and admitted that the "Russians" were a pure invention on her part.<EOS>
 The real murderer<PERPETRATOR> was Georges Conneau.<EOS>
-Maddened by passion, he had committed the crime<CRIME>, vowing that if she did not keep silence he would enact a terrible vengeance from her.<EOS>
-Terrified by his threats, she had consented-also fearing it likely that if she told the truth she might be accused of conniving at the crime<CRIME>.<EOS>
+Maddened by passion, he had committed the crime, vowing that if she did not keep silence he would enact a terrible vengeance from her.<EOS>
+Terrified by his threats, she had consented-also fearing it likely that if she told the truth she might be accused of conniving at the crime.<EOS>
 But she had steadfastly refused to have anything more to do with her husband's murderer<PERPETRATOR>, and it was in revenge for this attitude on her part that he had written this letter accusing her.<EOS>
-She swore solemnly that she had had nothing to do with the planning of the crime<CRIME>, that she had awoke on that memorable night to find Georges Conneau standing over her, the blood-stained knife in his hand.<EOS>
+She swore solemnly that she had had nothing to do with the planning of the crime, that she had awoke on that memorable night to find Georges Conneau standing over her, the blood-stained knife in his hand.<EOS>
 
 It was a touch and go affair.<EOS>
 Madame Beroldy's story was hardly credible.<EOS>
 But this woman, whose fairy tales of royal intrigues had been so easily accepted, had the supreme art of making herself believed.<EOS>
 Her address to the jury was a masterpiece.<EOS>
 The tears streaming down her face, she spoke of her child, of her woman's honour-of her desire to keep her reputation untarnished for the child's sake.<EOS>
-She admitted that, Georges Conneau having been her lover, she might perhaps be held morally responsible for the crime<CRIME>-but, before God, nothing more!<EOS>
+She admitted that, Georges Conneau having been her lover, she might perhaps be held morally responsible for the crime-but, before God, nothing more!<EOS>
 She knew that she had committed a grave fault in not denouncing Conneau to the law, but she declared in a broken voice that that was a thing no woman could have done....<EOS>
 She had loved him!<EOS>
 Could she let her hand be the one to send him to the Guillotine?<EOS>
-She had been guilty of much, but she was innocent of the terrible crime<CRIME> imputed to her.<EOS>
+She had been guilty of much, but she was innocent of the terrible crime imputed to her.<EOS>
 
 However that may have been, her eloquence and personality won the day.<EOS>
 Madame Beroldy, amidst a scene of unparalleled excitement, was acquitted.<EOS>
@@ -5598,7 +5598,7 @@ Then he looked up.<EOS>
 The similarity of the two cases proves that beyond a doubt."<EOS>
 
 "Then you consider that Madame Beroldy was wrongly acquitted?<EOS>
-That in actual fact she was guilty of connivance in her husband's murder<CRIME>?"<EOS>
+That in actual fact she was guilty of connivance in her husband's murder?"<EOS>
 
 I opened my eyes wide.<EOS>
 
@@ -5611,7 +5611,7 @@ Poirot<INVESTIGATOR> walked to the end of the room, absentmindedly straightened 
 But there is no 'of course' about it, my friend.<EOS>
 Technically speaking, Madame Beroldy is innocent."<EOS>
 
-"Of that crime<CRIME>, perhaps.<EOS>
+"Of that crime, perhaps.<EOS>
 But not of this."<EOS>
 
 Poirot<INVESTIGATOR> sat down again, and regarded me, his thoughtful air more marked than ever.<EOS>
@@ -5631,17 +5631,17 @@ Oh, because-" I came to a stop.<EOS>
 Poirot<INVESTIGATOR> nodded his head at me.<EOS>
 
 "You see, you come to a stumbling-block at once.<EOS>
-Why should Madame Daubreuil<PERPETRATOR> (I shall call her that for clearness sake) murder<CRIME> M. Renauld<SUSPECT>?<EOS>
+Why should Madame Daubreuil<PERPETRATOR> (I shall call her that for clearness sake) murder M. Renauld<SUSPECT>?<EOS>
 We can find no shadow of a motive.<EOS>
 She does not benefit by his death; considered as either mistress or blackmailer she stands to lose.<EOS>
-You cannot have a murder<CRIME> without a motive.<EOS>
-The first crime<CRIME> was different, there we had a rich lover waiting to step into her husband's shoes."<EOS>
+You cannot have a murder without a motive.<EOS>
+The first crime was different, there we had a rich lover waiting to step into her husband's shoes."<EOS>
 
-"Money is not the only motive for murder<CRIME>," I objected.<EOS>
+"Money is not the only motive for murder," I objected.<EOS>
 
 "True," agreed Poirot<INVESTIGATOR> placidly.<EOS>
 "There are two others, the _crime passionnel___ is one.<EOS>
-And there is the third rare motive, murder<CRIME> for an idea which implies some form of mental derangement on the part of the murderer<PERPETRATOR>.<EOS>
+And there is the third rare motive, murder for an idea which implies some form of mental derangement on the part of the murderer<PERPETRATOR>.<EOS>
 Homicidal mania, and religious fanaticism belong to that class.<EOS>
 We can rule it out here."<EOS>
 
@@ -5656,9 +5656,9 @@ She is a woman who can simulate great emotional stress.<EOS>
 She is a magnificent actress.<EOS>
 But, looked at dispassionately, her life disproves her appearance.<EOS>
 Throughout, if we examine it, she had been cold-blooded and calculating in her motives and actions.<EOS>
-It was not to link her life with that of her young lover that she connived at her husband's murder<CRIME>.<EOS>
+It was not to link her life with that of her young lover that she connived at her husband's murder.<EOS>
 The rich American, for whom she probably did not care a button, was her objective.<EOS>
-If she committed a crime<CRIME>, she would always do so for gain.<EOS>
+If she committed a crime, she would always do so for gain.<EOS>
 Here there was no gain.<EOS>
 Besides, how do you account for the digging of the grave?<EOS>
 That was a man's work."<EOS>
@@ -5717,7 +5717,7 @@ But at last I see clearly."<EOS>
 "What do you mean?"<EOS>
 
 "We talk a little at cross-purposes.<EOS>
-There are here not one crime<CRIME>, but two.<EOS>
+There are here not one crime, but two.<EOS>
 The first I have solved, the second-_eh bien___, I will confess, I am not sure!"<EOS>
 
 "But, Poirot<INVESTIGATOR>, I thought you said the man in the shed had died a natural death?"<EOS>
@@ -5725,7 +5725,7 @@ The first I have solved, the second-_eh bien___, I will confess, I am not sure!"
 "Ta-ta-ta."<EOS>
 Poirot<INVESTIGATOR> made his favourite ejaculation of impatience.<EOS>
 "Still you do not understand.<EOS>
-One may have a crime<CRIME> without a murderer<PERPETRATOR>, but for two crimes it is essential to have two bodies."<EOS>
+One may have a crime without a murderer<PERPETRATOR>, but for two crimes it is essential to have two bodies."<EOS>
 
 His remark struck me as so peculiarly lacking in lucidity that I looked at him in some anxiety.<EOS>
 But he appeared perfectly normal.<EOS>
@@ -5738,7 +5738,7 @@ Suddenly he rose and strolled to the window.<EOS>
 "M. Jack<SUSPECT> Renauld<SUSPECT>.<EOS>
 I sent a note up to the Villa to ask him to come here."<EOS>
 
-That changed the course of my ideas, and I asked Poirot<INVESTIGATOR> if he knew that Jack<SUSPECT> Renauld<SUSPECT> had been in Merlinville on the night of the crime<CRIME>.<EOS>
+That changed the course of my ideas, and I asked Poirot<INVESTIGATOR> if he knew that Jack<SUSPECT> Renauld<SUSPECT> had been in Merlinville on the night of the crime.<EOS>
 I had hoped to catch my astute little friend napping, but as usual, he was omniscient.<EOS>
 He, too, had inquired at the station.<EOS>
 
@@ -5769,7 +5769,7 @@ His politeness to me has not been striking and you will comprehend that I do not
 "Certainly."<EOS>
 
 "I will ask you to go to the railway station and take a train to the next station along the line, Abbalac.<EOS>
-Ask there at the cloak-room whether two foreigners deposited a valise there on the night of the murder<CRIME>.<EOS>
+Ask there at the cloak-room whether two foreigners deposited a valise there on the night of the murder.<EOS>
 It is a small station, and they are almost certain to remember.<EOS>
 Will you do this?"<EOS>
 
@@ -5784,7 +5784,7 @@ He rose to his feet.<EOS>
 Poirot<INVESTIGATOR>'s voice stopped him.<EOS>
 
 "One moment, M. Renauld<SUSPECT>, there is one little matter that puzzles me.<EOS>
-Why did you not mention to M. Hautet this morning that you were in Merlinville on the night of the crime<CRIME>?"<EOS>
+Why did you not mention to M. Hautet this morning that you were in Merlinville on the night of the crime?"<EOS>
 
 Jack<SUSPECT> Renauld<SUSPECT>'s face went crimson.<EOS>
 With an effort he controlled himself.<EOS>
@@ -5800,7 +5800,7 @@ They say you arrived by the 11:40 train."<EOS>
 For a moment Jack<SUSPECT> Renauld<SUSPECT> hesitated, then he made up his mind.<EOS>
 
 "And if I did?<EOS>
-I suppose you do not mean to accuse me of participating in my father's murder<CRIME>?" He asked the question haughtily, his head thrown back.<EOS>
+I suppose you do not mean to accuse me of participating in my father's murder?" He asked the question haughtily, his head thrown back.<EOS>
 
 "I should like an explanation of the reason that brought you here."<EOS>
 
@@ -5896,7 +5896,7 @@ I joined him at the moment that Marthe Daubreuil<PERPETRATOR>, looking slightly 
 Despite her acquiescence, her eyes looked troubled and afraid.<EOS>
 
 "Mademoiselle, do you remember running after me on the road the day that I came to your house with the examining magistrate?<EOS>
-You asked me if any one were suspected of the crime<CRIME>."<EOS>
+You asked me if any one were suspected of the crime."<EOS>
 
 "And you told me two Chilians."<EOS>
 Her voice sounded rather breathless, and her left hand stole to her breast.<EOS>
@@ -5929,7 +5929,7 @@ There was courage gathering in her face, and determination.<EOS>
 I realized in that moment that she was a fighter.<EOS>
 Poirot<INVESTIGATOR>, too, watched her intently.<EOS>
 
-"You know, of course, that he was here on the night of the murder<CRIME>?" he asked.<EOS>
+"You know, of course, that he was here on the night of the murder?" he asked.<EOS>
 
 "Yes," she replied mechanically.<EOS>
 "He told me."<EOS>
@@ -6003,7 +6003,7 @@ And she slipped away through the trees.<EOS>
 
 "It is a curious tale," said Poirot<INVESTIGATOR>, "but I believe it to be the absolute truth.<EOS>
 Unwittingly, Mademoiselle Marthe<PERPETRATOR> told us the truth on another point-and incidentally gave Jack<SUSPECT> Renauld<SUSPECT> the lie.<EOS>
-Did you notice his hesitation when I asked him if he saw Marthe Daubreuil<PERPETRATOR> on the night of the crime<CRIME>?<EOS>
+Did you notice his hesitation when I asked him if he saw Marthe Daubreuil<PERPETRATOR> on the night of the crime?<EOS>
 He paused and then said 'Yes.'<EOS>
 I suspected that he was lying.<EOS>
 It was necessary for me to see Mademoiselle Marthe<PERPETRATOR> before he could put her on her guard.<EOS>
@@ -6011,7 +6011,7 @@ Three little words gave me the information I wanted.<EOS>
 When I asked her if she knew that Jack<SUSPECT> Renauld<SUSPECT> was here that night, she answered 'He _told___ me.'<EOS>
 Now, Hastings, what was Jack<SUSPECT> Renauld<SUSPECT> doing here on that eventful evening, and if he did not see Mademoiselle Marthe<PERPETRATOR> whom did he see?"<EOS>
 
-"Surely, Poirot<INVESTIGATOR>," I cried, aghast, "you cannot believe that a boy like that would murder<CRIME> his own father."<EOS>
+"Surely, Poirot<INVESTIGATOR>," I cried, aghast, "you cannot believe that a boy like that would murder his own father."<EOS>
 
 "_Mon ami___," said Poirot<INVESTIGATOR>, "you continue to be of a sentimentality unbelievable!<EOS>
 I have seen mothers who murdered their little children for the sake of the insurance money!<EOS>
@@ -6027,7 +6027,7 @@ Where does he come in?"<EOS>
 
 Poirot<INVESTIGATOR> shrugged his shoulders.<EOS>
 
-"Giraud would say that he was an accomplice-an apache who helped young Renauld<SUSPECT> to commit the crime<CRIME>, and who was conveniently put out of the way afterwards."<EOS>
+"Giraud would say that he was an accomplice-an apache who helped young Renauld<SUSPECT> to commit the crime, and who was conveniently put out of the way afterwards."<EOS>
 
 "But the hair round the dagger?<EOS>
 The woman's hair?"<EOS>
@@ -6088,7 +6088,7 @@ In the hall stood Giraud, contemplating his prisoner.<EOS>
 Giraud nodded his head towards Jack<SUSPECT>.<EOS>
 
 "He was trying to make a getaway, but I was too sharp for him.<EOS>
-He is under arrest for the murder<CRIME> of his father, M. Paul Renauld<SUSPECT>."<EOS>
+He is under arrest for the murder of his father, M. Paul Renauld<SUSPECT>."<EOS>
 
 Poirot<INVESTIGATOR> wheeled to confront the boy who leaned limply against the door, his face ashy pale.<EOS>
 
@@ -6145,7 +6145,7 @@ All that was a blind."<EOS>
 Giraud glared, but continued:<EOS>
 
 "A man must have been connected with the case, in order to dig the grave.<EOS>
-There is no man who actually benefits by the crime<CRIME>, but there was a man who thought he would benefit.<EOS>
+There is no man who actually benefits by the crime, but there was a man who thought he would benefit.<EOS>
 I heard of Jack<SUSPECT> Renauld<SUSPECT>'s quarrel with his father, and of the threats that he had used.<EOS>
 The motive was established.<EOS>
 Now as to means.<EOS>
@@ -6167,7 +6167,7 @@ He arrived at the front door, in an automobile which had brought him straight fr
 Ah, believe me, I have looked into everything.<EOS>
 M. Jack<SUSPECT> Renauld<SUSPECT> arrived by train.<EOS>
 An hour elapsed between his arrival, and the moment he presented himself at the house.<EOS>
-Without doubt, he saw Captain<SUSPECT> Hastings and his companion leave the shed, slipped in himself and took the dagger, stabbed<CRIME> his accomplice in the shed-"<EOS>
+Without doubt, he saw Captain<SUSPECT> Hastings and his companion leave the shed, slipped in himself and took the dagger, stabbed his accomplice in the shed-"<EOS>
 
 "Who was already dead!"<EOS>
 
@@ -6176,7 +6176,7 @@ Giraud shrugged his shoulders.<EOS>
 "Possibly he did not observe that.<EOS>
 He may have judged him to be sleeping.<EOS>
 Without doubt they had a rendezvous.<EOS>
-In any case he knew this apparent second murder<CRIME> would greatly complicate the case.<EOS>
+In any case he knew this apparent second murder would greatly complicate the case.<EOS>
 It did."<EOS>
 
 "But it could not deceive M. Giraud," murmured Poirot<INVESTIGATOR>.<EOS>
@@ -6389,8 +6389,8 @@ You seriously advance that supposition?"<EOS>
 He could have threatened to reveal her identity to the Renaulds, which would probably have put an end to all hopes of her daughter's marriage."<EOS>
 
 "You are wrong, Hastings.<EOS>
-He could not blackmail<CRIME> her, for she had the whip hand.<EOS>
-Georges Conneau, remember, is still wanted for murder<CRIME>.<EOS>
+He could not blackmail her, for she had the whip hand.<EOS>
+Georges Conneau, remember, is still wanted for murder.<EOS>
 A word from her and he is in danger of the guillotine."<EOS>
 
 I was forced, rather reluctantly, to admit the truth of this.<EOS>
@@ -6401,7 +6401,7 @@ I was forced, rather reluctantly, to admit the truth of this.<EOS>
 "And the truth is necessarily correct.<EOS>
 In your theory you made a fundamental error.<EOS>
 You permitted your imagination to lead you astray with midnight assignations and passionate love scenes.<EOS>
-But in investigating crime<CRIME> we must take our stand upon the commonplace.<EOS>
+But in investigating crime we must take our stand upon the commonplace.<EOS>
 Shall I demonstrate my methods to you?"<EOS>
 
 "Oh, by all means let us have a demonstration!"<EOS>
@@ -6410,14 +6410,14 @@ Poirot<INVESTIGATOR> sat very upright and began, wagging his forefinger emphatic
 
 "I will start as you started from the basic fact of Georges Conneau.<EOS>
 Now the story told by Madame Beroldy in court as to the 'Russians' was admittedly a fabrication.<EOS>
-If she was innocent of connivance in the crime<CRIME>, it was concocted by her, and by her only as she stated.<EOS>
+If she was innocent of connivance in the crime, it was concocted by her, and by her only as she stated.<EOS>
 If, on the other hand, she was not innocent, it might have been invented by either her or Georges Conneau.<EOS>
 
 "Now in this case we are investigating, we meet the same tale.<EOS>
 As I pointed out to you, the facts render it very unlikely that Madame Daubreuil<PERPETRATOR> inspired it.<EOS>
 So we turn to the hypothesis that the story had its origin in the brain of Georges Conneau.<EOS>
 Very good.<EOS>
-Georges Conneau, therefore, planned the crime<CRIME> with Madame Renauld<SUSPECT> as his accomplice.<EOS>
+Georges Conneau, therefore, planned the crime with Madame Renauld<SUSPECT> as his accomplice.<EOS>
 She is in the limelight, and behind her is a shadowy figure whose alias is unknown to us.<EOS>
 
 "Now let us go carefully over the Renauld<SUSPECT> Case from the beginning, setting down each significant point in its chronological order.<EOS>
@@ -6457,9 +6457,9 @@ Poirot<INVESTIGATOR> paused.<EOS>
 I endeavoured conscientiously to do as he had said.<EOS>
 After a moment or two, I said rather doubtfully:<EOS>
 
-"As to the first points, the question seems to be whether we adopt the theory of blackmail<CRIME>, or of an infatuation for this woman."<EOS>
+"As to the first points, the question seems to be whether we adopt the theory of blackmail, or of an infatuation for this woman."<EOS>
 
-"Blackmail<CRIME>, decidedly.<EOS>
+"Blackmail, decidedly.<EOS>
 You heard what Stonor said as to his character and habits."<EOS>
 
 "Mrs. Renauld<SUSPECT> did not confirm his view," I argued.<EOS>
@@ -6574,10 +6574,10 @@ No, it was the time that was slipping by, and for some reason time was precious.
 
 "That is what we ask ourselves.<EOS>
 Why should it be?<EOS>
-But later we have the incident of the wrist watch-which again shows us that time plays a very important part in the crime<CRIME>.<EOS>
+But later we have the incident of the wrist watch-which again shows us that time plays a very important part in the crime.<EOS>
 We are now fast approaching the actual drama.<EOS>
-It is half-past ten when Bella Duveen<SUSPECT> leaves, and by the evidence of the wrist watch we know that the crime<CRIME> was committed, or at any rate that it was staged, before twelve o'clock.<EOS>
-We have reviewed all the events anterior to the murder<CRIME>, there remains only one unplaced.<EOS>
+It is half-past ten when Bella Duveen<SUSPECT> leaves, and by the evidence of the wrist watch we know that the crime was committed, or at any rate that it was staged, before twelve o'clock.<EOS>
+We have reviewed all the events anterior to the murder, there remains only one unplaced.<EOS>
 By the doctor's evidence, the tramp, when found, had been dead at least forty-eight hours-with a possible margin of twenty-four hours more.<EOS>
 Now, with no other facts to help me than those we have discussed, I place the death as having occurred on the morning of June 7th."<EOS>
 
@@ -6621,14 +6621,14 @@ No.<EOS>
 But the cause of No.<EOS>
 3 is hidden from us.<EOS>
 We have to deduce it.<EOS>
-Now, _mon ami___, let me ask you a question; who do we believe to have planned this crime<CRIME>?"<EOS>
+Now, _mon ami___, let me ask you a question; who do we believe to have planned this crime?"<EOS>
 
 "Georges Conneau," I said doubtfully, eyeing Poirot<INVESTIGATOR> warily.<EOS>
 
 "Exactly.<EOS>
 Now Giraud laid it down as an axiom that a woman lies to save herself, the man she loves, and her child.<EOS>
 Since we are satisfied that was Georges Conneau who dictated the lie to her, and as Georges Conneau is not Jack<SUSPECT> Renauld<SUSPECT>, follows that the third case is put out of court.<EOS>
-And, still attributing the crime<CRIME> to Georges Conneau, the first is equally so.<EOS>
+And, still attributing the crime to Georges Conneau, the first is equally so.<EOS>
 So we are forced to the second-that Madame Renauld<SUSPECT> lied for the sake of the man she loved-or in other words, for the sake of Georges Conneau.<EOS>
 You agree to that."<EOS>
 
@@ -6665,11 +6665,11 @@ I rallied myself.<EOS>
 
 "But it's impossible."<EOS>
 
-"How 'impossible?' Did we not agree just now that Madame Daubreuil<PERPETRATOR> was in a position to blackmail<CRIME> Georges Conneau?"<EOS>
+"How 'impossible?' Did we not agree just now that Madame Daubreuil<PERPETRATOR> was in a position to blackmail Georges Conneau?"<EOS>
 
 "Yes, but-"<EOS>
 
-"And did she not very effectively blackmail<CRIME> M. Renauld<SUSPECT>?"<EOS>
+"And did she not very effectively blackmail M. Renauld<SUSPECT>?"<EOS>
 
 "That may be true enough, but-"<EOS>
 
@@ -6680,8 +6680,8 @@ That he springs suddenly into existence as a French Canadian exactly twenty-two 
 
 "What is it, my friend?"<EOS>
 
-"Why, we have admitted Georges Conneau planned the crime<CRIME>.<EOS>
-That brings us to the ridiculous statement that he planned his own murder<CRIME>!"<EOS>
+"Why, we have admitted Georges Conneau planned the crime.<EOS>
+That brings us to the ridiculous statement that he planned his own murder!"<EOS>
 
 "_Eh bien, mon ami___," said Poirot<INVESTIGATOR> placidly, "that is just what he did do!"<EOS>
 
@@ -6697,7 +6697,7 @@ Yes, M. Renauld<SUSPECT> planned his own death, but there is one detail that per
 I shook my head, bewildered.<EOS>
 
 "But no, it is all most simple really," said Poirot<INVESTIGATOR> kindly.<EOS>
-"For the crime<CRIME> that M. Renauld<SUSPECT> proposed a murderer<PERPETRATOR> was not necessary, as I told you, but a body was.<EOS>
+"For the crime that M. Renauld<SUSPECT> proposed a murderer<PERPETRATOR> was not necessary, as I told you, but a body was.<EOS>
 Let us reconstruct, seeing events this time from a different angle.<EOS>
 
 "Georges Conneau flies from justice-to Canada.<EOS>
@@ -6746,7 +6746,7 @@ bunkair?-is to be made.<EOS>
 It is essential that the body should be found-Madame Daubreuil<PERPETRATOR> must have no suspicions.<EOS>
 On the other hand, if a little time elapses, any dangers as to identity will be greatly lessened.<EOS>
 Then, M. Renauld<SUSPECT> will don the tramp's rags, and shuffle off to the station, where he will leave, unnoticed, by the 12:10 train.<EOS>
-Since the crime<CRIME> will be supposed to have taken place two hours later, no suspicion can possibly attach to him.<EOS>
+Since the crime will be supposed to have taken place two hours later, no suspicion can possibly attach to him.<EOS>
 
 "You see now his annoyance at the inopportune visit of the girl Bella<SUSPECT>.<EOS>
 Every moment of delay is fatal to his plans.<EOS>
@@ -6763,7 +6763,7 @@ He goes out on to the lonely golf links, and he digs-and then-"<EOS>
 "And then," said Poirot<INVESTIGATOR> gravely, "the justice that he has so long eluded overtakes him.<EOS>
 An unknown hand stabs him in the back....<EOS>
 Now, Hastings, you understand what I mean when I talk of _two___ crimes.<EOS>
-The first crime<CRIME>, the crime<CRIME> that M. Renauld<SUSPECT>, in his arrogance, asked us to investigate (ah, but he made a famous mistake there!<EOS>
+The first crime, the crime that M. Renauld<SUSPECT>, in his arrogance, asked us to investigate (ah, but he made a famous mistake there!<EOS>
 He misjudged Hercule Poirot<INVESTIGATOR>!) is solved.<EOS>
 But behind it lies a deeper riddle.<EOS>
 And to solve that will be difficult-since the criminal in his wisdom, has been content to avail himself of the devices prepared by M. Renauld<SUSPECT>.<EOS>
@@ -6809,7 +6809,7 @@ But I, Hercule Poirot<INVESTIGATOR>, whom he despises, will be the little pin th
 Then, calming down, he resumed:<EOS>
 
 "Without doubt, when Madame Renauld<SUSPECT> recovers, she will speak.<EOS>
-The possibility of her son being accused of the murder<CRIME> never occurred to her.<EOS>
+The possibility of her son being accused of the murder never occurred to her.<EOS>
 How should it, when she believed him safely at sea on board the _Anzora?___ _Ah!<EOS>
 voila une femme___, Hastings!<EOS>
 What force, what self-command!<EOS>
@@ -6821,9 +6821,9 @@ What a terrible part she has had to play, poor woman.<EOS>
 Imagine the shock when she goes to identify the body and, instead of what she expects, sees the actual lifeless form of the husband she has believed miles away by now.<EOS>
 No wonder she fainted!<EOS>
 But since then, despite her grief and her despair, how resolutely she has played her part, and how the anguish of it must wring her.<EOS>
-She cannot say a word to set us on the track of the real murderers.<EOS>
+She cannot say a word to set us on the track of the real murderers<PERPETRATOR>.<EOS>
 For her son's sake, no one must know that Paul Renauld<SUSPECT> was Georges Conneau, the criminal.<EOS>
-Final and most bitter blow, she has admitted publicly that Madame Daubreuil<PERPETRATOR> was her husband's mistress-for a hint of blackmail<CRIME> might be fatal to her secret.<EOS>
+Final and most bitter blow, she has admitted publicly that Madame Daubreuil<PERPETRATOR> was her husband's mistress-for a hint of blackmail might be fatal to her secret.<EOS>
 How cleverly she dealt with the examining magistrate when he asked her if there was any mystery in her husband's past life.<EOS>
 'Nothing so romantic, I am sure, M. le juge.'<EOS>
 It was perfect, the indulgent tone, the _soupcon___ of sad mockery.<EOS>
@@ -6851,7 +6851,7 @@ If he has arrived at the right person by the wrong method, he will not permit th
 "You see, Hastings, we must now start again.<EOS>
 Who killed M. Renauld<SUSPECT>?<EOS>
 Some one who was near the Villa just before twelve o'clock that night, some one who would benefit by his death-the description fits Jack<SUSPECT> Renauld<SUSPECT> only too well.<EOS>
-The crime<CRIME> need not have been premeditated.<EOS>
+The crime need not have been premeditated.<EOS>
 And then the dagger!"<EOS>
 
 I started, I had not realized that point.<EOS>
@@ -6933,10 +6933,10 @@ On my behalf as I had believed?<EOS>
 Or had I only fatuously thought so, and was this visit undertaken with a deeper and more sinister purpose?<EOS>
 
 But in any case, why was he bent on finding this girl?<EOS>
-Did he suspect<SUSPECT> her of having seen Jack<SUSPECT> Renauld<SUSPECT> commit the crime<CRIME>?<EOS>
+Did he suspect<SUSPECT> her of having seen Jack<SUSPECT> Renauld<SUSPECT> commit the crime?<EOS>
 Or did he suspect<SUSPECT>-but that was impossible!<EOS>
 The girl had no grudge against the elder Renauld<SUSPECT>, no possible motive for wishing his death.<EOS>
-What had brought her back to the scene of the murder<CRIME>?<EOS>
+What had brought her back to the scene of the murder?<EOS>
 I went over the facts carefully.<EOS>
 She must have left the train at Calais where I parted from her that day.<EOS>
 No wonder I had been unable to find her on the boat.<EOS>
@@ -6944,7 +6944,7 @@ If she had dined in Calais, and then taken a train out to Merlinville, she would
 What had she done when she left the house just after ten?<EOS>
 Presumably either gone to an hotel, or returned to Calais.<EOS>
 And then?<EOS>
-The crime<CRIME> had been committed on Tuesday night.<EOS>
+The crime had been committed on Tuesday night.<EOS>
 On Thursday morning, she was once more in Merlinville.<EOS>
 Had she ever left France at all?<EOS>
 I doubted it very much.<EOS>
@@ -7148,8 +7148,8 @@ I paused.<EOS>
 "You told me in the train on the way from Paris that you had Italian blood in your veins, and that you had nearly got into trouble once with it.<EOS>
 You used a threat in one of your letters to Jack<SUSPECT> Renauld<SUSPECT>.<EOS>
 When you saw him there, your anger and jealousy drove you mad-and you struck!<EOS>
-I don't believe for a minute that you meant to kill<CRIME> him.<EOS>
-But you did kill<CRIME> him, Cinderella."<EOS>
+I don't believe for a minute that you meant to kill him.<EOS>
+But you did kill him, Cinderella."<EOS>
 
 She had flung up her hands to cover her face, and in a choked voice she said:<EOS>
 
@@ -7263,7 +7263,7 @@ I met his eyes squarely.<EOS>
 "Nothing that you could tell me would be any surprise to me, Poirot<INVESTIGATOR>.<EOS>
 Understand that.<EOS>
 But in case you think of resuming your search for Miss Duveen<SUSPECT>, I should like you to know one thing clearly.<EOS>
-If you have any idea that she was concerned in the crime<CRIME>, or was the mysterious lady who called upon Mr. Renauld<SUSPECT> that night, you are wrong.<EOS>
+If you have any idea that she was concerned in the crime, or was the mysterious lady who called upon Mr. Renauld<SUSPECT> that night, you are wrong.<EOS>
 I travelled home from France with her that day, and parted from her at Victoria that evening so that it is clearly impossible for her to have been in Merlinville."<EOS>
 
 "Ah!"<EOS>
@@ -7423,7 +7423,7 @@ But, if the cost were to another, the problem was altered.<EOS>
 
 What would the girl herself say?<EOS>
 I remembered that no word of Jack<SUSPECT> Renauld<SUSPECT>'s arrest had passed my lips.<EOS>
-As yet she was in total ignorance of the fact that her former lover was in prison charged with a hideous crime<CRIME> which he had not committed.<EOS>
+As yet she was in total ignorance of the fact that her former lover was in prison charged with a hideous crime which he had not committed.<EOS>
 When she knew, how would she act?<EOS>
 Would she permit her life to be saved at the expense of his?<EOS>
 Certainly she must do nothing rash.<EOS>
@@ -7432,9 +7432,9 @@ If so, good.<EOS>
 But if he was not....<EOS>
 That was the terrible, the unanswerable problem.<EOS>
 I fancied that she ran no risk of the extreme penalty.<EOS>
-The circumstances of the crime<CRIME> were quite different in her case.<EOS>
+The circumstances of the crime were quite different in her case.<EOS>
 She could plead jealousy and extreme provocation, and her youth and beauty would go for much.<EOS>
-The fact that by a tragic mistake it was old Mr. Renauld<SUSPECT>, and not his son, who paid the penalty would not alter the motive of the crime<CRIME>.<EOS>
+The fact that by a tragic mistake it was old Mr. Renauld<SUSPECT>, and not his son, who paid the penalty would not alter the motive of the crime.<EOS>
 But in any case, however lenient the sentence of the Court, it must mean a long term of imprisonment.<EOS>
 
 No, Bella<SUSPECT> must be protected.<EOS>
@@ -7488,7 +7488,7 @@ But Poirot<INVESTIGATOR> was not to be drawn.<EOS>
 
 "I have not yet tabulated them," he remarked.<EOS>
 "It was a general reflection that I was making.<EOS>
-I liked the young man, and should be sorry to believe him guilty of such a hideous crime<CRIME>.<EOS>
+I liked the young man, and should be sorry to believe him guilty of such a hideous crime.<EOS>
 By the way, what has he to say for himself on the matter?"<EOS>
 
 The magistrate frowned.<EOS>
@@ -7621,7 +7621,7 @@ We stopped and greeted him, and he proposed strolling with us back to our hotel.
 "One must stand by one's friends," replied the other dryly.<EOS>
 "Especially when they are unjustly accused."<EOS>
 
-"Then you do not believe that Jack<SUSPECT> Renauld<SUSPECT> committed the crime<CRIME>?" I asked eagerly.<EOS>
+"Then you do not believe that Jack<SUSPECT> Renauld<SUSPECT> committed the crime?" I asked eagerly.<EOS>
 
 "Certainly I don't.<EOS>
 I know the lad.<EOS>
@@ -7737,7 +7737,7 @@ Marthe<PERPETRATOR> was at the door to meet us, and led Poirot<INVESTIGATOR> in,
 I have been in despair, not knowing what to do.<EOS>
 They will not let me go to see him in prison even.<EOS>
 I suffer horribly, I am nearly mad.<EOS>
-Is it true what they say, that he does not deny the crime<CRIME>?<EOS>
+Is it true what they say, that he does not deny the crime?<EOS>
 But that is madness.<EOS>
 It is impossible that he should have done it!<EOS>
 Never for one minute will I believe it."<EOS>
@@ -7813,7 +7813,7 @@ A formidable guard with resplendent sabre stood before the door.<EOS>
 The patient _greffier___ sat at his desk.<EOS>
 The examination began.<EOS>
 
-"Renauld<SUSPECT>," began the magistrate, "do you deny that you were in Merlinville on the night of the crime<CRIME>?"<EOS>
+"Renauld<SUSPECT>," began the magistrate, "do you deny that you were in Merlinville on the night of the crime?"<EOS>
 
 Jack<SUSPECT> did not reply at once, then he said with a hesitancy of manner which was piteous:<EOS>
 
@@ -7849,7 +7849,7 @@ I knew M. Jack<SUSPECT> Renauld<SUSPECT> well."<EOS>
 "Nor of your being mistaken as to the date?"<EOS>
 
 "No, monsieur.<EOS>
-Because it was the following morning, June 8th, that we heard of the murder<CRIME>."<EOS>
+Because it was the following morning, June 8th, that we heard of the murder."<EOS>
 
 Another railway official was brought in, and confirmed the first one's evidence.<EOS>
 The magistrate looked at Jack<SUSPECT> Renauld<SUSPECT>.<EOS>
@@ -7894,7 +7894,7 @@ It would not be easy to secure the acquittal of Jack<SUSPECT> Renauld<SUSPECT>, 
 
 M. Hautet spoke again, with a peculiarly biting inflection:<EOS>
 
-"Madame Renauld<SUSPECT> told us that this dagger was on her dressing table on the night of the crime<CRIME>.<EOS>
+"Madame Renauld<SUSPECT> told us that this dagger was on her dressing table on the night of the crime.<EOS>
 But Madame Renauld<SUSPECT> is a mother!<EOS>
 It will doubtless astonish you, Renauld<SUSPECT>, but I consider it highly likely that Madame Renauld<SUSPECT> was mistaken, and that, by inadvertence perhaps, you had taken it with you to Paris.<EOS>
 Doubtless you will contradict me-"<EOS>
@@ -7921,7 +7921,7 @@ He leaned forward, and gazed at the prisoner searchingly.<EOS>
 Jack<SUSPECT>'s pale face flushed.<EOS>
 He looked steadily back.<EOS>
 
-"M. Hautet, I swear that I did not kill<CRIME> my father."<EOS>
+"M. Hautet, I swear that I did not kill my father."<EOS>
 
 But the magistrate's brief moment of doubt was over.<EOS>
 He laughed a short, unpleasant laugh.<EOS>
@@ -7929,11 +7929,11 @@ He laughed a short, unpleasant laugh.<EOS>
 "Without doubt, without doubt-they are always innocent, our prisoners!<EOS>
 By your own mouth you are condemned.<EOS>
 You can offer no defence, no alibi-only a mere assertion which would not deceive a babe!-that you are not guilty.<EOS>
-You killed your father, Renauld<SUSPECT>-cruel and cowardly murder<CRIME>-for the sake of money which you believed would come to you at his death.<EOS>
+You killed your father, Renauld<SUSPECT>-cruel and cowardly murder-for the sake of money which you believed would come to you at his death.<EOS>
 Your mother was an accessory after the fact.<EOS>
 Doubtless, in view of the fact that she acted as a mother, the courts will extend an indulgence to her that they will not accord to you.<EOS>
 And rightly so!<EOS>
-Your crime<CRIME> was a horrible one-to be held in abhorrence by gods and men!"<EOS>
+Your crime was a horrible one-to be held in abhorrence by gods and men!"<EOS>
 M. Hautet was enjoying himself, working up his period, steeped in the solemnity of the moment, and his own role as representative of justice.<EOS>
 "You killed-and you must pay the consequences of your action.<EOS>
 I speak to you, not as a man, but as Justice, eternal Justice, which-"<EOS>
@@ -7964,7 +7964,7 @@ On the other hand, now that I saw her without the fair wig she had worn on the s
 "Yes, but I forbid-"<EOS>
 
 "My name is Bella Duveen<SUSPECT>.<EOS>
-I wish to give myself up for the murder<CRIME> of Mr. Renauld<SUSPECT>."<EOS>
+I wish to give myself up for the murder of Mr. Renauld<SUSPECT>."<EOS>
 
 
 <SOC>Chapter 26 I Receive a Letter
@@ -8156,7 +8156,7 @@ A clever lawyer will make out a great case of extenuating circumstances.<EOS>
 It will not be pleasant for you-"<EOS>
 
 "I don't care about that.<EOS>
-You see, M. Poirot<INVESTIGATOR>, in a way I _do___ feel guilty of my father's murder<CRIME>.<EOS>
+You see, M. Poirot<INVESTIGATOR>, in a way I _do___ feel guilty of my father's murder.<EOS>
 But for me, and my entanglement with this girl, he would be alive and well today.<EOS>
 And then my cursed carelessness in taking away the wrong overcoat.<EOS>
 I can't help feeling responsible for his death.<EOS>
@@ -8244,7 +8244,7 @@ Stopping the car, he swung himself out, and ran up the path to the front door.<E
 We went on in the car to the Villa Genevieve.<EOS>
 
 "Poirot<INVESTIGATOR>," I said, "do you remember how we arrived here that first day?<EOS>
-And were met by the news of M. Renauld<SUSPECT>'s murder<CRIME>?"<EOS>
+And were met by the news of M. Renauld<SUSPECT>'s murder?"<EOS>
 
 "Ah!<EOS>
 yes, truly.<EOS>
@@ -8269,7 +8269,7 @@ Poirot<INVESTIGATOR> changed the subject.<EOS>
 That was not my meaning.<EOS>
 We will hope that Mademoiselle Bella<SUSPECT> will be dealt with leniently, and after all Jack<SUSPECT> Renauld<SUSPECT> cannot marry both the girls.<EOS>
 I spoke from a professional standpoint.<EOS>
-This is not a crime<CRIME> well ordered and regular, such as a detective<INVESTIGATOR> delights in.<EOS>
+This is not a crime well ordered and regular, such as a detective<INVESTIGATOR> delights in.<EOS>
 The _mise en scene___ designed by Georges Conneau, that indeed is perfect, but the _denouement___-ah, no!<EOS>
 A man killed by accident in a girl's fit of anger-ah, indeed, what order or method is there in that?"<EOS>
 
@@ -8314,7 +8314,7 @@ We stared in astonishment.<EOS>
 Descending the stairs, leaning upon Leonie<SUSPECT>'s arm, was Mrs. Renauld<SUSPECT>, her head still bandaged.<EOS>
 The French girl was weeping, and imploring her mistress to return to bed.<EOS>
 
-"Madame will kill<CRIME> herself.<EOS>
+"Madame will kill herself.<EOS>
 It is contrary to all the doctor's orders!"<EOS>
 
 But Mrs. Renauld<SUSPECT> came on.<EOS>
@@ -8627,7 +8627,7 @@ Poirot<INVESTIGATOR> deigned to attend to me for a brief moment.<EOS>
 
 "She had been wheeled on a sofa into the middle room-her boudoir," he explained.<EOS>
 
-"But, monsieur," cried Francoise, "Madame changed her room almost immediately after the crime<CRIME>!<EOS>
+"But, monsieur," cried Francoise, "Madame changed her room almost immediately after the crime!<EOS>
 The associations-they were too distressing!"<EOS>
 
 "Then why was I not told," vociferated Poirot<INVESTIGATOR>, striking the table, and working himself into a first-class passion.<EOS>
@@ -8677,14 +8677,14 @@ She said she did-yes-but that was to save the man she loved from the guillotine.
 "What?"<EOS>
 
 "Remember Jack<SUSPECT> Renauld<SUSPECT>'s story.<EOS>
-They both arrived on the scene at the same instant, and each took the other to be the perpetrator<PERPETRATOR> of the crime<CRIME>.<EOS>
+They both arrived on the scene at the same instant, and each took the other to be the perpetrator<PERPETRATOR> of the crime.<EOS>
 The girl stares at him in horror, and then with a cry rushes away.<EOS>
-But, when she hears that the crime<CRIME> has been brought home to him, she cannot bear it, and comes forward to accuse herself and save him from certain death."<EOS>
+But, when she hears that the crime has been brought home to him, she cannot bear it, and comes forward to accuse herself and save him from certain death."<EOS>
 
 Poirot<INVESTIGATOR> leaned back in his chair, and brought the tips of his fingers together in familiar style.<EOS>
 
 "The case was not quite satisfactory to me," he observed judicially.<EOS>
-"All along I was strongly under the impression that we were dealing with a cold-blooded and premeditated crime<CRIME> committed by some one who had been contented (very cleverly) with using M. Renauld<SUSPECT>'s own plans for throwing the police off the track.<EOS>
+"All along I was strongly under the impression that we were dealing with a cold-blooded and premeditated crime committed by some one who had been contented (very cleverly) with using M. Renauld<SUSPECT>'s own plans for throwing the police off the track.<EOS>
 The great criminal (as you may remember my remarking to you once) is always supremely simple."<EOS>
 
 I nodded.<EOS>
@@ -8739,12 +8739,12 @@ Poirot<INVESTIGATOR> paused and cleared his throat.<EOS>
 The solution did not commend itself to me, because, as I pointed out to you, Hastings, an expert, such as I am, likes to meet a foeman worthy of his steel.<EOS>
 Still one must take crimes as one finds them, not as one would like them to be.<EOS>
 It did not seem very likely that Bella Duveen<SUSPECT> would be wandering about carrying a souvenir paper-knife in her hand, but of course she might have had some idea all the time of revenging herself on Jack<SUSPECT> Renauld<SUSPECT>.<EOS>
-When she actually came forward and confessed to the murder<CRIME>, it seemed that all was over.<EOS>
+When she actually came forward and confessed to the murder, it seemed that all was over.<EOS>
 And yet-I was not satisfied, _mon ami___.<EOS>
 _I was not satisfied....___
 
 "I went over the case again minutely, and I came to the same conclusion as before.<EOS>
-If it was _not___ Bella Duveen<SUSPECT>, the only other person who could have committed the crime<CRIME> was Marthe Daubreuil<PERPETRATOR>.<EOS>
+If it was _not___ Bella Duveen<SUSPECT>, the only other person who could have committed the crime was Marthe Daubreuil<PERPETRATOR>.<EOS>
 But I had not one single proof against her!<EOS>
 
 "And then you showed me that letter from Mademoiselle Dulcie<SUSPECT>, and I saw a chance of settling the matter once for all.<EOS>
@@ -8781,7 +8781,7 @@ Even I did not suspect<SUSPECT>-triple imbecile that I was!<EOS>
 I thought I had plenty of time before me-that she would not try to gain admission to the Villa until much later.<EOS>
 She had brains, that beautiful Mademoiselle Marthe<PERPETRATOR>."<EOS>
 
-"And her object was to murder<CRIME> Mrs. Renauld<SUSPECT>?"<EOS>
+"And her object was to murder Mrs. Renauld<SUSPECT>?"<EOS>
 
 "Yes.<EOS>
 The whole fortune would then pass to her son.<EOS>
