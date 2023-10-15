@@ -1,11 +1,22 @@
-import logging
 import random
 import re
-import string
-import sys
 
-from lib import store, utils
-from lib.store import RegexPatterns
+from lib import utils
+
+response_phrase_alts = [
+    ["hello!", "hi!", "hey!", "hey there!", "howdy!"],
+    ["goodbye", "bye", "adios", "farewell"],
+    ["respond to that", "answer that", "reply to that"],
+    ["I'm sorry", "I apologize"],
+    ["thanks", "thank you"],
+    ["can I", "could I", "may I"],
+    ["I'm", "I am"],
+    ["don't", "do not"],
+    # ["investigator", "detective"],
+    # ["perpetrator", "killer", "murderer", "criminal"],
+]
+
+response_phrase_permutation_map = utils.create_permutation_map(response_phrase_alts)
 
 
 class AIResponse:
@@ -59,3 +70,48 @@ class AIResponse:
                 raise TypeError(f"Invalid type: {type(p)}")
 
         return self.join.join(parts)
+
+    @staticmethod
+    def create_variation(text: str) -> str:
+        """
+        Replaces words in the input text with synonyms from a predefined list of alternatives.
+
+        Args:
+            text (str): The input text to be modified.
+
+        Returns:
+            str: The modified text with replaced synonyms.
+        """
+        for synonym, synonym_list in response_phrase_permutation_map.items():
+
+            def get_replacement(match):
+                """
+                Returns a random synonym for the matched word in the input string.
+
+                Args:
+                    match (re.Match): A match object containing the word to be replaced.
+
+                Returns:
+                    str: A randomly chosen synonym for the matched word, with the same casing as the original word.
+                """
+                original = match.group(0)
+
+                rnd_synonym = random.choice(synonym_list)
+
+                # Preserve the original casing
+                if original.islower():
+                    rnd_synonym = rnd_synonym.lower()
+                elif original.isupper():
+                    rnd_synonym = rnd_synonym.upper()
+                elif original.istitle():
+                    rnd_synonym = rnd_synonym.title()
+
+                return rnd_synonym
+
+            text = re.sub(
+                r"\b" + synonym + r"\b",
+                get_replacement,
+                text,
+                flags=re.IGNORECASE,
+            )
+        return text

@@ -4,36 +4,119 @@ import re
 import string
 import sys
 from enum import Enum
+from pprint import pformat
 
-from lib import chat, store, utils
-from lib.chat import AIResponse
+from lib import chat, preprocessing, search_terms, special_tokens, utils
+from lib.chat import AIResponse, example_prompts
 
 
 class RegexPatterns(str, Enum):
     HELP = r"^(help|h)$"
     QUIT = r"^(exit|quit|q)$"
     EXAMPLE = r"^(example(s)?|ex)$"
-    FIRST_MENTION = r"first (?P<entity>.*)"  # TODO:
-    WORDS_AROUND = r"(?P<num_words>\d+) around (?P<entity>.*)"
-    WORDS_COOCCUR = r"cooccur (?P<entity1>.*) and (?P<entity2>.*)"
+
+    FIRST_MENTION_V1 = r".*({rgx}).*(?P<term>{terms}).*".format(
+        rgx=r"(first|initial(ly)?) (meet|appear|introduce|enter|mention|brought up|disclosed|reveal|refer|talk|hear|bring in)",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    FIRST_MENTION_V2 = r".*(?P<term>{terms}).*({rgx}).*".format(
+        rgx=r"(first|initial(ly)?) (meet|appear|introduce|enter|mention|brought up|disclosed|reveal|refer|talk|hear|bring in)",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    WORDS_AROUND_V1 = r".*({rgx}).*(?P<term>{terms}).*".format(
+        rgx=r"surround|around|near|close to",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    WORDS_AROUND_V2 = r".*(?P<term>{terms}).*({rgx}).*".format(
+        rgx=r"surround|around|near|close to",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    WORDS_COOCCUR_V1 = r".*({rgx}).*(?P<term1>{terms}) (?P<term2>{terms}).*".format(
+        rgx=r"co-?occur",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    WORDS_COOCCUR_V2 = r".*(?P<term1>{terms}) (?P<term2>{terms}).*({rgx}).*".format(
+        rgx=r"co-?occur",
+        terms=utils.re_union(*[p for p in search_terms.tag_to_pattern.values()]),
+    )
+
+    def __str__(self):
+        return self.value
 
 
 class ChatBot:
     def __init__(self, data):
         self.data = data
+        self.data_map = {}
+        self.build_data_map()
 
         self.capabilities = {
             # Special Commands
-            RegexPatterns.QUIT: self.__cmd_quit,
-            RegexPatterns.HELP: self.__cmd_help,
-            RegexPatterns.EXAMPLE: self.__cmd_example,
+            RegexPatterns.QUIT: self.cmd_quit,
+            RegexPatterns.HELP: self.cmd_help,
+            RegexPatterns.EXAMPLE: self.cmd_example,
             # Analysis Capabilities
-            RegexPatterns.FIRST_MENTION: self.__get_first_mention,
-            RegexPatterns.WORDS_AROUND: self.__get_words_around,
-            RegexPatterns.WORDS_COOCCUR: self.__get_cooccurance,
+            RegexPatterns.FIRST_MENTION_V1: self.get_first_mention,
+            RegexPatterns.FIRST_MENTION_V2: self.get_first_mention,
+            RegexPatterns.WORDS_AROUND_V1: self.get_words_around,
+            RegexPatterns.WORDS_AROUND_V2: self.get_words_around,
+            RegexPatterns.WORDS_COOCCUR_V1: self.get_cooccurance,
+            RegexPatterns.WORDS_COOCCUR_V2: self.get_cooccurance,
         }
 
-    def __fallback(self) -> AIResponse:
+    def build_data_map(self):
+        # Split the text into chapters
+        chapters = self.data.split(special_tokens.SpecialTokens.START_OF_CHAPTER)[1:]
+
+        # Iterate through the chapters to populate the data structure
+        for chapter_idx, chapter in enumerate(chapters):
+            # Split the chapter into lines
+            lines = chapter.splitlines()
+
+            # The first line should be the chapter title
+            chapter_title = lines[0].strip()
+
+            # Extract sentences based on <EOS> at the end of lines
+            sentences = [
+                line.strip()
+                for line in lines
+                if line.strip().endswith(special_tokens.SpecialTokens.END_OF_SENTENCE)
+            ]
+
+            # Iterate through the sentences
+            for sentence_idx, sentence in enumerate(sentences):
+                # Check for each search term using regex
+                for tag, pattern in search_terms.tag_to_pattern.items():
+                    if match := re.search(pattern, sentence):
+                        occurance = {
+                            "matched_term": match.group(),
+                            "sentence": special_tokens.remove_special_tokens(
+                                sentence,
+                            ),
+                            "sentence_idx": sentence_idx + 1,
+                            "chapter_idx": chapter_idx + 1,
+                            "chapter_title": special_tokens.remove_special_tokens(
+                                chapter_title
+                            ),
+                        }
+                        if tag not in self.data_map:
+                            self.data_map[tag] = {
+                                "matched_terms": [tag],
+                                "mentions": [],
+                            }
+
+                        self.data_map[tag]["matched_terms"] = list(
+                            set([match.group()] + self.data_map[tag]["matched_terms"])
+                        )
+                        self.data_map[tag]["mentions"].append(occurance)
+
+    def fallback(self) -> AIResponse:
+        logging.debug("Falling back to default response...")
         return AIResponse(
             [
                 AIResponse(["Sorry", "I'm sorry"], [",", "!"], join=""),
@@ -42,20 +125,23 @@ class ChatBot:
             ["I don't understand", "I don't know how to respond to that"],
         )
 
-    def __greet(self) -> AIResponse:
+    def greet(self) -> AIResponse:
+        logging.debug("Greeting user...")
         return chat.AIResponse(
             "Hello!",
             ["What can I do for you?", "How can I help you?"],
         )
 
-    def __cmd_quit(self) -> AIResponse:
+    def cmd_quit(self) -> AIResponse:
+        logging.info("Exiting program...")
         return chat.AIResponse(
             ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
             "Goodbye!",
             fn=lambda _: sys.exit(0),
         )
 
-    def __cmd_help(self) -> AIResponse:
+    def cmd_help(self) -> AIResponse:
+        logging.debug("Printing help message...")
         return chat.AIResponse(
             chat.AIResponse(
                 ["Here are some", None],
@@ -67,84 +153,157 @@ class ChatBot:
             "\n  exit, quit, q - Exit the program",
         )
 
-    def __cmd_example(self) -> AIResponse:
+    def cmd_example(self) -> AIResponse:
+        logging.debug("Printing example prompts...")
         return chat.AIResponse(
             ["Here are some", None],
             "example",
             ["questions", "prompts", "queries"],
             ["you can ask", None],
             ":\n",
-            [f'  - "{ex}"' for ex in random.sample(store.example_prompts, 3)],
+            [f'  - "{ex}"' for ex in random.sample(example_prompts, 3)],
         )
 
-    def __get_first_mention(self, entity):
-        """
-        Gets the first mention of a word in the text.
-        Example:
-        When does the investigator (or a pair) occur for the first time -  chapter #, the sentence(s) # in a chapter,
-        """
-        entity = entity.lower().strip()
+    def find_term_data(self, term: str) -> dict | None:
+        result = None
+        # base case: if we can index directly into the data_map, then we're done
+        if term in self.data_map:
+            result = self.data_map[term]
+            return result
 
-        if not re.search(entity, self.data, flags=re.IGNORECASE):
-            return f"Sorry, but `{entity}` is not mentioned in the text."
+        # otherwise, we need to check if the term is a substring of any of the matched terms
+        for _, termdata in self.data_map.items():
+            if any(
+                [
+                    term.lower() in matched_term.lower()
+                    for matched_term in termdata["matched_terms"]
+                ]
+            ):
+                logging.debug(
+                    f"find_term_data: `{term}` -> {pformat(termdata, sort_dicts=False)}"
+                )
+                result = termdata
+                break
 
-        logging.info(f"get_first_mention: entity={entity}")
+        return result
 
-        entity_tag = None
-        for _tag, _terms in store.search_terms_map.items():
-            match = re.match(utils.re_union(*_terms), entity, re.IGNORECASE)
-            if match:
-                entity_tag = _tag
+    def get_first_mention(self, msg: str, term: str) -> str:
+        term = term.lower()
+        logging.debug(f"get_first_mention: `{term}`")
+
+        termdata = self.find_term_data(term)
+        if termdata is None:
+            return f"Sorry, I couldn't find any mentions of `{term}`."
+
+        first_mention = termdata["mentions"][0]
+
+        # TODO: Format the response in English here
+        return pformat(first_mention, sort_dicts=False)
+
+    def get_words_around(self, msg: str, term: str, num_words_default: int = 3) -> str:
+        term = term.lower()
+        logging.debug(f"get_words_around: `{term}`")
+
+        termdata = self.find_term_data(term)
+
+        if termdata is None:
+            return f"Sorry, I couldn't find any mentions of `{term}`."
+
+        mentions_enhanced = []
+        for mention in termdata["mentions"]:
+            sentence = mention["sentence"]
+            matched_term = mention["matched_term"]
+
+            # split the sentence by the matched term
+            sentence_parts = sentence.split(matched_term)
+
+            words_around = []
+            for i, sentence_part in enumerate(sentence_parts):
+                sentence_part = preprocessing.remove_punctuation(sentence_part)
+                sentence_part = preprocessing.remove_stopwords(sentence_part)
+                sentence_parts[i] = sentence_part
+                words = sentence_part.split()
+                if i == 0:
+                    # first part - only get the last num_words
+                    words_around.extend(words[-min(num_words_default, len(words)) :])
+                elif i == len(sentence_parts) - 1:
+                    # last part - only get the first num_words
+                    words_around.extend(words[: min(num_words_default, len(words))])
+                else:
+                    # middle part - get both the first and last num_words
+                    words_around.extend(words[-min(num_words_default, len(words)) :])
+                    words_around.extend(words[: min(num_words_default, len(words))])
+
+            words_around = list(set(words_around))
+
+            mentions_enhanced.append(
+                {
+                    **mention,
+                    "sentence_parts": sentence_parts,
+                    "words_around": words_around,
+                }
+            )
+
+        # TODO: Format the response in English here
+        return pformat(mentions_enhanced, sort_dicts=False)
+
+    def get_cooccurance(self, msg: str, term1: str, term2: str) -> str:
+        term1, term2 = term1.lower(), term2.lower()
+        logging.debug(f"get_cooccurance: `{term1}`, `{term2}`")
+
+        term1data = self.find_term_data(term1)
+        term2data = self.find_term_data(term2)
+
+        if term1data is None:
+            return f"Sorry, I couldn't find any mentions of `{term1}`."
+
+        if term2data is None:
+            return f"Sorry, I couldn't find any mentions of `{term2}`."
+
+        co_occurrences_list = []
+
+        for mention1 in term1data["mentions"]:
+            for mention2 in term2data["mentions"]:
+                if mention1["chapter_idx"] != mention2["chapter_idx"]:
+                    continue
+                if mention1["sentence_idx"] != mention2["sentence_idx"]:
+                    continue
+
+                co_occurrences_list.append(
+                    {
+                        "chapter_title": mention1["chapter_title"],
+                        "chapter_idx": mention1["chapter_idx"],
+                        "sentence_idx": mention1["sentence_idx"],
+                        "sentence": mention1["sentence"],
+                        "matched_term1": mention1["matched_term"],
+                        "matched_term2": mention2["matched_term"],
+                    }
+                )
+
+        # TODO: Format the response in English here
+        return pformat(co_occurrences_list, sort_dicts=False)
+
+    def answer(self, msg: str) -> AIResponse | None:
+        msg_usr_proc: str = ChatBot.preprocess_msg(msg)
+        if not msg_usr_proc:
+            logging.debug("Empty message, skipping...")
+            return None
+
+        ai_resp: chat.AIResponse
+        # Looping through the regex map
+        # The first regex that matches the user message will be used to generate a response
+        for cmd, resp in self.capabilities.items():
+            if match := re.match(cmd, msg_usr_proc, re.IGNORECASE):
+                # we can pass named capture groups as keyword arguments to the response function
+                ai_resp = resp(msg, **match.groupdict()) if callable(resp) else resp
                 break
         else:
-            return "Entity tag not found"
+            ai_resp = self.fallback()
 
-        entity_pattern = utils.re_union(*store.search_terms_map[entity_tag])
-        logging.debug(f"{entity_tag}: {entity_pattern}")
-
-        final_pattern = f"<SOC>(?P<chaptertitle>{store.RegexPatterns.Processing.CHAPTER_TITLE})\n+(?:.*\n)*?^(?P<sentence>.*?(?P<mention>{entity_pattern}).*?<EOS>)$"
-        logging.debug(final_pattern)
-
-        match = re.search(
-            final_pattern,
-            self.data,
-            re.IGNORECASE | re.MULTILINE,
-        )
-
-        logging.debug(match)
-        if not match:
-            return "Failed to find entity in text"
-
-        logging.debug(match.groupdict())
-
-        groupdict = match.groupdict()
-
-        chaptertitle = groupdict["chaptertitle"]
-        mention = groupdict["mention"]
-
-        sentence = groupdict["sentence"]
-        sentence = re.sub("<[A-Z]{3,}>", "", sentence)
-
-        sentence_num = match[0].count(store.SpecialTokens.END_OF_SENTENCE)
-
-        return f"The first mention of {mention} is in {chaptertitle}, sentence {sentence_num}.\nFull sentence: {sentence}"
-
-    def __get_words_around(self, num_words, entity):
-        entity = entity.lower().strip()
-        logging.debug(
-            f"get_words_around: num_words={num_words} ({type(num_words)}), entity={entity}"
-        )
-
-        return "get_words_around"
-
-    def __get_cooccurance(self, entity1, entity2):
-        entity1 = entity1.lower().strip()
-        entity2 = entity2.lower().strip()
-        logging.debug(f"get_cooccur: entity1={entity1}, entity2={entity2}")
-
-        return "get_cooccur"
+        return ai_resp
 
     def start(self, ai_name: str = "AI", user_name: str = "You"):
+        logging.info("Starting interactive chat session...")
         name_max_len: int = max(len(ai_name), len(user_name))
         # make the width of the names the same by padding with spaces
         ai_name = ai_name.ljust(name_max_len)
@@ -152,7 +311,7 @@ class ChatBot:
 
         print("=" * 80)
 
-        msg_ai: str = str(self.__greet())
+        msg_ai: str = str(self.greet())
         print(f"{ai_name}: {msg_ai}")
         print("-" * 80)
 
@@ -162,29 +321,12 @@ class ChatBot:
             except KeyboardInterrupt:
                 msg_usr_orig = "exit"
 
-            msg_usr_proc: str = ChatBot.preprocess_msg(msg_usr_orig)
-            logging.debug(f"msg_usr_proc: {msg_usr_proc}")
-            if not msg_usr_proc:
+            ai_resp = self.answer(msg_usr_orig)
+            if ai_resp is None:
                 continue
-
-            ai_resp: chat.AIResponse
-            # Looping through the regex map
-            # The first regex that matches the user message will be used to generate a response
-            for cmd, resp in self.capabilities.items():
-                match = re.match(cmd, msg_usr_proc, re.IGNORECASE)
-                if match:
-                    # we pass named capture groups as keyword arguments to the response function
-                    # if a function
-                    ai_resp = resp(**match.groupdict()) if callable(resp) else resp
-                    break
-            else:
-                ai_resp = self.__fallback()
-
-            logging.debug(f"ai_resp: {ai_resp}")
 
             ai_resp_final = ChatBot.postprocess_msg(str(ai_resp), use_synonyms=True)
 
-            logging.debug(f"ai_resp_final: {ai_resp_final}")
             print(f"{ai_name}: {ai_resp_final}")
             print("-" * 80)
 
@@ -194,16 +336,20 @@ class ChatBot:
 
     @staticmethod
     def preprocess_msg(msg: str) -> str:
-        # msg = utils.remove_stopwords(msg)
-        msg = utils.remove_punctuation(msg)
-        msg = utils.remove_extra_whitespace(msg)
-        return msg.strip()
+        logging.debug(f"before: {msg}")
+        msg = preprocessing.remove_stopwords(msg)
+        msg = preprocessing.remove_punctuation(msg)
+        msg = preprocessing.remove_extra_whitespace(msg)
+        msg = msg.strip()
+        logging.debug(f"after: {msg}")
+        return msg
 
     @staticmethod
     def postprocess_msg(msg: str, use_synonyms: bool = False) -> str:
+        logging.debug(f"before: {msg}")
         if use_synonyms:
             # For variety, we can replace some words with synonyms
-            msg = utils.create_text_variation(msg)
+            msg = AIResponse.create_variation(msg)
         # remove spaces before certain punctuation
         msg = re.sub(r"\s+([.,!?;:])", r"\1", msg)
         # capitalize the first letter of the message
@@ -211,4 +357,6 @@ class ChatBot:
         # add a period at the end if there isn't any punctuation
         if not re.search(f"[{string.punctuation}]$", msg):
             msg += "."
-        return msg.strip()
+        msg = msg.strip()
+        logging.debug(f"after: {msg}")
+        return msg

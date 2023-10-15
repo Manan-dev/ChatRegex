@@ -9,7 +9,7 @@ by Arthur Conan Doyle
 <SOC>Chapter I The Science of Deduction
 
 
-Sherlock Holmes <INVESTIGATOR> took his bottle from the corner of the mantel-piece and his hypodermic syringe from its neat morocco case.<EOS>
+Sherlock Holmes<INVESTIGATOR> took his bottle from the corner of the mantel-piece and his hypodermic syringe from its neat morocco case.<EOS>
 With his long, white, nervous fingers he adjusted the delicate needle, and rolled back his left shirt-cuff.<EOS>
 For some little time his eyes rested thoughtfully upon the sinewy forearm and wrist all dotted and scarred with innumerable puncture-marks.<EOS>
 Finally he thrust the sharp point home, pressed down the tiny piston, and sank back into the velvet-lined arm-chair with a long sigh of satisfaction.<EOS>
@@ -56,9 +56,9 @@ But I abhor the dull routine of existence.<EOS>
 I crave for mental exaltation.<EOS>
 That is why I have chosen my own particular profession,-or rather created it, for I am the only one in the world."<EOS>
 
-"The only unofficial detective <INVESTIGATOR>?" I said, raising my eyebrows.<EOS>
+"The only unofficial detective<INVESTIGATOR>?" I said, raising my eyebrows.<EOS>
 
-"The only unofficial consulting detective <INVESTIGATOR>," he answered.<EOS>
+"The only unofficial consulting detective<INVESTIGATOR>," he answered.<EOS>
 "I am the last and highest court of appeal in detection.<EOS>
 When Gregson or Lestrade or Athelney Jones are out of their depths-which, by the way, is their normal state-the matter is laid before me.<EOS>
 I examine the data, as an expert, and pronounce a specialist's opinion.<EOS>
@@ -89,8 +89,8 @@ More than once during the years that I had lived with him in Baker Street I had 
 I made no remark, however, but sat nursing my wounded leg.<EOS>
 I had a Jezail bullet through it some time before, and, though it did not prevent me from walking, it ached wearily at every change of the weather.<EOS>
 
-"My practice has extended recently to the Continent," said Holmes, after a while, filling up his old brier-root pipe.<EOS>
-"I was consulted last week by Francois Le Villard, who, as you probably know, has come rather to the front lately in the French detective <INVESTIGATOR> service.<EOS>
+"My practice has extended recently to the Continent," said Holmes<INVESTIGATOR>, after a while, filling up his old brier-root pipe.<EOS>
+"I was consulted last week by Francois Le Villard, who, as you probably know, has come rather to the front lately in the French detective<INVESTIGATOR> service.<EOS>
 He has all the Celtic power of quick intuition, but he is deficient in the wide range of exact knowledge which is essential to the higher developments of his art.<EOS>
 The case was concerned with a will, and possessed some features of interest.<EOS>
 I was able to refer him to two parallel cases, the one at Riga in 1857, and the other at St. Louis in 1871, which have suggested to him the true solution.<EOS>
@@ -100,9 +100,9 @@ I glanced my eyes down it, catching a profusion of notes of admiration, with str
 
 "He speaks as a pupil to his master," said I.
 
-"Oh, he rates my assistance too highly," said Sherlock Holmes <INVESTIGATOR>, lightly.<EOS>
+"Oh, he rates my assistance too highly," said Sherlock Holmes<INVESTIGATOR>, lightly.<EOS>
 "He has considerable gifts himself.<EOS>
-He possesses two out of the three qualities necessary for the ideal detective <INVESTIGATOR>.<EOS>
+He possesses two out of the three qualities necessary for the ideal detective<INVESTIGATOR>.<EOS>
 He has the power of observation and that of deduction.<EOS>
 He is only wanting in knowledge; and that may come in time.<EOS>
 He is now translating my small works into French."<EOS>
@@ -114,8 +114,8 @@ He is now translating my small works into French."<EOS>
 They are all upon technical subjects.<EOS>
 Here, for example, is one 'Upon the Distinction between the Ashes of the Various Tobaccoes.'<EOS>
 In it I enumerate a hundred and forty forms of cigar-, cigarette-, and pipe-tobacco, with coloured plates illustrating the difference in the ash.<EOS>
-It is a point which is continually turning up in criminal <PERPETRATOR> trials, and which is sometimes of supreme importance as a clue.<EOS>
-If you can say definitely, for example, that some murder <CRIME> has been done by a man who was smoking an Indian lunkah, it obviously narrows your field of search.<EOS>
+It is a point which is continually turning up in criminal trials, and which is sometimes of supreme importance as a clue.<EOS>
+If you can say definitely, for example, that some murder<CRIME> has been done by a man who was smoking an Indian lunkah, it obviously narrows your field of search.<EOS>
 To the trained eye there is as much difference between the black ash of a Trichinopoly and the white fluff of bird's-eye as there is between a cabbage and a potato."<EOS>
 
 "You have an extraordinary genius for minutiae," I remarked.<EOS>
@@ -123,7 +123,7 @@ To the trained eye there is as much difference between the black ash of a Trichi
 "I appreciate their importance.<EOS>
 Here is my monograph upon the tracing of footsteps, with some remarks upon the uses of plaster of Paris as a preserver of impresses.<EOS>
 Here, too, is a curious little work upon the influence of a trade upon the form of the hand, with lithotypes of the hands of slaters, sailors, corkcutters, compositors, weavers, and diamond-polishers.<EOS>
-That is a matter of great practical interest to the scientific detective <INVESTIGATOR>,-especially in cases of unclaimed bodies, or in discovering the antecedents of criminals.<EOS>
+That is a matter of great practical interest to the scientific detective<INVESTIGATOR>,-especially in cases of unclaimed bodies, or in discovering the antecedents of criminals.<EOS>
 But I weary you with my hobby."<EOS>
 
 "Not at all," I answered, earnestly.<EOS>
@@ -197,7 +197,7 @@ That is all I can gather."<EOS>
 
 I sprang from my chair and limped impatiently about the room with considerable bitterness in my heart.<EOS>
 
-"This is unworthy of you, Holmes," I said.<EOS>
+"This is unworthy of you, Holmes<INVESTIGATOR>," I said.<EOS>
 "I could not have believed that you would have descended to this.<EOS>
 You have made inquires into the history of my unhappy brother, and you now pretend to deduce this knowledge in some fanciful way.<EOS>
 You cannot expect me to believe that you have read all this from his old watch!<EOS>
@@ -253,13 +253,13 @@ Was ever such a dreary, dismal, unprofitable world?<EOS>
 See how the yellow fog swirls down the street and drifts across the dun-coloured houses.<EOS>
 What could be more hopelessly prosaic and material?<EOS>
 What is the use of having powers, doctor, when one has no field upon which to exert them?<EOS>
-Crime <CRIME> is commonplace, existence is commonplace, and no qualities save those which are commonplace have any function upon earth."<EOS>
+Crime<CRIME> is commonplace, existence is commonplace, and no qualities save those which are commonplace have any function upon earth."<EOS>
 
 I had opened my mouth to reply to this tirade, when with a crisp knock our landlady entered, bearing a card upon the brass salver.<EOS>
 
 "A young lady for you, sir," she said, addressing my companion.<EOS>
 
-"Miss Mary Morstan," he read.<EOS>
+"Miss Mary Morstan<SUSPECT>," he read.<EOS>
 "Hum!<EOS>
 I have no recollection of the name.<EOS>
 Ask the young lady to step up, Mrs. Hudson.<EOS>
@@ -270,15 +270,15 @@ I should prefer that you remain."<EOS>
 <SOC>Chapter II The Statement of the Case
 
 
-Miss Morstan entered the room with a firm step and an outward composure of manner.<EOS>
+Miss Morstan<SUSPECT> entered the room with a firm step and an outward composure of manner.<EOS>
 She was a blonde young lady, small, dainty, well gloved, and dressed in the most perfect taste.<EOS>
 There was, however, a plainness and simplicity about her costume which bore with it a suggestion of limited means.<EOS>
 The dress was a sombre greyish beige, untrimmed and unbraided, and she wore a small turban of the same dull hue, relieved only by a suspicion of white feather in the side.<EOS>
 Her face had neither regularity of feature nor beauty of complexion, but her expression was sweet and amiable, and her large blue eyes were singularly spiritual and sympathetic.<EOS>
 In an experience of women which extends over many nations and three separate continents, I have never looked upon a face which gave a clearer promise of a refined and sensitive nature.<EOS>
-I could not but observe that as she took the seat which Sherlock Holmes <INVESTIGATOR> placed for her, her lip trembled, her hand quivered, and she showed every sign of intense inward agitation.<EOS>
+I could not but observe that as she took the seat which Sherlock Holmes<INVESTIGATOR> placed for her, her lip trembled, her hand quivered, and she showed every sign of intense inward agitation.<EOS>
 
-"I have come to you, Mr. Holmes," she said, "because you once enabled my employer, Mrs. Cecil Forrester, to unravel a little domestic complication.<EOS>
+"I have come to you, Mr. Holmes<INVESTIGATOR>," she said, "because you once enabled my employer, Mrs. Cecil Forrester, to unravel a little domestic complication.<EOS>
 She was much impressed by your kindness and skill."<EOS>
 
 "Mrs. Cecil Forrester," he repeated thoughtfully.<EOS>
@@ -289,7 +289,7 @@ The case, however, as I remember it, was a very simple one."<EOS>
 But at least you cannot say the same of mine.<EOS>
 I can hardly imagine anything more strange, more utterly inexplicable, than the situation in which I find myself."<EOS>
 
-Holmes rubbed his hands, and his eyes glistened.<EOS>
+Holmes<INVESTIGATOR> rubbed his hands, and his eyes glistened.<EOS>
 He leaned forward in his chair with an expression of extraordinary concentration upon his clear-cut, hawklike features.<EOS>
 "State your case," said he, in brisk, business tones.<EOS>
 
@@ -308,13 +308,13 @@ I was placed, however, in a comfortable boarding establishment at Edinburgh, and
 In the year 1878 my father, who was senior captain of his regiment, obtained twelve months' leave and came home.<EOS>
 He telegraphed to me from London that he had arrived all safe, and directed me to come down at once, giving the Langham Hotel as his address.<EOS>
 His message, as I remember, was full of kindness and love.<EOS>
-On reaching London I drove to the Langham, and was informed that Captain Morstan <SUSPECT> was staying there, but that he had gone out the night before and had not yet returned.<EOS>
+On reaching London I drove to the Langham, and was informed that Captain Morstan<SUSPECT> was staying there, but that he had gone out the night before and had not yet returned.<EOS>
 I waited all day without news of him.<EOS>
 That night, on the advice of the manager of the hotel, I communicated with the police, and next morning we advertised in all the papers.<EOS>
 Our inquiries led to no result; and from that day to this no word has ever been heard of my unfortunate father.<EOS>
 He came home with his heart full of hope, to find some peace, some comfort, and instead-" She put her hand to her throat, and a choking sob cut short the sentence.<EOS>
 
-"The date?" asked Holmes, opening his note-book.<EOS>
+"The date?" asked Holmes<INVESTIGATOR>, opening his note-book.<EOS>
 
 "He disappeared upon the 3rd of December, 1878,-nearly ten years ago."<EOS>
 
@@ -326,14 +326,14 @@ He had been one of the officers in charge of the convict-guard there."<EOS>
 
 "Had he any friends in town?"<EOS>
 
-"Only one that we know of,-Major Sholto <SUSPECT>, of his own regiment, the 34th Bombay Infantry.<EOS>
-The major had retired some little time before, and lived at Upper Norwood.<EOS>
+"Only one that we know of,-Major Sholto<SUSPECT>, of his own regiment, the 34th Bombay Infantry.<EOS>
+The major<SUSPECT> had retired some little time before, and lived at Upper Norwood.<EOS>
 We communicated with him, of course, but he did not even know that his brother officer was in England."<EOS>
 
-"A singular case," remarked Holmes.<EOS>
+"A singular case," remarked Holmes<INVESTIGATOR>.<EOS>
 
 "I have not yet described to you the most singular part.<EOS>
-About six years ago-to be exact, upon the 4th of May, 1882-an advertisement appeared in the _Times_ asking for the address of Miss Mary Morstan and stating that it would be to her advantage to come forward.<EOS>
+About six years ago-to be exact, upon the 4th of May, 1882-an advertisement appeared in the _Times_ asking for the address of Miss Mary Morstan<SUSPECT> and stating that it would be to her advantage to come forward.<EOS>
 There was no name or address appended.<EOS>
 I had at that time just entered the family of Mrs. Cecil Forrester in the capacity of governess.<EOS>
 By her advice I published my address in the advertisement column.<EOS>
@@ -344,14 +344,14 @@ They have been pronounced by an expert to be of a rare variety and of considerab
 You can see for yourselves that they are very handsome."<EOS>
 She opened a flat box as she spoke, and showed me six of the finest pearls that I had ever seen.<EOS>
 
-"Your statement is most interesting," said Sherlock Holmes <INVESTIGATOR>.<EOS>
+"Your statement is most interesting," said Sherlock Holmes<INVESTIGATOR>.<EOS>
 "Has anything else occurred to you?"<EOS>
 
 "Yes, and no later than to-day.<EOS>
 That is why I have come to you.<EOS>
 This morning I received this letter, which you will perhaps read for yourself."<EOS>
 
-"Thank you," said Holmes.<EOS>
+"Thank you," said Holmes<INVESTIGATOR>.<EOS>
 "The envelope too, please.<EOS>
 Postmark, London, S.W. Date, July 7.<EOS>
 Hum!<EOS>
@@ -367,7 +367,7 @@ Do not bring police.<EOS>
 If you do, all will be in vain.<EOS>
 Your unknown friend.'<EOS>
 Well, really, this is a very pretty little mystery.<EOS>
-What do you intend to do, Miss Morstan?"<EOS>
+What do you intend to do, Miss Morstan<SUSPECT>?"<EOS>
 
 "That is exactly what I want to ask you."<EOS>
 
@@ -384,7 +384,7 @@ He and I have worked together before."<EOS>
 "I have led a retired life, and have no friends whom I could appeal to.<EOS>
 If I am here at six it will do, I suppose?"<EOS>
 
-"You must not be later," said Holmes.<EOS>
+"You must not be later," said Holmes<INVESTIGATOR>.<EOS>
 "There is one other point, however.<EOS>
 Is this handwriting the same as that upon the pearl-box addresses?"<EOS>
 
@@ -397,7 +397,7 @@ He spread out the papers upon the table, and gave little darting glances from on
 "They are disguised hands, except the letter," he said, presently, "but there can be no question as to the authorship.<EOS>
 See how the irrepressible Greek _e_ will break out, and see the twirl of the final _s_.<EOS>
 They are undoubtedly by the same person.<EOS>
-I should not like to suggest false hopes, Miss Morstan, but is there any resemblance between this hand and that of your father?"<EOS>
+I should not like to suggest false hopes, Miss Morstan<SUSPECT>, but is there any resemblance between this hand and that of your father?"<EOS>
 
 "Nothing could be more unlike."<EOS>
 
@@ -438,7 +438,7 @@ What do you make of this fellow's scribble?"<EOS>
 "It is legible and regular," I answered.<EOS>
 "A man of business habits and some force of character."<EOS>
 
-Holmes shook his head.<EOS>
+Holmes<INVESTIGATOR> shook his head.<EOS>
 "Look at his long letters," he said.<EOS>
 "They hardly rise above the common herd.<EOS>
 That _d_ might be an _a_, and that _l_ an _e_.<EOS>
@@ -462,7 +462,7 @@ If my future were black, it was better surely to face it like a man than to atte
 <SOC>Chapter III In Quest of a Solution
 
 
-It was half-past five before Holmes returned.<EOS>
+It was half-past five before Holmes<INVESTIGATOR> returned.<EOS>
 He was bright, eager, and in excellent spirits,-a mood which in his case alternated with fits of the blackest depression.<EOS>
 
 "There is no great mystery in this matter," he said, taking the cup of tea which I had poured out for him.<EOS>
@@ -475,20 +475,20 @@ you have solved it already?"<EOS>
 I have discovered a suggestive fact, that is all.<EOS>
 It is, however, _very_ suggestive.<EOS>
 The details are still to be added.<EOS>
-I have just found, on consulting the back files of the _Times_, that Major Sholto <SUSPECT>, of Upper Norword, late of the 34th Bombay Infantry, died upon the 28th of April, 1882."<EOS>
+I have just found, on consulting the back files of the _Times_, that Major Sholto<SUSPECT>, of Upper Norword, late of the 34th Bombay Infantry, died upon the 28th of April, 1882."<EOS>
 
-"I may be very obtuse, Holmes, but I fail to see what this suggests."<EOS>
+"I may be very obtuse, Holmes<INVESTIGATOR>, but I fail to see what this suggests."<EOS>
 
 "No?<EOS>
 You surprise me.<EOS>
 Look at it in this way, then.<EOS>
-Captain Morstan <SUSPECT> disappears.<EOS>
-The only person in London whom he could have visited is Major Sholto <SUSPECT>.<EOS>
-Major Sholto <SUSPECT> denies having heard that he was in London.<EOS>
-Four years later Sholto dies.<EOS>
-_Within a week of his death_ Captain Morstan <SUSPECT>'s daughter receives a valuable present, which is repeated from year to year, and now culminates in a letter which describes her as a wronged woman.<EOS>
+Captain Morstan<SUSPECT> disappears.<EOS>
+The only person in London whom he could have visited is Major Sholto<SUSPECT>.<EOS>
+Major Sholto<SUSPECT> denies having heard that he was in London.<EOS>
+Four years later Sholto<SUSPECT> dies.<EOS>
+_Within a week of his death_ Captain Morstan<SUSPECT>'s daughter receives a valuable present, which is repeated from year to year, and now culminates in a letter which describes her as a wronged woman.<EOS>
 What wrong can it refer to except this deprivation of her father?<EOS>
-And why should the presents begin immediately after Sholto's death, unless it is that Sholto's heir knows something of the mystery and desires to make compensation?<EOS>
+And why should the presents begin immediately after Sholto<SUSPECT>'s death, unless it is that Sholto<SUSPECT>'s heir knows something of the mystery and desires to make compensation?<EOS>
 Have you any alternative theory which will meet the facts?"<EOS>
 
 "But what a strange compensation!<EOS>
@@ -499,26 +499,26 @@ What justice can she have?<EOS>
 It is too much to suppose that her father is still alive.<EOS>
 There is no other injustice in her case that you know of."<EOS>
 
-"There are difficulties; there are certainly difficulties," said Sherlock Holmes <INVESTIGATOR>, pensively.<EOS>
+"There are difficulties; there are certainly difficulties," said Sherlock Holmes<INVESTIGATOR>, pensively.<EOS>
 "But our expedition of to-night will solve them all.<EOS>
-Ah, here is a four-wheeler, and Miss Morstan is inside.<EOS>
+Ah, here is a four-wheeler, and Miss Morstan<SUSPECT> is inside.<EOS>
 Are you all ready?<EOS>
 Then we had better go down, for it is a little past the hour."<EOS>
 
-I picked up my hat and my heaviest stick, but I observed that Holmes took his revolver from his drawer and slipped it into his pocket.<EOS>
+I picked up my hat and my heaviest stick, but I observed that Holmes<INVESTIGATOR> took his revolver from his drawer and slipped it into his pocket.<EOS>
 It was clear that he thought that our night's work might be a serious one.<EOS>
 
-Miss Morstan was muffled in a dark cloak, and her sensitive face was composed, but pale.<EOS>
-She must have been more than woman if she did not feel some uneasiness at the strange enterprise upon which we were embarking, yet her self-control was perfect, and she readily answered the few additional questions which Sherlock Holmes <INVESTIGATOR> put to her.<EOS>
+Miss Morstan<SUSPECT> was muffled in a dark cloak, and her sensitive face was composed, but pale.<EOS>
+She must have been more than woman if she did not feel some uneasiness at the strange enterprise upon which we were embarking, yet her self-control was perfect, and she readily answered the few additional questions which Sherlock Holmes<INVESTIGATOR> put to her.<EOS>
 
-"Major Sholto <SUSPECT> was a very particular friend of papa's," she said.<EOS>
-"His letters were full of allusions to the major.<EOS>
+"Major Sholto<SUSPECT> was a very particular friend of papa's," she said.<EOS>
+"His letters were full of allusions to the major<SUSPECT>.<EOS>
 He and papa were in command of the troops at the Andaman Islands, so they were thrown a great deal together.<EOS>
 By the way, a curious paper was found in papa's desk which no one could understand.<EOS>
 I don't suppose that it is of the slightest importance, but I thought you might care to see it, so I brought it with me.<EOS>
 It is here."<EOS>
 
-Holmes unfolded the paper carefully and smoothed it out upon his knee.<EOS>
+Holmes<INVESTIGATOR> unfolded the paper carefully and smoothed it out upon his knee.<EOS>
 He then very methodically examined it all over with his double lens.<EOS>
 
 "It is paper of native Indian manufacture," he remarked.<EOS>
@@ -526,18 +526,18 @@ He then very methodically examined it all over with his double lens.<EOS>
 The diagram upon it appears to be a plan of part of a large building with numerous halls, corridors, and passages.<EOS>
 At one point is a small cross done in red ink, and above it is '3.37 from left,' in faded pencil-writing.<EOS>
 In the left-hand corner is a curious hieroglyphic like four crosses in a line with their arms touching.<EOS>
-Beside it is written, in very rough and coarse characters, 'The sign of the four,-Jonathan Small <PERPETRATOR>, Mahomet Singh, Abdullah Khan, Dost Akbar.'<EOS>
+Beside it is written, in very rough and coarse characters, 'The sign of the four,-Jonathan Small<PERPETRATOR>, Mahomet Singh, Abdullah Khan, Dost Akbar.'<EOS>
 No, I confess that I do not see how this bears upon the matter.<EOS>
 Yet it is evidently a document of importance.<EOS>
 It has been kept carefully in a pocket-book; for the one side is as clean as the other."<EOS>
 
 "It was in his pocket-book that we found it."<EOS>
 
-"Preserve it carefully, then, Miss Morstan, for it may prove to be of use to us.<EOS>
-I begin to suspect <SUSPECT> that this matter may turn out to be much deeper and more subtle than I at first supposed.<EOS>
+"Preserve it carefully, then, Miss Morstan<SUSPECT>, for it may prove to be of use to us.<EOS>
+I begin to suspect<SUSPECT> that this matter may turn out to be much deeper and more subtle than I at first supposed.<EOS>
 I must reconsider my ideas."<EOS>
 He leaned back in the cab, and I could see by his drawn brow and his vacant eye that he was thinking intently.<EOS>
-Miss Morstan and I chatted in an undertone about our present expedition and its possible outcome, but our companion maintained his impenetrable reserve until the end of our journey.<EOS>
+Miss Morstan<SUSPECT> and I chatted in an undertone about our present expedition and its possible outcome, but our companion maintained his impenetrable reserve until the end of our journey.<EOS>
 
 It was a September evening, and not yet seven o'clock, but the day had been a dreary one, and a dense drizzly fog lay low upon the great city.<EOS>
 Mud-coloured clouds drooped sadly over the muddy streets.<EOS>
@@ -546,17 +546,17 @@ The yellow glare from the shop-windows streamed out into the steamy, vaporous ai
 There was, to my mind, something eerie and ghost-like in the endless procession of faces which flitted across these narrow bars of light,-sad faces and glad, haggard and merry.<EOS>
 Like all human kind, they flitted from the gloom into the light, and so back into the gloom once more.<EOS>
 I am not subject to impressions, but the dull, heavy evening, with the strange business upon which we were engaged, combined to make me nervous and depressed.<EOS>
-I could see from Miss Morstan's manner that she was suffering from the same feeling.<EOS>
-Holmes alone could rise superior to petty influences.<EOS>
+I could see from Miss Morstan<SUSPECT>'s manner that she was suffering from the same feeling.<EOS>
+Holmes<INVESTIGATOR> alone could rise superior to petty influences.<EOS>
 He held his open note-book upon his knee, and from time to time he jotted down figures and memoranda in the light of his pocket-lantern.<EOS>
 
 At the Lyceum Theatre the crowds were already thick at the side-entrances.<EOS>
 In front a continuous stream of hansoms and four-wheelers were rattling up, discharging their cargoes of shirt-fronted men and beshawled, bediamonded women.<EOS>
 We had hardly reached the third pillar, which was our rendezvous, before a small, dark, brisk man in the dress of a coachman accosted us.<EOS>
 
-"Are you the parties who come with Miss Morstan?" he asked.<EOS>
+"Are you the parties who come with Miss Morstan<SUSPECT>?" he asked.<EOS>
 
-"I am Miss Morstan, and these two gentlemen are my friends," said she.<EOS>
+"I am Miss Morstan<SUSPECT>, and these two gentlemen are my friends," said she.<EOS>
 
 He bent a pair of wonderfully penetrating and questioning eyes upon us.<EOS>
 "You will excuse me, miss," he said with a certain dogged manner, "but I was to ask you to give me your word that neither of your companions is a police-officer."<EOS>
@@ -570,11 +570,11 @@ We had hardly done so before the driver whipped up his horse, and we plunged awa
 The situation was a curious one.<EOS>
 We were driving to an unknown place, on an unknown errand.<EOS>
 Yet our invitation was either a complete hoax,-which was an inconceivable hypothesis,-or else we had good reason to think that important issues might hang upon our journey.<EOS>
-Miss Morstan's demeanor was as resolute and collected as ever.<EOS>
+Miss Morstan<SUSPECT>'s demeanor was as resolute and collected as ever.<EOS>
 I endeavored to cheer and amuse her by reminiscences of my adventures in Afghanistan; but, to tell the truth, I was myself so excited at our situation and so curious as to our destination that my stories were slightly involved.<EOS>
 To this day she declares that I told her one moving anecdote as to how a musket looked into my tent at the dead of night, and how I fired a double-barrelled tiger cub at it.<EOS>
 At first I had some idea as to the direction in which we were driving; but soon, what with our pace, the fog, and my own limited knowledge of London, I lost my bearings, and knew nothing, save that we seemed to be going a very long way.<EOS>
-Sherlock Holmes <INVESTIGATOR> was never at fault, however, and he muttered the names as the cab rattled through squares and in and out by tortuous by-streets.<EOS>
+Sherlock Holmes<INVESTIGATOR> was never at fault, however, and he muttered the names as the cab rattled through squares and in and out by tortuous by-streets.<EOS>
 
 "Rochester Row," said he.<EOS>
 "Now Vincent Square.<EOS>
@@ -617,7 +617,7 @@ Nature had given him a pendulous lip, and a too visible line of yellow and irreg
 In spite of his obtrusive baldness, he gave the impression of youth.<EOS>
 In point of fact he had just turned his thirtieth year.<EOS>
 
-"Your servant, Miss Morstan," he kept repeating, in a thin, high voice.<EOS>
+"Your servant, Miss Morstan<SUSPECT>," he kept repeating, in a thin, high voice.<EOS>
 "Your servant, gentlemen.<EOS>
 Pray step into my little sanctum.<EOS>
 A small place, miss, but furnished to my own liking.<EOS>
@@ -631,12 +631,12 @@ Two great tiger-skins thrown athwart it increased the suggestion of Eastern luxu
 A lamp in the fashion of a silver dove was hung from an almost invisible golden wire in the centre of the room.<EOS>
 As it burned it filled the air with a subtle and aromatic odour.<EOS>
 
-"Mr. Thaddeus Sholto <SUSPECT>," said the little man, still jerking and smiling.<EOS>
+"Mr. Thaddeus Sholto<SUSPECT>," said the little man, still jerking and smiling.<EOS>
 "That is my name.<EOS>
-You are Miss Morstan, of course.<EOS>
+You are Miss Morstan<SUSPECT>, of course.<EOS>
 And these gentlemen-"<EOS>
 
-"This is Mr. Sherlock Holmes <INVESTIGATOR>, and this is Dr. Watson."<EOS>
+"This is Mr. Sherlock Holmes<INVESTIGATOR>, and this is Dr. Watson."<EOS>
 
 "A doctor, eh?" cried he, much excited.<EOS>
 "Have you your stethoscope?<EOS>
@@ -648,13 +648,13 @@ I listened to his heart, as requested, but was unable to find anything amiss, sa
 "It appears to be normal," I said.<EOS>
 "You have no cause for uneasiness."<EOS>
 
-"You will excuse my anxiety, Miss Morstan," he remarked, airily.<EOS>
+"You will excuse my anxiety, Miss Morstan<SUSPECT>," he remarked, airily.<EOS>
 "I am a great sufferer, and I have long had suspicions as to that valve.<EOS>
 I am delighted to hear that they are unwarranted.<EOS>
-Had your father, Miss Morstan, refrained from throwing a strain upon his heart, he might have been alive now."<EOS>
+Had your father, Miss Morstan<SUSPECT>, refrained from throwing a strain upon his heart, he might have been alive now."<EOS>
 
 I could have struck the man across the face, so hot was I at this callous and off-hand reference to so delicate a matter.<EOS>
-Miss Morstan sat down, and her face grew white to the lips.<EOS>
+Miss Morstan<SUSPECT> sat down, and her face grew white to the lips.<EOS>
 "I knew in my heart that he was dead," said she.<EOS>
 
 "I can give you every information," said he, "and, what is more, I can do you justice; and I will, too, whatever Brother Bartholomew may say.<EOS>
@@ -665,14 +665,14 @@ We can settle everything satisfactorily among ourselves, without any interferenc
 Nothing would annoy Brother Bartholomew more than any publicity."<EOS>
 He sat down upon a low settee and blinked at us inquiringly with his weak, watery blue eyes.<EOS>
 
-"For my part," said Holmes, "whatever you may choose to say will go no further."<EOS>
+"For my part," said Holmes<INVESTIGATOR>, "whatever you may choose to say will go no further."<EOS>
 
 I nodded to show my agreement.<EOS>
 
 "That is well!<EOS>
 That is well!"<EOS>
 said he.<EOS>
-"May I offer you a glass of Chianti, Miss Morstan?<EOS>
+"May I offer you a glass of Chianti, Miss Morstan<SUSPECT>?<EOS>
 Or of Tokay?<EOS>
 I keep no other wines.<EOS>
 Shall I open a flask?<EOS>
@@ -694,7 +694,7 @@ It is my weakness.<EOS>
 The landscape is a genuine Corot, and, though a connoisseur might perhaps throw a doubt upon that Salvator Rosa, there cannot be the least question about the Bouguereau.<EOS>
 I am partial to the modern French school."<EOS>
 
-"You will excuse me, Mr. Sholto," said Miss Morstan, "but I am here at your request to learn something which you desire to tell me.<EOS>
+"You will excuse me, Mr. Sholto<SUSPECT>," said Miss Morstan<SUSPECT>, "but I am here at your request to learn something which you desire to tell me.<EOS>
 It is very late, and I should desire the interview to be as short as possible."<EOS>
 
 "At the best it must take some time," he answered; "for we shall certainly have to go to Norwood and see Brother Bartholomew.<EOS>
@@ -712,16 +712,16 @@ No, I must prepare you by showing you how we all stand to each other.<EOS>
 In the first place, I must tell you that there are several points in the story of which I am myself ignorant.<EOS>
 I can only lay the facts before you as far as I know them myself.<EOS>
 
-"My father was, as you may have guessed, Major John Sholto, once of the Indian army.<EOS>
+"My father was, as you may have guessed, Major John Sholto<SUSPECT>, once of the Indian army.<EOS>
 He retired some eleven years ago, and came to live at Pondicherry Lodge in Upper Norwood.<EOS>
 He had prospered in India, and brought back with him a considerable sum of money, a large collection of valuable curiosities, and a staff of native servants.<EOS>
 With these advantages he bought himself a house, and lived in great luxury.<EOS>
 My twin-brother Bartholomew and I were the only children.<EOS>
 
-"I very well remember the sensation which was caused by the disappearance of Captain Morstan <SUSPECT>.<EOS>
+"I very well remember the sensation which was caused by the disappearance of Captain Morstan<SUSPECT>.<EOS>
 We read the details in the papers, and, knowing that he had been a friend of our father's, we discussed the case freely in his presence.<EOS>
 He used to join in our speculations as to what could have happened.<EOS>
-Never for an instant did we suspect <SUSPECT> that he had the whole secret hidden in his own breast,-that of all men he alone knew the fate of Arthur Morstan.<EOS>
+Never for an instant did we suspect<SUSPECT> that he had the whole secret hidden in his own breast,-that of all men he alone knew the fate of Arthur Morstan<SUSPECT>.<EOS>
 
 "We did know, however, that some mystery-some positive danger-overhung our father.<EOS>
 He was very fearful of going out alone, and he always employed two prize-fighters to act as porters at Pondicherry Lodge.<EOS>
@@ -743,7 +743,7 @@ Then, grasping our hands, he made a remarkable statement to us, in a voice which
 I shall try and give it to you in his own very words.<EOS>
 
 "'I have only one thing,' he said, 'which weighs upon my mind at this supreme moment.<EOS>
-It is my treatment of poor Morstan's orphan.<EOS>
+It is my treatment of poor Morstan<SUSPECT>'s orphan.<EOS>
 The cursed greed which has been my besetting sin through life has withheld from her the treasure, half at least of which should have been hers.<EOS>
 And yet I have made no use of it myself,-so blind and foolish a thing is avarice.<EOS>
 The mere feeling of possession has been so dear to me that I could not bear to share it with another.<EOS>
@@ -753,18 +753,18 @@ You, my sons, will give her a fair share of the Agra treasure.<EOS>
 But send her nothing-not even the chaplet-until I am gone.<EOS>
 After all, men have been as bad as this and have recovered.<EOS>
 
-"'I will tell you how Morstan died,' he continued.<EOS>
+"'I will tell you how Morstan<SUSPECT> died,' he continued.<EOS>
 'He had suffered for years from a weak heart, but he concealed it from every one.<EOS>
 I alone knew it.<EOS>
 When in India, he and I, through a remarkable chain of circumstances, came into possession of a considerable treasure.<EOS>
-I brought it over to England, and on the night of Morstan's arrival he came straight over here to claim his share.<EOS>
+I brought it over to England, and on the night of Morstan<SUSPECT>'s arrival he came straight over here to claim his share.<EOS>
 He walked over from the station, and was admitted by my faithful old Lal Chowdar, who is now dead.<EOS>
-Morstan and I had a difference of opinion as to the division of the treasure, and we came to heated words.<EOS>
-Morstan had sprung out of his chair in a paroxysm of anger, when he suddenly pressed his hand to his side, his face turned a dusky hue, and he fell backwards, cutting his head against the corner of the treasure-chest.<EOS>
+Morstan<SUSPECT> and I had a difference of opinion as to the division of the treasure, and we came to heated words.<EOS>
+Morstan<SUSPECT> had sprung out of his chair in a paroxysm of anger, when he suddenly pressed his hand to his side, his face turned a dusky hue, and he fell backwards, cutting his head against the corner of the treasure-chest.<EOS>
 When I stooped over him I found, to my horror, that he was dead.<EOS>
 
 "'For a long time I sat half distracted, wondering what I should do.<EOS>
-My first impulse was, of course, to call for assistance; but I could not but recognise that there was every chance that I would be accused of his murder <CRIME>.<EOS>
+My first impulse was, of course, to call for assistance; but I could not but recognise that there was every chance that I would be accused of his murder<CRIME>.<EOS>
 His death at the moment of a quarrel, and the gash in his head, would be black against me.<EOS>
 Again, an official inquiry could not be made without bringing out some facts about the treasure, which I was particularly anxious to keep secret.<EOS>
 He had told me that no soul upon earth knew where he had gone.<EOS>
@@ -774,7 +774,7 @@ There seemed to be no necessity why any soul ever should know.<EOS>
 He stole in and bolted the door behind him.<EOS>
 "Do not fear, Sahib," he said.<EOS>
 "No one need know that you have killed him.<EOS>
-Let us hide him away, and who is the wiser?" "I did not kill <CRIME> him," said I. Lal Chowdar shook his head and smiled.<EOS>
+Let us hide him away, and who is the wiser?" "I did not kill<CRIME> him," said I. Lal Chowdar shook his head and smiled.<EOS>
 "I heard it all, Sahib," said he.<EOS>
 "I heard you quarrel, and I heard the blow.<EOS>
 But my lips are sealed.<EOS>
@@ -782,9 +782,9 @@ All are asleep in the house.<EOS>
 Let us put him away together."<EOS>
 That was enough to decide me.<EOS>
 If my own servant could not believe my innocence, how could I hope to make it good before twelve foolish tradesmen in a jury-box?<EOS>
-Lal Chowdar and I disposed of the body that night, and within a few days the London papers were full of the mysterious disappearance of Captain Morstan <SUSPECT>.<EOS>
+Lal Chowdar and I disposed of the body that night, and within a few days the London papers were full of the mysterious disappearance of Captain Morstan<SUSPECT>.<EOS>
 You will see from what I say that I can hardly be blamed in the matter.<EOS>
-My fault lies in the fact that we concealed not only the body, but also the treasure, and that I have clung to Morstan's share as well as to my own.<EOS>
+My fault lies in the fact that we concealed not only the body, but also the treasure, and that I have clung to Morstan<SUSPECT>'s share as well as to my own.<EOS>
 I wish you, therefore, to make restitution.<EOS>
 Put your ears down to my mouth.<EOS>
 The treasure is hidden in-'<EOS>
@@ -808,12 +808,12 @@ My brother and I naturally associated this peculiar incident with the fear which
 
 The little man stopped to relight his hookah and puffed thoughtfully for a few moments.<EOS>
 We had all sat absorbed, listening to his extraordinary narrative.<EOS>
-At the short account of her father's death Miss Morstan had turned deadly white, and for a moment I feared that she was about to faint.<EOS>
+At the short account of her father's death Miss Morstan<SUSPECT> had turned deadly white, and for a moment I feared that she was about to faint.<EOS>
 She rallied however, on drinking a glass of water which I quietly poured out for her from a Venetian carafe upon the side-table.<EOS>
-Sherlock Holmes <INVESTIGATOR> leaned back in his chair with an abstracted expression and the lids drawn low over his glittering eyes.<EOS>
+Sherlock Holmes<INVESTIGATOR> leaned back in his chair with an abstracted expression and the lids drawn low over his glittering eyes.<EOS>
 As I glanced at him I could not but think how on that very day he had complained bitterly of the commonplaceness of life.<EOS>
 Here at least was a problem which would tax his sagacity to the utmost.<EOS>
-Mr. Thaddeus Sholto <SUSPECT> looked from one to the other of us with an obvious pride at the effect which his story had produced, and then continued between the puffs of his overgrown pipe.<EOS>
+Mr. Thaddeus Sholto<SUSPECT> looked from one to the other of us with an obvious pride at the effect which his story had produced, and then continued between the puffs of his overgrown pipe.<EOS>
 
 "My brother and I," said he, "were, as you may imagine, much excited as to the treasure which my father had spoken of.<EOS>
 For weeks and for months we dug and delved in every part of the garden, without discovering its whereabouts.<EOS>
@@ -822,7 +822,7 @@ We could judge the splendour of the missing riches by the chaplet which he had t
 Over this chaplet my brother Bartholomew and I had some little discussion.<EOS>
 The pearls were evidently of great value, and he was averse to part with them, for, between friends, my brother was himself a little inclined to my father's fault.<EOS>
 He thought, too, that if we parted with the chaplet it might give rise to gossip and finally bring us into trouble.<EOS>
-It was all that I could do to persuade him to let me find out Miss Morstan's address and send her a detached pearl at fixed intervals, so that at least she might never feel destitute."<EOS>
+It was all that I could do to persuade him to let me find out Miss Morstan<SUSPECT>'s address and send her a detached pearl at fixed intervals, so that at least she might never feel destitute."<EOS>
 
 "It was a kindly thought," said our companion, earnestly.<EOS>
 "It was extremely good of you."<EOS>
@@ -833,23 +833,23 @@ The little man waved his hand deprecatingly.<EOS>
 We had plenty of money ourselves.<EOS>
 I desired no more.<EOS>
 Besides, it would have been such bad taste to have treated a young lady in so scurvy a fashion.<EOS>
-'Le mauvais gout mene au crime <CRIME>.'<EOS>
+'Le mauvais gout mene au crime<CRIME>.'<EOS>
 The French have a very neat way of putting these things.<EOS>
 Our difference of opinion on this subject went so far that I thought it best to set up rooms for myself:<EOS>
 so I left Pondicherry Lodge, taking the old khitmutgar and Williams with me.<EOS>
 Yesterday, however, I learn that an event of extreme importance has occurred.<EOS>
 The treasure has been discovered.<EOS>
-I instantly communicated with Miss Morstan, and it only remains for us to drive out to Norwood and demand our share.<EOS>
+I instantly communicated with Miss Morstan<SUSPECT>, and it only remains for us to drive out to Norwood and demand our share.<EOS>
 I explained my views last night to Brother Bartholomew:<EOS>
 so we shall be expected, if not welcome, visitors."<EOS>
 
-Mr. Thaddeus Sholto <SUSPECT> ceased, and sat twitching on his luxurious settee.<EOS>
+Mr. Thaddeus Sholto<SUSPECT> ceased, and sat twitching on his luxurious settee.<EOS>
 We all remained silent, with our thoughts upon the new development which the mysterious business had taken.<EOS>
-Holmes was the first to spring to his feet.<EOS>
+Holmes<INVESTIGATOR> was the first to spring to his feet.<EOS>
 
 "You have done well, sir, from first to last," said he.<EOS>
 "It is possible that we may be able to make you some small return by throwing some light upon that which is still dark to you.<EOS>
-But, as Miss Morstan remarked just now, it is late, and we had best put the matter through without delay."<EOS>
+But, as Miss Morstan<SUSPECT> remarked just now, it is late, and we had best put the matter through without delay."<EOS>
 
 Our new acquaintance very deliberately coiled up the tube of his hookah, and produced from behind a curtain a very long befrogged topcoat with Astrakhan collar and cuffs.<EOS>
 This he buttoned tightly up, in spite of the extreme closeness of the night, and finished his attire by putting on a rabbit-skin cap with hanging lappets which covered the ears, so that no part of him was visible save his mobile and peaky face.<EOS>
@@ -857,7 +857,7 @@ This he buttoned tightly up, in spite of the extreme closeness of the night, and
 "I am compelled to be a valetudinarian."<EOS>
 
 Our cab was awaiting us outside, and our programme was evidently prearranged, for the driver started off at once at a rapid pace.<EOS>
-Thaddeus Sholto <SUSPECT> talked incessantly, in a voice which rose high above the rattle of the wheels.<EOS>
+Thaddeus Sholto<SUSPECT> talked incessantly, in a voice which rose high above the rattle of the wheels.<EOS>
 
 "Bartholomew is a clever fellow," said he.<EOS>
 "How do you think he found out where the treasure was?<EOS>
@@ -872,15 +872,15 @@ He lowered it through the hole, and there it lies.<EOS>
 He computes the value of the jewels at not less than half a million sterling."<EOS>
 
 At the mention of this gigantic sum we all stared at one another open-eyed.<EOS>
-Miss Morstan, could we secure her rights, would change from a needy governess to the richest heiress in England.<EOS>
+Miss Morstan<SUSPECT>, could we secure her rights, would change from a needy governess to the richest heiress in England.<EOS>
 Surely it was the place of a loyal friend to rejoice at such news; yet I am ashamed to say that selfishness took me by the soul, and that my heart turned as heavy as lead within me.<EOS>
 I stammered out some few halting words of congratulation, and then sat downcast, with my head drooped, deaf to the babble of our new acquaintance.<EOS>
 He was clearly a confirmed hypochondriac, and I was dreamily conscious that he was pouring forth interminable trains of symptoms, and imploring information as to the composition and action of innumerable quack nostrums, some of which he bore about in a leather case in his pocket.<EOS>
 I trust that he may not remember any of the answers which I gave him that night.<EOS>
-Holmes declares that he overheard me caution him against the great danger of taking more than two drops of castor oil, while I recommended strychnine in large doses as a sedative.<EOS>
+Holmes<INVESTIGATOR> declares that he overheard me caution him against the great danger of taking more than two drops of castor oil, while I recommended strychnine in large doses as a sedative.<EOS>
 However that may be, I was certainly relieved when our cab pulled up with a jerk and the coachman sprang down to open the door.<EOS>
 
-"This, Miss Morstan, is Pondicherry Lodge," said Mr. Thaddeus Sholto <SUSPECT>, as he handed her out.<EOS>
+"This, Miss Morstan<SUSPECT>, is Pondicherry Lodge," said Mr. Thaddeus Sholto<SUSPECT>, as he handed her out.<EOS>
 
 
 <SOC>Chapter V The Tragedy of Pondicherry Lodge
@@ -889,7 +889,7 @@ However that may be, I was certainly relieved when our cab pulled up with a jerk
 It was nearly eleven o'clock when we reached this final stage of our night's adventures.<EOS>
 We had left the damp fog of the great city behind us, and the night was fairly fine.<EOS>
 A warm wind blew from the westward, and heavy clouds moved slowly across the sky, with half a moon peeping occasionally through the rifts.<EOS>
-It was clear enough to see for some distance, but Thaddeus Sholto <SUSPECT> took down one of the side-lamps from the carriage to give us a better light upon our way.<EOS>
+It was clear enough to see for some distance, but Thaddeus Sholto<SUSPECT> took down one of the side-lamps from the carriage to give us a better light upon our way.<EOS>
 
 Pondicherry Lodge stood in its own grounds, and was girt round with a very high stone wall topped with broken glass.<EOS>
 A single narrow iron-clamped door formed the only means of entrance.<EOS>
@@ -903,7 +903,7 @@ You surely know my knock by this time."<EOS>
 There was a grumbling sound and a clanking and jarring of keys.<EOS>
 The door swung heavily back, and a short, deep-chested man stood in the opening, with the yellow light of the lantern shining upon his protruded face and twinkling distrustful eyes.<EOS>
 
-"That you, Mr. Thaddeus?<EOS>
+"That you, Mr. Thaddeus<SUSPECT>?<EOS>
 But who are the others?<EOS>
 I had no orders about them from the master."<EOS>
 
@@ -911,28 +911,28 @@ I had no orders about them from the master."<EOS>
 You surprise me!<EOS>
 I told my brother last night that I should bring some friends."<EOS>
 
-"He ain't been out o' his room to-day, Mr. Thaddeus, and I have no orders.<EOS>
+"He ain't been out o' his room to-day, Mr. Thaddeus<SUSPECT>, and I have no orders.<EOS>
 You know very well that I must stick to regulations.<EOS>
 I can let you in, but your friends must just stop where they are."<EOS>
 
 This was an unexpected obstacle.<EOS>
-Thaddeus Sholto <SUSPECT> looked about him in a perplexed and helpless manner.<EOS>
+Thaddeus Sholto<SUSPECT> looked about him in a perplexed and helpless manner.<EOS>
 "This is too bad of you, McMurdo!"<EOS>
 he said.<EOS>
 "If I guarantee them, that is enough for you.<EOS>
 There is the young lady, too.<EOS>
 She cannot wait on the public road at this hour."<EOS>
 
-"Very sorry, Mr. Thaddeus," said the porter, inexorably.<EOS>
+"Very sorry, Mr. Thaddeus<SUSPECT>," said the porter, inexorably.<EOS>
 "Folk may be friends o' yours, and yet no friends o' the master's.<EOS>
 He pays me well to do my duty, and my duty I'll do.<EOS>
 I don't know none o' your friends."<EOS>
 
-"Oh, yes you do, McMurdo," cried Sherlock Holmes <INVESTIGATOR>, genially.<EOS>
+"Oh, yes you do, McMurdo," cried Sherlock Holmes<INVESTIGATOR>, genially.<EOS>
 "I don't think you can have forgotten me.<EOS>
 Don't you remember the amateur who fought three rounds with you at Alison's rooms on the night of your benefit four years back?"<EOS>
 
-"Not Mr. Sherlock Holmes <INVESTIGATOR>!"<EOS>
+"Not Mr. Sherlock Holmes<INVESTIGATOR>!"<EOS>
 roared the prize-fighter.<EOS>
 "God's truth!<EOS>
 how could I have mistook you?<EOS>
@@ -940,30 +940,30 @@ If instead o' standin' there so quiet you had just stepped up and given me that 
 Ah, you're one that has wasted your gifts, you have!<EOS>
 You might have aimed high, if you had joined the fancy."<EOS>
 
-"You see, Watson, if all else fails me I have still one of the scientific professions open to me," said Holmes, laughing.<EOS>
+"You see, Watson, if all else fails me I have still one of the scientific professions open to me," said Holmes<INVESTIGATOR>, laughing.<EOS>
 "Our friend won't keep us out in the cold now, I am sure."<EOS>
 
 "In you come, sir, in you come,-you and your friends," he answered.<EOS>
-"Very sorry, Mr. Thaddeus, but orders are very strict.<EOS>
+"Very sorry, Mr. Thaddeus<SUSPECT>, but orders are very strict.<EOS>
 Had to be certain of your friends before I let them in."<EOS>
 
 Inside, a gravel path wound through desolate grounds to a huge clump of a house, square and prosaic, all plunged in shadow save where a moonbeam struck one corner and glimmered in a garret window.<EOS>
 The vast size of the building, with its gloom and its deathly silence, struck a chill to the heart.<EOS>
-Even Thaddeus Sholto <SUSPECT> seemed ill at ease, and the lantern quivered and rattled in his hand.<EOS>
+Even Thaddeus Sholto<SUSPECT> seemed ill at ease, and the lantern quivered and rattled in his hand.<EOS>
 
 "I cannot understand it," he said.<EOS>
 "There must be some mistake.<EOS>
 I distinctly told Bartholomew that we should be here, and yet there is no light in his window.<EOS>
 I do not know what to make of it."<EOS>
 
-"Does he always guard the premises in this way?" asked Holmes.<EOS>
+"Does he always guard the premises in this way?" asked Holmes<INVESTIGATOR>.<EOS>
 
 "Yes; he has followed my father's custom.<EOS>
 He was the favourite son, you know, and I sometimes think that my father may have told him more than he ever told me.<EOS>
 That is Bartholomew's window up there where the moonshine strikes.<EOS>
 It is quite bright, but there is no light from within, I think."<EOS>
 
-"None," said Holmes.<EOS>
+"None," said Holmes<INVESTIGATOR>.<EOS>
 "But I see the glint of a light in that little window beside the door."<EOS>
 
 "Ah, that is the housekeeper's room.<EOS>
@@ -974,23 +974,23 @@ But hush!<EOS>
 what is that?"<EOS>
 
 He held up the lantern, and his hand shook until the circles of light flickered and wavered all round us.<EOS>
-Miss Morstan seized my wrist, and we all stood with thumping hearts, straining our ears.<EOS>
+Miss Morstan<SUSPECT> seized my wrist, and we all stood with thumping hearts, straining our ears.<EOS>
 From the great black house there sounded through the silent night the saddest and most pitiful of sounds,-the shrill, broken whimpering of a frightened woman.<EOS>
 
-"It is Mrs. Bernstone," said Sholto.<EOS>
+"It is Mrs. Bernstone," said Sholto<SUSPECT>.<EOS>
 "She is the only woman in the house.<EOS>
 Wait here.<EOS>
 I shall be back in a moment."<EOS>
 He hurried for the door, and knocked in his peculiar way.<EOS>
 We could see a tall old woman admit him, and sway with pleasure at the very sight of him.<EOS>
 
-"Oh, Mr. Thaddeus, sir, I am so glad you have come!<EOS>
-I am so glad you have come, Mr. Thaddeus, sir!"<EOS>
+"Oh, Mr. Thaddeus<SUSPECT>, sir, I am so glad you have come!<EOS>
+I am so glad you have come, Mr. Thaddeus<SUSPECT>, sir!"<EOS>
 We heard her reiterated rejoicings until the door was closed and her voice died away into a muffled monotone.<EOS>
 
 Our guide had left us the lantern.<EOS>
-Holmes swung it slowly round, and peered keenly at the house, and at the great rubbish-heaps which cumbered the grounds.<EOS>
-Miss Morstan and I stood together, and her hand was in mine.<EOS>
+Holmes<INVESTIGATOR> swung it slowly round, and peered keenly at the house, and at the great rubbish-heaps which cumbered the grounds.<EOS>
+Miss Morstan<SUSPECT> and I stood together, and her hand was in mine.<EOS>
 A wondrous subtle thing is love, for here were we two who had never seen each other before that day, between whom no word or even look of affection had ever passed, and yet now in an hour of trouble our hands instinctively sought for each other.<EOS>
 I have marvelled at it since, but at the time it seemed the most natural thing that I should go out to her so, and, as she has often told me, there was in her also the instinct to turn to me for comfort and protection.<EOS>
 So we stood hand in hand, like two children, and there was peace in our hearts for all the dark things that surrounded us.<EOS>
@@ -1001,12 +1001,12 @@ she said, looking round.<EOS>
 "It looks as though all the moles in England had been let loose in it.<EOS>
 I have seen something of the sort on the side of a hill near Ballarat, where the prospectors had been at work."<EOS>
 
-"And from the same cause," said Holmes.<EOS>
+"And from the same cause," said Holmes<INVESTIGATOR>.<EOS>
 "These are the traces of the treasure-seekers.<EOS>
 You must remember that they were six years looking for it.<EOS>
 No wonder that the grounds look like a gravel-pit."<EOS>
 
-At that moment the door of the house burst open, and Thaddeus Sholto <SUSPECT> came running out, with his hands thrown forward and terror in his eyes.<EOS>
+At that moment the door of the house burst open, and Thaddeus Sholto<SUSPECT> came running out, with his hands thrown forward and terror in his eyes.<EOS>
 
 "There is something amiss with Bartholomew!"<EOS>
 he cried.<EOS>
@@ -1014,14 +1014,14 @@ he cried.<EOS>
 My nerves cannot stand it."<EOS>
 He was, indeed, half blubbering with fear, and his twitching feeble face peeping out from the great Astrakhan collar had the helpless appealing expression of a terrified child.<EOS>
 
-"Come into the house," said Holmes, in his crisp, firm way.<EOS>
+"Come into the house," said Holmes<INVESTIGATOR>, in his crisp, firm way.<EOS>
 
 "Yes, do!"<EOS>
-pleaded Thaddeus Sholto <SUSPECT>.<EOS>
+pleaded Thaddeus Sholto<SUSPECT>.<EOS>
 "I really do not feel equal to giving directions."<EOS>
 
 We all followed him into the housekeeper's room, which stood upon the left-hand side of the passage.<EOS>
-The old woman was pacing up and down with a scared look and restless picking fingers, but the sight of Miss Morstan appeared to have a soothing effect upon her.<EOS>
+The old woman was pacing up and down with a scared look and restless picking fingers, but the sight of Miss Morstan<SUSPECT> appeared to have a soothing effect upon her.<EOS>
 
 "God bless your sweet calm face!"<EOS>
 she cried, with an hysterical sob.<EOS>
@@ -1032,41 +1032,41 @@ Our companion patted her thin, work-worn hand, and murmured some few words of ki
 
 "Master has locked himself in and will not answer me," she explained.<EOS>
 "All day I have waited to hear from him, for he often likes to be alone; but an hour ago I feared that something was amiss, so I went up and peeped through the key-hole.<EOS>
-You must go up, Mr. Thaddeus,-you must go up and look for yourself.<EOS>
-I have seen Mr. Bartholomew Sholto in joy and in sorrow for ten long years, but I never saw him with such a face on him as that."<EOS>
+You must go up, Mr. Thaddeus<SUSPECT>,-you must go up and look for yourself.<EOS>
+I have seen Mr. Bartholomew Sholto<SUSPECT> in joy and in sorrow for ten long years, but I never saw him with such a face on him as that."<EOS>
 
-Sherlock Holmes <INVESTIGATOR> took the lamp and led the way, for Thaddeus Sholto <SUSPECT>'s teeth were chattering in his head.<EOS>
+Sherlock Holmes<INVESTIGATOR> took the lamp and led the way, for Thaddeus Sholto<SUSPECT>'s teeth were chattering in his head.<EOS>
 So shaken was he that I had to pass my hand under his arm as we went up the stairs, for his knees were trembling under him.<EOS>
-Twice as we ascended Holmes whipped his lens out of his pocket and carefully examined marks which appeared to me to be mere shapeless smudges of dust upon the cocoa-nut matting which served as a stair-carpet.<EOS>
+Twice as we ascended Holmes<INVESTIGATOR> whipped his lens out of his pocket and carefully examined marks which appeared to me to be mere shapeless smudges of dust upon the cocoa-nut matting which served as a stair-carpet.<EOS>
 He walked slowly from step to step, holding the lamp, and shooting keen glances to right and left.<EOS>
-Miss Morstan had remained behind with the frightened housekeeper.<EOS>
+Miss Morstan<SUSPECT> had remained behind with the frightened housekeeper.<EOS>
 
 The third flight of stairs ended in a straight passage of some length, with a great picture in Indian tapestry upon the right of it and three doors upon the left.<EOS>
-Holmes advanced along it in the same slow and methodical way, while we kept close at his heels, with our long black shadows streaming backwards down the corridor.<EOS>
+Holmes<INVESTIGATOR> advanced along it in the same slow and methodical way, while we kept close at his heels, with our long black shadows streaming backwards down the corridor.<EOS>
 The third door was that which we were seeking.<EOS>
-Holmes knocked without receiving any answer, and then tried to turn the handle and force it open.<EOS>
+Holmes<INVESTIGATOR> knocked without receiving any answer, and then tried to turn the handle and force it open.<EOS>
 It was locked on the inside, however, and by a broad and powerful bolt, as we could see when we set our lamp up against it.<EOS>
 The key being turned, however, the hole was not entirely closed.<EOS>
-Sherlock Holmes <INVESTIGATOR> bent down to it, and instantly rose again with a sharp intaking of the breath.<EOS>
+Sherlock Holmes<INVESTIGATOR> bent down to it, and instantly rose again with a sharp intaking of the breath.<EOS>
 
 "There is something devilish in this, Watson," said he, more moved than I had ever before seen him.<EOS>
 "What do you make of it?"<EOS>
 
 I stooped to the hole, and recoiled in horror.<EOS>
 Moonlight was streaming into the room, and it was bright with a vague and shifty radiance.<EOS>
-Looking straight at me, and suspended, as it were, in the air, for all beneath was in shadow, there hung a face,-the very face of our companion Thaddeus.<EOS>
+Looking straight at me, and suspended, as it were, in the air, for all beneath was in shadow, there hung a face,-the very face of our companion Thaddeus<SUSPECT>.<EOS>
 There was the same high, shining head, the same circular bristle of red hair, the same bloodless countenance.<EOS>
 The features were set, however, in a horrible smile, a fixed and unnatural grin, which in that still and moonlit room was more jarring to the nerves than any scowl or contortion.<EOS>
 So like was the face to that of our little friend that I looked round at him to make sure that he was indeed with us.<EOS>
 Then I recalled to mind that he had mentioned to us that his brother and he were twins.<EOS>
 
 "This is terrible!"<EOS>
-I said to Holmes.<EOS>
+I said to Holmes<INVESTIGATOR>.<EOS>
 "What is to be done?"<EOS>
 
 "The door must come down," he answered, and, springing against it, he put all his weight upon the lock.<EOS>
 It creaked and groaned, but did not yield.<EOS>
-Together we flung ourselves upon it once more, and this time it gave way with a sudden snap, and we found ourselves within Bartholomew Sholto's chamber.<EOS>
+Together we flung ourselves upon it once more, and this time it gave way with a sudden snap, and we found ourselves within Bartholomew Sholto<SUSPECT>'s chamber.<EOS>
 
 It appeared to have been fitted up as a chemical laboratory.<EOS>
 A double line of glass-stoppered bottles was drawn up upon the wall opposite the door, and the table was littered over with Bunsen burners, test-tubes, and retorts.<EOS>
@@ -1080,7 +1080,7 @@ He was stiff and cold, and had clearly been dead many hours.<EOS>
 It seemed to me that not only his features but all his limbs were twisted and turned in the most fantastic fashion.<EOS>
 By his hand upon the table there lay a peculiar instrument,-a brown, close-grained stick, with a stone head like a hammer, rudely lashed on with coarse twine.<EOS>
 Beside it was a torn sheet of note-paper with some words scrawled upon it.<EOS>
-Holmes glanced at it, and then handed it to me.<EOS>
+Holmes<INVESTIGATOR> glanced at it, and then handed it to me.<EOS>
 
 "You see," he said, with a significant raising of the eyebrows.<EOS>
 
@@ -1088,7 +1088,7 @@ In the light of the lantern I read, with a thrill of horror, "The sign of the fo
 
 "In God's name, what does it all mean?" I asked.<EOS>
 
-"It means murder <CRIME>," said he, stooping over the dead man.<EOS>
+"It means murder<CRIME>," said he, stooping over the dead man.<EOS>
 "Ah, I expected it.<EOS>
 Look here!"<EOS>
 He pointed to what looked like a long, dark thorn stuck in the skin just above the ear.<EOS>
@@ -1133,7 +1133,7 @@ oh, dear!<EOS>
 I know that I shall go mad!"<EOS>
 He jerked his arms and stamped his feet in a kind of convulsive frenzy.<EOS>
 
-"You have no reason for fear, Mr. Sholto," said Holmes, kindly, putting his hand upon his shoulder.<EOS>
+"You have no reason for fear, Mr. Sholto<SUSPECT>," said Holmes<INVESTIGATOR>, kindly, putting his hand upon his shoulder.<EOS>
 "Take my advice, and drive down to the station to report this matter to the police.<EOS>
 Offer to assist them in every way.<EOS>
 We shall wait here until your return."<EOS>
@@ -1141,10 +1141,10 @@ We shall wait here until your return."<EOS>
 The little man obeyed in a half-stupefied fashion, and we heard him stumbling down the stairs in the dark.<EOS>
 
 
-<SOC>Chapter VI Sherlock Holmes <INVESTIGATOR> Gives a Demonstration
+<SOC>Chapter VI Sherlock Holmes<INVESTIGATOR> Gives a Demonstration
 
 
-"Now, Watson," said Holmes, rubbing his hands, "we have half an hour to ourselves.<EOS>
+"Now, Watson," said Holmes<INVESTIGATOR>, rubbing his hands, "we have half an hour to ourselves.<EOS>
 Let us make good use of it.<EOS>
 My case is, as I have told you, almost complete; but we must not err on the side of over-confidence.<EOS>
 Simple as the case seems now, there may be something deeper underlying it."<EOS>
@@ -1203,10 +1203,10 @@ How about this mysterious ally?<EOS>
 How came he into the room?"<EOS>
 
 "Yes, the ally!"<EOS>
-repeated Holmes, pensively.<EOS>
+repeated Holmes<INVESTIGATOR>, pensively.<EOS>
 "There are features of interest about this ally.<EOS>
 He lifts the case from the regions of the commonplace.<EOS>
-I fancy that this ally breaks fresh ground in the annals of crime <CRIME> in this country,-though parallel cases suggest themselves from India, and, if my memory serves me, from Senegambia."<EOS>
+I fancy that this ally breaks fresh ground in the annals of crime<CRIME> in this country,-though parallel cases suggest themselves from India, and, if my memory serves me, from Senegambia."<EOS>
 
 "How came he, then?" I reiterated.<EOS>
 "The door is locked, the window is inaccessible.<EOS>
@@ -1237,7 +1237,7 @@ The floor was formed by the rafters, with thin lath-and-plaster between, so that
 The roof ran up to an apex, and was evidently the inner shell of the true roof of the house.<EOS>
 There was no furniture of any sort, and the accumulated dust of years lay thick upon the floor.<EOS>
 
-"Here you are, you see," said Sherlock Holmes <INVESTIGATOR>, putting his hand against the sloping wall.<EOS>
+"Here you are, you see," said Sherlock Holmes<INVESTIGATOR>, putting his hand against the sloping wall.<EOS>
 "This is a trap-door which leads out on to the roof.<EOS>
 I can press it back, and here is the roof itself, sloping at a gentle angle.<EOS>
 This, then, is the way by which Number One entered.<EOS>
@@ -1247,7 +1247,7 @@ He held down the lamp to the floor, and as he did so I saw for the second time t
 For myself, as I followed his gaze my skin was cold under my clothes.<EOS>
 The floor was covered thickly with the prints of a naked foot,-clear, well defined, perfectly formed, but scarce half the size of those of an ordinary man.<EOS>
 
-"Holmes," I said, in a whisper, "a child has done the horrid thing."<EOS>
+"Holmes<INVESTIGATOR>," I said, in a whisper, "a child has done the horrid thing."<EOS>
 
 He had recovered his self-possession in an instant.<EOS>
 "I was staggered for the moment," he said, "but the thing is quite natural.<EOS>
@@ -1266,7 +1266,7 @@ Apply them, and it will be instructive to compare results."<EOS>
 "It will be clear enough to you soon," he said, in an off-hand way.<EOS>
 "I think that there is nothing else of importance here, but I will look."<EOS>
 He whipped out his lens and a tape measure, and hurried about the room on his knees, measuring, comparing, examining, with his long thin nose only a few inches from the planks, and his beady eyes gleaming and deep-set like those of a bird.<EOS>
-So swift, silent, and furtive were his movements, like those of a trained blood-hound picking out a scent, that I could not but think what a terrible criminal <PERPETRATOR> he would have made had he turned his energy and sagacity against the law, instead of exerting them in its defence.<EOS>
+So swift, silent, and furtive were his movements, like those of a trained blood-hound picking out a scent, that I could not but think what a terrible criminal he would have made had he turned his energy and sagacity against the law, instead of exerting them in its defence.<EOS>
 As he hunted about, he kept muttering to himself, and finally he broke out into a loud crow of delight.<EOS>
 
 "We are certainly in luck," said he.<EOS>
@@ -1286,7 +1286,7 @@ here are the accredited representatives of the law."<EOS>
 
 Heavy steps and the clamour of loud voices were audible from below, and the hall door shut with a loud crash.<EOS>
 
-"Before they come," said Holmes, "just put your hand here on this poor fellow's arm, and here on his leg.<EOS>
+"Before they come," said Holmes<INVESTIGATOR>, "just put your hand here on this poor fellow's arm, and here on his leg.<EOS>
 What do you feel?"<EOS>
 
 "The muscles are as hard as a board," I answered.<EOS>
@@ -1316,7 +1316,7 @@ But here are the regulars; so the auxiliary forces may beat a retreat."<EOS>
 
 As he spoke, the steps which had been coming nearer sounded loudly on the passage, and a very stout, portly man in a grey suit strode heavily into the room.<EOS>
 He was red-faced, burly and plethoric, with a pair of very small twinkling eyes which looked keenly out from between swollen and puffy pouches.<EOS>
-He was closely followed by an inspector in uniform, and by the still palpitating Thaddeus Sholto <SUSPECT>.<EOS>
+He was closely followed by an inspector in uniform, and by the still palpitating Thaddeus Sholto<SUSPECT>.<EOS>
 
 "Here's a business!"<EOS>
 he cried, in a muffled, husky voice.<EOS>
@@ -1324,11 +1324,11 @@ he cried, in a muffled, husky voice.<EOS>
 But who are all these?<EOS>
 Why, the house seems to be as full as a rabbit-warren!"<EOS>
 
-"I think you must recollect me, Mr. Athelney Jones," said Holmes, quietly.<EOS>
+"I think you must recollect me, Mr. Athelney Jones," said Holmes<INVESTIGATOR>, quietly.<EOS>
 
 "Why, of course I do!"<EOS>
 he wheezed.<EOS>
-"It's Mr. Sherlock Holmes <INVESTIGATOR>, the theorist.<EOS>
+"It's Mr. Sherlock Holmes<INVESTIGATOR>, the theorist.<EOS>
 Remember you!<EOS>
 I'll never forget how you lectured us all on causes and inferences and effects in the Bishopgate jewel case.<EOS>
 It's true you set us on the right track; but you'll own now that it was more by good luck than good guidance."<EOS>
@@ -1345,7 +1345,7 @@ How lucky that I happened to be out at Norwood over another case!<EOS>
 I was at the station when the message arrived.<EOS>
 What d'you think the man died of?"<EOS>
 
-"Oh, this is hardly a case for me to theorise over," said Holmes, dryly.<EOS>
+"Oh, this is hardly a case for me to theorise over," said Holmes<INVESTIGATOR>, dryly.<EOS>
 
 "No, no.<EOS>
 Still, we can't deny that you hit the nail on the head sometimes.<EOS>
@@ -1361,10 +1361,10 @@ That's common sense.<EOS>
 Man might have died in a fit; but then the jewels are missing.<EOS>
 Ha!<EOS>
 I have a theory.<EOS>
-These flashes come upon me at times.-Just step outside, sergeant, and you, Mr. Sholto.<EOS>
-Your friend can remain.-What do you think of this, Holmes?<EOS>
-Sholto was, on his own confession, with his brother last night.<EOS>
-The brother died in a fit, on which Sholto walked off with the treasure.<EOS>
+These flashes come upon me at times.-Just step outside, sergeant, and you, Mr. Sholto<SUSPECT>.<EOS>
+Your friend can remain.-What do you think of this, Holmes<INVESTIGATOR>?<EOS>
+Sholto<SUSPECT> was, on his own confession, with his brother last night.<EOS>
+The brother died in a fit, on which Sholto<SUSPECT> walked off with the treasure.<EOS>
 How's that?"<EOS>
 
 "On which the dead man very considerately got up and locked the door on the inside."<EOS>
@@ -1372,29 +1372,29 @@ How's that?"<EOS>
 "Hum!<EOS>
 There's a flaw there.<EOS>
 Let us apply common sense to the matter.<EOS>
-This Thaddeus Sholto <SUSPECT> _was_ with his brother; there _was_ a quarrel; so much we know.<EOS>
+This Thaddeus Sholto<SUSPECT> _was_ with his brother; there _was_ a quarrel; so much we know.<EOS>
 The brother is dead and the jewels are gone.<EOS>
 So much also we know.<EOS>
-No one saw the brother from the time Thaddeus left him.<EOS>
+No one saw the brother from the time Thaddeus<SUSPECT> left him.<EOS>
 His bed had not been slept in.<EOS>
-Thaddeus is evidently in a most disturbed state of mind.<EOS>
+Thaddeus<SUSPECT> is evidently in a most disturbed state of mind.<EOS>
 His appearance is-well, not attractive.<EOS>
-You see that I am weaving my web round Thaddeus.<EOS>
+You see that I am weaving my web round Thaddeus<SUSPECT>.<EOS>
 The net begins to close upon him."<EOS>
 
-"You are not quite in possession of the facts yet," said Holmes.<EOS>
+"You are not quite in possession of the facts yet," said Holmes<INVESTIGATOR>.<EOS>
 "This splinter of wood, which I have every reason to believe to be poisoned, was in the man's scalp where you still see the mark; this card, inscribed as you see it, was on the table; and beside it lay this rather curious stone-headed instrument.<EOS>
 How does all that fit into your theory?"<EOS>
 
-"Confirms it in every respect," said the fat detective <INVESTIGATOR>, pompously.<EOS>
+"Confirms it in every respect," said the fat detective<INVESTIGATOR>, pompously.<EOS>
 "House is full of Indian curiosities.<EOS>
-Thaddeus brought this up, and if this splinter be poisonous Thaddeus may as well have made murderous use of it as any other man.<EOS>
+Thaddeus<SUSPECT> brought this up, and if this splinter be poisonous Thaddeus<SUSPECT> may as well have made murderous use of it as any other man.<EOS>
 The card is some hocus-pocus,-a blind, as like as not.<EOS>
 The only question is, how did he depart?<EOS>
 Ah, of course, here is a hole in the roof."<EOS>
 With great activity, considering his bulk, he sprang up the steps and squeezed through into the garret, and immediately afterwards we heard his exulting voice proclaiming that he had found the trap-door.<EOS>
 
-"He can find something," remarked Holmes, shrugging his shoulders.<EOS>
+"He can find something," remarked Holmes<INVESTIGATOR>, shrugging his shoulders.<EOS>
 "He has occasional glimmerings of reason.<EOS>
 _Il n'y a pas des sots si incommodes que ceux qui ont de l'esprit!_"<EOS>
 
@@ -1413,22 +1413,22 @@ Inspector!"<EOS>
 
 "Yes, sir," from the passage.<EOS>
 
-"Ask Mr. Sholto to step this way.-Mr. Sholto, it is my duty to inform you that anything which you may say will be used against you.<EOS>
+"Ask Mr. Sholto<SUSPECT> to step this way.-Mr. Sholto<SUSPECT>, it is my duty to inform you that anything which you may say will be used against you.<EOS>
 I arrest you in the Queen's name as being concerned in the death of your brother."<EOS>
 
 "There, now!<EOS>
 Didn't I tell you!"<EOS>
 cried the poor little man, throwing out his hands, and looking from one to the other of us.<EOS>
 
-"Don't trouble yourself about it, Mr. Sholto," said Holmes.<EOS>
+"Don't trouble yourself about it, Mr. Sholto<SUSPECT>," said Holmes<INVESTIGATOR>.<EOS>
 "I think that I can engage to clear you of the charge."<EOS>
 
 "Don't promise too much, Mr. Theorist,-don't promise too much!"<EOS>
-snapped the detective <INVESTIGATOR>.<EOS>
+snapped the detective<INVESTIGATOR>.<EOS>
 "You may find it a harder matter than you think."<EOS>
 
 "Not only will I clear him, Mr. Jones, but I will make you a free present of the name and description of one of the two people who were in this room last night.<EOS>
-His name, I have every reason to believe, is Jonathan Small <PERPETRATOR>.<EOS>
+His name, I have every reason to believe, is Jonathan Small<PERPETRATOR>.<EOS>
 He is a poorly-educated man, small, active, with his right leg off, and wearing a wooden stump which is worn away upon the inner side.<EOS>
 His left boot has a coarse, square-toed sole, with an iron band round the heel.<EOS>
 He is a middle-aged man, much sunburned, and has been a convict.<EOS>
@@ -1438,14 +1438,14 @@ The other man-"<EOS>
 "Ah!<EOS>
 the other man-?" asked Athelney Jones, in a sneering voice, but impressed none the less, as I could easily see, by the precision of the other's manner.<EOS>
 
-"Is a rather curious person," said Sherlock Holmes <INVESTIGATOR>, turning upon his heel.<EOS>
+"Is a rather curious person," said Sherlock Holmes<INVESTIGATOR>, turning upon his heel.<EOS>
 "I hope before very long to be able to introduce you to the pair of them.-A word with you, Watson."<EOS>
 
 He led me out to the head of the stair.<EOS>
 "This unexpected occurrence," he said, "has caused us rather to lose sight of the original purpose of our journey."<EOS>
 
 "I have just been thinking so," I answered.<EOS>
-"It is not right that Miss Morstan should remain in this stricken house."<EOS>
+"It is not right that Miss Morstan<SUSPECT> should remain in this stricken house."<EOS>
 
 "No.<EOS>
 You must escort her home.<EOS>
@@ -1461,7 +1461,7 @@ I should like, however, to see the matter through with you, now that I have got 
 
 "Your presence will be of great service to me," he answered.<EOS>
 "We shall work the case out independently, and leave this fellow Jones to exult over any mare's-nest which he may choose to construct.<EOS>
-When you have dropped Miss Morstan I wish you to go on to No.<EOS>
+When you have dropped Miss Morstan<SUSPECT> I wish you to go on to No.<EOS>
 3, Pinchin Lane, down near the water's edge at Lambeth.<EOS>
 The third house on the right-hand side is a bird-stuffer's:<EOS>
 Sherman is the name.<EOS>
@@ -1472,12 +1472,12 @@ You will bring Toby back in the cab with you."<EOS>
 "A dog, I suppose."<EOS>
 
 "Yes,-a queer mongrel, with a most amazing power of scent.<EOS>
-I would rather have Toby's help than that of the whole detective <INVESTIGATOR> force of London."<EOS>
+I would rather have Toby's help than that of the whole detective<INVESTIGATOR> force of London."<EOS>
 
 "I shall bring him, then," said I. "It is one now.<EOS>
 I ought to be back before three, if I can get a fresh horse."<EOS>
 
-"And I," said Holmes, "shall see what I can learn from Mrs. Bernstone, and from the Indian servant, who, Mr. Thaddeus tell me, sleeps in the next garret.<EOS>
+"And I," said Holmes<INVESTIGATOR>, "shall see what I can learn from Mrs. Bernstone, and from the Indian servant, who, Mr. Thaddeus<SUSPECT> tell me, sleeps in the next garret.<EOS>
 Then I shall study the great Jones's methods and listen to his not too delicate sarcasms.<EOS>
 '_Wir sind gewohnt das die Menschen verhohnen was sie nicht verstehen._' Goethe is always pithy."<EOS>
 
@@ -1485,7 +1485,7 @@ Then I shall study the great Jones's methods and listen to his not too delicate 
 <SOC>Chapter VII The Episode of the Barrel
 
 
-The police had brought a cab with them, and in this I escorted Miss Morstan back to her home.<EOS>
+The police had brought a cab with them, and in this I escorted Miss Morstan<SUSPECT> back to her home.<EOS>
 After the angelic fashion of women, she had borne trouble with a calm face as long as there was some one weaker than herself to support, and I had found her bright and placid by the side of the frightened housekeeper.<EOS>
 In the cab, however, she first turned faint, and then burst into a passion of weeping,-so sorely had she been tried by the adventures of the night.<EOS>
 She has told me since that she thought me cold and distant upon that journey.<EOS>
@@ -1496,14 +1496,14 @@ Yet there were two thoughts which sealed the words of affection upon my lips.<EO
 She was weak and helpless, shaken in mind and nerve.<EOS>
 It was to take her at a disadvantage to obtrude love upon her at such a time.<EOS>
 Worse still, she was rich.<EOS>
-If Holmes's researches were successful, she would be an heiress.<EOS>
+If Holmes<INVESTIGATOR>'s researches were successful, she would be an heiress.<EOS>
 Was it fair, was it honourable, that a half-pay surgeon should take such advantage of an intimacy which chance had brought about?<EOS>
 Might she not look upon me as a mere vulgar fortune-seeker?<EOS>
 I could not bear to risk that such a thought should cross her mind.<EOS>
 This Agra treasure intervened like an impassable barrier between us.<EOS>
 
 It was nearly two o'clock when we reached Mrs. Cecil Forrester's.<EOS>
-The servants had retired hours ago, but Mrs. Forrester had been so interested by the strange message which Miss Morstan had received that she had sat up in the hope of her return.<EOS>
+The servants had retired hours ago, but Mrs. Forrester had been so interested by the strange message which Miss Morstan<SUSPECT> had received that she had sat up in the hope of her return.<EOS>
 She opened the door herself, a middle-aged, graceful woman, and it gave me joy to see how tenderly her arm stole round the other's waist and how motherly was the voice in which she greeted her.<EOS>
 She was clearly no mere paid dependant, but an honoured friend.<EOS>
 I was introduced, and Mrs. Forrester earnestly begged me to step in and tell her our adventures.<EOS>
@@ -1515,9 +1515,9 @@ And the more I thought of what had happened, the wilder and darker it grew.<EOS>
 I reviewed the whole extraordinary sequence of events as I rattled on through the silent gas-lit streets.<EOS>
 There was the original problem:<EOS>
 that at least was pretty clear now.<EOS>
-The death of Captain Morstan <SUSPECT>, the sending of the pearls, the advertisement, the letter,-we had had light upon all those events.<EOS>
+The death of Captain Morstan<SUSPECT>, the sending of the pearls, the advertisement, the letter,-we had had light upon all those events.<EOS>
 They had only led us, however, to a deeper and far more tragic mystery.<EOS>
-The Indian treasure, the curious plan found among Morstan's baggage, the strange scene at Major Sholto <SUSPECT>'s death, the rediscovery of the treasure immediately followed by the murder <CRIME> of the discoverer, the very singular accompaniments to the crime <CRIME>, the footsteps, the remarkable weapons, the words upon the card, corresponding with those upon Captain Morstan <SUSPECT>'s chart,-here was indeed a labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever finding the clue.<EOS>
+The Indian treasure, the curious plan found among Morstan<SUSPECT>'s baggage, the strange scene at Major Sholto<SUSPECT>'s death, the rediscovery of the treasure immediately followed by the murder<CRIME> of the discoverer, the very singular accompaniments to the crime<CRIME>, the footsteps, the remarkable weapons, the words upon the card, corresponding with those upon Captain Morstan<SUSPECT>'s chart,-here was indeed a labyrinth in which a man less singularly endowed than my fellow-lodger might well despair of ever finding the clue.<EOS>
 
 Pinchin Lane was a row of shabby two-storied brick houses in the lower quarter of Lambeth.<EOS>
 I had to knock for some time at No.<EOS>
@@ -1539,7 +1539,7 @@ yelled the voice.<EOS>
 shouted Mr. Sherman.<EOS>
 "Now stand clear, for when I say 'three,' down goes the wiper."<EOS>
 
-"Mr. Sherlock Holmes <INVESTIGATOR>-" I began, but the words had a most magical effect, for the window instantly slammed down, and within a minute the door was unbarred and open.<EOS>
+"Mr. Sherlock Holmes<INVESTIGATOR>-" I began, but the words had a most magical effect, for the window instantly slammed down, and within a minute the door was unbarred and open.<EOS>
 Mr. Sherman was a lanky, lean old man, with stooping shoulders, a stringy neck, and blue-tinted glasses.<EOS>
 
 "A friend of Mr. Sherlock is always welcome," said he.<EOS>
@@ -1550,7 +1550,7 @@ Ah, naughty, naughty, would you take a nip at the gentleman?" This to a stoat wh
 it's only a slow-worm.<EOS>
 It hain't got no fangs, so I gives it the run o' the room, for it keeps the beetles down.<EOS>
 You must not mind my bein' just a little short wi' you at first, for I'm guyed at by the children, and there's many a one just comes down this lane to knock me up.<EOS>
-What was it that Mr. Sherlock Holmes <INVESTIGATOR> wanted, sir?"<EOS>
+What was it that Mr. Sherlock Holmes<INVESTIGATOR> wanted, sir?"<EOS>
 
 "He wanted a dog of yours."<EOS>
 
@@ -1568,17 +1568,17 @@ Even the rafters above our heads were lined by solemn fowls, who lazily shifted 
 Toby proved to be an ugly, long-haired, lop-eared creature, half spaniel and half lurcher, brown-and-white in colour, with a very clumsy waddling gait.<EOS>
 It accepted after some hesitation a lump of sugar which the old naturalist handed to me, and, having thus sealed an alliance, it followed me to the cab, and made no difficulties about accompanying me.<EOS>
 It had just struck three on the Palace clock when I found myself back once more at Pondicherry Lodge.<EOS>
-The ex-prize-fighter McMurdo had, I found, been arrested as an accessory, and both he and Mr. Sholto had been marched off to the station.<EOS>
-Two constables guarded the narrow gate, but they allowed me to pass with the dog on my mentioning the detective <INVESTIGATOR>'s name.<EOS>
+The ex-prize-fighter McMurdo had, I found, been arrested as an accessory, and both he and Mr. Sholto<SUSPECT> had been marched off to the station.<EOS>
+Two constables guarded the narrow gate, but they allowed me to pass with the dog on my mentioning the detective<INVESTIGATOR>'s name.<EOS>
 
-Holmes was standing on the door-step, with his hands in his pockets, smoking his pipe.<EOS>
+Holmes<INVESTIGATOR> was standing on the door-step, with his hands in his pockets, smoking his pipe.<EOS>
 
 "Ah, you have him there!"<EOS>
 said he.<EOS>
 "Good dog, then!<EOS>
 Atheney Jones has gone.<EOS>
 We have had an immense display of energy since you left.<EOS>
-He has arrested not only friend Thaddeus, but the gatekeeper, the housekeeper, and the Indian servant.<EOS>
+He has arrested not only friend Thaddeus<SUSPECT>, but the gatekeeper, the housekeeper, and the Indian servant.<EOS>
 We have the place to ourselves, but for a sergeant upstairs.<EOS>
 Leave the dog here, and come up."<EOS>
 
@@ -1596,7 +1596,7 @@ That will do.<EOS>
 Now come up into the garret with me for a moment."<EOS>
 
 We clambered up through the hole.<EOS>
-Holmes turned his light once more upon the footsteps in the dust.<EOS>
+Holmes<INVESTIGATOR> turned his light once more upon the footsteps in the dust.<EOS>
 
 "I wish you particularly to notice these footmarks," he said.<EOS>
 "Do you observe anything noteworthy about them?"<EOS>
@@ -1629,7 +1629,7 @@ I did as he directed, and was instantly conscious of a strong tarry smell.<EOS>
 If _you_ can trace him, I should think that Toby will have no difficulty.<EOS>
 Now run downstairs, loose the dog, and look out for Blondin."<EOS>
 
-By the time that I got out into the grounds Sherlock Holmes <INVESTIGATOR> was on the roof, and I could see him like an enormous glow-worm crawling very slowly along the ridge.<EOS>
+By the time that I got out into the grounds Sherlock Holmes<INVESTIGATOR> was on the roof, and I could see him like an enormous glow-worm crawling very slowly along the ridge.<EOS>
 I lost sight of him behind a stack of chimneys, but he presently reappeared, and then vanished once more upon the opposite side.<EOS>
 When I made my way round there I found him seated at one of the corner eaves.<EOS>
 
@@ -1665,7 +1665,7 @@ It confirms my diagnosis, as you doctors express it."<EOS>
 
 The object which he held up to me was a small pocket or pouch woven out of coloured grasses and with a few tawdry beads strung round it.<EOS>
 In shape and size it was not unlike a cigarette-case.<EOS>
-Inside were half a dozen spines of dark wood, sharp at one end and rounded at the other, like that which had struck Bartholomew Sholto.<EOS>
+Inside were half a dozen spines of dark wood, sharp at one end and rounded at the other, like that which had struck Bartholomew Sholto<SUSPECT>.<EOS>
 
 "They are hellish things," said he.<EOS>
 "Look out that you don't prick yourself.<EOS>
@@ -1684,7 +1684,7 @@ Are you game for a six-mile trudge, Watson?"<EOS>
 Good old Toby!<EOS>
 Smell it, Toby, smell it!"<EOS>
 He pushed the creasote handkerchief under the dog's nose, while the creature stood with its fluffy legs separated, and with a most comical cock to its head, like a connoisseur sniffing the _bouquet_ of a famous vintage.<EOS>
-Holmes then threw the handkerchief to a distance, fastened a stout cord to the mongrel's collar, and led him to the foot of the water-barrel.<EOS>
+Holmes<INVESTIGATOR> then threw the handkerchief to a distance, fastened a stout cord to the mongrel's collar, and led him to the foot of the water-barrel.<EOS>
 The creature instantly broke into a succession of high, tremulous yelps, and, with his nose on the ground, and his tail in the air, pattered off upon the trail at a pace which strained his leash and kept us at the top of our speed.<EOS>
 
 The east had been gradually whitening, and we could now see some distance in the cold grey light.<EOS>
@@ -1694,7 +1694,7 @@ The whole place, with its scattered dirt-heaps and ill-grown shrubs, had a bligh
 
 On reaching the boundary wall Toby ran along, whining eagerly, underneath its shadow, and stopped finally in a corner screened by a young beech.<EOS>
 Where the two walls joined, several bricks had been loosened, and the crevices left were worn down and rounded upon the lower side, as though they had frequently been used as a ladder.<EOS>
-Holmes clambered up, and, taking the dog from me, he dropped it over upon the other side.<EOS>
+Holmes<INVESTIGATOR> clambered up, and, taking the dog from me, he dropped it over upon the other side.<EOS>
 
 "There's the print of wooden-leg's hand," he remarked, as I mounted up beside him.<EOS>
 "You see the slight smudge of blood upon the white plaster.<EOS>
@@ -1706,13 +1706,13 @@ My fears were soon appeased, however.<EOS>
 Toby never hesitated or swerved, but waddled on in his peculiar rolling fashion.<EOS>
 Clearly, the pungent smell of the creasote rose high above all other contending scents.<EOS>
 
-"Do not imagine," said Holmes, "that I depend for my success in this case upon the mere chance of one of these fellows having put his foot in the chemical.<EOS>
+"Do not imagine," said Holmes<INVESTIGATOR>, "that I depend for my success in this case upon the mere chance of one of these fellows having put his foot in the chemical.<EOS>
 I have knowledge now which would enable me to trace them in many different ways.<EOS>
 This, however, is the readiest and, since fortune has put it into our hands, I should be culpable if I neglected it.<EOS>
 It has, however, prevented the case from becoming the pretty little intellectual problem which it at one time promised to be.<EOS>
 There might have been some credit to be gained out of it, but for this too palpable clue."<EOS>
 
-"There is credit, and to spare," said I. "I assure you, Holmes, that I marvel at the means by which you obtain your results in this case, even more than I did in the Jefferson Hope Murder <CRIME>.<EOS>
+"There is credit, and to spare," said I. "I assure you, Holmes<INVESTIGATOR>, that I marvel at the means by which you obtain your results in this case, even more than I did in the Jefferson Hope Murder<CRIME>.<EOS>
 The thing seems to me to be deeper and more inexplicable.<EOS>
 How, for example, could you describe with such confidence the wooden-legged man?"<EOS>
 
@@ -1721,21 +1721,21 @@ it was simplicity itself.<EOS>
 I don't wish to be theatrical.<EOS>
 It is all patent and above-board.<EOS>
 Two officers who are in command of a convict-guard learn an important secret as to buried treasure.<EOS>
-A map is drawn for them by an Englishman named Jonathan Small <PERPETRATOR>.<EOS>
-You remember that we saw the name upon the chart in Captain Morstan <SUSPECT>'s possession.<EOS>
+A map is drawn for them by an Englishman named Jonathan Small<PERPETRATOR>.<EOS>
+You remember that we saw the name upon the chart in Captain Morstan<SUSPECT>'s possession.<EOS>
 He had signed it in behalf of himself and his associates,-the sign of the four, as he somewhat dramatically called it.<EOS>
 Aided by this chart, the officers-or one of them-gets the treasure and brings it to England, leaving, we will suppose, some condition under which he received it unfulfilled.<EOS>
-Now, then, why did not Jonathan Small <PERPETRATOR> get the treasure himself?<EOS>
+Now, then, why did not Jonathan Small<PERPETRATOR> get the treasure himself?<EOS>
 The answer is obvious.<EOS>
-The chart is dated at a time when Morstan was brought into close association with convicts.<EOS>
-Jonathan Small <PERPETRATOR> did not get the treasure because he and his associates were themselves convicts and could not get away."<EOS>
+The chart is dated at a time when Morstan<SUSPECT> was brought into close association with convicts.<EOS>
+Jonathan Small<PERPETRATOR> did not get the treasure because he and his associates were themselves convicts and could not get away."<EOS>
 
 "But that is mere speculation," said I.
 
 "It is more than that.<EOS>
 It is the only hypothesis which covers the facts.<EOS>
 Let us see how it fits in with the sequel.<EOS>
-Major Sholto <SUSPECT> remains at peace for some years, happy in the possession of his treasure.<EOS>
+Major Sholto<SUSPECT> remains at peace for some years, happy in the possession of his treasure.<EOS>
 Then he receives a letter from India which gives him a great fright.<EOS>
 What was that?"<EOS>
 
@@ -1749,49 +1749,49 @@ He guards himself against a wooden-legged man,-a white man, mark you, for he mis
 Now, only one white man's name is on the chart.<EOS>
 The others are Hindoos or Mohammedans.<EOS>
 There is no other white man.<EOS>
-Therefore we may say with confidence that the wooden-legged man is identical with Jonathan Small <PERPETRATOR>.<EOS>
+Therefore we may say with confidence that the wooden-legged man is identical with Jonathan Small<PERPETRATOR>.<EOS>
 Does the reasoning strike you as being faulty?"<EOS>
 
 "No:<EOS>
 it is clear and concise."<EOS>
 
-"Well, now, let us put ourselves in the place of Jonathan Small <PERPETRATOR>.<EOS>
+"Well, now, let us put ourselves in the place of Jonathan Small<PERPETRATOR>.<EOS>
 Let us look at it from his point of view.<EOS>
 He comes to England with the double idea of regaining what he would consider to be his rights and of having his revenge upon the man who had wronged him.<EOS>
-He found out where Sholto lived, and very possibly he established communications with some one inside the house.<EOS>
+He found out where Sholto<SUSPECT> lived, and very possibly he established communications with some one inside the house.<EOS>
 There is this butler, Lal Rao, whom we have not seen.<EOS>
 Mrs. Bernstone gives him far from a good character.<EOS>
-Small could not find out, however, where the treasure was hid, for no one ever knew, save the major and one faithful servant who had died.<EOS>
-Suddenly Small learns that the major is on his death-bed.<EOS>
+Small<PERPETRATOR> could not find out, however, where the treasure was hid, for no one ever knew, save the major<SUSPECT> and one faithful servant who had died.<EOS>
+Suddenly Small<PERPETRATOR> learns that the major<SUSPECT> is on his death-bed.<EOS>
 In a frenzy lest the secret of the treasure die with him, he runs the gauntlet of the guards, makes his way to the dying man's window, and is only deterred from entering by the presence of his two sons.<EOS>
 Mad with hate, however, against the dead man, he enters the room that night, searches his private papers in the hope of discovering some memorandum relating to the treasure, and finally leaves a momento of his visit in the short inscription upon the card.<EOS>
-He had doubtless planned beforehand that should he slay the major he would leave some such record upon the body as a sign that it was not a common murder <CRIME>, but, from the point of view of the four associates, something in the nature of an act of justice.<EOS>
-Whimsical and bizarre conceits of this kind are common enough in the annals of crime <CRIME>, and usually afford valuable indications as to the criminal <PERPETRATOR>.<EOS>
+He had doubtless planned beforehand that should he slay the major<SUSPECT> he would leave some such record upon the body as a sign that it was not a common murder<CRIME>, but, from the point of view of the four associates, something in the nature of an act of justice.<EOS>
+Whimsical and bizarre conceits of this kind are common enough in the annals of crime<CRIME>, and usually afford valuable indications as to the criminal.<EOS>
 Do you follow all this?"<EOS>
 
 "Very clearly."<EOS>
 
-"Now, what could Jonathan Small <PERPETRATOR> do?<EOS>
+"Now, what could Jonathan Small<PERPETRATOR> do?<EOS>
 He could only continue to keep a secret watch upon the efforts made to find the treasure.<EOS>
 Possibly he leaves England and only comes back at intervals.<EOS>
 Then comes the discovery of the garret, and he is instantly informed of it.<EOS>
 We again trace the presence of some confederate in the household.<EOS>
-Jonathan, with his wooden leg, is utterly unable to reach the lofty room of Bartholomew Sholto.<EOS>
+Jonathan<PERPETRATOR>, with his wooden leg, is utterly unable to reach the lofty room of Bartholomew Sholto<SUSPECT>.<EOS>
 He takes with him, however, a rather curious associate, who gets over this difficulty, but dips his naked foot into creasote, whence comes Toby, and a six-mile limp for a half-pay officer with a damaged tendo Achillis."<EOS>
 
-"But it was the associate, and not Jonathan, who committed the crime <CRIME>."<EOS>
+"But it was the associate, and not Jonathan<PERPETRATOR>, who committed the crime<CRIME>."<EOS>
 
 "Quite so.<EOS>
-And rather to Jonathan's disgust, to judge by the way he stamped about when he got into the room.<EOS>
-He bore no grudge against Bartholomew Sholto, and would have preferred if he could have been simply bound and gagged.<EOS>
+And rather to Jonathan<PERPETRATOR>'s disgust, to judge by the way he stamped about when he got into the room.<EOS>
+He bore no grudge against Bartholomew Sholto<SUSPECT>, and would have preferred if he could have been simply bound and gagged.<EOS>
 He did not wish to put his head in a halter.<EOS>
 There was no help for it, however:<EOS>
 the savage instincts of his companion had broken out, and the poison had done its work:<EOS>
-so Jonathan Small <PERPETRATOR> left his record, lowered the treasure-box to the ground, and followed it himself.<EOS>
+so Jonathan Small<PERPETRATOR> left his record, lowered the treasure-box to the ground, and followed it himself.<EOS>
 That was the train of events as far as I can decipher them.<EOS>
 Of course as to his personal appearance he must be middle-aged, and must be sunburned after serving his time in such an oven as the Andamans.<EOS>
 His height is readily calculated from the length of his stride, and we know that he was bearded.<EOS>
-His hairiness was the one point which impressed itself upon Thaddeus Sholto <SUSPECT> when he saw him at the window.<EOS>
+His hairiness was the one point which impressed itself upon Thaddeus Sholto<SUSPECT> when he saw him at the window.<EOS>
 I don't know that there is anything else."<EOS>
 
 "The associate?"<EOS>
@@ -1817,7 +1817,7 @@ You have not a pistol, have you?"<EOS>
 "I have my stick."<EOS>
 
 "It is just possible that we may need something of the sort if we get to their lair.<EOS>
-Jonathan I shall leave to you, but if the other turns nasty I shall shoot him dead."<EOS>
+Jonathan<PERPETRATOR> I shall leave to you, but if the other turns nasty I shall shoot him dead."<EOS>
 He took out his revolver as he spoke, and, having loaded two of the chambers, he put it back into the right-hand pocket of his jacket.<EOS>
 
 We had during this time been following the guidance of Toby down the half-rural villa-lined roads which lead to the metropolis.<EOS>
@@ -1832,7 +1832,7 @@ At the foot of Kennington Lane they had edged away to the left through Bond Stre
 Where the latter street turns into Knight's Place, Toby ceased to advance, but began to run backwards and forwards with one ear cocked and the other drooping, the very picture of canine indecision.<EOS>
 Then he waddled round in circles, looking up to us from time to time, as if to ask for sympathy in his embarrassment.<EOS>
 
-"What the deuce is the matter with the dog?" growled Holmes.<EOS>
+"What the deuce is the matter with the dog?" growled Holmes<INVESTIGATOR>.<EOS>
 "They surely would not take a cab, or go off in a balloon."<EOS>
 
 "Perhaps they stood here for some time," I suggested.<EOS>
@@ -1843,7 +1843,7 @@ He's off again," said my companion, in a tone of relief.<EOS>
 
 He was indeed off, for after sniffing round again he suddenly made up his mind, and darted away with an energy and determination such as he had not yet shown.<EOS>
 The scent appeared to be much hotter than before, for he had not even to put his nose on the ground, but tugged at his leash and tried to break into a run.<EOS>
-I could see by the gleam in Holmes's eyes that he thought we were nearing the end of our journey.<EOS>
+I could see by the gleam in Holmes<INVESTIGATOR>'s eyes that he thought we were nearing the end of our journey.<EOS>
 
 Our course now ran down Nine Elms until we came to Broderick and Nelson's large timber-yard, just past the White Eagle tavern.<EOS>
 Here the dog, frantic with excitement, turned down through the side-gate into the enclosure, where the sawyers were already at work.<EOS>
@@ -1851,7 +1851,7 @@ On the dog raced through sawdust and shavings, down an alley, round a passage, b
 With lolling tongue and blinking eyes, Toby stood upon the cask, looking from one to the other of us for some sign of appreciation.<EOS>
 The staves of the barrel and the wheels of the trolley were smeared with a dark liquid, and the whole air was heavy with the smell of creasote.<EOS>
 
-Sherlock Holmes <INVESTIGATOR> and I looked blankly at each other, and then burst simultaneously into an uncontrollable fit of laughter.<EOS>
+Sherlock Holmes<INVESTIGATOR> and I looked blankly at each other, and then burst simultaneously into an uncontrollable fit of laughter.<EOS>
 
 
 <SOC>Chapter VIII The Baker Street Irregulars
@@ -1860,7 +1860,7 @@ Sherlock Holmes <INVESTIGATOR> and I looked blankly at each other, and then burs
 "What now?" I asked.<EOS>
 "Toby has lost his character for infallibility."<EOS>
 
-"He acted according to his lights," said Holmes, lifting him down from the barrel and walking him out of the timber-yard.<EOS>
+"He acted according to his lights," said Holmes<INVESTIGATOR>, lifting him down from the barrel and walking him out of the timber-yard.<EOS>
 "If you consider how much creasote is carted about London in one day, it is no great wonder that our trail should have been crossed.<EOS>
 It is much used now, especially for the seasoning of wood.<EOS>
 Poor Toby is not to blame."<EOS>
@@ -1886,7 +1886,7 @@ It tended down towards the river-side, running through Belmont Place and Prince'
 At the end of Broad Street it ran right down to the water's edge, where there was a small wooden wharf.<EOS>
 Toby led us to the very edge of this, and there stood whining, looking out on the dark current beyond.<EOS>
 
-"We are out of luck," said Holmes.<EOS>
+"We are out of luck," said Holmes<INVESTIGATOR>.<EOS>
 "They have taken to a boat here."<EOS>
 Several small punts and skiffs were lying about in the water and on the edge of the wharf.<EOS>
 We took Toby round to each in turn, but, though he sniffed earnestly, he made no sign.<EOS>
@@ -1894,7 +1894,7 @@ We took Toby round to each in turn, but, though he sniffed earnestly, he made no
 Close to the rude landing-stage was a small brick house, with a wooden placard slung out through the second window.<EOS>
 "Mordecai Smith" was printed across it in large letters, and, underneath, "Boats to hire by the hour or day."<EOS>
 A second inscription above the door informed us that a steam launch was kept,-a statement which was confirmed by a great pile of coke upon the jetty.<EOS>
-Sherlock Holmes <INVESTIGATOR> looked slowly round, and his face assumed an ominous expression.<EOS>
+Sherlock Holmes<INVESTIGATOR> looked slowly round, and his face assumed an ominous expression.<EOS>
 
 "This looks bad," said he.<EOS>
 "These fellows are sharper than I expected.<EOS>
@@ -1903,13 +1903,13 @@ There has, I fear, been preconcerted management here."<EOS>
 
 He was approaching the door of the house, when it opened, and a little, curly-headed lad of six came running out, followed by a stoutish, red-faced woman with a large sponge in her hand.<EOS>
 
-"You come back and be washed, Jack <SUSPECT>," she shouted.<EOS>
+"You come back and be washed, Jack<SUSPECT>," she shouted.<EOS>
 "Come back, you young imp; for if your father comes home and finds you like that, he'll let us hear of it."<EOS>
 
 "Dear little chap!"<EOS>
-said Holmes, strategically.<EOS>
+said Holmes<INVESTIGATOR>, strategically.<EOS>
 "What a rosy-cheeked young rascal!<EOS>
-Now, Jack <SUSPECT>, is there anything you would like?"<EOS>
+Now, Jack<SUSPECT>, is there anything you would like?"<EOS>
 
 The youth pondered for a moment.<EOS>
 "I'd like a shillin'," said he.<EOS>
@@ -1924,7 +1924,7 @@ Catch!-A fine child, Mrs. Smith!"<EOS>
 "Lor' bless you, sir, he is that, and forward.<EOS>
 He gets a'most too much for me to manage, 'specially when my man is away days at a time."<EOS>
 
-"Away, is he?" said Holmes, in a disappointed voice.<EOS>
+"Away, is he?" said Holmes<INVESTIGATOR>, in a disappointed voice.<EOS>
 "I am sorry for that, for I wanted to speak to Mr. Smith."<EOS>
 
 "He's been away since yesterday mornin', sir, and, truth to tell, I am beginnin' to feel frightened about him.<EOS>
@@ -1944,13 +1944,13 @@ Many a time I've heard him call out at the prices they charge for a few odd bags
 Besides, I don't like that wooden-legged man, wi' his ugly face and outlandish talk.<EOS>
 What did he want always knockin' about here for?"<EOS>
 
-"A wooden-legged man?" said Holmes, with bland surprise.<EOS>
+"A wooden-legged man?" said Holmes<INVESTIGATOR>, with bland surprise.<EOS>
 
 "Yes, sir, a brown, monkey-faced chap that's called more'n once for my old man.<EOS>
 It was him that roused him up yesternight, and, what's more, my man knew he was comin', for he had steam up in the launch.<EOS>
 I tell you straight, sir, I don't feel easy in my mind about it."<EOS>
 
-"But, my dear Mrs. Smith," said Holmes, shrugging his shoulders, "You are frightening yourself about nothing.<EOS>
+"But, my dear Mrs. Smith," said Holmes<INVESTIGATOR>, shrugging his shoulders, "You are frightening yourself about nothing.<EOS>
 How could you possibly tell that it was the wooden-legged man who came in the night?<EOS>
 I don't quite understand how you can be so sure."<EOS>
 
@@ -1991,7 +1991,7 @@ It was the sides which were black.<EOS>
 Good-morning, Mrs. Smith.-There is a boatman here with a wherry, Watson.<EOS>
 We shall take it and cross the river.<EOS>
 
-"The main thing with people of that sort," said Holmes, as we sat in the sheets of the wherry, "is never to let them think that their information can be of the slightest importance to you.<EOS>
+"The main thing with people of that sort," said Holmes<INVESTIGATOR>, as we sat in the sheets of the wherry, "is never to let them think that their information can be of the slightest importance to you.<EOS>
 If you do, they will instantly shut up like an oyster.<EOS>
 If you listen to them under protest, as it were, you are very likely to get what you want."<EOS>
 
@@ -2027,12 +2027,12 @@ It is quite on the cards that we may be afoot to-night again.<EOS>
 Stop at a telegraph-office, cabby!<EOS>
 We will keep Toby, for he may be of use to us yet."<EOS>
 
-We pulled up at the Great Peter Street post-office, and Holmes despatched his wire.<EOS>
+We pulled up at the Great Peter Street post-office, and Holmes<INVESTIGATOR> despatched his wire.<EOS>
 "Whom do you think that is to?" he asked, as we resumed our journey.<EOS>
 
 "I am sure I don't know."<EOS>
 
-"You remember the Baker Street division of the detective <INVESTIGATOR> police force whom I employed in the Jefferson Hope case?"<EOS>
+"You remember the Baker Street division of the detective<INVESTIGATOR> police force whom I employed in the Jefferson Hope case?"<EOS>
 
 "Well," said I, laughing.<EOS>
 
@@ -2043,13 +2043,13 @@ That wire was to my dirty little lieutenant, Wiggins, and I expect that he and h
 It was between eight and nine o'clock now, and I was conscious of a strong reaction after the successive excitements of the night.<EOS>
 I was limp and weary, befogged in mind and fatigued in body.<EOS>
 I had not the professional enthusiasm which carried my companion on, nor could I look at the matter as a mere abstract intellectual problem.<EOS>
-As far as the death of Bartholomew Sholto went, I had heard little good of him, and could feel no intense antipathy to his murderers.<EOS>
+As far as the death of Bartholomew Sholto<SUSPECT> went, I had heard little good of him, and could feel no intense antipathy to his murderers.<EOS>
 The treasure, however, was a different matter.<EOS>
-That, or part of it, belonged rightfully to Miss Morstan.<EOS>
+That, or part of it, belonged rightfully to Miss Morstan<SUSPECT>.<EOS>
 While there was a chance of recovering it I was ready to devote my life to the one object.<EOS>
 True, if I found it it would probably put her forever beyond my reach.<EOS>
 Yet it would be a petty and selfish love which would be influenced by such a thought as that.<EOS>
-If Holmes could work to find the criminals, I had a tenfold stronger reason to urge me on to find the treasure.<EOS>
+If Holmes<INVESTIGATOR> could work to find the criminals, I had a tenfold stronger reason to urge me on to find the treasure.<EOS>
 
 A bath at Baker Street and a complete change freshened me up wonderfully.<EOS>
 When I came down to our room I found the breakfast laid and Homes pouring out the coffee.<EOS>
@@ -2061,27 +2061,27 @@ Better have your ham and eggs first."<EOS>
 
 I took the paper from him and read the short notice, which was headed "Mysterious Business at Upper Norwood."<EOS>
 
-"About twelve o'clock last night," said the _Standard_, "Mr. Bartholomew Sholto, of Pondicherry Lodge, Upper Norwood, was found dead in his room under circumstances which point to foul play.<EOS>
-As far as we can learn, no actual traces of violence were found upon Mr. Sholto's person, but a valuable collection of Indian gems which the deceased gentleman had inherited from his father has been carried off.<EOS>
-The discovery was first made by Mr. Sherlock Holmes <INVESTIGATOR> and Dr. Watson, who had called at the house with Mr. Thaddeus Sholto <SUSPECT>, brother of the deceased.<EOS>
-By a singular piece of good fortune, Mr. Athelney Jones, the well-known member of the detective <INVESTIGATOR> police force, happened to be at the Norwood Police Station, and was on the ground within half an hour of the first alarm.<EOS>
-His trained and experienced faculties were at once directed towards the detection of the criminals, with the gratifying result that the brother, Thaddeus Sholto <SUSPECT>, has already been arrested, together with the housekeeper, Mrs. Bernstone, an Indian butler named Lal Rao, and a porter, or gatekeeper, named McMurdo.<EOS>
+"About twelve o'clock last night," said the _Standard_, "Mr. Bartholomew Sholto<SUSPECT>, of Pondicherry Lodge, Upper Norwood, was found dead in his room under circumstances which point to foul play.<EOS>
+As far as we can learn, no actual traces of violence were found upon Mr. Sholto<SUSPECT>'s person, but a valuable collection of Indian gems which the deceased gentleman had inherited from his father has been carried off.<EOS>
+The discovery was first made by Mr. Sherlock Holmes<INVESTIGATOR> and Dr. Watson, who had called at the house with Mr. Thaddeus Sholto<SUSPECT>, brother of the deceased.<EOS>
+By a singular piece of good fortune, Mr. Athelney Jones, the well-known member of the detective<INVESTIGATOR> police force, happened to be at the Norwood Police Station, and was on the ground within half an hour of the first alarm.<EOS>
+His trained and experienced faculties were at once directed towards the detection of the criminals, with the gratifying result that the brother, Thaddeus Sholto<SUSPECT>, has already been arrested, together with the housekeeper, Mrs. Bernstone, an Indian butler named Lal Rao, and a porter, or gatekeeper, named McMurdo.<EOS>
 It is quite certain that the thief or thieves were well acquainted with the house, for Mr. Jones's well-known technical knowledge and his powers of minute observation have enabled him to prove conclusively that the miscreants could not have entered by the door or by the window, but must have made their way across the roof of the building, and so through a trap-door into a room which communicated with that in which the body was found.<EOS>
 This fact, which has been very clearly made out, proves conclusively that it was no mere haphazard burglary.<EOS>
 The prompt and energetic action of the officers of the law shows the great advantage of the presence on such occasions of a single vigorous and masterful mind.<EOS>
 We cannot but think that it supplies an argument to those who would wish to see our detectives more decentralised, and so brought into closer and more effective touch with the cases which it is their duty to investigate."<EOS>
 
 "Isn't it gorgeous!"<EOS>
-said Holmes, grinning over his coffee-cup.<EOS>
+said Holmes<INVESTIGATOR>, grinning over his coffee-cup.<EOS>
 "What do you think of it?"<EOS>
 
-"I think that we have had a close shave ourselves of being arrested for the crime <CRIME>."<EOS>
+"I think that we have had a close shave ourselves of being arrested for the crime<CRIME>."<EOS>
 
 "So do I. I wouldn't answer for our safety now, if he should happen to have another of his attacks of energy."<EOS>
 
 At this moment there was a loud ring at the bell, and I could hear Mrs. Hudson, our landlady, raising her voice in a wail of expostulation and dismay.<EOS>
 
-"By heaven, Holmes," I said, half rising, "I believe that they are really after us."<EOS>
+"By heaven, Holmes<INVESTIGATOR>," I said, half rising, "I believe that they are really after us."<EOS>
 
 "No, it's not quite so bad as that.<EOS>
 It is the unofficial force,-the Baker Street irregulars."<EOS>
@@ -2093,7 +2093,7 @@ One of their number, taller and older than the others, stood forward with an air
 "Got your message, sir," said he, "and brought 'em on sharp.<EOS>
 Three bob and a tanner for tickets."<EOS>
 
-"Here you are," said Holmes, producing some silver.<EOS>
+"Here you are," said Holmes<INVESTIGATOR>, producing some silver.<EOS>
 "In future they can report to you, Wiggins, and you to me.<EOS>
 I cannot have the house invaded in this way.<EOS>
 However, it is just as well that you should all hear the instructions.<EOS>
@@ -2111,14 +2111,14 @@ Here's a day in advance.<EOS>
 Now off you go!"<EOS>
 He handed them a shilling each, and away they buzzed down the stairs, and I saw them a moment later streaming down the street.<EOS>
 
-"If the launch is above water they will find her," said Holmes, as he rose from the table and lit his pipe.<EOS>
+"If the launch is above water they will find her," said Holmes<INVESTIGATOR>, as he rose from the table and lit his pipe.<EOS>
 "They can go everywhere, see everything, overhear every one.<EOS>
 I expect to hear before evening that they have spotted her.<EOS>
 In the meanwhile, we can do nothing but await results.<EOS>
 We cannot pick up the broken trail until we find either the _Aurora_ or Mr. Mordecai Smith."<EOS>
 
 "Toby could eat these scraps, I dare say.<EOS>
-Are you going to bed, Holmes?"<EOS>
+Are you going to bed, Holmes<INVESTIGATOR>?"<EOS>
 
 "No; I am not tired.<EOS>
 I have a curious constitution.<EOS>
@@ -2137,7 +2137,7 @@ What do you make of all this?"<EOS>
 
 "A savage!"<EOS>
 I exclaimed.<EOS>
-"Perhaps one of those Indians who were the associates of Jonathan Small <PERPETRATOR>."<EOS>
+"Perhaps one of those Indians who were the associates of Jonathan Small<PERPETRATOR>."<EOS>
 
 "Hardly that," said he.<EOS>
 "When first I saw signs of strange weapons I was inclined to think so; but the remarkable character of the footmarks caused me to reconsider my views.<EOS>
@@ -2158,7 +2158,7 @@ What have we here?<EOS>
 Hum!<EOS>
 hum!<EOS>
 What's all this?<EOS>
-Moist climate, coral reefs, sharks, Port Blair, convict-barracks, Rutland Island, cottonwoods-Ah, here we are.<EOS>
+Moist climate, coral reefs, sharks, Port Blair<SUSPECT>, convict-barracks, Rutland Island, cottonwoods-Ah, here we are.<EOS>
 'The aborigines of the Andaman Islands may perhaps claim the distinction of being the smallest race upon this earth, though some anthropologists prefer the Bushmen of Africa, the Digger Indians of America, and the Terra del Fuegians.<EOS>
 The average height is rather below four feet, although many full-grown adults may be found who are very much smaller than this.<EOS>
 They are a fierce, morose, and intractable people, though capable of forming most devoted friendships when their confidence has once been gained.'<EOS>
@@ -2171,26 +2171,26 @@ They have always been a terror to shipwrecked crews, braining the survivors with
 These massacres are invariably concluded by a cannibal feast.'<EOS>
 Nice, amiable people, Watson!<EOS>
 If this fellow had been left to his own unaided devices this affair might have taken an even more ghastly turn.<EOS>
-I fancy that, even as it is, Jonathan Small <PERPETRATOR> would give a good deal not to have employed him."<EOS>
+I fancy that, even as it is, Jonathan Small<PERPETRATOR> would give a good deal not to have employed him."<EOS>
 
 "But how came he to have so singular a companion?"<EOS>
 
 "Ah, that is more than I can tell.<EOS>
-Since, however, we had already determined that Small had come from the Andamans, it is not so very wonderful that this islander should be with him.<EOS>
+Since, however, we had already determined that Small<PERPETRATOR> had come from the Andamans, it is not so very wonderful that this islander should be with him.<EOS>
 No doubt we shall know all about it in time.<EOS>
 Look here, Watson; you look regularly done.<EOS>
 Lie down there on the sofa, and see if I can put you to sleep."<EOS>
 
 He took up his violin from the corner, and as I stretched myself out he began to play some low, dreamy, melodious air,-his own, no doubt, for he had a remarkable gift for improvisation.<EOS>
 I have a vague remembrance of his gaunt limbs, his earnest face, and the rise and fall of his bow.<EOS>
-Then I seemed to be floated peacefully away upon a soft sea of sound, until I found myself in dreamland, with the sweet face of Mary Morstan looking down upon me.<EOS>
+Then I seemed to be floated peacefully away upon a soft sea of sound, until I found myself in dreamland, with the sweet face of Mary Morstan<SUSPECT> looking down upon me.<EOS>
 
 
 <SOC>Chapter IX A Break in the Chain
 
 
 It was late in the afternoon before I woke, strengthened and refreshed.<EOS>
-Sherlock Holmes <INVESTIGATOR> still sat exactly as I had left him, save that he had laid aside his violin and was deep in a book.<EOS>
+Sherlock Holmes<INVESTIGATOR> still sat exactly as I had left him, save that he had laid aside his violin and was deep in a book.<EOS>
 He looked across at me, as I stirred, and I noticed that his face was dark and troubled.<EOS>
 
 "You have slept soundly," he said.<EOS>
@@ -2217,12 +2217,12 @@ You can do what you will, but I must remain on guard."<EOS>
 "Then I shall run over to Camberwell and call upon Mrs. Cecil Forrester.<EOS>
 She asked me to, yesterday."<EOS>
 
-"On Mrs. Cecil Forrester?" asked Holmes, with the twinkle of a smile in his eyes.<EOS>
+"On Mrs. Cecil Forrester?" asked Holmes<INVESTIGATOR>, with the twinkle of a smile in his eyes.<EOS>
 
-"Well, of course Miss Morstan too.<EOS>
+"Well, of course Miss Morstan<SUSPECT> too.<EOS>
 They were anxious to hear what happened."<EOS>
 
-"I would not tell them too much," said Holmes.<EOS>
+"I would not tell them too much," said Holmes<INVESTIGATOR>.<EOS>
 "Women are never to be entirely trusted,-not the best of them."<EOS>
 
 I did not pause to argue over this atrocious sentiment.<EOS>
@@ -2233,10 +2233,10 @@ Good luck!<EOS>
 But, I say, if you are crossing the river you may as well return Toby, for I don't think it is at all likely that we shall have any use for him now."<EOS>
 
 I took our mongrel accordingly, and left him, together with a half-sovereign, at the old naturalist's in Pinchin Lane.<EOS>
-At Camberwell I found Miss Morstan a little weary after her night's adventures, but very eager to hear the news.<EOS>
+At Camberwell I found Miss Morstan<SUSPECT> a little weary after her night's adventures, but very eager to hear the news.<EOS>
 Mrs. Forrester, too, was full of curiosity.<EOS>
 I told them all that we had done, suppressing, however, the more dreadful parts of the tragedy.<EOS>
-Thus, although I spoke of Mr. Sholto's death, I said nothing of the exact manner and method of it.<EOS>
+Thus, although I spoke of Mr. Sholto<SUSPECT>'s death, I said nothing of the exact manner and method of it.<EOS>
 With all my omissions, however, there was enough to startle and amaze them.<EOS>
 
 "It is a romance!"<EOS>
@@ -2244,7 +2244,7 @@ cried Mrs. Forrester.<EOS>
 "An injured lady, half a million in treasure, a black cannibal, and a wooden-legged ruffian.<EOS>
 They take the place of the conventional dragon or wicked earl."<EOS>
 
-"And two knight-errants to the rescue," added Miss Morstan, with a bright glance at me.<EOS>
+"And two knight-errants to the rescue," added Miss Morstan<SUSPECT>, with a bright glance at me.<EOS>
 
 "Why, Mary, your fortune depends upon the issue of this search.<EOS>
 I don't think that you are nearly excited enough.<EOS>
@@ -2253,7 +2253,7 @@ Just imagine what it must be to be so rich, and to have the world at your feet!"
 It sent a little thrill of joy to my heart to notice that she showed no sign of elation at the prospect.<EOS>
 On the contrary, she gave a toss of her proud head, as though the matter were one in which she took small interest.<EOS>
 
-"It is for Mr. Thaddeus Sholto <SUSPECT> that I am anxious," she said.<EOS>
+"It is for Mr. Thaddeus Sholto<SUSPECT> that I am anxious," she said.<EOS>
 "Nothing else is of any consequence; but I think that he has behaved most kindly and honourably throughout.<EOS>
 It is our duty to clear him of this dreadful and unfounded charge."<EOS>
 
@@ -2261,7 +2261,7 @@ It was evening before I left Camberwell, and quite dark by the time I reached ho
 My companion's book and pipe lay by his chair, but he had disappeared.<EOS>
 I looked about in the hope of seeing a note, but there was none.<EOS>
 
-"I suppose that Mr. Sherlock Holmes <INVESTIGATOR> has gone out," I said to Mrs. Hudson as she came up to lower the blinds.<EOS>
+"I suppose that Mr. Sherlock Holmes<INVESTIGATOR> has gone out," I said to Mrs. Hudson as she came up to lower the blinds.<EOS>
 
 "No, sir.<EOS>
 He has gone to his room, sir.<EOS>
@@ -2308,9 +2308,9 @@ But surely, surely, we shall hear something."<EOS>
 We did not, however.<EOS>
 Not a word came to us either from Wiggins or from the other agencies.<EOS>
 There were articles in most of the papers upon the Norwood tragedy.<EOS>
-They all appeared to be rather hostile to the unfortunate Thaddeus Sholto <SUSPECT>.<EOS>
+They all appeared to be rather hostile to the unfortunate Thaddeus Sholto<SUSPECT>.<EOS>
 No fresh details were to be found, however, in any of them, save that an inquest was to be held upon the following day.<EOS>
-I walked over to Camberwell in the evening to report our ill success to the ladies, and on my return I found Holmes dejected and somewhat morose.<EOS>
+I walked over to Camberwell in the evening to report our ill success to the ladies, and on my return I found Holmes<INVESTIGATOR> dejected and somewhat morose.<EOS>
 He would hardly reply to my questions, and busied himself all evening in an abstruse chemical analysis which involved much heating of retorts and distilling of vapours, ending at last in a smell which fairly drove me out of the apartment.<EOS>
 Up to the small hours of the morning I could hear the clinking of his test-tubes which told me that he was still engaged in his malodorous experiment.<EOS>
 
@@ -2336,12 +2336,12 @@ I shall have news of some sort or other before I get back."<EOS>
 I had heard nothing of him by breakfast-time.<EOS>
 On opening the _Standard_, however, I found that there was a fresh allusion to the business.<EOS>
 "With reference to the Upper Norwood tragedy," it remarked, "we have reason to believe that the matter promises to be even more complex and mysterious than was originally supposed.<EOS>
-Fresh evidence has shown that it is quite impossible that Mr. Thaddeus Sholto <SUSPECT> could have been in any way concerned in the matter.<EOS>
+Fresh evidence has shown that it is quite impossible that Mr. Thaddeus Sholto<SUSPECT> could have been in any way concerned in the matter.<EOS>
 He and the housekeeper, Mrs. Bernstone, were both released yesterday evening.<EOS>
 It is believed, however, that the police have a clue as to the real culprits, and that it is being prosecuted by Mr. Athelney Jones, of Scotland Yard, with all his well-known energy and sagacity.<EOS>
 Further arrests may be expected at any moment."<EOS>
 
-"That is satisfactory so far as it goes," thought I. "Friend Sholto is safe, at any rate.<EOS>
+"That is satisfactory so far as it goes," thought I. "Friend Sholto<SUSPECT> is safe, at any rate.<EOS>
 I wonder what the fresh clue may be; though it seems to be a stereotyped form whenever the police have made a blunder."<EOS>
 
 I tossed the paper down upon the table, but at that moment my eye caught an advertisement in the agony column.<EOS>
@@ -2350,27 +2350,27 @@ It ran in this way:<EOS>
 "Lost.-Whereas Mordecai Smith, boatman, and his son, Jim, left Smith's Wharf at or about three o'clock last Tuesday morning in the steam launch _Aurora_, black with two red stripes, funnel black with a white band, the sum of five pounds will be paid to any one who can give information to Mrs. Smith, at Smith's Wharf, or at 221_b_ Baker Street, as to the whereabouts of the said Mordecai Smith and the launch _Aurora_."<EOS>
 
 
-This was clearly Holmes's doing.<EOS>
+This was clearly Holmes<INVESTIGATOR>'s doing.<EOS>
 The Baker Street address was enough to prove that.<EOS>
 It struck me as rather ingenious, because it might be read by the fugitives without their seeing in it more than the natural anxiety of a wife for her missing husband.<EOS>
 
 It was a long day.<EOS>
-Every time that a knock came to the door, or a sharp step passed in the street, I imagined that it was either Holmes returning or an answer to his advertisement.<EOS>
+Every time that a knock came to the door, or a sharp step passed in the street, I imagined that it was either Holmes<INVESTIGATOR> returning or an answer to his advertisement.<EOS>
 I tried to read, but my thoughts would wander off to our strange quest and to the ill-assorted and villainous pair whom we were pursuing.<EOS>
 Could there be, I wondered, some radical flaw in my companion's reasoning.<EOS>
-Might he be suffering from some huge self-deception <CRIME>?<EOS>
+Might he be suffering from some huge self-deception<CRIME>?<EOS>
 Was it not possible that his nimble and speculative mind had built up this wild theory upon faulty premises?<EOS>
 I had never known him to be wrong; and yet the keenest reasoner may occasionally be deceived.<EOS>
 He was likely, I thought, to fall into error through the over-refinement of his logic,-his preference for a subtle and bizarre explanation when a plainer and more commonplace one lay ready to his hand.<EOS>
 Yet, on the other hand, I had myself seen the evidence, and I had heard the reasons for his deductions.<EOS>
-When I looked back on the long chain of curious circumstances, many of them trivial in themselves, but all tending in the same direction, I could not disguise from myself that even if Holmes's explanation were incorrect the true theory must be equally _outre_ and startling.<EOS>
+When I looked back on the long chain of curious circumstances, many of them trivial in themselves, but all tending in the same direction, I could not disguise from myself that even if Holmes<INVESTIGATOR>'s explanation were incorrect the true theory must be equally _outre_ and startling.<EOS>
 
 At three o'clock in the afternoon there was a loud peal at the bell, an authoritative voice in the hall, and, to my surprise, no less a person than Mr. Athelney Jones was shown up to me.<EOS>
 Very different was he, however, from the brusque and masterful professor of common sense who had taken over the case so confidently at Upper Norwood.<EOS>
 His expression was downcast, and his bearing meek and even apologetic.<EOS>
 
 "Good-day, sir; good-day," said he.<EOS>
-"Mr. Sherlock Holmes <INVESTIGATOR> is out, I understand."<EOS>
+"Mr. Sherlock Holmes<INVESTIGATOR> is out, I understand."<EOS>
 
 "Yes, and I cannot be sure when he will be back.<EOS>
 But perhaps you would care to wait.<EOS>
@@ -2387,7 +2387,7 @@ You know my theory about this Norwood case?"<EOS>
 "I remember that you expressed one."<EOS>
 
 "Well, I have been obliged to reconsider it.<EOS>
-I had my net drawn tightly round Mr. Sholto, sir, when pop he went through a hole in the middle of it.<EOS>
+I had my net drawn tightly round Mr. Sholto<SUSPECT>, sir, when pop he went through a hole in the middle of it.<EOS>
 He was able to prove an alibi which could not be shaken.<EOS>
 From the time that he left his brother's room he was never out of sight of some one or other.<EOS>
 So it could not be he who climbed over roofs and through trap-doors.<EOS>
@@ -2396,18 +2396,18 @@ I should be very glad of a little assistance."<EOS>
 
 "We all need help sometimes," said I.
 
-"Your friend Mr. Sherlock Holmes <INVESTIGATOR> is a wonderful man, sir," said he, in a husky and confidential voice.<EOS>
+"Your friend Mr. Sherlock Holmes<INVESTIGATOR> is a wonderful man, sir," said he, in a husky and confidential voice.<EOS>
 "He's a man who is not to be beat.<EOS>
 I have known that young man go into a good many cases, but I never saw the case yet that he could not throw a light upon.<EOS>
 He is irregular in his methods, and a little quick perhaps in jumping at theories, but, on the whole, I think he would have made a most promising officer, and I don't care who knows it.<EOS>
-I have had a wire from him this morning, by which I understand that he has got some clue to this Sholto business.<EOS>
+I have had a wire from him this morning, by which I understand that he has got some clue to this Sholto<SUSPECT> business.<EOS>
 Here is the message."<EOS>
 
 He took the telegram out of his pocket, and handed it to me.<EOS>
 It was dated from Poplar at twelve o'clock.<EOS>
 "Go to Baker Street at once," it said.<EOS>
 "If I have not returned, wait for me.<EOS>
-I am close on the track of the Sholto gang.<EOS>
+I am close on the track of the Sholto<SUSPECT> gang.<EOS>
 You can come with us to-night if you want to be in at the finish."<EOS>
 
 "This sounds well.<EOS>
@@ -2432,7 +2432,7 @@ Altogether he gave me the impression of a respectable master mariner who had fal
 
 He looked about him in the slow methodical fashion of old age.<EOS>
 
-"Is Mr. Sherlock Holmes <INVESTIGATOR> here?" said he.<EOS>
+"Is Mr. Sherlock Holmes<INVESTIGATOR> here?" said he.<EOS>
 
 "No; but I am acting for him.<EOS>
 You can tell me any message you have for him."<EOS>
@@ -2455,7 +2455,7 @@ I knows all about it."<EOS>
 "Well, you must wait for him."<EOS>
 
 "No, no; I ain't goin' to lose a whole day to please no one.<EOS>
-If Mr. Holmes ain't here, then Mr. Holmes must find it all out for himself.<EOS>
+If Mr. Holmes<INVESTIGATOR> ain't here, then Mr. Holmes<INVESTIGATOR> must find it all out for himself.<EOS>
 I don't care about the look of either of you, and I won't tell a word."<EOS>
 
 He shuffled towards the door, but Athelney Jones got in front of him.<EOS>
@@ -2476,14 +2476,14 @@ Sit over here on the sofa, and you will not have long to wait."<EOS>
 
 He came across sullenly enough, and seated himself with his face resting on his hands.<EOS>
 Jones and I resumed our cigars and our talk.<EOS>
-Suddenly, however, Holmes's voice broke in upon us.<EOS>
+Suddenly, however, Holmes<INVESTIGATOR>'s voice broke in upon us.<EOS>
 
 "I think that you might offer me a cigar too," he said.<EOS>
 
 We both started in our chairs.<EOS>
-There was Holmes sitting close to us with an air of quiet amusement.<EOS>
+There was Holmes<INVESTIGATOR> sitting close to us with an air of quiet amusement.<EOS>
 
-"Holmes!"<EOS>
+"Holmes<INVESTIGATOR>!"<EOS>
 I exclaimed.<EOS>
 "You here!<EOS>
 But where is the old man?"<EOS>
@@ -2500,7 +2500,7 @@ I thought I knew the glint of your eye, though.<EOS>
 You didn't get away from us so easily, You see."<EOS>
 
 "I have been working in that get-up all day," said he, lighting his cigar.<EOS>
-"You see, a good many of the criminal <PERPETRATOR> classes begin to know me,-especially since our friend here took to publishing some of my cases:<EOS>
+"You see, a good many of the criminal classes begin to know me,-especially since our friend here took to publishing some of my cases:<EOS>
 so I can only go on the war-path under some simple disguise like this.<EOS>
 You got my wire?"<EOS>
 
@@ -2542,12 +2542,12 @@ The treasure must afterwards be handed over to the authorities until after the o
 "Certainly.<EOS>
 That is easily managed.<EOS>
 One other point.<EOS>
-I should much like to have a few details about this matter from the lips of Jonathan Small <PERPETRATOR> himself.<EOS>
+I should much like to have a few details about this matter from the lips of Jonathan Small<PERPETRATOR> himself.<EOS>
 You know I like to work the detail of my cases out.<EOS>
 There is no objection to my having an unofficial interview with him, either here in my rooms or elsewhere, as long as he is efficiently guarded?"<EOS>
 
 "Well, you are master of the situation.<EOS>
-I have had no proof yet of the existence of this Jonathan Small <PERPETRATOR>.<EOS>
+I have had no proof yet of the existence of this Jonathan Small<PERPETRATOR>.<EOS>
 However, if you can catch him I don't see how I can refuse you an interview with him."<EOS>
 
 "That is understood, then?"<EOS>
@@ -2564,16 +2564,16 @@ I have oysters and a brace of grouse, with something a little choice in white wi
 
 
 Our meal was a merry one.<EOS>
-Holmes could talk exceedingly well when he chose, and that night he did choose.<EOS>
+Holmes<INVESTIGATOR> could talk exceedingly well when he chose, and that night he did choose.<EOS>
 He appeared to be in a state of nervous exaltation.<EOS>
 I have never known him so brilliant.<EOS>
 He spoke on a quick succession of subjects,-on miracle-plays, on mediaeval pottery, on Stradivarius violins, on the Buddhism of Ceylon, and on the war-ships of the future,-handling each as though he had made a special study of it.<EOS>
 His bright humour marked the reaction from his black depression of the preceding days.<EOS>
 Athelney Jones proved to be a sociable soul in his hours of relaxation, and faced his dinner with the air of a _bon vivant_.<EOS>
-For myself, I felt elated at the thought that we were nearing the end of our task, and I caught something of Holmes's gaiety.<EOS>
+For myself, I felt elated at the thought that we were nearing the end of our task, and I caught something of Holmes<INVESTIGATOR>'s gaiety.<EOS>
 None of us alluded during dinner to the cause which had brought us together.<EOS>
 
-When the cloth was cleared, Holmes glanced at his watch, and filled up three glasses with port.<EOS>
+When the cloth was cleared, Holmes<INVESTIGATOR> glanced at his watch, and filled up three glasses with port.<EOS>
 "One bumper," said he, "to the success of our little expedition.<EOS>
 And now it is high time we were off.<EOS>
 Have you a pistol, Watson?"<EOS>
@@ -2586,7 +2586,7 @@ I see that the cab is at the door.<EOS>
 I ordered it for half-past six."<EOS>
 
 It was a little past seven before we reached the Westminster wharf, and found our launch awaiting us.<EOS>
-Holmes eyed it critically.<EOS>
+Holmes<INVESTIGATOR> eyed it critically.<EOS>
 
 "Is there anything to mark it as a police-boat?"<EOS>
 
@@ -2595,7 +2595,7 @@ Holmes eyed it critically.<EOS>
 "Then take it off."<EOS>
 
 The small change was made, we stepped on board, and the ropes were cast off.<EOS>
-Jones, Holmes, and I sat in the stern.<EOS>
+Jones, Holmes<INVESTIGATOR>, and I sat in the stern.<EOS>
 There was one man at the rudder, one to tend the engines, and two burly police-inspectors forward.<EOS>
 
 "Where to?" asked Jones.<EOS>
@@ -2605,7 +2605,7 @@ Tell them to stop opposite Jacobson's Yard."<EOS>
 
 Our craft was evidently a very fast one.<EOS>
 We shot past the long lines of loaded barges as though they were stationary.<EOS>
-Holmes smiled with satisfaction as we overhauled a river steamer and left her behind us.<EOS>
+Holmes<INVESTIGATOR> smiled with satisfaction as we overhauled a river steamer and left her behind us.<EOS>
 
 "We ought to be able to catch anything on the river," he said.<EOS>
 
@@ -2625,7 +2625,7 @@ When I had succeeded in dissolving the hydrocarbon which I was at work at, I cam
 My boys had been up the river and down the river without result.<EOS>
 The launch was not at any landing-stage or wharf, nor had it returned.<EOS>
 Yet it could hardly have been scuttled to hide their traces,-though that always remained as a possible hypothesis if all else failed.<EOS>
-I knew this man Small had a certain degree of low cunning, but I did not think him capable of anything in the nature of delicate finesse.<EOS>
+I knew this man Small<PERPETRATOR> had a certain degree of low cunning, but I did not think him capable of anything in the nature of delicate finesse.<EOS>
 That is usually a product of higher education.<EOS>
 I then reflected that since he had certainly been in London some time-as we had evidence that he maintained a continual watch over Pondicherry Lodge-he could hardly leave at a moment's notice, but would need some little time, if it were only a day, to arrange his affairs.<EOS>
 That was the balance of probability, at any rate."<EOS>
@@ -2635,7 +2635,7 @@ That was the balance of probability, at any rate."<EOS>
 "No, I hardly think so.<EOS>
 This lair of his would be too valuable a retreat in case of need for him to give it up until he was sure that he could do without it.<EOS>
 But a second consideration struck me.<EOS>
-Jonathan Small <PERPETRATOR> must have felt that the peculiar appearance of his companion, however much he may have top-coated him, would give rise to gossip, and possibly be associated with this Norwood tragedy.<EOS>
+Jonathan Small<PERPETRATOR> must have felt that the peculiar appearance of his companion, however much he may have top-coated him, would give rise to gossip, and possibly be associated with this Norwood tragedy.<EOS>
 He was quite sharp enough to see that.<EOS>
 They had started from their head-quarters under cover of darkness, and he would wish to get back before it was broad light.<EOS>
 Now, it was past three o'clock, according to Mrs. Smith, when they got the boat.<EOS>
@@ -2649,7 +2649,7 @@ They could not have taken that to their lodgings."<EOS>
 
 "Quite so.<EOS>
 I argued that the launch must be no great way off, in spite of its invisibility.<EOS>
-I then put myself in the place of Small, and looked at it as a man of his capacity would.<EOS>
+I then put myself in the place of Small<PERPETRATOR>, and looked at it as a man of his capacity would.<EOS>
 He would probably consider that to send back the launch or to keep it at a wharf would make pursuit easy if the police did happen to get on his track.<EOS>
 How, then, could he conceal the launch and yet have her at hand when wanted?<EOS>
 I wondered what I should do myself if I were in his shoes.<EOS>
@@ -2678,7 +2678,7 @@ We shall be lying off in the stream, and it will be a strange thing if we do not
 "You have planned it all very neatly, whether they are the right men or not," said Jones; "but if the affair were in my hands I should have had a body of police in Jacobson's Yard, and arrested them when they came down."<EOS>
 
 "Which would have been never.<EOS>
-This man Small is a pretty shrewd fellow.<EOS>
+This man Small<PERPETRATOR> is a pretty shrewd fellow.<EOS>
 He would send a scout on ahead, and if anything made him suspicious lie snug for another week."<EOS>
 
 "But you might have stuck to Mordecai Smith, and so been led to their hiding-place," said I.
@@ -2693,7 +2693,7 @@ While this conversation had been proceeding, we had been shooting the long serie
 As we passed the City the last rays of the sun were gilding the cross upon the summit of St. Paul's.<EOS>
 It was twilight before we reached the Tower.<EOS>
 
-"That is Jacobson's Yard," said Holmes, pointing to a bristle of masts and rigging on the Surrey side.<EOS>
+"That is Jacobson's Yard," said Holmes<INVESTIGATOR>, pointing to a bristle of masts and rigging on the Surrey side.<EOS>
 "Cruise gently up and down here under cover of this string of lighters."<EOS>
 He took a pair of night-glasses from his pocket and gazed some time at the shore.<EOS>
 "I see my sentry at his post," he remarked, "but no sign of a handkerchief."<EOS>
@@ -2701,7 +2701,7 @@ He took a pair of night-glasses from his pocket and gazed some time at the shore
 "Suppose we go down-stream a short way and lie in wait for them," said Jones, eagerly.<EOS>
 We were all eager by this time, even the policemen and stokers, who had a very vague idea of what was going forward.<EOS>
 
-"We have no right to take anything for granted," Holmes answered.<EOS>
+"We have no right to take anything for granted," Holmes<INVESTIGATOR> answered.<EOS>
 "It is certainly ten to one that they go down-stream, but we cannot be certain.<EOS>
 From this point we can see the entrance of the yard, and they can hardly see us.<EOS>
 It will be a clear night and plenty of light.<EOS>
@@ -2717,7 +2717,7 @@ A strange enigma is man!"<EOS>
 
 "Some one calls him a soul concealed in an animal," I suggested.<EOS>
 
-"Winwood Reade is good upon the subject," said Holmes.<EOS>
+"Winwood Reade is good upon the subject," said Holmes<INVESTIGATOR>.<EOS>
 "He remarks that, while the individual man is an insoluble puzzle, in the aggregate he becomes a mathematical certainty.<EOS>
 You can, for example, never foretell what any one man will do, but you can say with precision what an average number will be up to.<EOS>
 Individuals vary, but percentages remain constant.<EOS>
@@ -2728,7 +2728,7 @@ Surely there is a white flutter over yonder."<EOS>
 "Yes, it is your boy," I cried.<EOS>
 "I can see him plainly."<EOS>
 
-"And there is the _Aurora_," exclaimed Holmes, "and going like the devil!<EOS>
+"And there is the _Aurora_," exclaimed Holmes<INVESTIGATOR>, "and going like the devil!<EOS>
 Full speed ahead, engineer.<EOS>
 Make after that launch with the yellow light.<EOS>
 By heaven, I shall never forgive myself if she proves to have the heels of us!"<EOS>
@@ -2741,7 +2741,7 @@ Jones looked gravely at her and shook his head.<EOS>
 "I doubt if we shall catch her."<EOS>
 
 "We _must_ catch her!"<EOS>
-cried Holmes, between his teeth.<EOS>
+cried Holmes<INVESTIGATOR>, between his teeth.<EOS>
 "Heap it on, stokers!<EOS>
 Make her do all she can!<EOS>
 If we burn the boat we must have them!"<EOS>
@@ -2756,7 +2756,7 @@ We flashed past barges, steamers, merchant-vessels, in and out, behind this one 
 Voices hailed us out of the darkness, but still the _Aurora_ thundered on, and still we followed close upon her track.<EOS>
 
 "Pile it on, men, pile it on!"<EOS>
-cried Holmes, looking down into the engine-room, while the fierce glow from below beat upon his eager, aquiline face.<EOS>
+cried Holmes<INVESTIGATOR>, looking down into the engine-room, while the fierce glow from below beat upon his eager, aquiline face.<EOS>
 "Get every pound of steam you can."<EOS>
 
 "I think we gain a little," said Jones, with his eyes on the _Aurora_.<EOS>
@@ -2788,12 +2788,12 @@ At our hail the man in the stern sprang up from the deck and shook his two clinc
 He was a good-sized, powerful man, and as he stood poising himself with legs astride I could see that from the thigh downwards there was but a wooden stump upon the right side.<EOS>
 At the sound of his strident, angry cries there was movement in the huddled bundle upon the deck.<EOS>
 It straightened itself into a little black man-the smallest I have ever seen-with a great, misshapen head and a shock of tangled, dishevelled hair.<EOS>
-Holmes had already drawn his revolver, and I whipped out mine at the sight of this savage, distorted creature.<EOS>
+Holmes<INVESTIGATOR> had already drawn his revolver, and I whipped out mine at the sight of this savage, distorted creature.<EOS>
 He was wrapped in some sort of dark ulster or blanket, which left only his face exposed; but that face was enough to give a man a sleepless night.<EOS>
 Never have I seen features so deeply marked with all bestiality and cruelty.<EOS>
 His small eyes glowed and burned with a sombre light, and his thick lips were writhed back from his teeth, which grinned and chattered at us with a half animal fury.<EOS>
 
-"Fire if he raises his hand," said Holmes, quietly.<EOS>
+"Fire if he raises his hand," said Holmes<INVESTIGATOR>, quietly.<EOS>
 We were within a boat's-length by this time, and almost within touch of our quarry.<EOS>
 I can see the two of them now as they stood, the white man with his legs far apart, shrieking out curses, and the unhallowed dwarf with his hideous face, and his strong yellow teeth gnashing at us in the light of our lantern.<EOS>
 
@@ -2819,11 +2819,11 @@ There was no key, but it was of considerable weight, so we transferred it carefu
 As we steamed slowly up-stream again, we flashed our search-light in every direction, but there was no sign of the Islander.<EOS>
 Somewhere in the dark ooze at the bottom of the Thames lie the bones of that strange visitor to our shores.<EOS>
 
-"See here," said Holmes, pointing to the wooden hatchway.<EOS>
+"See here," said Holmes<INVESTIGATOR>, pointing to the wooden hatchway.<EOS>
 "We were hardly quick enough with our pistols."<EOS>
 There, sure enough, just behind where we had been standing, stuck one of those murderous darts which we knew so well.<EOS>
 It must have whizzed between us at the instant that we fired.<EOS>
-Holmes smiled at it and shrugged his shoulders in his easy fashion, but I confess that it turned me sick to think of the horrible death which had passed so close to us that night.<EOS>
+Holmes<INVESTIGATOR> smiled at it and shrugged his shoulders in his easy fashion, but I confess that it turned me sick to think of the horrible death which had passed so close to us that night.<EOS>
 
 
 <SOC>Chapter XI The Great Agra Treasure
@@ -2838,27 +2838,27 @@ He sat now with his handcuffed hands upon his lap, and his head sunk upon his br
 It seemed to me that there was more sorrow than anger in his rigid and contained countenance.<EOS>
 Once he looked up at me with a gleam of something like humour in his eyes.<EOS>
 
-"Well, Jonathan Small <PERPETRATOR>," said Holmes, lighting a cigar, "I am sorry that it has come to this."<EOS>
+"Well, Jonathan Small<PERPETRATOR>," said Holmes<INVESTIGATOR>, lighting a cigar, "I am sorry that it has come to this."<EOS>
 
 "And so am I, sir," he answered, frankly.<EOS>
 "I don't believe that I can swing over the job.<EOS>
-I give you my word on the book that I never raised hand against Mr. Sholto.<EOS>
-It was that little hell-hound Tonga <SUSPECT> who shot one of his cursed darts into him.<EOS>
+I give you my word on the book that I never raised hand against Mr. Sholto<SUSPECT>.<EOS>
+It was that little hell-hound Tonga<SUSPECT> who shot one of his cursed darts into him.<EOS>
 I had no part in it, sir.<EOS>
 I was as grieved as if it had been my blood-relation.<EOS>
 I welted the little devil with the slack end of the rope for it, but it was done, and I could not undo it again."<EOS>
 
-"Have a cigar," said Holmes; "and you had best take a pull out of my flask, for you are very wet.<EOS>
-How could you expect so small and weak a man as this black fellow to overpower Mr. Sholto and hold him while you were climbing the rope?"<EOS>
+"Have a cigar," said Holmes<INVESTIGATOR>; "and you had best take a pull out of my flask, for you are very wet.<EOS>
+How could you expect so small and weak a man as this black fellow to overpower Mr. Sholto<SUSPECT> and hold him while you were climbing the rope?"<EOS>
 
 "You seem to know as much about it as if you were there, sir.<EOS>
 The truth is that I hoped to find the room clear.<EOS>
-I knew the habits of the house pretty well, and it was the time when Mr. Sholto usually went down to his supper.<EOS>
+I knew the habits of the house pretty well, and it was the time when Mr. Sholto<SUSPECT> usually went down to his supper.<EOS>
 I shall make no secret of the business.<EOS>
 The best defence that I can make is just the simple truth.<EOS>
-Now, if it had been the old major I would have swung for him with a light heart.<EOS>
+Now, if it had been the old major<SUSPECT> I would have swung for him with a light heart.<EOS>
 I would have thought no more of knifing him than of smoking this cigar.<EOS>
-But it's cursed hard that I should be lagged over this young Sholto, with whom I had no quarrel whatever."<EOS>
+But it's cursed hard that I should be lagged over this young Sholto<SUSPECT>, with whom I had no quarrel whatever."<EOS>
 
 "You are under the charge of Mr. Athelney Jones, of Scotland Yard.<EOS>
 He is going to bring you up to my rooms, and I shall ask you for a true account of the matter.<EOS>
@@ -2868,22 +2868,22 @@ I think I can prove that the poison acts so quickly that the man was dead before
 "That he was, sir.<EOS>
 I never got such a turn in my life as when I saw him grinning at me with his head on his shoulder as I climbed through the window.<EOS>
 It fairly shook me, sir.<EOS>
-I'd have half killed Tonga <SUSPECT> for it if he had not scrambled off.<EOS>
+I'd have half killed Tonga<SUSPECT> for it if he had not scrambled off.<EOS>
 That was how he came to leave his club, and some of his darts too, as he tells me, which I dare say helped to put you on our track; though how you kept on it is more than I can tell.<EOS>
 I don't feel no malice against you for it.<EOS>
 But it does seem a queer thing," he added, with a bitter smile, "that I who have a fair claim to nigh upon half a million of money should spend the first half of my life building a breakwater in the Andamans, and am like to spend the other half digging drains at Dartmoor.<EOS>
 It was an evil day for me when first I clapped eyes upon the merchant Achmet and had to do with the Agra treasure, which never brought anything but a curse yet upon the man who owned it.<EOS>
-To him it brought murder <CRIME>, to Major Sholto <SUSPECT> it brought fear and guilt, to me it has meant slavery for life."<EOS>
+To him it brought murder<CRIME>, to Major Sholto<SUSPECT> it brought fear and guilt, to me it has meant slavery for life."<EOS>
 
 At this moment Athelney Jones thrust his broad face and heavy shoulders into the tiny cabin.<EOS>
 "Quite a family party," he remarked.<EOS>
-"I think I shall have a pull at that flask, Holmes.<EOS>
+"I think I shall have a pull at that flask, Holmes<INVESTIGATOR>.<EOS>
 Well, I think we may all congratulate each other.<EOS>
 Pity we didn't take the other alive; but there was no choice.<EOS>
-I say, Holmes, you must confess that you cut it rather fine.<EOS>
+I say, Holmes<INVESTIGATOR>, you must confess that you cut it rather fine.<EOS>
 It was all we could do to overhaul her."<EOS>
 
-"All is well that ends well," said Holmes.<EOS>
+"All is well that ends well," said Holmes<INVESTIGATOR>.<EOS>
 "But I certainly did not know that the _Aurora_ was such a clipper."<EOS>
 
 "Smith says she is one of the fastest launches on the river, and that if he had had another man to help him with the engines we should never have caught her.<EOS>
@@ -2896,7 +2896,7 @@ We told him nothing, but we paid him well, and he was to get something handsome 
 "Well, if he has done no wrong we shall see that no wrong comes to him.<EOS>
 If we are pretty quick in catching our men, we are not so quick in condemning them."<EOS>
 It was amusing to notice how the consequential Jones was already beginning to give himself airs on the strength of the capture.<EOS>
-From the slight smile which played over Sherlock Holmes <INVESTIGATOR>'s face, I could see that the speech had not been lost upon him.<EOS>
+From the slight smile which played over Sherlock Holmes<INVESTIGATOR>'s face, I could see that the speech had not been lost upon him.<EOS>
 
 "We will be at Vauxhall Bridge presently," said Jones, "and shall land you, Dr. Watson, with the treasure-box.<EOS>
 I need hardly tell you that I am taking a very grave responsibility upon myself in doing this.<EOS>
@@ -2910,7 +2910,7 @@ You will drive, no doubt?"<EOS>
 You will have to break it open.<EOS>
 Where is the key, my man?"<EOS>
 
-"At the bottom of the river," said Small, shortly.<EOS>
+"At the bottom of the river," said Small<PERPETRATOR>, shortly.<EOS>
 
 "Hum!<EOS>
 There was no use your giving this unnecessary trouble.<EOS>
@@ -2923,7 +2923,7 @@ They landed me at Vauxhall, with my heavy iron box, and with a bluff, genial ins
 A quarter of an hour's drive brought us to Mrs. Cecil Forrester's.<EOS>
 The servant seemed surprised at so late a visitor.<EOS>
 Mrs. Cecil Forrester was out for the evening, she explained, and likely to be very late.<EOS>
-Miss Morstan, however, was in the drawing-room:<EOS>
+Miss Morstan<SUSPECT>, however, was in the drawing-room:<EOS>
 so to the drawing-room I went, box in hand, leaving the obliging inspector in the cab.<EOS>
 
 She was seated by the open window, dressed in some sort of white diaphanous material, with a little touch of scarlet at the neck and waist.<EOS>
@@ -2943,7 +2943,7 @@ She glanced at the iron box.<EOS>
 "Is that the treasure, then?" she asked, coolly enough.<EOS>
 
 "Yes, this is the great Agra treasure.<EOS>
-Half of it is yours and half is Thaddeus Sholto <SUSPECT>'s.<EOS>
+Half of it is yours and half is Thaddeus Sholto<SUSPECT>'s.<EOS>
 You will have a couple of hundred thousand each.<EOS>
 Think of that!<EOS>
 An annuity of ten thousand pounds.<EOS>
@@ -2954,13 +2954,13 @@ I think that I must have been rather overacting my delight, and that she detecte
 
 "If I have it," said she, "I owe it to you."<EOS>
 
-"No, no," I answered, "not to me, but to my friend Sherlock Holmes <INVESTIGATOR>.<EOS>
+"No, no," I answered, "not to me, but to my friend Sherlock Holmes<INVESTIGATOR>.<EOS>
 With all the will in the world, I could never have followed up a clue which has taxed even his analytical genius.<EOS>
 As it was, we very nearly lost it at the last moment."<EOS>
 
 "Pray sit down and tell me all about it, Dr. Watson," said she.<EOS>
 
-I narrated briefly what had occurred since I had seen her last,-Holmes's new method of search, the discovery of the _Aurora_, the appearance of Athelney Jones, our expedition in the evening, and the wild chase down the Thames.<EOS>
+I narrated briefly what had occurred since I had seen her last,-Holmes<INVESTIGATOR>'s new method of search, the discovery of the _Aurora_, the appearance of Athelney Jones, our expedition in the evening, and the wild chase down the Thames.<EOS>
 She listened with parted lips and shining eyes to my recital of our adventures.<EOS>
 When I spoke of the dart which had so narrowly missed us, she turned so white that I feared that she was about to faint.<EOS>
 
@@ -2991,7 +2991,7 @@ she exclaimed, trying to raise it.<EOS>
 "The box alone must be of some value.<EOS>
 Where is the key?"<EOS>
 
-"Small threw it into the Thames," I answered.<EOS>
+"Small<PERPETRATOR> threw it into the Thames," I answered.<EOS>
 "I must borrow Mrs. Forrester's poker."<EOS>
 There was in the front a thick and broad hasp, wrought in the image of a sitting Buddha.<EOS>
 Under this I thrust the end of the poker and twisted it outward as a lever.<EOS>
@@ -3005,7 +3005,7 @@ The iron-work was two-thirds of an inch thick all round.<EOS>
 It was massive, well made, and solid, like a chest constructed to carry things of great price, but not one shred or crumb of metal or jewelry lay within it.<EOS>
 It was absolutely and completely empty.<EOS>
 
-"The treasure is lost," said Miss Morstan, calmly.<EOS>
+"The treasure is lost," said Miss Morstan<SUSPECT>, calmly.<EOS>
 
 As I listened to the words and realised what they meant, a great shadow seemed to pass from my soul.<EOS>
 I did not know how this Agra treasure had weighed me down, until now that it was finally removed.<EOS>
@@ -3027,7 +3027,7 @@ That is why I said, 'Thank God.'"<EOS>
 Whoever had lost a treasure, I knew that night that I had gained one.<EOS>
 
 
-<SOC>Chapter XII The Strange Story of Jonathan Small <PERPETRATOR>
+<SOC>Chapter XII The Strange Story of Jonathan Small<PERPETRATOR>
 
 
 A very patient man was that inspector in the cab, for it was a weary time before I rejoined him.<EOS>
@@ -3038,18 +3038,18 @@ said he, gloomily.<EOS>
 "Where there is no money there is no pay.<EOS>
 This night's work would have been worth a tenner each to Sam Brown and me if the treasure had been there."<EOS>
 
-"Mr. Thaddeus Sholto <SUSPECT> is a rich man," I said.<EOS>
+"Mr. Thaddeus Sholto<SUSPECT> is a rich man," I said.<EOS>
 "He will see that you are rewarded, treasure or no."<EOS>
 
 The inspector shook his head despondently, however.<EOS>
 "It's a bad job," he repeated; "and so Mr. Athelney Jones will think."<EOS>
 
-His forecast proved to be correct, for the detective <INVESTIGATOR> looked blank enough when I got to Baker Street and showed him the empty box.<EOS>
-They had only just arrived, Holmes, the prisoner, and he, for they had changed their plans so far as to report themselves at a station upon the way.<EOS>
-My companion lounged in his arm-chair with his usual listless expression, while Small sat stolidly opposite to him with his wooden leg cocked over his sound one.<EOS>
+His forecast proved to be correct, for the detective<INVESTIGATOR> looked blank enough when I got to Baker Street and showed him the empty box.<EOS>
+They had only just arrived, Holmes<INVESTIGATOR>, the prisoner, and he, for they had changed their plans so far as to report themselves at a station upon the way.<EOS>
+My companion lounged in his arm-chair with his usual listless expression, while Small<PERPETRATOR> sat stolidly opposite to him with his wooden leg cocked over his sound one.<EOS>
 As I exhibited the empty box he leaned back in his chair and laughed aloud.<EOS>
 
-"This is your doing, Small," said Athelney Jones, angrily.<EOS>
+"This is your doing, Small<PERPETRATOR>," said Athelney Jones, angrily.<EOS>
 
 "Yes, I have put it away where you shall never lay hand upon it," he cried, exultantly.<EOS>
 "It is my treasure; and if I can't have the loot I'll take darned good care that no one else does.<EOS>
@@ -3057,13 +3057,13 @@ I tell you that no living man has any right to it, unless it is three men who ar
 I know now that I cannot have the use of it, and I know that they cannot.<EOS>
 I have acted all through for them as much as for myself.<EOS>
 It's been the sign of four with us always.<EOS>
-Well I know that they would have had me do just what I have done, and throw the treasure into the Thames rather than let it go to kith or kin of Sholto or of Morstan.<EOS>
+Well I know that they would have had me do just what I have done, and throw the treasure into the Thames rather than let it go to kith or kin of Sholto<SUSPECT> or of Morstan<SUSPECT>.<EOS>
 It was not to make them rich that we did for Achmet.<EOS>
-You'll find the treasure where the key is, and where little Tonga <SUSPECT> is.<EOS>
+You'll find the treasure where the key is, and where little Tonga<SUSPECT> is.<EOS>
 When I saw that your launch must catch us, I put the loot away in a safe place.<EOS>
 There are no rupees for you this journey."<EOS>
 
-"You are deceiving us, Small," said Athelney Jones, sternly.<EOS>
+"You are deceiving us, Small<PERPETRATOR>," said Athelney Jones, sternly.<EOS>
 "If you had wished to throw the treasure into the Thames it would have been easier for you to have thrown box and all."<EOS>
 
 "Easier for me to throw, and easier for you to recover," he answered, with a shrewd, sidelong look.<EOS>
@@ -3074,7 +3074,7 @@ I was half mad when you came up with us.<EOS>
 However, there's no good grieving over it.<EOS>
 I've had ups in my life, and I've had downs, but I've learned not to cry over spilled milk."<EOS>
 
-"This is a very serious matter, Small," said the detective <INVESTIGATOR>.<EOS>
+"This is a very serious matter, Small<PERPETRATOR>," said the detective<INVESTIGATOR>.<EOS>
 "If you had helped justice, instead of thwarting it in this way, you would have had a better chance at your trial."<EOS>
 
 "Justice!"<EOS>
@@ -3085,11 +3085,11 @@ Where is the justice that I should give it up to those who have never earned it?
 Look how I have earned it!<EOS>
 Twenty long years in that fever-ridden swamp, all day at work under the mangrove-tree, all night chained up in the filthy convict-huts, bitten by mosquitoes, racked with ague, bullied by every cursed black-faced policeman who loved to take it out of a white man.<EOS>
 That was how I earned the Agra treasure; and you talk to me of justice because I cannot bear to feel that I have paid this price only that another may enjoy it!<EOS>
-I would rather swing a score of times, or have one of Tonga <SUSPECT>'s darts in my hide, than live in a convict's cell and feel that another man is at his ease in a palace with the money that should be mine."<EOS>
-Small had dropped his mask of stoicism, and all this came out in a wild whirl of words, while his eyes blazed, and the handcuffs clanked together with the impassioned movement of his hands.<EOS>
-I could understand, as I saw the fury and the passion of the man, that it was no groundless or unnatural terror which had possessed Major Sholto <SUSPECT> when he first learned that the injured convict was upon his track.<EOS>
+I would rather swing a score of times, or have one of Tonga<SUSPECT>'s darts in my hide, than live in a convict's cell and feel that another man is at his ease in a palace with the money that should be mine."<EOS>
+Small<PERPETRATOR> had dropped his mask of stoicism, and all this came out in a wild whirl of words, while his eyes blazed, and the handcuffs clanked together with the impassioned movement of his hands.<EOS>
+I could understand, as I saw the fury and the passion of the man, that it was no groundless or unnatural terror which had possessed Major Sholto<SUSPECT> when he first learned that the injured convict was upon his track.<EOS>
 
-"You forget that we know nothing of all this," said Holmes quietly.<EOS>
+"You forget that we know nothing of all this," said Holmes<INVESTIGATOR> quietly.<EOS>
 "We have not heard your story, and we cannot tell how far justice may originally have been on your side."<EOS>
 
 "Well, sir, you have been very fair-spoken to me, though I can see that I have you to thank that I have these bracelets upon my wrists.<EOS>
@@ -3152,7 +3152,7 @@ We went out to meet the rebels at Shahgunge early in July, and we beat them back
 
 "Nothing but the worst news came to us from every side,-which is not to be wondered at, for if you look at the map you will see that we were right in the heart of it.<EOS>
 Lucknow is rather better than a hundred miles to the east, and Cawnpore about as far to the south.<EOS>
-From every point on the compass there was nothing but torture and murder <CRIME> and outrage.<EOS>
+From every point on the compass there was nothing but torture and murder<CRIME> and outrage.<EOS>
 
 "The city of Agra is a great place, swarming with fanatics and fierce devil-worshippers of all sorts.<EOS>
 Our handful of men were lost among the narrow, winding streets.<EOS>
@@ -3343,10 +3343,10 @@ I think myself that he may have broken his neck with the fall.<EOS>
 You see, gentlemen, that I am keeping my promise.<EOS>
 I am telling you every work of the business just exactly as it happened, whether it is in my favour or not."<EOS>
 
-He stopped, and held out his manacled hands for the whiskey-and-water which Holmes had brewed for him.<EOS>
+He stopped, and held out his manacled hands for the whiskey-and-water which Holmes<INVESTIGATOR> had brewed for him.<EOS>
 For myself, I confess that I had now conceived the utmost horror of the man, not only for this cold-blooded business in which he had been concerned, but even more for the somewhat flippant and careless way in which he narrated it.<EOS>
 Whatever punishment was in store for him, I felt that he might expect no sympathy from me.<EOS>
-Sherlock Holmes <INVESTIGATOR> and Jones sat with their hands upon their knees, deeply interested in the story, but with the same disgust written upon their faces.<EOS>
+Sherlock Holmes<INVESTIGATOR> and Jones sat with their hands upon their knees, deeply interested in the story, but with the same disgust written upon their faces.<EOS>
 He may have observed it, for there was a touch of defiance in his voice and manner as he proceeded.<EOS>
 
 "It was all very bad, no doubt," said he.<EOS>
@@ -3354,7 +3354,7 @@ He may have observed it, for there was a touch of defiance in his voice and mann
 Besides, it was my life or his when once he was in the fort.<EOS>
 If he had got out, the whole business would come to light, and I should have been court-martialled and shot as likely as not; for people were not very lenient at a time like that."<EOS>
 
-"Go on with your story," said Holmes, shortly.<EOS>
+"Go on with your story," said Holmes<INVESTIGATOR>, shortly.<EOS>
 
 "Well, we carried him in, Abdullah, Akbar, and I. A fine weight he was, too, for all that he was so short.<EOS>
 Mahomet Singh was left to guard the door.<EOS>
@@ -3386,7 +3386,7 @@ That is an oath that I can put my hand to my heart and swear that I have never b
 "Well, there's no use my telling you gentlemen what came of the Indian mutiny.<EOS>
 After Wilson took Delhi and Sir Colin relieved Lucknow the back of the business was broken.<EOS>
 Fresh troops came pouring in, and Nana Sahib made himself scarce over the frontier.<EOS>
-A flying column under Colonel Greathed came round to Agra and cleared the Pandies away from it.<EOS>
+A flying column under Colonel<INVESTIGATOR> Greathed came round to Agra and cleared the Pandies away from it.<EOS>
 Peace seemed to be settling upon the country, and we four were beginning to hope that the time was at hand when we might safely go off with our shares of the plunder.<EOS>
 In a moment, however, our hopes were shattered by our being arrested as the murderers of Achmet.<EOS>
 
@@ -3399,19 +3399,19 @@ He went after him that night and saw him pass through the doorway.<EOS>
 Of course he thought he had taken refuge in the fort, and applied for admission there himself next day, but could find no trace of Achmet.<EOS>
 This seemed to him so strange that he spoke about it to a sergeant of guides, who brought it to the ears of the commandant.<EOS>
 A thorough search was quickly made, and the body was discovered.<EOS>
-Thus at the very moment that we thought that all was safe we were all four seized and brought to trial on a charge of murder <CRIME>,-three of us because we had held the gate that night, and the fourth because he was known to have been in the company of the murdered man.<EOS>
+Thus at the very moment that we thought that all was safe we were all four seized and brought to trial on a charge of murder<CRIME>,-three of us because we had held the gate that night, and the fourth because he was known to have been in the company of the murdered man.<EOS>
 Not a word about the jewels came out at the trial, for the rajah had been deposed and driven out of India:<EOS>
 so no one had any particular interest in them.<EOS>
-The murder <CRIME>, however, was clearly made out, and it was certain that we must all have been concerned in it.<EOS>
+The murder<CRIME>, however, was clearly made out, and it was certain that we must all have been concerned in it.<EOS>
 The three Sikhs got penal servitude for life, and I was condemned to death, though my sentence was afterwards commuted into the same as the others.<EOS>
 
 "It was rather a queer position that we found ourselves in then.<EOS>
 There we were all four tied by the leg and with precious little chance of ever getting out again, while we each held a secret which might have put each of us in a palace if we could only have made use of it.<EOS>
-It was enough to make a man eat his heart out to have to stand the kick and the cuff of every petty jack <SUSPECT>-in-office, to have rice to eat and water to drink, when that gorgeous fortune was ready for him outside, just waiting to be picked up.<EOS>
+It was enough to make a man eat his heart out to have to stand the kick and the cuff of every petty jack-in-office, to have rice to eat and water to drink, when that gorgeous fortune was ready for him outside, just waiting to be picked up.<EOS>
 It might have driven me mad; but I was always a pretty stubborn one, so I just held on and bided my time.<EOS>
 
 "At last it seemed to me to have come.<EOS>
-I was changed from Agra to Madras, and from there to Blair Island in the Andamans.<EOS>
+I was changed from Agra to Madras, and from there to Blair<SUSPECT> Island in the Andamans.<EOS>
 There are very few white convicts at this settlement, and, as I had behaved well from the first, I soon found myself a sort of privileged person.<EOS>
 I was given a hut in Hope Town, which is a small place on the slopes of Mount Harriet, and I was left pretty much to myself.<EOS>
 It is a dreary, fever-stricken place, and all beyond our little clearings was infested with wild cannibal natives, who were ready enough to blow a poisoned dart at us if they saw a chance.<EOS>
@@ -3424,24 +3424,24 @@ so it was a terribly difficult job to get away.<EOS>
 The surgery, where I used to make up my drugs, was next to his sitting-room, with a small window between us.<EOS>
 Often, if I felt lonesome, I used to turn out the lamp in the surgery, and then, standing there, I could hear their talk and watch their play.<EOS>
 I am fond of a hand at cards myself, and it was almost as good as having one to watch the others.<EOS>
-There was Major Sholto <SUSPECT>, Captain Morstan <SUSPECT>, and Lieutenant Bromley Brown, who were in command of the native troops, and there was the surgeon himself, and two or three prison-officials, crafty old hands who played a nice sly safe game.<EOS>
+There was Major Sholto<SUSPECT>, Captain Morstan<SUSPECT>, and Lieutenant Bromley Brown, who were in command of the native troops, and there was the surgeon himself, and two or three prison-officials, crafty old hands who played a nice sly safe game.<EOS>
 A very snug little party they used to make.<EOS>
 
 "Well, there was one thing which very soon struck me, and that was that the soldiers used always to lose and the civilians to win.<EOS>
 Mind, I don't say that there was anything unfair, but so it was.<EOS>
 These prison-chaps had done little else than play cards ever since they had been at the Andamans, and they knew each other's game to a point, while the others just played to pass the time and threw their cards down anyhow.<EOS>
 Night after night the soldiers got up poorer men, and the poorer they got the more keen they were to play.<EOS>
-Major Sholto <SUSPECT> was the hardest hit.<EOS>
+Major Sholto<SUSPECT> was the hardest hit.<EOS>
 He used to pay in notes and gold at first, but soon it came to notes of hand and for big sums.<EOS>
 He sometimes would win for a few deals, just to give him heart, and then the luck would set in against him worse than ever.<EOS>
 All day he would wander about as black as thunder, and he took to drinking a deal more than was good for him.<EOS>
 
 "One night he lost even more heavily than usual.<EOS>
-I was sitting in my hut when he and Captain Morstan <SUSPECT> came stumbling along on the way to their quarters.<EOS>
+I was sitting in my hut when he and Captain Morstan<SUSPECT> came stumbling along on the way to their quarters.<EOS>
 They were bosom friends, those two, and never far apart.<EOS>
-The major was raving about his losses.<EOS>
+The major<SUSPECT> was raving about his losses.<EOS>
 
-"'It's all up, Morstan,' he was saying, as they passed my hut.<EOS>
+"'It's all up, Morstan<SUSPECT>,' he was saying, as they passed my hut.<EOS>
 'I shall have to send in my papers.<EOS>
 I am a ruined man.'<EOS>
 
@@ -3449,50 +3449,50 @@ I am a ruined man.'<EOS>
 said the other, slapping him upon the shoulder.<EOS>
 'I've had a nasty facer myself, but-' That was all I could hear, but it was enough to set me thinking.<EOS>
 
-"A couple of days later Major Sholto <SUSPECT> was strolling on the beach:<EOS>
+"A couple of days later Major Sholto<SUSPECT> was strolling on the beach:<EOS>
 so I took the chance of speaking to him.<EOS>
 
-"'I wish to have your advice, major,' said I.
+"'I wish to have your advice, major<SUSPECT>,' said I.
 
-"'Well, Small, what is it?' he asked, taking his cheroot from his lips.<EOS>
+"'Well, Small<PERPETRATOR>, what is it?' he asked, taking his cheroot from his lips.<EOS>
 
 "'I wanted to ask you, sir,' said I, 'who is the proper person to whom hidden treasure should be handed over.<EOS>
 I know where half a million worth lies, and, as I cannot use it myself, I thought perhaps the best thing that I could do would be to hand it over to the proper authorities, and then perhaps they would get my sentence shortened for me.'<EOS>
 
-"'Half a million, Small?' he gasped, looking hard at me to see if I was in earnest.<EOS>
+"'Half a million, Small<PERPETRATOR>?' he gasped, looking hard at me to see if I was in earnest.<EOS>
 
 "'Quite that, sir,-in jewels and pearls.<EOS>
 It lies there ready for any one.<EOS>
 And the queer thing about it is that the real owner is outlawed and cannot hold property, so that it belongs to the first comer.'<EOS>
 
-"'To government, Small,' he stammered,-'to government.'<EOS>
+"'To government, Small<PERPETRATOR>,' he stammered,-'to government.'<EOS>
 But he said it in a halting fashion, and I knew in my heart that I had got him.<EOS>
 
 "'You think, then, sir, that I should give the information to the Governor-General?' said I, quietly.<EOS>
 
 "'Well, well, you must not do anything rash, or that you might repent.<EOS>
-Let me hear all about it, Small.<EOS>
+Let me hear all about it, Small<PERPETRATOR>.<EOS>
 Give me the facts.'<EOS>
 
 "I told him the whole story, with small changes so that he could not identify the places.<EOS>
 When I had finished he stood stock still and full of thought.<EOS>
 I could see by the twitch of his lip that there was a struggle going on within him.<EOS>
 
-"'This is a very important matter, Small,' he said, at last.<EOS>
+"'This is a very important matter, Small<PERPETRATOR>,' he said, at last.<EOS>
 'You must not say a word to any one about it, and I shall see you again soon.'<EOS>
 
-"Two nights later he and his friend Captain Morstan <SUSPECT> came to my hut in the dead of the night with a lantern.<EOS>
+"Two nights later he and his friend Captain Morstan<SUSPECT> came to my hut in the dead of the night with a lantern.<EOS>
 
-"'I want you just to let Captain Morstan <SUSPECT> hear that story from your own lips, Small,' said he.<EOS>
+"'I want you just to let Captain Morstan<SUSPECT> hear that story from your own lips, Small<PERPETRATOR>,' said he.<EOS>
 
 "I repeated it as I had told it before.<EOS>
 
 "'It rings true, eh?' said he.<EOS>
 'It's good enough to act upon?'<EOS>
 
-"Captain Morstan <SUSPECT> nodded.<EOS>
+"Captain Morstan<SUSPECT> nodded.<EOS>
 
-"'Look here, Small,' said the major.<EOS>
+"'Look here, Small<PERPETRATOR>,' said the major<SUSPECT>.<EOS>
 'We have been talking it over, my friend here and I, and we have come to the conclusion that this secret of yours is hardly a government matter, after all, but is a private concern of your own, which of course you have the power of disposing of as you think best.<EOS>
 Now, the question is, what price would you ask for it?<EOS>
 We might be inclined to take it up, and at least look into it, if we could agree as to terms.'<EOS>
@@ -3525,14 +3525,14 @@ We shall engage to get aboard her by night, and if you will drop us on any part 
 'We have sworn it.<EOS>
 The four of us must always act together.'<EOS>
 
-"'You see, Morstan,' said he, 'Small is a man of his word.<EOS>
+"'You see, Morstan<SUSPECT>,' said he, 'Small<PERPETRATOR> is a man of his word.<EOS>
 He does not flinch from his friend.<EOS>
 I think we may very well trust him.'<EOS>
 
 "'It's a dirty business,' the other answered.<EOS>
 'Yet, as you say, the money would save our commissions handsomely.'<EOS>
 
-"'Well, Small,' said the major, 'we must, I suppose, try and meet you.<EOS>
+"'Well, Small<PERPETRATOR>,' said the major<SUSPECT>, 'we must, I suppose, try and meet you.<EOS>
 We must first, of course, test the truth of your story.<EOS>
 Tell me where the box is hid, and I shall get leave of absence and go back to India in the monthly relief-boat to inquire into the affair.'<EOS>
 
@@ -3549,25 +3549,25 @@ he broke in.<EOS>
 "Well, the matter ended by a second meeting, at which Mahomet Singh, Abdullah Khan, and Dost Akbar were all present.<EOS>
 We talked the matter over again, and at last we came to an arrangement.<EOS>
 We were to provide both the officers with charts of the part of the Agra fort and mark the place in the wall where the treasure was hid.<EOS>
-Major Sholto <SUSPECT> was to go to India to test our story.<EOS>
+Major Sholto<SUSPECT> was to go to India to test our story.<EOS>
 If he found the box he was to leave it there, to send out a small yacht provisioned for a voyage, which was to lie off Rutland Island, and to which we were to make our way, and finally to return to his duties.<EOS>
-Captain Morstan <SUSPECT> was then to apply for leave of absence, to meet us at Agra, and there we were to have a final division of the treasure, he taking the major's share as well as his own.<EOS>
+Captain Morstan<SUSPECT> was then to apply for leave of absence, to meet us at Agra, and there we were to have a final division of the treasure, he taking the major<SUSPECT>'s share as well as his own.<EOS>
 All this we sealed by the most solemn oaths that the mind could think or the lips utter.<EOS>
 I sat up all night with paper and ink, and by the morning I had the two charts all ready, signed with the sign of four,-that is, of Abdullah, Akbar, Mahomet, and myself.<EOS>
 
 "Well, gentlemen, I weary you with my long story, and I know that my friend Mr. Jones is impatient to get me safely stowed in chokey.<EOS>
 I'll make it as short as I can.<EOS>
-The villain Sholto went off to India, but he never came back again.<EOS>
-Captain Morstan <SUSPECT> showed me his name among a list of passengers in one of the mail-boats very shortly afterwards.<EOS>
+The villain Sholto<SUSPECT> went off to India, but he never came back again.<EOS>
+Captain Morstan<SUSPECT> showed me his name among a list of passengers in one of the mail-boats very shortly afterwards.<EOS>
 His uncle had died, leaving him a fortune, and he had left the army, yet he could stoop to treat five men as he had treated us.<EOS>
-Morstan went over to Agra shortly afterwards, and found, as we expected, that the treasure was indeed gone.<EOS>
+Morstan<SUSPECT> went over to Agra shortly afterwards, and found, as we expected, that the treasure was indeed gone.<EOS>
 The scoundrel had stolen it all, without carrying out one of the conditions on which we had sold him the secret.<EOS>
 From that day I lived only for vengeance.<EOS>
 I thought of it by day and I nursed it by night.<EOS>
 It became an overpowering, absorbing passion with me.<EOS>
 I cared nothing for the law,-nothing for the gallows.<EOS>
-To escape, to track down Sholto, to have my hand upon his throat,-that was my one thought.<EOS>
-Even the Agra treasure had come to be a smaller thing in my mind than the slaying of Sholto.<EOS>
+To escape, to track down Sholto<SUSPECT>, to have my hand upon his throat,-that was my one thought.<EOS>
+Even the Agra treasure had come to be a smaller thing in my mind than the slaying of Sholto<SUSPECT>.<EOS>
 
 "Well, I have set my mind on many things in this life, and never one which I did not carry out.<EOS>
 But it was weary years before my time came.<EOS>
@@ -3578,13 +3578,13 @@ I took him in hand, though he was as venomous as a young snake, and after a coup
 He took a kind of fancy to me then, and would hardly go back to his woods, but was always hanging about my hut.<EOS>
 I learned a little of his lingo from him, and this made him all the fonder of me.<EOS>
 
-"Tonga <SUSPECT>-for that was his name-was a fine boatman, and owned a big, roomy canoe of his own.<EOS>
+"Tonga<SUSPECT>-for that was his name-was a fine boatman, and owned a big, roomy canoe of his own.<EOS>
 When I found that he was devoted to me and would do anything to serve me, I saw my chance of escape.<EOS>
 I talked it over with him.<EOS>
 He was to bring his boat round on a certain night to an old wharf which was never guarded, and there he was to pick me up.<EOS>
 I gave him directions to have several gourds of water and a lot of yams, cocoa-nuts, and sweet potatoes.<EOS>
 
-"He was stanch and true, was little Tonga <SUSPECT>.<EOS>
+"He was stanch and true, was little Tonga<SUSPECT>.<EOS>
 No man ever had a more faithful mate.<EOS>
 At the night named he had his boat at the wharf.<EOS>
 As it chanced, however, there was one of the convict-guard down there,-a vile Pathan who had never missed a chance of insulting and injuring me.<EOS>
@@ -3599,20 +3599,20 @@ He put his carbine to his shoulder, but I struck him full, and knocked the whole
 You can see the split in the wood now where I hit him.<EOS>
 We both went down together, for I could not keep my balance, but when I got up I found him still lying quiet enough.<EOS>
 I made for the boat, and in an hour we were well out at sea.<EOS>
-Tonga <SUSPECT> had brought all his earthly possessions with him, his arms and his gods.<EOS>
+Tonga<SUSPECT> had brought all his earthly possessions with him, his arms and his gods.<EOS>
 Among other things, he had a long bamboo spear, and some Andaman cocoa-nut matting, with which I made a sort of sail.<EOS>
 For ten days we were beating about, trusting to luck, and on the eleventh we were picked up by a trader which was going from Singapore to Jiddah with a cargo of Malay pilgrims.<EOS>
-They were a rum crowd, and Tonga <SUSPECT> and I soon managed to settle down among them.<EOS>
+They were a rum crowd, and Tonga<SUSPECT> and I soon managed to settle down among them.<EOS>
 They had one very good quality:<EOS>
 they let you alone and asked no questions.<EOS>
 
 "Well, if I were to tell you all the adventures that my little chum and I went through, you would not thank me, for I would have you here until the sun was shining.<EOS>
 Here and there we drifted about the world, something always turning up to keep us from London.<EOS>
 All the time, however, I never lost sight of my purpose.<EOS>
-I would dream of Sholto at night.<EOS>
+I would dream of Sholto<SUSPECT> at night.<EOS>
 A hundred times I have killed him in my sleep.<EOS>
 At last, however, some three or four years ago, we found ourselves in England.<EOS>
-I had no great difficulty in finding where Sholto lived, and I set to work to discover whether he had realised the treasure, or if he still had it.<EOS>
+I had no great difficulty in finding where Sholto<SUSPECT> lived, and I set to work to discover whether he had realised the treasure, or if he still had it.<EOS>
 I made friends with someone who could help me,-I name no names, for I don't want to get any one else in a hole,-and I soon found that he still had the jewels.<EOS>
 Then I tried to get at him in many ways; but he was pretty sly, and had always two prize-fighters, besides his sons and his khitmutgar, on guard over him.<EOS>
 
@@ -3625,59 +3625,59 @@ so I came away, bitter and savage as a man could be.<EOS>
 Before I left I bethought me that if I ever met my Sikh friends again it would be a satisfaction to know that I had left some mark of our hatred; so I scrawled down the sign of the four of us, as it had been on the chart, and I pinned it on his bosom.<EOS>
 It was too much that he should be taken to the grave without some token from the men whom he had robbed and befooled.<EOS>
 
-"We earned a living at this time by my exhibiting poor Tonga <SUSPECT> at fairs and other such places as the black cannibal.<EOS>
+"We earned a living at this time by my exhibiting poor Tonga<SUSPECT> at fairs and other such places as the black cannibal.<EOS>
 He would eat raw meat and dance his war-dance:<EOS>
 so we always had a hatful of pennies after a day's work.<EOS>
 I still heard all the news from Pondicherry Lodge, and for some years there was no news to hear, except that they were hunting for the treasure.<EOS>
 At last, however, came what we had waited for so long.<EOS>
 The treasure had been found.<EOS>
-It was up at the top of the house, in Mr. Bartholomew Sholto's chemical laboratory.<EOS>
+It was up at the top of the house, in Mr. Bartholomew Sholto<SUSPECT>'s chemical laboratory.<EOS>
 I came at once and had a look at the place, but I could not see how with my wooden leg I was to make my way up to it.<EOS>
-I learned, however, about a trap-door in the roof, and also about Mr. Sholto's supper-hour.<EOS>
-It seemed to me that I could manage the thing easily through Tonga <SUSPECT>.<EOS>
+I learned, however, about a trap-door in the roof, and also about Mr. Sholto<SUSPECT>'s supper-hour.<EOS>
+It seemed to me that I could manage the thing easily through Tonga<SUSPECT>.<EOS>
 I brought him out with me with a long rope wound round his waist.<EOS>
-He could climb like a cat, and he soon made his way through the roof, but, as ill luck would have it, Bartholomew Sholto was still in the room, to his cost.<EOS>
-Tonga <SUSPECT> thought he had done something very clever in killing him, for when I came up by the rope I found him strutting about as proud as a peacock.<EOS>
+He could climb like a cat, and he soon made his way through the roof, but, as ill luck would have it, Bartholomew Sholto<SUSPECT> was still in the room, to his cost.<EOS>
+Tonga<SUSPECT> thought he had done something very clever in killing him, for when I came up by the rope I found him strutting about as proud as a peacock.<EOS>
 Very much surprised was he when I made at him with the rope's end and cursed him for a little blood-thirsty imp.<EOS>
 I took the treasure-box and let it down, and then slid down myself, having first left the sign of the four upon the table, to show that the jewels had come back at last to those who had most right to them.<EOS>
-Tonga <SUSPECT> then pulled up the rope, closed the window, and made off the way that he had come.<EOS>
+Tonga<SUSPECT> then pulled up the rope, closed the window, and made off the way that he had come.<EOS>
 
 "I don't know that I have anything else to tell you.<EOS>
 I had heard a waterman speak of the speed of Smith's launch the _Aurora_, so I thought she would be a handy craft for our escape.<EOS>
 I engaged with old Smith, and was to give him a big sum if he got us safe to our ship.<EOS>
 He knew, no doubt, that there was some screw loose, but he was not in our secrets.<EOS>
-All this is the truth, and if I tell it to you, gentlemen, it is not to amuse you,-for you have not done me a very good turn,-but it is because I believe the best defence I can make is just to hold back nothing, but let all the world know how badly I have myself been served by Major Sholto <SUSPECT>, and how innocent I am of the death of his son."<EOS>
+All this is the truth, and if I tell it to you, gentlemen, it is not to amuse you,-for you have not done me a very good turn,-but it is because I believe the best defence I can make is just to hold back nothing, but let all the world know how badly I have myself been served by Major Sholto<SUSPECT>, and how innocent I am of the death of his son."<EOS>
 
-"A very remarkable account," said Sherlock Holmes <INVESTIGATOR>.<EOS>
+"A very remarkable account," said Sherlock Holmes<INVESTIGATOR>.<EOS>
 "A fitting wind-up to an extremely interesting case.<EOS>
 There is nothing at all new to me in the latter part of your narrative, except that you brought your own rope.<EOS>
 That I did not know.<EOS>
-By the way, I had hoped that Tonga <SUSPECT> had lost all his darts; yet he managed to shoot one at us in the boat."<EOS>
+By the way, I had hoped that Tonga<SUSPECT> had lost all his darts; yet he managed to shoot one at us in the boat."<EOS>
 
 "He had lost them all, sir, except the one which was in his blow-pipe at the time."<EOS>
 
-"Ah, of course," said Holmes.<EOS>
+"Ah, of course," said Holmes<INVESTIGATOR>.<EOS>
 "I had not thought of that."<EOS>
 
 "Is there any other point which you would like to ask about?" asked the convict, affably.<EOS>
 
 "I think not, thank you," my companion answered.<EOS>
 
-"Well, Holmes," said Athelney Jones, "You are a man to be humoured, and we all know that you are a connoisseur of crime <CRIME>, but duty is duty, and I have gone rather far in doing what you and your friend asked me.<EOS>
+"Well, Holmes<INVESTIGATOR>," said Athelney Jones, "You are a man to be humoured, and we all know that you are a connoisseur of crime<CRIME>, but duty is duty, and I have gone rather far in doing what you and your friend asked me.<EOS>
 I shall feel more at ease when we have our story-teller here safe under lock and key.<EOS>
 The cab still waits, and there are two inspectors downstairs.<EOS>
 I am much obliged to you both for your assistance.<EOS>
 Of course you will be wanted at the trial.<EOS>
 Good-night to you."<EOS>
 
-"Good-night, gentlemen both," said Jonathan Small <PERPETRATOR>.<EOS>
+"Good-night, gentlemen both," said Jonathan Small<PERPETRATOR>.<EOS>
 
-"You first, Small," remarked the wary Jones as they left the room.<EOS>
+"You first, Small<PERPETRATOR>," remarked the wary Jones as they left the room.<EOS>
 "I'll take particular care that you don't club me with your wooden leg, whatever you may have done to the gentleman at the Andaman Isles."<EOS>
 
 "Well, and there is the end of our little drama," I remarked, after we had set some time smoking in silence.<EOS>
 "I fear that it may be the last investigation in which I shall have the chance of studying your methods.<EOS>
-Miss Morstan has done me the honour to accept me as a husband in prospective."<EOS>
+Miss Morstan<SUSPECT> has done me the honour to accept me as a husband in prospective."<EOS>
 
 He gave a most dismal groan.<EOS>
 "I feared as much," said he.<EOS>
@@ -3714,5 +3714,5 @@ so Jones actually has the undivided honour of having caught one fish in his grea
 "You have done all the work in this business.<EOS>
 I get a wife out of it, Jones gets the credit, pray what remains for you?"<EOS>
 
-"For me," said Sherlock Holmes <INVESTIGATOR>, "there still remains the cocaine-bottle."<EOS>
+"For me," said Sherlock Holmes<INVESTIGATOR>, "there still remains the cocaine-bottle."<EOS>
 And he stretched his long white hand up for it.
