@@ -40,11 +40,10 @@ samples = [
     # 5. Co-occurrence of Detectives and Perpetrators
     "In which chapters and sentences do the detective and perpetrator co-occur?",
     "When do the investigator and perpetrator appear in the same sentence?",
-    "Identify chapters and sentences where the detective and criminal are both mentioned.",
+    "Identify chapters and sentences where the detective and perpetrator are both mentioned.",
     # 6. Introduction of Other Suspects
     "When are other suspects first brought into the story?",
     "Identify the chapter and sentence where alternative suspects are first introduced.",
-    "Tell me when the novel first mentions other possible perpetrators.",
     "When are additional suspects first introduced?",
     "In which chapter and sentence does the story first bring in other suspects?",
 ]
