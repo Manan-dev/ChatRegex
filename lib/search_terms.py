@@ -5,8 +5,8 @@ from lib import utils
 
 book_query_terms = {
     "investigator": [
-        "[iI]nvestigator",
-        "[dD]etective",
+        "[iI]nvestigator(s)?",
+        "[dD]etective(s)?",
         # Murder on the Links
         "(Hercule )?Poirot",
         # Sign of the Four

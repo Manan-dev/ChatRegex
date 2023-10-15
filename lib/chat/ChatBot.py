@@ -20,7 +20,7 @@ class RegexPatterns(str, Enum):
     EXAMPLE = r"^(example(s)?|ex)( (?P<num>\d))?$"
 
     FIRST_MENTION_V1 = r".*({rgx}).*(?P<term>{terms}).*".format(
-        rgx=r"(first|initial(ly)?) (meet|appear(s)?|introduce(d)?|enter(s)?|mention(s)?|brought( up)?|disclosed|reveal(s)?|refer(s)?|talk(s)?|hear|bring)( possible)?",
+        rgx=r"(first|initial(ly)?) (meet|appear(s)?|introduce(d)?|enter(s)?|mention(s)?|brought( up)?|disclosed|reveal(s)?|refer(s)?|talk(s)?|hear|time|bring)( possible)?",
         terms=utils.re_union(
             *[
                 p
@@ -32,7 +32,7 @@ class RegexPatterns(str, Enum):
     )
 
     FIRST_MENTION_V2 = r".*(?P<term>{terms}).*({rgx}).*".format(
-        rgx=r"(first|initial(ly)?) (meet|appear(s)?|introduce(d)?|enter(s)?|mention(s)?|brought( up)?|disclosed|reveal(s)?|refer(s)?|talk(s)?|hear|bring)",
+        rgx=r"(first|initial(ly)?) (meet|appear(s)?|introduce(d)?|enter(s)?|mention(s)?|brought( up)?|disclosed|reveal(s)?|refer(s)?|talk(s)?|hear|time|bring)",
         terms=utils.re_union(
             *[
                 p
@@ -68,7 +68,7 @@ class RegexPatterns(str, Enum):
     )
 
     WORDS_COOCCUR_V1 = r".*({rgx}).*(?P<term1>{terms}) (?P<term2>{terms}).*".format(
-        rgx=r"co-?occur|appear same sentence|both mentioned",
+        rgx=r"co[- ]?occur|appear same sentence|both mentioned",
         terms=utils.re_union(
             *[
                 p
@@ -80,7 +80,7 @@ class RegexPatterns(str, Enum):
     )
 
     WORDS_COOCCUR_V2 = r".*(?P<term1>{terms}) (?P<term2>{terms}).*({rgx}).*".format(
-        rgx=r"co-?occur|appear same sentence|both mentioned",
+        rgx=r"co[- ]?occur|appear same sentence|both mentioned",
         terms=utils.re_union(
             *[
                 p

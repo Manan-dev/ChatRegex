@@ -24,13 +24,13 @@ def remove_punctuation(text: str) -> str:
     # )
     text = re.sub(
         r"[^[a-zA-Z0-9\s]+",
-        "",
+        " ",
         text,
     )
 
     # For debugging purposes. Can be removed later.
-    if len_before != len(text) and len(text) == 0:
-        logging.warning("Text is empty after removing punctuation.")
+    # if len_before != len(text) and len(text) == 0:
+    #     logging.warning("Text is empty after removing punctuation.")
     return text
 
 
@@ -71,8 +71,8 @@ def remove_extra_whitespace(
     text = re.sub(r"[^\S\r\n]+$", "", text, flags=re.MULTILINE)
 
     # For debugging purposes. Can be removed later.
-    if len_before != len(text) and len(text) == 0:
-        logging.warning("Text is empty after removing extra whitespace.")
+    # if len_before != len(text) and len(text) == 0:
+    #     logging.warning("Text is empty after removing extra whitespace.")
     return text.strip()
 
 

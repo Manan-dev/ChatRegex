@@ -6,6 +6,13 @@ samples = [
     "When is the killer first mentioned",
     "When is the murder first mentioned",
     "Words around perpetrator",
+    # ORIGINALS
+    "When does the investigator (or a pair) occur for the first time",
+    "When is the crime first mentioned - the type of the crime and the details",
+    "When is the perpetrator first mentioned",
+    "What are the three words that occur around the perpetrator on each mention",
+    "When and how the detective/detectives and the perpetrators co-occur",
+    "When are other suspects first introduced"
     # 1. First Appearance of the Investigator(s)
     "When do we first meet the investigator in the story?",
     "Identify the chapter and sentence where the detective first appears.",
