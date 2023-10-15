@@ -1,3 +1,5 @@
+# Credits: https://gist.github.com/sebleier/554280
+
 stop_words = [
     "i",
     "me",
