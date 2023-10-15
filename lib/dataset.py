@@ -270,7 +270,9 @@ def add_search_term_tags(text: str) -> str:
     """
     logging.debug("Adding search term tags...")
 
-    for key, pattern in search_terms.build_pattern_map(search_terms.book_query_terms).items():
+    for key, pattern in search_terms.build_pattern_map(
+        search_terms.book_query_terms
+    ).items():
         # add tag after any matches
         text = re.sub(
             pattern,
@@ -280,6 +282,7 @@ def add_search_term_tags(text: str) -> str:
         )
 
     return text
+
 
 def preprocess_data(text: str):
     """

@@ -7,7 +7,6 @@ import logging
 import string
 
 
-
 def re_union(*args):
     """
     Creates a regex union of the input arguments.

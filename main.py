@@ -58,26 +58,15 @@ def setup_logging(args):
 def run_tests(bot):
     def run_qa(qs):
         for q in qs:
-          ans = bot.answer(q)
-          print("Q:", q)
-          assert ans, "Test case FAILED!!!!"
-          print("A:", ans)
-          print("-" * 80)
-
-    # TODO: Add more test cases
+            ans = bot.answer(q)
+            print("Q:", q)
+            assert ans, "Test case FAILED!!!!"
+            print("A:", ans)
+            print("-" * 80)
 
     print()
     print("=" * 80)
     run_qa(chat.example_prompts.samples)
-
-
-
-    # print()
-    # print("=" * 80)
-    # questions2 = [
-    #     "When do the investigator and perpetrator co-occur?",
-    # ]
-    # run_qa(questions2)
 
 
 def main():
@@ -94,14 +83,14 @@ def main():
     data_proc = dataset.preprocess_data(data)
 
     # TODO: Remove this later
-    with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
-        f.write(data_proc)
+    # with open(f"{os.path.splitext(input_path)[0]}_proc.txt", "w") as f:
+    #     f.write(data_proc)
 
     bot = chat.ChatBot(data_proc)
 
     # TODO: Remove this later
-    with open(f"{os.path.splitext(input_path)[0]}_features.json", "w") as f:
-        json.dump(bot.data_map, f, indent=4)
+    # with open(f"{os.path.splitext(input_path)[0]}_features.json", "w") as f:
+    #     json.dump(bot.data_map, f, indent=4)
 
     if args.test:
         run_tests(bot)
