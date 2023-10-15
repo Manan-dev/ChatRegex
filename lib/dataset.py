@@ -3,10 +3,54 @@ Functions for loading and processing text dataset.
 """
 import logging
 import re
-from pprint import pformat, pprint
+from enum import Enum
+from pprint import pformat
 
-from lib import store, utils
-from lib.store import RegexPatterns, SpecialTokens
+from lib import preprocessing, search_terms, utils
+
+from .special_tokens import SpecialTokens
+
+
+class RegexPatterns(str, Enum):
+    DELIM_PROJ_GUTENBERG = (
+        r"^\s*\*\*\* (?:START|END) OF THE PROJECT GUTENBERG EBOOK [\w ]+ \*\*\*$"
+    )
+
+    # Source: https://www.oreilly.com/library/view/regular-expressions-cookbook/9780596802837/ch06s09.html
+    ROMAN_NUMERALS = (
+        r"(?=[MDCLXVI])"
+        r"M*(?:C[MD]|D?C*)"
+        r"(?:X[CL]|L?X*)"
+        r"(?:I[XV]|V?I*)"  # noqa: E501
+    )
+    CHAPTER_TITLE = (
+        r"(?:chapter|part) (?:\d{1,3}|"
+        + ROMAN_NUMERALS
+        + r")(?:\.? .*?)?"  # noqa: E501
+    )
+
+    TABLE_OF_CONTENTS = r"(^Contents\n+(?:.*\n)+?$\n\n)"
+
+    SENTENCE_SPLITTING = (
+        r"(?<!\w\.\w.)"
+        # Don't match abbreviations like ["U. S.", "U. K."]
+        r"(?<![A-Z]\.)"
+        # Don't match 2-letter abbreviations like ["Mr.", "Ms.", "Dr."]
+        r"(?<!(Mr|Ms|Dr|Sr|Jr|St|Lt|Co|Mt)\.)"
+        # Don't match 3-letter abbreviations like ["Mrs.", "Rev.", "Col."]
+        r"(?<!(Mrs|Rev|Col|Maj|Gen|Sgt)\.)"
+        r"(?<!(\,\"))"
+        r"(((?<=(\.|\!|\?|:))\s)|"
+        r"((?<=(\.[\"\']|\![\"\']))\s)|"
+        r"((?<=(\"|\'))\n))"  # noqa: E501
+    )
+    # Note: previous versions, keeping them commented out for reference
+    # SENTENCE_SPLITTING = r"(?<=[.!?])\s+"
+    # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s"
+    # SENTENCE_SPLITTING = r"(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|:|\"|\!)\s"
+
+    def __str__(self) -> str:
+        return self.value
 
 
 def read_data(file_path):
@@ -38,9 +82,7 @@ def extract_body(text: str):
     # *** END OF THE PROJECT GUTENBERG EBOOK THE MAN IN THE BROWN SUIT ***
     logging.info("Extracting body of text...")
 
-    split_text = re.split(
-        RegexPatterns.Processing.DELIM_PROJ_GUTENBERG, text, flags=re.MULTILINE
-    )
+    split_text = re.split(RegexPatterns.DELIM_PROJ_GUTENBERG, text, flags=re.MULTILINE)
 
     if len(split_text) != 3:
         logging.warning(
@@ -63,7 +105,7 @@ def matches_chapter_title(text: str) -> bool:
         bool: True if the text matches a chapter title, False otherwise.
     """
     match = re.match(
-        RegexPatterns.Processing.CHAPTER_TITLE,
+        RegexPatterns.CHAPTER_TITLE,
         text,
         flags=re.MULTILINE | re.IGNORECASE,
     )
@@ -82,7 +124,7 @@ def get_toc(text: str) -> tuple[str | None, list[str]]:
     logging.debug("Searching for table of contents...")
 
     toc = re.search(
-        RegexPatterns.Processing.TABLE_OF_CONTENTS,
+        RegexPatterns.TABLE_OF_CONTENTS,
         text,
         flags=re.MULTILINE,
     )
@@ -167,25 +209,78 @@ def add_chapter_delimiter(text: str) -> str:
         logging.debug("Removing table of contents from text...")
         # remove the toc from the text
         text = re.sub(
-            RegexPatterns.Processing.TABLE_OF_CONTENTS,
+            RegexPatterns.TABLE_OF_CONTENTS,
             "",
             text,
             flags=re.MULTILINE,
         )
         text = normalize_chapter_headings(text, toc_elems)
 
+    pattern = r"^{rgx}$".format(
+        rgx=utils.re_union(
+            "PROLOGUE",
+            RegexPatterns.CHAPTER_TITLE,
+            "EPILOGUE",
+        )
+    )
+
+    chapter_titles = re.findall(
+        pattern,
+        text,
+        flags=re.MULTILINE | re.IGNORECASE,
+    )
+    logging.debug(f"Found chapter titles: {pformat(chapter_titles)}")
+
     text = re.sub(
-        r"({rgx})".format(
-            rgx=utils.re_union(
-                "PROLOGUE",
-                RegexPatterns.Processing.CHAPTER_TITLE,
-                "EPILOGUE",
-            )
-        ),
+        pattern,
         r"{token}\1".format(token=SpecialTokens.START_OF_CHAPTER),
         text,
         flags=re.MULTILINE | re.IGNORECASE,
     )
+    return text
+
+
+def add_sentence_delimiter(text: str) -> str:
+    """
+    Adds a sentence delimiter to split up the sentences
+
+    Args:
+        text (str): The input text to be modified.
+
+    Returns:
+        str: The modified text with a sentence delimiters
+    """
+    # text = re.sub(r"[.!?]+", " <END_SENTENCE> ", text)
+    return re.sub(
+        RegexPatterns.SENTENCE_SPLITTING,
+        SpecialTokens.END_OF_SENTENCE + "\n",
+        text,
+    )
+
+
+def add_search_term_tags(text: str) -> str:
+    """
+    Adds search term tags to the input text.
+
+    Args:
+        text (str): The input text to be modified.
+
+    Returns:
+        str: The modified text with search term tags.
+    """
+    logging.debug("Adding search term tags...")
+
+    for key, pattern in search_terms.build_pattern_map(
+        search_terms.book_query_terms
+    ).items():
+        # add tag after any matches
+        text = re.sub(
+            pattern,
+            r"\1<{tag}>".format(tag=key.upper()),
+            text,
+            # flags=re.IGNORECASE,
+        )
+
     return text
 
 
@@ -202,7 +297,7 @@ def preprocess_data(text: str):
     logging.info("Preprocessing data...")
 
     # Initial normalization to help with the rest of the processing
-    text = utils.remove_extra_whitespace(text)
+    text = preprocessing.remove_extra_whitespace(text)
 
     text = extract_body(text)
 
@@ -210,61 +305,13 @@ def preprocess_data(text: str):
     text = add_chapter_delimiter(text)
 
     # We add sentence delimiter to help split the text into sentences later
-    text = utils.join_paragraph_lines(text)
+    text = preprocessing.join_paragraph_lines(text)
 
     # Non-destructive normalization/translation from unicode to ascii equivalents
-    text = utils.normalize_character_set(text)
+    text = preprocessing.normalize_character_set(text)
 
-    text = utils.add_sentence_delimiter(text)
+    text = add_sentence_delimiter(text)
 
-    text = utils.add_search_term_tags(text, store.search_terms_map)
-
-    # TODO: Re-add removal of stop words later after verifying feature extraction
-    # TODO: Re-add removal of punctuation later after verifying feature extraction
+    text = add_search_term_tags(text)
 
     return text
-
-
-def extract_features(text: str):
-    logging.info("Extracting features...")
-
-    # Split by chapter delimiter
-    split_text = re.split(
-        SpecialTokens.START_OF_CHAPTER,
-        text,
-    )
-
-    # Save stuff to dict
-    # TODO: This is only a template and incomplete.
-    # TODO: We need to add the stuff more of the stuff we discussed at the last meeting, but this is a start.
-    feature_map = {
-        "num_chapters": len(split_text),
-        "chapter_list": None,
-    }
-
-    # ============================================
-    # Drill down: Split chapters into paragraphs
-    chapter_list = []
-    for chapter_text in split_text:
-        chapter_lines = chapter_text.strip().splitlines()
-        chapter_title = chapter_lines[0]
-        chapter_text = " ".join(chapter_lines[1:])
-
-        # strip out each paragraph and filter out empty ones
-        # chapter_paragraphs = list(filter(None, map(str.strip, chapter_paragraphs)))
-
-        sentences = chapter_text.split(SpecialTokens.END_OF_SENTENCE)
-
-        feature_map[chapter_title] = {
-            "chapter_title": chapter_title,
-            "num_sentences": len(sentences),
-            "sentence_list": sentences,
-        }
-
-        # ----------------------------------------
-
-        chapter_list.append(feature_map[chapter_title])
-
-    feature_map["chapter_list"] = chapter_list
-
-    return feature_map
