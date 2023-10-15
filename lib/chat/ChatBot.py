@@ -19,6 +19,10 @@ class RegexPatterns(str, Enum):
 
     EXAMPLE = r"^(example(s)?|ex)( (?P<num>\d))?$"
 
+    GREET = (
+        r"^(hi|hello|hey|howdy|greetings|salutations|sup|yo|what's up|what up|wassup)$"
+    )
+
     FIRST_MENTION_V1 = r".*({rgx}).*(?P<term>{terms}).*".format(
         rgx=r"(first|initial(ly)?) (meet|appear(s)?|introduce(d)?|enter(s)?|mention(s)?|brought( up)?|disclosed|reveal(s)?|refer(s)?|talk(s)?|hear|time|bring)( possible)?",
         terms=utils.re_union(
@@ -115,6 +119,8 @@ class ChatBot:
             RegexPatterns.WORDS_AROUND_V2: self.get_words_around,
             RegexPatterns.WORDS_COOCCUR_V1: self.get_cooccurance,
             RegexPatterns.WORDS_COOCCUR_V2: self.get_cooccurance,
+            # Misc
+            RegexPatterns.GREET: self.greet,
         }
 
     def build_data_map(self):
@@ -126,26 +132,20 @@ class ChatBot:
 
         for chapter_idx, chapter in enumerate(chapters):
             # Split the chapter into lines
-
             lines = chapter.splitlines()
 
             # The first line should be the chapter title
-
             chapter_title = lines[0].strip()
 
             # Extract sentences based on <EOS> at the end of lines
-
             sentences = [
                 line.strip()
                 for line in lines
                 if line.strip().endswith(special_tokens.SpecialTokens.END_OF_SENTENCE)
             ]
 
-            # Iterate through the sentences
-
+            # Iterate through the sentences and look for regex matches
             for sentence_idx, sentence in enumerate(sentences):
-                # Check for each search term using regex
-
                 for tag, pattern in search_terms.build_pattern_map(
                     search_terms.book_query_terms
                 ).items():
@@ -186,7 +186,7 @@ class ChatBot:
             ["I don't understand", "I don't know how to respond to that"],
         )
 
-    def greet(self) -> AIResponse:
+    def greet(self, msg=None) -> AIResponse:
         logging.debug("Greeting user...")
 
         return chat.AIResponse(
@@ -195,7 +195,7 @@ class ChatBot:
         )
 
     def cmd_quit(self, msg: str) -> AIResponse:
-        logging.info("Exiting program...")
+        logging.debug("Exiting program...")
 
         return chat.AIResponse(
             ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
@@ -218,6 +218,7 @@ class ChatBot:
         )
 
     def cmd_example(self, msg: str, num: int = 1) -> AIResponse:
+        num = num or 1
         logging.debug(f"Printing example prompts ({num})...")
 
         return chat.AIResponse(
@@ -235,26 +236,19 @@ class ChatBot:
         term = term.lower()
 
         # base case: if we can index directly into the data_map, then we're done
-
         if term in self.data_map:
-            result = self.data_map[term]
-            return result
-
+            return self.data_map[term]
         # otherwise, we need to check if the term is a substring of any of the matched terms
-
         for _, termdata in self.data_map.items():
             if any(
-                [
-                    term in matched_term.lower() or matched_term.lower() in term
-                    for matched_term in termdata["matched_terms"]
-                ]
+                term in matched_term.lower() or matched_term.lower() in term
+                for matched_term in termdata["matched_terms"]
             ):
                 logging.debug(
                     f"find_term_data: `{term}` -> {pformat(termdata, sort_dicts=False)}"
                 )
 
                 result = termdata
-
                 break
 
         return result
@@ -295,43 +289,35 @@ class ChatBot:
 
         for mention in termdata["mentions"]:
             sentence = mention["sentence"]
-
             matched_term = mention["matched_term"]
 
-            # split the sentence by the matched term
-
+            # we split the sentence by the matched term
+            # which allows us to get the words at the boundaries
             sentence_parts = sentence.split(matched_term)
 
             words_around = []
 
             for i, sentence_part in enumerate(sentence_parts):
+                # some processing
                 sentence_part = preprocessing.remove_stopwords(sentence_part)
-
                 sentence_part = preprocessing.remove_punctuation(sentence_part)
-
                 sentence_part = preprocessing.remove_extra_whitespace(sentence_part)
 
                 sentence_parts[i] = sentence_part
-
                 words = sentence_part.split()
 
                 if i == 0:
                     # first part - only get the last num_words
-
                     words_around.extend(words[-min(num_words_default, len(words)) :])
-
                 elif i == len(sentence_parts) - 1:
                     # last part - only get the first num_words
-
                     words_around.extend(words[: min(num_words_default, len(words))])
-
                 else:
                     # middle part - get both the first and last num_words
-
                     words_around.extend(words[-min(num_words_default, len(words)) :])
-
                     words_around.extend(words[: min(num_words_default, len(words))])
 
+            # removing duplicates
             words_around = list(set(words_around))
 
             mentions_enhanced.append(
@@ -352,7 +338,6 @@ class ChatBot:
         logging.debug(f"get_cooccurance: `{term1}`, `{term2}`")
 
         term1data = self.find_term_data(term1)
-
         term2data = self.find_term_data(term2)
 
         if term1data is None:
@@ -414,41 +399,34 @@ class ChatBot:
         logging.info("Starting interactive chat session...")
 
         name_max_len: int = max(len(ai_name), len(user_name))
-
         # make the width of the names the same by padding with spaces
-
         ai_name = ai_name.ljust(name_max_len)
-
         user_name = user_name.ljust(name_max_len)
 
         print("=" * 80)
 
         msg_ai: str = str(self.greet())
-
         print(f"{ai_name}: {msg_ai}")
-
         print("-" * 80)
 
         while True:
+            # capture user input
             try:
                 msg_usr_orig: str = input(f"{user_name}: ")
-
             except KeyboardInterrupt:
                 msg_usr_orig = "exit"
 
+            # get the AI's response
             ai_resp = self.answer(msg_usr_orig)
-
             if ai_resp is None:
                 ai_resp = self.fallback()
 
+            # final post-processing of the AI's response
             ai_resp_final = ChatBot.postprocess_msg(str(ai_resp), use_synonyms=True)
-
             print(f"{ai_name}: {ai_resp_final}")
-
             print("-" * 80)
 
             # This is primarily for the quit command, which defines fn to exit the program
-
             if isinstance(ai_resp, chat.AIResponse) and ai_resp.fn is not None:
                 ai_resp.fn(ai_resp)
 
@@ -457,9 +435,7 @@ class ChatBot:
         logging.debug(f"before: {msg}")
 
         msg = preprocessing.remove_stopwords(msg)
-
         msg = preprocessing.remove_punctuation(msg)
-
         msg = preprocessing.remove_extra_whitespace(msg)
 
         msg = msg.strip()
@@ -473,23 +449,18 @@ class ChatBot:
 
         if use_synonyms:
             # For variety, we can replace some words with synonyms
-
             msg = AIResponse.create_variation(msg)
 
         # remove spaces before certain punctuation
-
         msg = re.sub(r"\s+([.,!?;:])", r"\1", msg)
 
         # capitalize the first letter of the message
-
         msg = msg[0].upper() + msg[1:]
 
         # add a period at the end if there isn't any punctuation
-
         if not re.search(f"[{string.punctuation}]$", msg):
             msg += "."
 
         msg = msg.strip()
-
         logging.debug(f"after: {msg}")
         return msg
