@@ -1,7 +1,5 @@
 import argparse
-import json
 import logging
-import os
 import sys
 
 from lib import chat, dataset

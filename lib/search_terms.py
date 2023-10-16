@@ -1,5 +1,3 @@
-import logging
-import re
 
 from lib import utils
 
