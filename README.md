@@ -60,6 +60,32 @@ AI : Hello! How can I help you?
 You: 
 ```
 
+## Special Commands
+
+```
+================================================================================
+AI : Hello! What can I do for you?
+--------------------------------------------------------------------------------
+You: help
+AI : Special commands you can use: 
+  help, h       - Print this help message 
+  example, ex   - Print some example prompts (e.g. `example` or `example 5` to print 5 examples) 
+  exit, quit, q - Exit the program.
+--------------------------------------------------------------------------------
+You: ex
+AI : Example queries:
+ - "Words around perpetrator"
+--------------------------------------------------------------------------------
+You: ex 3
+AI : Example questions you can ask:
+ - "Identify the chapter and sentence where the detective first appears."
+- "When is the killer first mentioned"
+- "Tell me when the criminal is first mentioned in the book."
+--------------------------------------------------------------------------------
+You: quit
+AI : Farewell!
+```
+
 ## Deliverables
 
 - Source Code

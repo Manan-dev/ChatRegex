@@ -6,7 +6,7 @@ import sys
 from enum import Enum
 from pprint import pformat
 
-from lib import chat, preprocessing, search_terms, special_tokens, utils
+from lib import preprocessing, search_terms, special_tokens, utils
 
 from . import AIResponse
 from .example_prompts import samples
@@ -213,7 +213,7 @@ class ChatBot:
         """
         logging.debug("Greeting user...")
 
-        return chat.AIResponse(
+        return AIResponse(
             "Hello!",
             ["What can I do for you?", "How can I help you?"],
         )
@@ -224,7 +224,7 @@ class ChatBot:
         """
         logging.debug("Exiting program...")
 
-        return chat.AIResponse(
+        return AIResponse(
             ["Thank you for choosing ChatRegex!", "Sad to see you go :(", None],
             "Goodbye!",
             fn=lambda _: sys.exit(0),
@@ -236,14 +236,15 @@ class ChatBot:
         """
         logging.debug("Printing help message...")
 
-        return chat.AIResponse(
-            chat.AIResponse(
+        return AIResponse(
+            AIResponse(
                 ["Here are some", None],
                 "special commands",
                 ["you can use", None],
                 ":",
             ),
             "\n  help, h       - Print this help message",
+            "\n  example, ex   - Print some example prompts (e.g. `example` or `example 5` to print 5 examples)",
             "\n  exit, quit, q - Exit the program",
         )
 
@@ -254,7 +255,7 @@ class ChatBot:
         num = num or 1
         logging.debug(f"Printing example prompts ({num})...")
 
-        return chat.AIResponse(
+        return AIResponse(
             ["Here are some", None],
             "example",
             ["questions", "prompts", "queries"],
@@ -308,13 +309,47 @@ class ChatBot:
                 if mention["matched_term"] not in terms:
                     mentions.append(mention)
                     terms.add(mention["matched_term"])
-            return pformat(mentions, sort_dicts=False)
+
+            sentence_list = []
+            chapter_title = None
+            for mention in mentions:
+                if mention["chapter_title"] != chapter_title:
+                    sentence_list.extend(
+                        [
+                            "\n",
+                            f"{mention['chapter_title']}, sentence #{mention['sentence_idx']}",
+                            f"mentions `{mention['matched_term']}`.",
+                        ]
+                    )
+                else:
+                    sentence_list.extend(
+                        [
+                            AIResponse(
+                                ["Next,", "Also,"],
+                            ),
+                            f"sentence #{mention['sentence_idx']} mentions `{mention['matched_term']}`.",
+                        ]
+                    )
+                chapter_title = mention["chapter_title"]
+
+            return AIResponse(
+                [
+                    "Let's see...",
+                    "Let me see...",
+                    "I can do that!",
+                    "Alright,",
+                    "I can help with that",
+                    None,
+                ],
+                "Here are the mentions of",
+                f"`{term}`",
+                *sentence_list,
+            )
 
         first_mention = termdata["mentions"][0]
-        # TODO: Format the response in English here
+
         # return pformat(first_mention, sort_dicts=False)
-        # Use chat.AIResponse instead to generate a more natural response
-        return chat.AIResponse(
+        return AIResponse(
             [
                 "Let's see...",
                 "Let me see...",
@@ -326,22 +361,22 @@ class ChatBot:
             ["it looks like", "I see that", "I found that", None],
             # [f"the first mention of `{term}` is in {first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}",
             [
-                chat.AIResponse(
+                AIResponse(
                     "the first",
                     ["related", None],
                     ["mention", "occurrence", "instance"],
                     f"of `{term}` is in",
                     [
-                        f"{first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}",
-                        f"sentence #{first_mention['sentence_idx']} of {first_mention['chapter_title']}",
+                        f"{first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}.",
+                        f"sentence #{first_mention['sentence_idx']} of {first_mention['chapter_title']}.",
                     ],
                 ),
-                chat.AIResponse(
+                AIResponse(
                     [
                         f"{first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}",
                         f"sentence #{first_mention['sentence_idx']} of {first_mention['chapter_title']}",
                     ],
-                    f"first mentions `{first_mention['matched_term']}`",
+                    f"first mentions `{first_mention['matched_term']}`.",
                 ),
             ],
         )
@@ -419,15 +454,10 @@ class ChatBot:
 
         # return pformat(mentions_enhanced, sort_dicts=False)
 
-        wa = chat.AIResponse(
+        wa = AIResponse(
             [
                 "the words are:",
-                chat.AIResponse(
-                    [
-                        "we see:",
-                        "we have:",
-                    ],
-                ),
+                AIResponse(["we see:", "we have:"]),
                 "they are:",
             ]
         )
@@ -457,7 +487,7 @@ class ChatBot:
                 )
             last_chapter = mention["chapter_title"]
 
-        return chat.AIResponse(
+        return AIResponse(
             "Here are the words around",
             f"`{term}`",
             "on",
@@ -504,24 +534,18 @@ class ChatBot:
                     }
                 )
 
-        # TODO: Format the response in English here
         # return pformat(co_occurrences_list, sort_dicts=False)
 
         sentence_list = []
         last_chapter = None
 
         for co_occurrence in co_occurrences_list:
-            random_terms_order = chat.AIResponse(
-                [
-                    f"`{co_occurrence['matched_term1']}` and `{co_occurrence['matched_term2']}`",
-                    f"`{co_occurrence['matched_term2']}` and `{co_occurrence['matched_term1']}`",
-                ],
-            )
+            both_terms_Str = f"`{co_occurrence['matched_term1']}` and `{co_occurrence['matched_term2']}`"
 
-            random_sentence_position = chat.AIResponse(
+            random_sentence_position = AIResponse(
                 [
-                    f"sentence #{co_occurrence['sentence_idx']} mentions {random_terms_order}.",
-                    f"{random_terms_order} is mentioned in sentence #{co_occurrence['sentence_idx']}.",
+                    f"sentence #{co_occurrence['sentence_idx']} mentions both {both_terms_Str}.",
+                    f"{both_terms_Str} are mentioned in sentence #{co_occurrence['sentence_idx']}.",
                 ]
             )
 
@@ -536,13 +560,13 @@ class ChatBot:
             else:
                 sentence_list.extend(
                     [
-                        "Next,",
+                        AIResponse(["Next,", "Also,"]),
                         random_sentence_position,
                     ]
                 )
             last_chapter = co_occurrence["chapter_title"]
 
-        return chat.AIResponse(
+        return AIResponse(
             "Here are the co-occurrences of",
             f"`{term1}`",
             "and",
@@ -613,7 +637,7 @@ class ChatBot:
             print("-" * 80)
 
             # This is primarily for the quit command, which defines fn to exit the program
-            if isinstance(ai_resp, chat.AIResponse) and ai_resp.fn is not None:
+            if isinstance(ai_resp, AIResponse) and ai_resp.fn is not None:
                 ai_resp.fn(ai_resp)
 
     @staticmethod

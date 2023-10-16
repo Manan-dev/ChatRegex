@@ -13,7 +13,6 @@ response_phrase_alts = [
     ["I'm", "I am"],
     ["don't", "do not"],
     ["Next", "Then", "After that", "Afterwards", "Later"],
-    ["First", "Firstly", "First of all", "To begin with", "To start with"],
     ["Also", "Additionally", "Furthermore", "Moreover"],
     ["are:", "are as follows:", "are the following:"],
     ["around", "surrounding"],
