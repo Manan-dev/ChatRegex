@@ -12,6 +12,12 @@ response_phrase_alts = [
     ["can I", "could I", "may I"],
     ["I'm", "I am"],
     ["don't", "do not"],
+    ["Next", "Then", "After that", "Afterwards", "Later"],
+    ["First", "Firstly", "First of all", "To begin with", "To start with"],
+    ["Also", "Additionally", "Furthermore", "Moreover"],
+    ["are:", "are as follows:", "are the following:"],
+    ["around", "surrounding"],
+    ["words", "terms"],
     # ["investigator", "detective"],
     # ["perpetrator", "killer", "murderer", "criminal"],
 ]
@@ -99,12 +105,30 @@ class AIResponse:
                 rnd_synonym = random.choice(synonym_list)
 
                 # Preserve the original casing
-                if original.islower():
-                    rnd_synonym = rnd_synonym.lower()
-                elif original.isupper():
-                    rnd_synonym = rnd_synonym.upper()
-                elif original.istitle():
-                    rnd_synonym = rnd_synonym.title()
+                # if original.islower():
+                #     rnd_synonym = rnd_synonym.lower()
+                # elif original.isupper():
+                #     rnd_synonym = rnd_synonym.upper()
+                # elif original.istitle():
+                #     rnd_synonym = rnd_synonym.title()
+
+                # if the synonym picked can be split into words preserve the original casing of the first word
+                if " " in rnd_synonym:
+                    rnd_synonym = rnd_synonym.split(" ")
+                    if original.islower():
+                        rnd_synonym[0] = rnd_synonym[0].lower()
+                    elif original.isupper():
+                        rnd_synonym[0] = rnd_synonym[0].upper()
+                    elif original.istitle():
+                        rnd_synonym[0] = rnd_synonym[0].title()
+                    rnd_synonym = " ".join(rnd_synonym)
+                else:
+                    if original.islower():
+                        rnd_synonym = rnd_synonym.lower()
+                    elif original.isupper():
+                        rnd_synonym = rnd_synonym.upper()
+                    elif original.istitle():
+                        rnd_synonym = rnd_synonym.title()
 
                 return rnd_synonym
 
