@@ -2,9 +2,11 @@
 
 **COSC 524 - Natural Language Processing - Project 1**
 
+Authors: Andrei Cozma, Manan Patel, Tulsi Tailor, Zac Perry
+
 Objective: Develop a REGEX-based chatbot for the statistical text analysis of crime novels.
 
-Source: [Project Gutenberg](https://www.gutenberg.org/)
+Source of Novels: [Project Gutenberg](https://www.gutenberg.org/)
 
 ## Dependencies
 
@@ -13,7 +15,7 @@ Source: [Project Gutenberg](https://www.gutenberg.org/)
 ## Usage
 
 ```
-usage: main.py [-h] -i INPUT [-d]
+usage: main.py [-h] -i INPUT [-v] [-t]
 
 ChatRegex
 
@@ -21,13 +23,67 @@ options:
   -h, --help            show this help message and exit
   -i INPUT, --input INPUT
                         path to input text file
-  -d, --debug           enable debug mode
+  -v, --verbose         increase console output verbosity
+  -t, --test            disables the interactive chat mode and runs a series of example prompt test cases
 ```
 
-Example:
+Example Usage:
 
 ```bash
-python3 main.py -i ./dataset/the_man_the_brown_suit.txt
+python3 main.py -i ./dataset/the_sign_of_the_four.txt
+```
+
+Corresponding Output:
+
+```
+================================================================================
+
+ ██████╗██╗  ██╗ █████╗ ████████╗   ██████╗ ███████╗ ██████╗ ███████╗██╗  ██╗
+██╔════╝██║  ██║██╔══██╗╚══██╔══╝   ██╔══██╗██╔════╝██╔════╝ ██╔════╝╚██╗██╔╝
+██║     ███████║███████║   ██║█████╗██████╔╝█████╗  ██║  ███╗█████╗   ╚███╔╝ 
+██║     ██╔══██║██╔══██║   ██║╚════╝██╔══██╗██╔══╝  ██║   ██║██╔══╝   ██╔██╗ 
+╚██████╗██║  ██║██║  ██║   ██║      ██║  ██║███████╗╚██████╔╝███████╗██╔╝ ██╗
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝      ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
+
+INFO: Reading data from file: ./dataset/the_sign_of_the_four.txt
+INFO: Preprocessing data...
+INFO: Extracting body of text...
+INFO: Normalizing chapter headings...
+INFO: Normalizing character set...
+INFO: Starting interactive chat session...
+================================================================================
+AI : Hello! What can I do for you?
+--------------------------------------------------------------------------------
+You: hi
+AI : Hello! How can I help you?
+--------------------------------------------------------------------------------
+You: 
+```
+
+## Special Commands
+
+```
+================================================================================
+AI : Hello! What can I do for you?
+--------------------------------------------------------------------------------
+You: help
+AI : Special commands you can use: 
+  help, h       - Print this help message 
+  example, ex   - Print some example prompts (e.g. `example` or `example 5` to print 5 examples) 
+  exit, quit, q - Exit the program.
+--------------------------------------------------------------------------------
+You: ex
+AI : Example queries:
+ - "Words around perpetrator"
+--------------------------------------------------------------------------------
+You: ex 3
+AI : Example questions you can ask:
+ - "Identify the chapter and sentence where the detective first appears."
+- "When is the killer first mentioned"
+- "Tell me when the criminal is first mentioned in the book."
+--------------------------------------------------------------------------------
+You: quit
+AI : Farewell!
 ```
 
 ## Deliverables
@@ -64,8 +120,6 @@ To analyze and report on:
 6. When are other suspects first introduced
 
 The above should include the **chapter # and the sentence(s) # in a chapter**.
-
-#### [+ PROMPT VARIATIONS](PROMPTS.md)
 
 ### Part 3 - Results Generation
 

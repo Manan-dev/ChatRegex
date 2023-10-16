@@ -3,7 +3,6 @@ Miscellaneous utility functions that don't fit anywhere else.
 """
 
 
-import logging
 import string
 
 
