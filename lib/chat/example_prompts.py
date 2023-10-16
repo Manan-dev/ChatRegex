@@ -30,7 +30,7 @@ samples = [
     "Point out the chapter and sentence where the perpetrator is initially mentioned.",
     "When does the narrative first refer to the perpetrator?",
     "Identify when the perpetrator is first introduced.",
-    "Tell me when the criminal is first mentioned in the book.",
+    "Tell me when the perpetrator is first mentioned in the book.",
     # 4. Words Surrounding the Perpetrator
     "What words frequently surround the perpetrator's mentions?",
     "Identify the three words before and after each mention of the perpetrator.",
