@@ -8,6 +8,8 @@ Objective: Develop a REGEX-based chatbot for the statistical text analysis of cr
 
 Source of Novels: [Project Gutenberg](https://www.gutenberg.org/)
 
+![Made with VHS](https://vhs.charm.sh/vhs-1J2SrZfXwkwr1o2Pc15DKM.gif)
+
 ## Dependencies
 
 - Python 3.10.X
