@@ -348,6 +348,13 @@ class ChatBot:
 
         first_mention = termdata["mentions"][0]
 
+        term_or_alt_str = f"`{term}`"
+        # determine whether to add term in parentheses by whether it's a substring of the matched term
+        if first_mention["matched_term"].lower() not in term.lower():
+            term_or_alt_str = (
+                f"{term_or_alt_str} when referring to `{first_mention['matched_term']}`"
+            )
+
         # return pformat(first_mention, sort_dicts=False)
         return AIResponse(
             [
@@ -365,7 +372,7 @@ class ChatBot:
                     "the first",
                     ["related", None],
                     ["mention", "occurrence", "instance"],
-                    f"of `{term}` is in",
+                    f"of {term_or_alt_str} is in",
                     [
                         f"{first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}.",
                         f"sentence #{first_mention['sentence_idx']} of {first_mention['chapter_title']}.",
@@ -376,7 +383,9 @@ class ChatBot:
                         f"{first_mention['chapter_title']}, sentence #{first_mention['sentence_idx']}",
                         f"sentence #{first_mention['sentence_idx']} of {first_mention['chapter_title']}",
                     ],
-                    f"first mentions `{first_mention['matched_term']}`.",
+                    f"contains the first",
+                    ["mention", "occurrence", "instance"],
+                    f"of {term_or_alt_str}.",
                 ),
             ],
         )

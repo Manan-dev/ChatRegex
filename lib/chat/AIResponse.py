@@ -17,6 +17,7 @@ response_phrase_alts = [
     ["are:", "are as follows:", "are the following:"],
     ["around", "surrounding"],
     ["words", "terms"],
+    ["referring to", "talking about", "describing", "saying"],
     # ["investigator", "detective"],
     # ["perpetrator", "killer", "murderer", "criminal"],
 ]
